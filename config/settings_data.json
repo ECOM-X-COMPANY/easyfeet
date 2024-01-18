@@ -617,17 +617,17 @@
         "settings": {
         }
       },
-      "16865981829950876834": {
-        "type": "shopify:\/\/apps\/icart-cart-drawer-cart-upsell\/blocks\/icart-block\/e651bbc2-5760-47d8-a513-2aa6ee3a9aa7",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "1530068250781986104": {
         "type": "shopify:\/\/apps\/fast-bundle\/blocks\/fast_bundle\/9e87fbe2-9041-4c23-acf5-322413994cef",
         "disabled": false,
         "settings": {
           "home": false
+        }
+      },
+      "16865981829950876834": {
+        "type": "shopify:\/\/apps\/icart-cart-drawer-cart-upsell\/blocks\/icart-block\/e651bbc2-5760-47d8-a513-2aa6ee3a9aa7",
+        "disabled": false,
+        "settings": {
         }
       }
     }
