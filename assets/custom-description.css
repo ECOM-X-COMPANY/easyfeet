@@ -1,0 +1,117 @@
+.custome-description {
+    margin-top: 47px;
+
+}
+
+.custome-description__box {
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+
+
+}
+
+.custome-description__content {
+    padding: 32px;
+}
+
+.custome-description__tab ul {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.custome-description__tab button {
+    display: flex;
+    align-items: center;
+
+}
+
+.custome-description__tab img {
+    margin-right: 10px;
+}
+
+.custome-description__tab button {
+    font-size: 18px;
+    font-weight: 600;
+    color: #999394;
+}
+
+.custome-description__tab--line {
+    border: 1px solid #000000;
+    opacity: 10%;
+    width: 100%;
+    margin-top: 23px;
+}
+
+.container {
+    width: 100%;
+    max-width: calc(var(--page-width, 1320px) + var(--gutter) * 2);
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+}
+
+.custome-description__content--info {
+    margin-top: 23px;
+}
+
+.active {
+    color: #000 !important;
+    font-weight: 900 !important;
+}
+
+.custome-description__content--info>div {
+    display: none;
+}
+
+#video-container img {
+    border-radius: 15px !important;
+    cursor: pointer;
+}
+
+.why-text {
+    padding-left: 50px;
+}
+
+.why-text__title {
+    margin-bottom: 30px;
+}
+
+.why-text__desc {
+    display: flex;
+    flex-direction: column;
+    width: 436px;
+}
+
+.why-text__button {
+    border: var(--btn-border-width) solid rgb(var(--btn-bg-color));
+    outline-color: rgb(var(--btn-bg-color));
+    background: rgb(var(--btn-bg-hover-color)) linear-gradient(104deg, rgb(var(--btn-bg-hover-color)) 60%, rgb(var(--btn-bg-color)) 60%, rgb(var(--btn-bg-color)) 100%) no-repeat 100% 100%;
+    background-size: 300% 100%;
+    color: rgb(var(--btn-text-color));
+    max-width: 100%;
+    padding: var(--btn-padding-y, 12px) 26px;
+    transition: opacity .6s ease, color .6s ease, background-position .4s ease-out;
+    border-radius: var(--btn-border-radius, 0);
+    margin-top: calc(8 * var(--space-unit));
+}
+
+.why-text__button a {
+    color: #fff;
+    font-weight: 700;
+
+}
+.shipping-info-content p{
+    margin: 0;
+}
+.shipping-info-content li + li{
+    margin-top: 10px;
+}
+.custom-page-content p{
+    margin-bottom: 0;
+}
+.desc-info h2{
+    text-align: left !important;
+    font-size: 28px;
+    font-weight: 900;
+}

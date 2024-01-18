@@ -1,0 +1,105 @@
+{{ 'main.css' | asset_url | stylesheet_tag }}
+{{ 'custom-product-day.css' | asset_url | stylesheet_tag }}
+
+<div class="product-day">
+    <div class="container">
+        <div class="product-day__inner">
+            <div class="product-day__inner--card" id="dailyProductContainer">
+                {% assign productHandles = "black-model,mount-strenght,flame-boost,core-energy,black-onix" | split: ',' %}
+
+                {% for handle in productHandles %}
+                    {% assign product = all_products[handle] %}
+                    {% if product %}
+                        <div class="product-item" data-handle="{{ handle }}" style="display: none;">
+                            <div class="product-item__image">
+                                <a href="{{ product.url }}">
+                                    <img src="{{ product.featured_image.src | img_url: 'large' }}"
+                                         alt="{{ product.title }}">
+                                </a>
+                            </div>
+                            <div class="product-item__content">
+                                <div class="product-item__content--info">
+                                    <div class="product-item__content--vendor">
+                                        <span>{{ product.vendor }}</span> |
+                                        <p>SKU:{{ product.variants.first.sku }}</p>
+                                    </div>
+                                    <h2>{{ product.title }}</h2>
+                                </div>
+                                <div class="product-item__content--price">
+                                    <h2>{{ product.price | money }} USD</h2>
+                                    <span>
+                                        <del>{{ product.compare_at_price | money }}</del>
+                                    </span>
+                                </div>
+                                <div class="product-item__content--divider divider"></div>
+                                <div class="product-item__content--size">
+                                    <label for="variant-picker-{{ handle }}">Size:</label>
+                                    <select id="variant-picker-{{ handle }}">
+                                        {% for variant in product.variants %}
+                                            <option value="{{ variant.id }}">{{ variant.title }}
+                                                - {{ variant.price | money }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                                <div class="product-item__content--btn">
+                                    <form action="/cart/add" method="post" enctype="multipart/form-data" class="product-form" id="product-form-{{ product.variants.first.id }}">
+                                        <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+                                        <button type="submit" class="btn">Add to Cart</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Custom Product Day",
+  "settings": [
+  ],
+  "presets": [
+    {
+      "name": "Custom Product Day",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const productItems = document.querySelectorAll('.product-item');
+        let currentProductIndex = parseInt(localStorage.getItem('currentProductIndex')) || 0;
+
+        function loadDailyProduct() {
+            const lastChangeTimestamp = localStorage.getItem('lastChangeTimestamp') || 0;
+            const currentTimestamp = Math.floor(Date.now() / 1000);
+
+
+            if (currentTimestamp > parseInt(lastChangeTimestamp) + 24 * 60 * 60) {
+                currentProductIndex = (currentProductIndex + 1) % productItems.length;
+                localStorage.setItem('lastChangeTimestamp', currentTimestamp);
+                localStorage.setItem('currentProductIndex', currentProductIndex);
+            }
+
+            productItems.forEach(item => {
+                item.style.display = 'none';
+            });
+            const productToShow = productItems[currentProductIndex];
+            productToShow.style.display = 'flex';
+        }
+
+        function addToCart(variantId) {
+            console.log('Adding variant to cart:', variantId);
+        }
+
+        loadDailyProduct();
+
+        setInterval(loadDailyProduct, 24 * 60 * 60 * 1000);
+    });
+</script>

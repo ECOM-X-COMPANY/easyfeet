@@ -1,0 +1,184 @@
+{{ 'main.css' | asset_url | stylesheet_tag }}
+{{ 'custom-promo-sale.css' | asset_url | stylesheet_tag }}
+<div class="promotion-box">
+    <div class="container">
+        <div class="promotion">
+            <ul class="promotion-inner">
+                <li class="promotion-list">
+                    <div class="promotion-list__box">
+                        <div class="promotion-list__price">
+                            <div class="promotion-list__price--number">
+                                <h2>${{ section.settings.card1_totalPrice }}</h2>
+                                <span>.{{ section.settings.card1_subPrice }}</span>
+                            </div>
+                            <div class="promotion-list__price--text">
+                                <span>{{ section.settings.card1_promoText_1 }}</span>
+                                <p>{{ section.settings.card1_promoText_2 }}</p>
+                                <h2>{{ section.settings.card1_promoText_3 }}</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promotion-list__content">
+                        <div class="promotion-list__content--image">
+                            <img width="150" height="150"
+                                 src="{{ section.settings.card1_promoImage_1 | img_url: 'master' }}" alt="product-1">
+                            <span>+</span>
+                            <img width="150" height="150"
+                                 src="{{ section.settings.card1_promoImage_2 | img_url: 'master' }}" alt="product-2">
+                        </div>
+                        <div class="promotion-list__content--btn">
+                            <a href="{{ section.settings.card1_btnLink }}">Buy Now</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="promotion-list">
+                    <div class="promotion-list__box">
+                        <div class="promotion-list__price">
+                            <div class="promotion-list__price--number">
+                                <h2>${{ section.settings.card2_totalPrice }}</h2>
+                                <span>.{{ section.settings.card2_subPrice }}</span>
+                            </div>
+                            <div class="promotion-list__price--text">
+                                <span>{{ section.settings.card2_promoText_1 }}</span>
+                                <p>{{ section.settings.card2_promoText_2 }}</p>
+                                <h2>{{ section.settings.card2_promoText_3 }}</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promotion-list__content">
+                        <div class="promotion-list__content--image">
+                            <img width="100" height="100"
+                                 src="{{ section.settings.card2_promoImage_1 | img_url: 'master' }}" alt="product-1">
+                            <span>+</span>
+                            <img width="100" height="100"
+                                 src="{{ section.settings.card2_promoImage_2 | img_url: 'master' }}" alt="product-2">
+                            <span>+</span>
+                            <img width="100" height="100"
+                                 src="{{ section.settings.card2_promoImage_3 | img_url: 'master' }}" alt="product-2">
+                        </div>
+                        <button class="promotion-list__content--btn">
+                            <a href="{{ section.settings.card2_btnLink }}">Buy Now</a>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Custom Promo Sale Section",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Card [1] total price",
+      "id": "card1_totalPrice",
+      "default": "Change the principal amount in the settings"
+    },
+    {
+      "type": "text",
+      "label": "Card [1] sub price",
+      "id": "card1_subPrice",
+      "default": "Change cents in the settings"
+    },
+    {
+      "type": "text",
+      "label": "Card [1] promo text(01)",
+      "id": "card1_promoText_1",
+      "default": "Replace this text in the settings"
+    },
+    {
+      "type": "text",
+      "label": "Card [1] promo text(02)",
+      "id": "card1_promoText_2",
+      "default": "Replace this text in the settings"
+    },
+    {
+      "type": "text",
+      "label": "Card [1] promo text(03)",
+      "id": "card1_promoText_3",
+      "default": "Replace this text in the settings"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[1] promo image(1)",
+      "id": "card1_promoImage_1",
+      "info": "Select image 1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[1] promo image(2)",
+      "id": "card1_promoImage_2",
+      "info": "Select image 2"
+    },
+    {
+      "type": "text",
+      "label": "Card[1] btn link",
+      "id": "card1_btnLink",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Card [2] total price",
+      "id": "card2_totalPrice",
+      "default": "Change the principal amount in the settings"
+    },
+    {
+      "type": "text",
+      "label": "Card [2] sub price",
+      "id": "card2_subPrice",
+      "default": "Change cents in the settings"
+    },
+    {
+      "type": "text",
+      "label": "Card [2] promo text(01)",
+      "id": "card2_promoText_1",
+      "default": "Replace this text in the settings"
+    },
+    {
+      "type": "text",
+      "label": "Card [2] promo text(02)",
+      "id": "card2_promoText_2",
+      "default": "Replace this text in the settings"
+    },
+    {
+      "type": "text",
+      "label": "Card [2] promo text(03)",
+      "id": "card2_promoText_3",
+      "default": "Replace this text in the settings"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[2] promo image(1)",
+      "id": "card2_promoImage_1",
+      "info": "Select image 1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[2] promo image(2)",
+      "id": "card2_promoImage_2",
+      "info": "Select image 2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[2] promo image(3)",
+      "id": "card2_promoImage_3",
+      "info": "Select image 3"
+    },
+    {
+      "type": "text",
+      "label": "Card[2] btn link",
+      "id": "card2_btnLink",
+      "default": "https://example.com"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Promo Sale Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

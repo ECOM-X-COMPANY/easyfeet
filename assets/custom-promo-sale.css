@@ -1,0 +1,466 @@
+h2,p{
+    margin: 0;
+    padding: 0;
+}
+.promotion{
+    display: flex;
+    justify-content: center;
+}
+.promotion-box{
+    padding: 0 0 75px;
+    background: #F6F6F6;
+}
+.promotion-inner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+gap: 50px;
+}
+.promotion-list{
+    position: relative;
+    cursor: pointer;
+    width: 420px;
+    height: 550px;
+    border-radius: 15px;
+    background: #fff;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease ;
+    -ms-transition: all .3s ease ;
+    -o-transition: all .3s ease ;
+    transition: all .3s ease ;
+
+}
+.promotion-list:hover{
+    transform: scale(1.1);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease ;
+    -ms-transition: all .5s ease ;
+    -o-transition: all .5s ease ;
+    transition: all .5s ease ;
+    box-shadow: 2px 3px 3px 2px rgb(34 60 80 / 10%);
+}
+.promotion-list__box{
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    color: #fff !important;
+    background: #383838;
+}
+.promotion-list__price--number{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.promotion-list__price--number h2{
+    color: #fff;
+    font-size: 90px;
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.promotion-list__price--number span{
+    font-size: 30px;
+}
+.promotion-list__price--text{
+    font-size: 18px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
+}
+.promotion-list__price--text p{
+    color: #ff444f;
+    margin: 0;
+}
+.promotion-list__price--text h2{
+    color: #fff;
+    font-size: 20px;
+}
+.promotion-list__content{
+    margin-top: 40px;
+    padding: 20px;
+   text-align: center;
+}
+.promotion-list__content--image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.promotion-list__content--image span{
+    font-size: 50px;
+    font-weight: 900;
+}
+.promotion-list__content--btn{
+    position: absolute;
+    left: 25%;
+    right: 50%;
+    bottom: 4%;
+
+    cursor: pointer;
+    background: #ff444f;
+    border-radius: 5px;
+    width: 183px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease ;
+    -ms-transition: all .3s ease ;
+    -o-transition: all .3s ease ;
+    transition: all .3s ease ;
+}
+.promotion-list__content--btn:hover{
+    background: #f00;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease ;
+    -ms-transition: all .5s ease ;
+    -o-transition: all .5s ease ;
+    transition: all .5s ease ;
+    box-shadow: 2px 3px 3px 2px rgb(34 60 80 / 10%);
+}
+.promotion-list__content--btn a{
+    padding: 5px 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+}
+@media only screen and (max-width: 430px) {
+    .promotion-inner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .promotion-list{
+        width: 350px;
+        height: 465px;
+    }
+    .promotion-list:hover{
+        transform: scale(1);
+    }
+    .promotion-list__price--number h2{
+        font-size: 60px;
+    }
+    .promotion-list__price--number span{
+        font-size: 19px;
+    }
+    .promotion-list__price--text{
+        font-size: 11px;
+    }
+    .promotion-list__price--text h2{
+        font-size: 11px;
+    }
+    .promotion-list__content--image img{
+        width: 90px;
+        height: 90px;
+    }
+    .promotion-list__content--btn{
+        left: 24%;
+    }
+}
+@media only screen and (max-width: 428px) {
+    .promotion-inner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .promotion-list{
+        width: 350px;
+        height: 465px;
+    }
+    .promotion-list:hover{
+        transform: scale(1);
+    }
+    .promotion-list__price--number h2{
+        font-size: 60px;
+    }
+    .promotion-list__price--number span{
+        font-size: 19px;
+    }
+    .promotion-list__price--text{
+        font-size: 11px;
+    }
+    .promotion-list__price--text h2{
+        font-size: 11px;
+    }
+    .promotion-list__content--image img{
+        width: 90px;
+        height: 90px;
+    }
+    .promotion-list__content--btn{
+        left: 24%;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .promotion-inner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .promotion-list{
+        width: 350px;
+        height: 465px;
+    }
+    .promotion-list:hover{
+        transform: scale(1);
+    }
+    .promotion-list__price--number h2{
+        font-size: 60px;
+    }
+    .promotion-list__price--number span{
+        font-size: 19px;
+    }
+    .promotion-list__price--text{
+        font-size: 11px;
+    }
+    .promotion-list__price--text h2{
+        font-size: 11px;
+    }
+    .promotion-list__content--image img{
+        width: 80px;
+        height: 80px;
+    }
+    .promotion-list__content--btn{
+        left: 24%;
+    }
+}
+@media only screen and (max-width: 412px) {
+    .promotion-inner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .promotion-list{
+        width: 350px;
+        height: 465px;
+    }
+    .promotion-list:hover{
+        transform: scale(1);
+    }
+    .promotion-list__price--number h2{
+        font-size: 60px;
+    }
+    .promotion-list__price--number span{
+        font-size: 19px;
+    }
+    .promotion-list__price--text{
+        font-size: 11px;
+    }
+    .promotion-list__price--text h2{
+        font-size: 11px;
+    }
+    .promotion-list__content--image img{
+        width: 80px;
+        height: 80px;
+    }
+    .promotion-list__content--btn{
+        left: 24%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .promotion-inner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .promotion-list{
+        width: 350px;
+        height: 465px;
+    }
+    .promotion-list:hover{
+        transform: scale(1);
+    }
+    .promotion-list__price--number h2{
+        font-size: 60px;
+    }
+    .promotion-list__price--number span{
+        font-size: 19px;
+    }
+    .promotion-list__price--text{
+        font-size: 11px;
+    }
+    .promotion-list__price--text h2{
+        font-size: 11px;
+    }
+    .promotion-list__content--image img{
+        width: 80px;
+        height: 80px;
+    }
+    .promotion-list__content--btn{
+        left: 24%;
+    }
+}
+@media only screen and (max-width: 393px) {
+    .promotion-inner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .promotion-list{
+        width: 310px;
+        height: 465px;
+    }
+    .promotion-list:hover{
+        transform: scale(1);
+    }
+    .promotion-list__price--number h2{
+        font-size: 60px;
+    }
+    .promotion-list__price--number span{
+        font-size: 19px;
+    }
+    .promotion-list__price--text{
+        font-size: 11px;
+    }
+    .promotion-list__price--text h2{
+        font-size: 11px;
+    }
+    .promotion-list__content--image img{
+        width: 75px;
+        height: 75px;
+    }
+    .promotion-list__content--btn{
+        left: 19%;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .promotion-inner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .promotion-list{
+        width: 310px;
+        height: 465px;
+    }
+    .promotion-list:hover{
+        transform: scale(1);
+    }
+    .promotion-list__price--number h2{
+        font-size: 60px;
+    }
+    .promotion-list__price--number span{
+        font-size: 19px;
+    }
+    .promotion-list__price--text{
+        font-size: 11px;
+    }
+    .promotion-list__price--text h2{
+        font-size: 11px;
+    }
+    .promotion-list__content--image img{
+        width: 75px;
+        height: 75px;
+    }
+    .promotion-list__content--btn{
+        left: 19%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .promotion-inner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .promotion-list{
+        width: 310px;
+        height: 465px;
+    }
+    .promotion-list:hover{
+        transform: scale(1);
+    }
+    .promotion-list__price--number h2{
+        font-size: 60px;
+    }
+    .promotion-list__price--number span{
+        font-size: 19px;
+    }
+    .promotion-list__price--text{
+        font-size: 11px;
+    }
+    .promotion-list__price--text h2{
+        font-size: 11px;
+    }
+    .promotion-list__content--image img{
+        width: 75px;
+        height: 75px;
+    }
+    .promotion-list__content--btn{
+        left: 19%;
+    }
+}
+@media only screen and (max-width: 365px) {
+    .promotion-inner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .promotion-list{
+        width: 310px;
+        height: 465px;
+    }
+    .promotion-list:hover{
+        transform: scale(1);
+    }
+    .promotion-list__price--number h2{
+        font-size: 60px;
+    }
+    .promotion-list__price--number span{
+        font-size: 19px;
+    }
+    .promotion-list__price--text{
+        font-size: 11px;
+    }
+    .promotion-list__price--text h2{
+        font-size: 11px;
+    }
+    .promotion-list__content--image img{
+        width: 75px;
+        height: 75px;
+    }
+    .promotion-list__content--btn{
+        left: 19%;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .promotion-inner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .promotion-list{
+        width: 310px;
+        height: 465px;
+    }
+    .promotion-list:hover{
+        transform: scale(1);
+    }
+    .promotion-list__price--number h2{
+        font-size: 60px;
+    }
+    .promotion-list__price--number span{
+        font-size: 19px;
+    }
+    .promotion-list__price--text{
+        font-size: 11px;
+    }
+    .promotion-list__price--text h2{
+        font-size: 11px;
+    }
+    .promotion-list__content--image img{
+        width: 75px;
+        height: 75px;
+    }
+    .promotion-list__content--btn{
+        left: 19%;
+    }
+}
+@media only screen and (max-width: 320px) {
+   .promotion-inner{
+    grid-template-columns: repeat(1,1fr);
+   }
+    .promotion-list{
+        width: 310px;
+        height: 465px;
+    }
+    .promotion-list:hover{
+        transform: scale(1);
+    }
+    .promotion-list__price--number h2{
+        font-size: 60px;
+    }
+    .promotion-list__price--number span{
+        font-size: 19px;
+    }
+    .promotion-list__price--text{
+        font-size: 11px;
+    }
+    .promotion-list__price--text h2{
+        font-size: 11px;
+    }
+    .promotion-list__content--image img{
+        width: 75px;
+        height: 75px;
+    }
+}

@@ -1,0 +1,240 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": false,
+        "heading_align": "text-center"
+      }
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "banner-heading-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Help & FAQs",
+            "heading_size": "h0",
+            "heading_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "banner-heading-0"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/570ef21d77042dc200ffae55c93de880.w1920.h384._CR0_0_1920_384_SX1500.jpg",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 560,
+        "fixed_height_mobile": 400,
+        "overlay_position": "justify-start items-center",
+        "overlay_text_align": "text-start",
+        "mob_center_text": true,
+        "mobile_stacked": true,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "prevent_animation": true
+      }
+    },
+    "faqs": {
+      "type": "faq",
+      "blocks": {
+        "faq-question-1": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "How do I track my order?",
+            "text": "<p>You can track your order by clicking on the tab Order Tracking<\/p>"
+          }
+        },
+        "6c99afde-8dc2-4512-84e1-bde05d6dbb89": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "Can I cancel my order?",
+            "text": "<p>Thank you for your purchase of EASYFEET® insoles! Once an order is placed, you have a window of 12 hours to cancel it before it processes to the warehouse. Simply click on 'My Account - Change or Cancel an Order' section.<\/p>"
+          }
+        },
+        "4a9022d5-8be5-4361-96a6-d769825ca21c": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "How long does delivery take?",
+            "text": "<p>EASYFEET® shipments typically arrive within 2-6 business days. Processing and shipments are based on business days only and do not include holidays or weekends.<\/p>"
+          }
+        },
+        "375bf7df-91fc-4d22-bfc4-19473e91002c": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "What is your return policy?",
+            "text": "<p>EASYFEET® offers a 90-Day Satisfaction Guarantee. If you are not completely satisfied with the EASYFEET® product, you may return the insoles back within 90 days of purchase. Products may be returned by post to the same address indicated on the box. Alternatively, you may request a replacement, if you got a defective pair or a wrong size insoles.<\/p>"
+          }
+        },
+        "75b07aa8-6976-4844-805c-800e0df1f29e": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "I did not receive the order. What should I do?",
+            "text": "<p>If you never got your order, please email via the Contact us form with your order ID, and we will do our best to fix the situation promptly.<\/p>"
+          }
+        },
+        "1bb8eaac-de8a-474f-a8f7-debe76c9bd51": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "Which payment methods do you support?",
+            "text": "<p>When purchasing on our online shop, all exchanged data is sent using a secure connection. We accept the following payment methods: <\/p><p><strong>- Credit card (Visa, MasterCard, American Express) <\/strong><\/p><p><strong>- PayPal <\/strong><\/p><p><strong>- Apple Pay <\/strong><\/p><p><strong>- Google Pay <\/strong><\/p><p> Once the payment is confirmed (2-4 business days) the product will be sent to you.<\/p>"
+          }
+        },
+        "5e206605-1031-45ab-a80d-3a1829e9967a": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "What areas do you support shipping to?",
+            "text": "<p>At EASYFEET, we know that fast, reliable shipment of your merchandise is important to you. Most orders are shipped out on the same working day that the order is placed and confirmed.<\/p><p>Currently, we only deliver products to the USA, Canada, Mexico, Australia.The good news is, we plan to start delivering to a selection of other countries as well.<\/p><p>If you want to know more about when we will sell to other countries than the ones listed above and why we do not at this moment, please don't hesitate to contact us.<\/p>"
+          }
+        },
+        "1d778d39-daa9-43ec-8af5-6ae6bbb6ddd7": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "How do I know what size to buy online?",
+            "text": "<p>EASYFEET® insoles are designed to fit a range of shoe sizes. Simply choose the insole size to correspond with your shoe size.<\/p>"
+          }
+        },
+        "d9579c2f-9c9d-4523-b0bc-b3a01b33118b": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "How can I trim my insoles?",
+            "text": "<p>Our insoles are designed true to size, and for most customers, trimming will not be necessary.<br\/><br\/>In some cases, the toe of the insole may bunch up against the edge of the shoe, and trimming the insole may help.<br\/><br\/>Cut along the outline that matches your original insole or use the size table as a guide. Replace the existing shoe insoles with TPU side facing down.<\/p>"
+          }
+        },
+        "9b06a20f-c44a-4e28-b3f1-a027a3192235": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "What makes EASYFEET® insoles different from other brands?",
+            "text": "<p>Our company reshapes the understanding of truly efficient orthotics, revealing the truth about the genuine purpose of shoe insoles: to live pain-free and regain the quality of life.<br\/><br\/>This purpose challenges us to constantly grow and expand at great speed.<br\/><br\/>And of course, your feedback is extremely important for future customers and for us as sellers, so we know what we are doing right and what we can improve upon.<\/p>"
+          }
+        },
+        "57c74259-f934-4e90-a35d-04f870f23871": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "How do I clean these shoe insoles?",
+            "text": "<p>We don't recommend washing your insoles because the top layer (with the logo) of fabric is laminated and it may rip or tear.<br\/><br\/>Moreover, the constant water exposure would drastically shorten their life.We'd recommend cleaning your insoles using a damp towel and mild detergent.<\/p>"
+          }
+        },
+        "887ff46f-a416-4dcf-9bd4-036042f90763": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "What can I do if my insoles squeak?",
+            "text": "<p>The possible cause for squeaking or unwanted noise is the friction between the hard TPU thermoplastic polyurethane and shoe material.<br\/><br\/>This squeaking sound often goes away without treatment after the break-in period. It can also be eliminated by applying a small amount of paraffin wax or baby powder to the bottom of the insole.<\/p>"
+          }
+        },
+        "8ec28f5e-70d0-4271-a4ba-78e19458a5d5": {
+          "type": "question",
+          "settings": {
+            "icon": "question_mark",
+            "heading": "Can EASYFEET® insoles be transferred from shoe to shoe?",
+            "text": "<p>Yes, the EASYFEET® insoles can be easily removed and placed into a different pair of shoes. However, if you want to see the true effects of retraining your feet and posture, it's best to ensure the shoes you wear most often have their own, dedicated pair of insoles.<br\/><br\/>We recommend purchasing a pair of orthotics for each pair of shoes to help extend the product life.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-question-1",
+        "6c99afde-8dc2-4512-84e1-bde05d6dbb89",
+        "4a9022d5-8be5-4361-96a6-d769825ca21c",
+        "375bf7df-91fc-4d22-bfc4-19473e91002c",
+        "75b07aa8-6976-4844-805c-800e0df1f29e",
+        "1bb8eaac-de8a-474f-a8f7-debe76c9bd51",
+        "5e206605-1031-45ab-a80d-3a1829e9967a",
+        "1d778d39-daa9-43ec-8af5-6ae6bbb6ddd7",
+        "d9579c2f-9c9d-4523-b0bc-b3a01b33118b",
+        "9b06a20f-c44a-4e28-b3f1-a027a3192235",
+        "57c74259-f934-4e90-a35d-04f870f23871",
+        "887ff46f-a416-4dcf-9bd4-036042f90763",
+        "8ec28f5e-70d0-4271-a4ba-78e19458a5d5"
+      ],
+      "settings": {
+        "heading": "FAQs",
+        "heading_align": "text-center",
+        "color_scheme": "3",
+        "full_width": true
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "blocks": {
+        "contact-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our helpful customer support is always available and happy to help you. You can expect a thoughtful, detailed response within 24-48 hours — Monday to Friday. We do our best to reply to all messages as fast as possible. Please use the form to send us your message or ideas. Note that we do our best to reply to all messages. Please remember to also check your “spam”, “promotions” or “social” folders for our reply.<\/p>",
+            "half_width": false
+          }
+        },
+        "contact-name-2": {
+          "type": "name",
+          "settings": {
+            "required": true,
+            "half_width": true
+          }
+        },
+        "contact-email-3": {
+          "type": "email",
+          "settings": {
+            "required": true,
+            "half_width": true
+          }
+        },
+        "contact-body-5": {
+          "type": "body",
+          "settings": {
+            "required": true,
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "contact-text-1",
+        "contact-name-2",
+        "contact-email-3",
+        "contact-body-5"
+      ],
+      "settings": {
+        "heading": "Still looking for answers?",
+        "heading_align": "text-center",
+        "image_position": "top",
+        "color_scheme": "none",
+        "full_width": false,
+        "button_style": "btn btn--primary"
+      }
+    },
+    "aab0110a-6a81-4327-955c-bf8482c1f0fe": {
+      "type": "recently-viewed",
+      "settings": {
+        "heading": "Recently viewed",
+        "heading_align": "text-start",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "limit": 8
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-banner",
+    "faqs",
+    "contact-form",
+    "aab0110a-6a81-4327-955c-bf8482c1f0fe"
+  ]
+}

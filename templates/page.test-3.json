@@ -1,0 +1,333 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": false,
+        "heading_align": "text-center"
+      }
+    },
+    "17042703314429d52d": {
+      "type": "apps",
+      "blocks": {
+        "c5f46fd1-78ba-4346-94c8-53d8ee5965c8": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-gallery-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 60,
+            "itemsPerView": 5,
+            "imageRatio": "1",
+            "reviewerNameColor": "#ffffff",
+            "starsColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "none",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        },
+        "81d82ab2-5252-4c3e-ae30-a03fae1ac9bf": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 30,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "c5f46fd1-78ba-4346-94c8-53d8ee5965c8",
+        "81d82ab2-5252-4c3e-ae30-a03fae1ac9bf"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "37c5e8f3-8892-4d2f-b55e-f5d38c0341bf": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17246324588784__37c5e8f3-8892-4d2f-b55e-f5d38c0341bf-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "EASYFEET your inner support",
+            "heading_size": "h1",
+            "heading_h1": true
+          }
+        },
+        "template--17246324588784__37c5e8f3-8892-4d2f-b55e-f5d38c0341bf-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We are a company with Ukrainian roots, a place where the best specialists from all over the world work<\/strong><\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17246324588784__37c5e8f3-8892-4d2f-b55e-f5d38c0341bf-heading-1",
+        "template--17246324588784__37c5e8f3-8892-4d2f-b55e-f5d38c0341bf-text-1"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/mariaverkalets456_7c1ef62e-fde0-4feb-b9ce-ee2c83103e52.webp",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "prevent_animation": false
+      }
+    },
+    "963c1e36-c2e6-4f65-9bb4-6da98e82c0b5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"bl2\">\n\n<div class=\"bl2-ch\">\n<h4 class=\"h4-text\">01<\/h4>\n<p class=\"p-text\">​​We became the BEST SELLER in Canada and Australia on Amazon in 2023. Our dream is to create a product that empowers confidence in pursuing clients' goals and aspirations, creating a world full of energy, vitality, and purpose. The most valuable approval for us comes from our customers.<\/p>\n<\/div>\n<div class=\"bl2-ch\">\n<h4 class=\"h4-text\">02<\/h4>\n<p class=\"p-text\">Today we have more than 50 000 reviews from our customers. When we see that сustomers are satisfied with our insoles, it inspires us to develop and improve the product in order to achieve a higher level of true satisfaction.\n<\/p>\n<\/div>\n<div class=\"bl2-ch\">\n<h4 class=\"h4-text\">03<\/h4>\n<p class=\"p-text\">Here is what our customers say about our products: \n<br>\"I’ve been wearing these insoles and I have been running on bouncy clouds!\"<br>\"The energy return and arch support are the best I’ve ever felt.\"<br>\n\"These shoe insoles boost my endurance.\"<\/p>\n<\/div>\n<\/div>",
+        "section_height": "xsmall",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": true
+      }
+    },
+    "3fe0f65b-f716-4cb3-9080-c355567b86e3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"bl3\">\n\n\n<div class=\"bl3-left\">\n<h4 class=\"bl3-h4-text\">About Us<\/h4>\n<p class=\"bl3-p-text\">We are a company with Ukrainian roots, a place where the best specialists from all over the world work. <span class=\"span1\">We aim to produce high-tech innovative models of orthopedic and specialized insoles,<\/span> so we conduct a lot of research in various areas.<br><br> Our unwavering commitment to providing exceptional customer service is matched by our dedication to <span class=\"span1\">delivering the best possible products through continuous research and development.<\/span><br><br> With a focus on innovation and attention to detail, we ensure that our products not only meet, but exceed our customers' expectations.<\/p>\n<\/div>\n<div class=\"bl3-right\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/easyfeet-bl3.webp?v=1686816545\" class=\"lazyloadt4sed img-bl3\">\n<div class=\"bl3-right-red\">\n<h4 class=\"bl3-right-red-h4-text\">*EASYFEET<\/h4>\n<p class=\"bl3-right-red-p-text\">Shape made by company’s employees<br>\nin the Carpathian Mountains in Ukraine\n<\/p>\n<\/div>\n\n<div class=\"bl3-right-red-mobile\">\n<h4 class=\"bl3-right-red-h4-text\">*EASYFEET<\/h4>\n<p class=\"bl3-right-red-p-text\">Shape made by company’s employees<br>\nin the Carpathian Mountains in Ukraine\n<\/p>\n<\/div>\n<\/div>\n\n\n<\/div>",
+        "section_height": "tight",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": true
+      }
+    },
+    "da23af6f-ea93-4441-8c6a-d2a78841c7eb": {
+      "type": "logo-list",
+      "blocks": {
+        "template--17246324588784__da23af6f-ea93-4441-8c6a-d2a78841c7eb-logo-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01_7817abc3-fbd0-41c3-95f8-66e2c33e69ff-1.webp",
+            "url": "",
+            "logo_width": 210,
+            "text": ""
+          }
+        },
+        "177f8b27-22af-4fac-8459-4410ca98653b": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02_e4002ece-b2a8-4490-93e1-03bd5ba86a16.webp",
+            "url": "",
+            "logo_width": 210,
+            "text": ""
+          }
+        },
+        "template--17246324588784__da23af6f-ea93-4441-8c6a-d2a78841c7eb-logo-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03_82be34fd-73e1-4d86-bbbb-20d9ac1ab0ea.webp",
+            "url": "",
+            "logo_width": 210,
+            "text": ""
+          }
+        },
+        "69ef9c94-619e-47a1-875c-0e1032b8c4b3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/04.webp",
+            "url": "",
+            "logo_width": 210,
+            "text": ""
+          }
+        },
+        "adbbb812-a402-4490-b0b3-ab59d978a9c9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/05.webp",
+            "url": "",
+            "logo_width": 210,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17246324588784__da23af6f-ea93-4441-8c6a-d2a78841c7eb-logo-1",
+        "177f8b27-22af-4fac-8459-4410ca98653b",
+        "template--17246324588784__da23af6f-ea93-4441-8c6a-d2a78841c7eb-logo-2",
+        "69ef9c94-619e-47a1-875c-0e1032b8c4b3",
+        "adbbb812-a402-4490-b0b3-ab59d978a9c9"
+      ],
+      "settings": {
+        "title": "We make products for",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "spacing": 40,
+        "logo_grid_align": "justify-center",
+        "color_scheme": "3",
+        "full_width": true
+      }
+    },
+    "96029845-5ff0-4fda-a2f6-460941e7803d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"bl5\">\n<h4 class=\"bl5-h4\">production and global market<\/h4>\n<div class=\"bl5-row\">\n<p class=\"bl5-p\">We pay a lot of attention to the development of innovations, production quality and technologies: we cooperate with one of the best laboratories in the world, we attract scientists who help develop materials, we have the appropriate certifications.<\/p>\n\n<p class=\"bl5-p\">We create products that really meet the needs of customers, as evidenced by the growing demand for our models in many countries around the world.<\/p>\n<\/div>\n\n<\/div>",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "dfada304-6a48-43dc-b393-302e08f80d59": {
+      "type": "logo-list",
+      "blocks": {
+        "template--17246324588784__dfada304-6a48-43dc-b393-302e08f80d59-logo-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame-12.webp",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "b266b7f1-f6e3-4477-8f9f-e72c7a381d75": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame-109.webp",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "17be8b5e-59b0-4a0b-b6ca-583c4486dfdd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp-Image-2023-03-03-at-13.48.webp",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17246324588784__dfada304-6a48-43dc-b393-302e08f80d59-logo-1",
+        "b266b7f1-f6e3-4477-8f9f-e72c7a381d75",
+        "17be8b5e-59b0-4a0b-b6ca-583c4486dfdd"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "spacing": 76,
+        "logo_grid_align": "justify-center",
+        "color_scheme": "none",
+        "full_width": true
+      }
+    },
+    "71228f61-3c9e-40f5-a074-5dfee6bc6b36": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"bl7\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/map-easyfeet.webp?v=1686821072\" class=\"lazyloadt4sed img-bl7\">\n<\/div>",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "border-top border-bottom",
+        "prevent_animation": true
+      }
+    },
+    "ddc0a3ef-3c04-4ebf-b0af-df9ee746704d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h4 class=\"bl50-h4\">OUR TEAM<\/h4>\n<div class=\"bl50\">\n\n<div class=\"bl50-left\">\n<p class=\"bl50-p-text\">My team is my most significant<br> value and the highest motivation<br> in the business.<\/p>\n<div class=\"ceo\">\n<h4 class=\"bl50-h4-text\">Anna Nikitina<\/h4>\n<h4 class=\"bl50-h4-text1\"> \nChief Executive Officer<\/h4>\n<\/div>\n\n<\/div>\n<div class=\"bl50-right\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/ceo-Anna.webp?v=1691762331\" class=\"lazyloadt4sed img-bl50\">\n<div class=\"bl50-right-red\">\n<\/div>\n<\/div>\n\n\n<\/div>",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": true
+      }
+    },
+    "126e650b-efd9-4617-ae1e-bfbb40543100": {
+      "type": "logo-list",
+      "blocks": {
+        "f04853a6-ba39-4249-87d6-71e9165f02d9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame-81_4da62668-497d-41be-bf2e-6cd5ceeb40f9.webp",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "92af4d70-8ee1-4d68-a820-fd149e1c7240": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame-84_8c2d942a-6d5a-4d99-bb75-d2cc780547a2.webp",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        },
+        "925cf8e7-cd21-495b-ba3e-15863b07c4fc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame-85_1.webp",
+            "url": "",
+            "logo_width": 260,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "f04853a6-ba39-4249-87d6-71e9165f02d9",
+        "92af4d70-8ee1-4d68-a820-fd149e1c7240",
+        "925cf8e7-cd21-495b-ba3e-15863b07c4fc"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "spacing": 104,
+        "logo_grid_align": "justify-center",
+        "color_scheme": "3",
+        "full_width": true
+      }
+    },
+    "768a35a1-faba-41b5-9790-4f6bd2888981": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"bl9\">\n<div class=\"bl9-right\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/Frame-60.webp?v=1686823699\" class=\"lazyloadt4sed img-bl9\">\n<div class=\"bl9-right-red\">\n<h4 class=\"bl9-right-red-h4-text\">Dmytro Kordin<\/h4>\n<p class=\"bl9-right-red-p-text\">Recruiter<\/p>\n<\/div>\n<\/div>\n\n<div class=\"bl9-left\">\n<h4 class=\"bl9-h4-text\">Join Us<\/h4>\n<p class=\"bl9-p-text\">We are always looking for talents to grow the business together. Want to join us? Then send your CV here, <a href=\"mailto:d.kordin@easyfeet.store\">d.kordin@easyfeet.store<\/a>.<\/p>\n<!--<p class=\"bl9-p-text\" style=\"padding-top:15px;\"><span class=\"span1\">Check out our open vacancies:<\/span><\/p>\n<p class=\"bl9-p-text\"><span class=\"span1 plus1\">Product Manager<\/span><\/p>\n<p class=\"bl9-p-text\"><span class=\"span1 plus1\">HR Manager<\/span><\/p>-->\n<\/div>\n\n\n<\/div>",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17042703314429d52d",
+    "37c5e8f3-8892-4d2f-b55e-f5d38c0341bf",
+    "963c1e36-c2e6-4f65-9bb4-6da98e82c0b5",
+    "3fe0f65b-f716-4cb3-9080-c355567b86e3",
+    "da23af6f-ea93-4441-8c6a-d2a78841c7eb",
+    "96029845-5ff0-4fda-a2f6-460941e7803d",
+    "dfada304-6a48-43dc-b393-302e08f80d59",
+    "71228f61-3c9e-40f5-a074-5dfee6bc6b36",
+    "ddc0a3ef-3c04-4ebf-b0af-df9ee746704d",
+    "126e650b-efd9-4617-ae1e-bfbb40543100",
+    "768a35a1-faba-41b5-9790-4f6bd2888981"
+  ]
+}

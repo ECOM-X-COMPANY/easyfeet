@@ -1,0 +1,256 @@
+.donations{
+    position: relative;
+    background-image: url('https://cdn.shopify.com/s/files/1/0612/1177/1120/files/2_b3f1a72a-e8f1-47f0-994e-6c6233326745.png?v=1704892228');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+
+}
+.donations:after{
+    position: absolute;
+    content: '';
+    background: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    opacity: .3;
+
+}
+.donations-box{
+    position: relative;
+    padding: 40px 0;
+    text-align: center;
+    z-index: 1;
+}
+.donations-box__content p{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+.donations-box__content h2{
+    margin: 0;
+    font-size: 100px;
+    font-weight: 000;
+    color: #fff;
+    text-transform: uppercase;
+}
+.donations-box__content span{
+    margin: 0;
+    font-size: 100px;
+    font-weight: 000;
+    color: #fff;
+    text-transform: uppercase;
+}
+.donations-box__image{
+    margin: 20px 0 60px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}
+.donations-box__image--left,
+.donations-box__image--right{
+    width: 250px;
+    color: #fff;
+    background: #383838;
+    border-radius: 5px;
+}
+.donations-box__image--left img,
+.donations-box__image--right img{
+    border-radius: 5px 5px 0 0;
+}
+.donations-box__image--left p,
+.donations-box__image--right p{
+    padding: 5px 5px;
+    font-size: 15px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.donations-box__link{
+    cursor: pointer;
+border-radius: 5px;
+    width: 183px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background: #ff444f;
+    align-items: center;
+    margin: 0 auto;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease ;
+    -ms-transition: all .3s ease ;
+    -o-transition: all .3s ease ;
+    transition: all .3s ease ;
+}
+.donations-box__link:hover{
+    background: #f00;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease ;
+    -ms-transition: all .5s ease ;
+    -o-transition: all .5s ease ;
+    transition: all .5s ease ;
+    box-shadow: 2px 3px 3px 2px rgb(34 60 80 / 10%);
+}
+.donations-box__link a{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+}
+@media only screen and (max-width: 430px) {
+    .donations-box__content p{
+        font-size: 20px;
+    }
+    .donations-box__content h2{
+        font-size: 55px;
+    }
+    .donations-box__content span{
+        font-size: 55px;
+    }
+    .donations-box__image--left p, .donations-box__image--right p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 428px) {
+    .donations-box__content p{
+        font-size: 20px;
+    }
+    .donations-box__content h2{
+        font-size: 55px;
+    }
+    .donations-box__content span{
+        font-size: 55px;
+    }
+    .donations-box__image--left p, .donations-box__image--right p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .donations-box__content p{
+        font-size: 20px;
+    }
+    .donations-box__content h2{
+        font-size: 55px;
+    }
+    .donations-box__content span{
+        font-size: 55px;
+    }
+    .donations-box__image--left p, .donations-box__image--right p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 412px) {
+    .donations-box__content p{
+        font-size: 20px;
+    }
+    .donations-box__content h2{
+        font-size: 55px;
+    }
+    .donations-box__content span{
+        font-size: 55px;
+    }
+    .donations-box__image--left p, .donations-box__image--right p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .donations-box__content p{
+        font-size: 20px;
+    }
+    .donations-box__content h2{
+        font-size: 55px;
+    }
+    .donations-box__content span{
+        font-size: 55px;
+    }
+    .donations-box__image--left p, .donations-box__image--right p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 393px) {
+    .donations-box__content p{
+        font-size: 20px;
+    }
+    .donations-box__content h2{
+        font-size: 55px;
+    }
+    .donations-box__content span{
+        font-size: 55px;
+    }
+    .donations-box__image--left p, .donations-box__image--right p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .donations-box__content p{
+        font-size: 20px;
+    }
+    .donations-box__content h2{
+        font-size: 55px;
+    }
+    .donations-box__content span{
+        font-size: 55px;
+    }
+    .donations-box__image--left p, .donations-box__image--right p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .donations-box__content p{
+        font-size: 20px;
+    }
+    .donations-box__content h2{
+        font-size: 55px;
+    }
+    .donations-box__content span{
+        font-size: 55px;
+    }
+    .donations-box__image--left p, .donations-box__image--right p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 365px) {
+    .donations-box__content p{
+        font-size: 20px;
+    }
+    .donations-box__content h2{
+        font-size: 55px;
+    }
+    .donations-box__content span{
+        font-size: 55px;
+    }
+    .donations-box__image--left p, .donations-box__image--right p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .donations-box__content p{
+        font-size: 20px;
+    }
+    .donations-box__content h2{
+        font-size: 55px;
+    }
+    .donations-box__content span{
+        font-size: 55px;
+    }
+    .donations-box__image--left p, .donations-box__image--right p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .donations-box__content p{
+        font-size: 20px;
+    }
+    .donations-box__content h2{
+        font-size: 55px;
+    }
+    .donations-box__content span{
+        font-size: 55px;
+    }
+    .donations-box__image--left p, .donations-box__image--right p{
+        font-size: 12px;
+    }
+}

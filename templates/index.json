@@ -1,0 +1,1074 @@
+{
+  "sections": {
+    "slideshow_zacADy": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_hpVUyL": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/2_759885fb-cc45-4871-bf56-52d85a3e62e2.png",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Insoles that fit your task",
+            "heading_size": "h0",
+            "heading_h1": true,
+            "text": "<p>Feel the quickest pain relief for non-stop life on your feet<\/p>",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Shop now",
+            "button_2_link": "shopify:\/\/collections\/all",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
+        "slide_yT9XKB": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Frame_117_ce6702e6-859d-48da-b5ca-327fab022c30.png",
+            "url": "",
+            "overlay_position": "justify-start items-center",
+            "overlay_text_align": "text-start",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "BUY 3+ pairs, get 15% off",
+            "heading_size": "h0",
+            "heading_h1": true,
+            "text": "<p>Get a 15% discount when you buy 3 or more pairs of products! A great offer that allows you to save money when you buy not one, but a whole set.<\/p>",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Shop now",
+            "button_2_link": "shopify:\/\/collections\/all",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_hpVUyL",
+        "slide_yT9XKB"
+      ],
+      "custom_css": [
+        ".btn--primary {border-radius: 5px; background: #ff444f; color: #fff; border: transparent; transition: all 0.5s ease;}",
+        ".btn--primary:hover {background: #f00; transition: all 0.3s ease;}"
+      ],
+      "settings": {
+        "height_mode": "screen",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "mobile_stacked": false,
+        "nav_style": "slideshow_nav_lines",
+        "pagination_color": "#ffffff",
+        "nav_position": "justify-center",
+        "transition": "slide-fade",
+        "autoplay": true,
+        "slider_pause": false,
+        "autoplay_speed": 5,
+        "color_scheme": "white",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 60,
+        "accessibility_info": "",
+        "prevent_animation": true
+      }
+    },
+    "cf7a49ae-1711-4f56-955f-386545bce22d": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17234989940976__cf7a49ae-1711-4f56-955f-386545bce22d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Insoles that fit your task",
+            "heading_size": "h1",
+            "heading_h1": true
+          }
+        },
+        "template--17234989940976__cf7a49ae-1711-4f56-955f-386545bce22d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Feel the quickest pain relief for non-stop life on your feet<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--17234989940976__cf7a49ae-1711-4f56-955f-386545bce22d-button-1": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Shop now",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989940976__cf7a49ae-1711-4f56-955f-386545bce22d-heading-1",
+        "template--17234989940976__cf7a49ae-1711-4f56-955f-386545bce22d-text-1",
+        "template--17234989940976__cf7a49ae-1711-4f56-955f-386545bce22d-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".btn--primary {border-radius: 5px; background: #ff444f; color: #fff; border: transparent; transition: all 0.5s ease;}",
+        ".btn--primary:hover {background: #f00; transition: all 0.3s ease;}"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/2_759885fb-cc45-4871-bf56-52d85a3e62e2.png",
+        "url": "",
+        "height_mode": "screen",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": true,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 65,
+        "prevent_animation": true
+      }
+    },
+    "67db3c95-d6e5-414d-8647-5767c400093f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17234989940976__67db3c95-d6e5-414d-8647-5767c400093f-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/2_759885fb-cc45-4871-bf56-52d85a3e62e2.png",
+            "url": "shopify:\/\/collections\/all",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": true,
+            "subheading": "",
+            "heading": "Insoles that fit your task",
+            "heading_size": "h0",
+            "heading_h1": true,
+            "text": "<p>Feel the quickest pain relief for non-stop life on your feet<\/p>",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Shop now",
+            "button_2_link": "shopify:\/\/collections\/all",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989940976__67db3c95-d6e5-414d-8647-5767c400093f-slide-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".btn--primary {border-radius: 5px; background: #ff444f; color: #fff; border: transparent; transition: all 0.5s ease;}",
+        ".btn--primary:hover {background: #f00; transition: all 0.3s ease;}"
+      ],
+      "settings": {
+        "height_mode": "fixed",
+        "fixed_height_desktop": 700,
+        "fixed_height_mobile": 350,
+        "mobile_stacked": false,
+        "nav_style": "slideshow_nav_lines",
+        "pagination_color": "#ffffff",
+        "nav_position": "justify-center",
+        "transition": "slide-fade",
+        "autoplay": true,
+        "slider_pause": false,
+        "autoplay_speed": 5,
+        "color_scheme": "white",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "accessibility_info": "",
+        "prevent_animation": true
+      }
+    },
+    "a5d07b3e-a873-4eee-abd5-4001538168db": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17234989940976__a5d07b3e-a873-4eee-abd5-4001538168db-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "hikers",
+            "image": "shopify:\/\/shop_images\/4_fd82cecf-04f3-4d94-a133-4a65a161a32d.png"
+          }
+        },
+        "template--17234989940976__a5d07b3e-a873-4eee-abd5-4001538168db-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "anti-fatigue",
+            "image": "shopify:\/\/shop_images\/6.png"
+          }
+        },
+        "template--17234989940976__a5d07b3e-a873-4eee-abd5-4001538168db-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "athletes"
+          }
+        },
+        "template--17234989940976__a5d07b3e-a873-4eee-abd5-4001538168db-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "pain-relief"
+          }
+        },
+        "07128094-2b9d-4a58-9140-0307d085afc6": {
+          "type": "collection",
+          "settings": {
+            "collection": "runners"
+          }
+        },
+        "3d1e4c40-b513-456a-9faf-9576a212d19a": {
+          "type": "collection",
+          "settings": {
+            "collection": "fitness"
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989940976__a5d07b3e-a873-4eee-abd5-4001538168db-collection-1",
+        "template--17234989940976__a5d07b3e-a873-4eee-abd5-4001538168db-collection-2",
+        "template--17234989940976__a5d07b3e-a873-4eee-abd5-4001538168db-collection-3",
+        "template--17234989940976__a5d07b3e-a873-4eee-abd5-4001538168db-collection-4",
+        "07128094-2b9d-4a58-9140-0307d085afc6",
+        "3d1e4c40-b513-456a-9faf-9576a212d19a"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "card_size": "small",
+        "use_product_image": false,
+        "circle_image": true
+      }
+    },
+    "20f59457-4212-4d6e-ad88-3ea86bad4e52": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "template--17234989940976__20f59457-4212-4d6e-ad88-3ea86bad4e52-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Save 10% When You Buy 2 Pairs",
+            "link": "",
+            "font": "heading",
+            "heading_size": "h3"
+          }
+        },
+        "57b98ca8-020c-464c-bb67-e7e5aed6f09d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11.png",
+            "image_height": 48,
+            "link": ""
+          }
+        },
+        "e59bd38e-db79-4b41-b60e-4d51bcccf24e": {
+          "type": "text",
+          "settings": {
+            "text": "Get 15% Off on 3 Pairs or More",
+            "link": "",
+            "font": "heading",
+            "heading_size": "h4"
+          }
+        },
+        "8ea99b3e-564f-4cde-80aa-b697e9e2c659": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.png",
+            "image_height": 48,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989940976__20f59457-4212-4d6e-ad88-3ea86bad4e52-text-1",
+        "57b98ca8-020c-464c-bb67-e7e5aed6f09d",
+        "e59bd38e-db79-4b41-b60e-4d51bcccf24e",
+        "8ea99b3e-564f-4cde-80aa-b697e9e2c659"
+      ],
+      "settings": {
+        "section_height": "medium",
+        "spacing": 40,
+        "speed": 24,
+        "direction": "normal",
+        "pausable": true,
+        "color_scheme": "2",
+        "dividers": "none",
+        "prevent_animation": true
+      }
+    },
+    "208711dc-9b76-4d55-b1cd-0f3b533fefc4": {
+      "type": "background-video",
+      "blocks": {
+        "template--17234989940976__208711dc-9b76-4d55-b1cd-0f3b533fefc4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "REAL PAIN RELIEF",
+            "heading_size": "h1",
+            "heading_h1": true
+          }
+        },
+        "template--17234989940976__208711dc-9b76-4d55-b1cd-0f3b533fefc4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There are 3 reasons why EASYFEET insoles can greatly boost your life. Look for them below.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--17234989940976__208711dc-9b76-4d55-b1cd-0f3b533fefc4-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "explore collections",
+            "button_link": "shopify:\/\/collections\/shop",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989940976__208711dc-9b76-4d55-b1cd-0f3b533fefc4-heading-1",
+        "template--17234989940976__208711dc-9b76-4d55-b1cd-0f3b533fefc4-text-1",
+        "template--17234989940976__208711dc-9b76-4d55-b1cd-0f3b533fefc4-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/EASYFEET FLAME BOOST.mp4",
+        "video_external": "",
+        "video_description": "",
+        "video_height": "lg",
+        "overlay_text_align": "text-center",
+        "overlay_position": "justify-center items-center",
+        "mob_center_text": true,
+        "color_scheme": "white",
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "lazyload": true,
+        "prevent_animation": true
+      }
+    },
+    "23111f13-2106-417d-93b0-5b91f85cc82c": {
+      "type": "multi-column",
+      "blocks": {
+        "template--17234989940976__23111f13-2106-417d-93b0-5b91f85cc82c-column-1": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/1_8661654f-27bb-496b-a68f-4cd287a1d875.png",
+            "media_scale": 100,
+            "heading": "Podiatrists recommend",
+            "text": "",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "2b6af2c0-7df7-4024-ac07-594d98f5d258": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/13.png",
+            "media_scale": 100,
+            "heading": "Perfect for any sport",
+            "text": "",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "08c6cb4c-f9a7-4759-9303-6663b5a508eb": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/2_320f9879-fc89-428c-bd98-96caf559accb.png",
+            "media_scale": 100,
+            "heading": "All-Day Relief",
+            "text": "",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "1ddc5b20-5a13-4512-bea6-6494e2086c80": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/6_015b858e-1063-40f5-9d1e-c6259c5123b4.png",
+            "media_scale": 100,
+            "heading": "Great Arch Support",
+            "text": "",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989940976__23111f13-2106-417d-93b0-5b91f85cc82c-column-1",
+        "2b6af2c0-7df7-4024-ac07-594d98f5d258",
+        "08c6cb4c-f9a7-4759-9303-6663b5a508eb",
+        "1ddc5b20-5a13-4512-bea6-6494e2086c80"
+      ],
+      "custom_css": [
+        ".h5 {font-size: 20px; font-weight: 900;}",
+        ".btn--primary {background: #ff444f; border-radius: 5px; border: transparent; transition: all 0.5s ease;}",
+        ".btn--primary:hover {background: #f00; transition: all 0.4s ease;}",
+        ".card {border-radius: 15px;}",
+        ".card__media {border-radius: 15px 15px 0 0;}",
+        ".multi-column {transition: all 0.5s ease;}",
+        ".multi-column:hover {border-radius: 15px; transform: scale(1.1); -moz-box-shadow: 10px 10px 37px -6px rgba(158, 152, 158, 1); box-shadow: 10px 10px 37px -6px rgba(158, 152, 158, 1); transition: all 0.4s ease;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "column_size": "small",
+        "column_align": "center",
+        "media_align": "text-center",
+        "image_ratio": "0.75",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "65a0f993-81d8-43fc-851e-49024b73e5f1": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".section--padded-default {padding: 0;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"block-dr\">\n<div class=\"container-dr-mobile\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/arrow1.png?v=1670154941\" class=\"lazyloadt4sed img-grt-osn img-dr-mob\">\n<h4 class=\"fye-h4-1\">THIRD REASON<\/h4>\n<\/div>\n<div class=\"container-get-dr-0\">\n<h4 class=\"get-h4\">03<\/h4>\n<h1>PODIATRISTS<br> RECOMMEND<\/h1>\n<\/div>\n<div class=\"container-dr\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/arrow1.png?v=1670154941\" class=\"lazyloadt4sed img-grt-osn\">\n<h4 class=\"fye-h4-1\">THIRD REASON<\/h4>\n<\/div>\n\n<div class=\"block-dr0\">\n<div class=\"block-dr-left\">\n\n<div class=\"container-get-dr\">\n<h4 class=\"get-h4\">03<\/h4>\n<h1>PODIATRISTS<br> RECOMMEND<\/h1>\n<\/div>\n\n<p class=\"p-dr\">\"I was able to test drive a pair of EASYFEET insoles over the counterorthotics. And I have to admit suffering from symptomatic flat feetsince childhood.<\/p>\n<p class=\"p-dr\">Having a limited shoe selection because of it I have to switch betweenover the counter orthotics and custom orthotics pending the shoe type\/brand. <strong>EASYFEET truly lives up to its name and fits majority of myshoes without a problem...<\/strong><\/p>\n<p class=\"p-dr\"><strong>Actually, the most comfortable orthotics I have tried to date. I literallyhave tried dozens of orthotics over the last decades.<\/strong> I definitelyrecommend giving these a try if you suffer from arch fatigue and heelpain. This was not a paid advertisement. I will work with the companyto get a promo code for those interested in getting a discounted pair.I give them a 9\/10. Most other over the counter orthotics are usually6-7\/10 in my professional opinion.\"<\/p>\n\n\n<\/div>\n\n\n\n<div class=\"block-dr-right\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/image_3_copy_2048x2048-1_1.webp?v=1655019990\" alt=\"black\" class=\"lazyload block-dr-img\">\n\n\n<a href=\"https:\/\/www.instagram.com\/ajthefootdoc\/\" target=\"_blank\" class=\"insta\"><svg width=\"328\" height=\"28\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n\t\t<path d=\"M22.678 27.9932L9.34462 28.0058C6.41129 28.0085 4.00929 25.6112 4.00596 22.6778L3.99329 9.3445C3.99062 6.41117 6.38796 4.00917 9.32129 4.00583L22.6546 3.99317C25.588 3.9905 27.99 6.38783 27.9933 9.32117L28.006 22.6545C28.0093 25.5885 25.6113 27.9905 22.678 27.9932Z\" fill=\"url(#paint0_radial_410_79)\"><\/path>\n\t\t<path d=\"M22.678 27.9932L9.34462 28.0058C6.41129 28.0085 4.00929 25.6112 4.00596 22.6778L3.99329 9.3445C3.99062 6.41117 6.38796 4.00917 9.32129 4.00583L22.6546 3.99317C25.588 3.9905 27.99 6.38783 27.9933 9.32117L28.006 22.6545C28.0093 25.5885 25.6113 27.9905 22.678 27.9932Z\" fill=\"url(#paint1_radial_410_79)\"><\/path>\n\t\t<path d=\"M16 20.6668C13.4274 20.6668 11.3334 18.5735 11.3334 16.0002C11.3334 13.4268 13.4274 11.3335 16 11.3335C18.5727 11.3335 20.6667 13.4268 20.6667 16.0002C20.6667 18.5735 18.5727 20.6668 16 20.6668ZM16 12.6668C14.162 12.6668 12.6667 14.1622 12.6667 16.0002C12.6667 17.8382 14.162 19.3335 16 19.3335C17.838 19.3335 19.3334 17.8382 19.3334 16.0002C19.3334 14.1622 17.838 12.6668 16 12.6668Z\" fill=\"white\"><\/path>\n\t\t<path d=\"M21 12C21.5523 12 22 11.5523 22 11C22 10.4477 21.5523 10 21 10C20.4477 10 20 10.4477 20 11C20 11.5523 20.4477 12 21 12Z\" fill=\"white\"><\/path>\n\t\t<path d=\"M20 24.6668H12C9.42737 24.6668 7.33337 22.5735 7.33337 20.0002V12.0002C7.33337 9.42683 9.42737 7.3335 12 7.3335H20C22.5727 7.3335 24.6667 9.42683 24.6667 12.0002V20.0002C24.6667 22.5735 22.5727 24.6668 20 24.6668ZM12 8.66683C10.162 8.66683 8.66671 10.1622 8.66671 12.0002V20.0002C8.66671 21.8382 10.162 23.3335 12 23.3335H20C21.838 23.3335 23.3334 21.8382 23.3334 20.0002V12.0002C23.3334 10.1622 21.838 8.66683 20 8.66683H12Z\" fill=\"white\"><\/path>\n\t\t<defs>\n\t\t<radialgradient id=\"paint0_radial_410_79\" cx=\"0\" cy=\"0\" r=\"1\" gradientunits=\"userSpaceOnUse\" gradienttransform=\"translate(12.92 28.0232) scale(29.9327)\">\n\t\t<stop stop-color=\"#FFDD55\"><\/stop>\n\t\t<stop offset=\"0.328\" stop-color=\"#FF543F\"><\/stop>\n\t\t<stop offset=\"0.348\" stop-color=\"#FC5245\"><\/stop>\n\t\t<stop offset=\"0.504\" stop-color=\"#E64771\"><\/stop>\n\t\t<stop offset=\"0.643\" stop-color=\"#D53E91\"><\/stop>\n\t\t<stop offset=\"0.761\" stop-color=\"#CC39A4\"><\/stop>\n\t\t<stop offset=\"0.841\" stop-color=\"#C837AB\"><\/stop>\n\t\t<\/radialgradient>\n\t\t<radialgradient id=\"paint1_radial_410_79\" cx=\"0\" cy=\"0\" r=\"1\" gradientunits=\"userSpaceOnUse\" gradienttransform=\"translate(7.85729 3.69337) scale(19.8753 13.2429)\">\n\t\t<stop stop-color=\"#4168C9\"><\/stop>\n\t\t<stop offset=\"0.999\" stop-color=\"#4168C9\" stop-opacity=\"0\"><\/stop>\n\t\t<\/radialgradient>\n\t\t<\/defs>\n\t<\/svg><\/a>\n\n\n<h4 class=\"\">DR. ALTON R. JOHNSON JR., DPM<\/h4>\n\n<h4 class=\"quote\">\n<div class=\"icon\"><svg width=\"26\" height=\"20\" viewbox=\"0 0 32 26\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M0 26V18.5212C0 16.3462 0.407125 14.1042 1.22137 11.7954C2.03562 9.48649 3.11043 7.31145 4.4458 5.27027C5.78117 3.19562 7.24682 1.43887 8.84275 0L15.3893 3.91506C14.2168 5.92278 13.2071 8.08108 12.3603 10.39C11.5135 12.6988 11.0901 15.4093 11.0901 18.5212V26H0ZM16.6107 26V18.5212C16.6107 16.3462 17.0178 14.1042 17.8321 11.7954C18.6463 9.48649 19.7211 7.31145 21.0565 5.27027C22.3919 3.19562 23.8575 1.43887 25.4534 0L32 3.91506C30.8275 5.92278 29.8178 8.08108 28.971 10.39C28.1242 12.6988 27.7008 15.4093 27.7008 18.5212V26H16.6107Z\" fill=\"white\"><\/path>\n<\/svg><\/div>\nActually, the most comfortable<br> orthotics I have tried to date.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n<\/h4>\n<\/div>\n<\/div>\n<\/div>",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": true
+      }
+    },
+    "42814be8-75a0-4ca6-9e11-4b793202f2a4": {
+      "type": "logo-list",
+      "blocks": {
+        "template--17234989940976__42814be8-75a0-4ca6-9e11-4b793202f2a4-logo-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_00f390d3-1245-4755-9831-05c15a3092c4.png",
+            "url": "",
+            "logo_width": 160,
+            "text": ""
+          }
+        },
+        "template--17234989940976__42814be8-75a0-4ca6-9e11-4b793202f2a4-logo-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_179dde8d-1e2a-4e1f-8efd-574e38b21a66.png",
+            "url": "",
+            "logo_width": 160,
+            "text": ""
+          }
+        },
+        "92f4f819-e4df-4869-8f40-2f37e47194ca": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_7319a322-70cf-4305-8972-f0c13bc45604.png",
+            "url": "",
+            "logo_width": 160,
+            "text": ""
+          }
+        },
+        "c171fb2c-74cb-4cdf-96d0-8154796098b9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_665717d9-176d-4090-8d25-d61efdc095fc.png",
+            "url": "",
+            "logo_width": 160,
+            "text": ""
+          }
+        },
+        "a9aa52eb-7195-4da0-a02b-225dba2cff83": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_5df98f61-de9b-4e02-9ff9-96f968925aa9.png",
+            "url": "",
+            "logo_width": 160,
+            "text": ""
+          }
+        },
+        "36505aac-d4d9-4aab-8027-bfe3d9ed2b0c": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_7428f3f9-c901-434e-be7e-cd5bc7bf316e.png",
+            "url": "",
+            "logo_width": 160,
+            "text": ""
+          }
+        },
+        "b0931270-d4cf-4933-afa6-57641c72208c": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_8eb8d860-ab90-4c65-932d-50a18fcbf9c1.png",
+            "url": "",
+            "logo_width": 160,
+            "text": ""
+          }
+        },
+        "88f10b83-159b-44aa-b54d-46812545f6ab": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.png",
+            "url": "",
+            "logo_width": 160,
+            "text": ""
+          }
+        },
+        "c67b8a22-b2be-4854-acb1-eb5aeb99c4a3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9.png",
+            "url": "",
+            "logo_width": 160,
+            "text": ""
+          }
+        },
+        "6b818aa4-942f-48dd-ae7f-f28ad11bff83": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10.png",
+            "url": "",
+            "logo_width": 160,
+            "text": ""
+          }
+        },
+        "acdb661c-b86a-4e13-8e5b-d7bcabab5a03": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11_1431e755-d1d4-462c-873f-04fe58bc7ec6.png",
+            "url": "",
+            "logo_width": 160,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989940976__42814be8-75a0-4ca6-9e11-4b793202f2a4-logo-1",
+        "template--17234989940976__42814be8-75a0-4ca6-9e11-4b793202f2a4-logo-2",
+        "92f4f819-e4df-4869-8f40-2f37e47194ca",
+        "c171fb2c-74cb-4cdf-96d0-8154796098b9",
+        "a9aa52eb-7195-4da0-a02b-225dba2cff83",
+        "36505aac-d4d9-4aab-8027-bfe3d9ed2b0c",
+        "b0931270-d4cf-4933-afa6-57641c72208c",
+        "88f10b83-159b-44aa-b54d-46812545f6ab",
+        "c67b8a22-b2be-4854-acb1-eb5aeb99c4a3",
+        "6b818aa4-942f-48dd-ae7f-f28ad11bff83",
+        "acdb661c-b86a-4e13-8e5b-d7bcabab5a03"
+      ],
+      "custom_css": [
+        ".logo-list img {border-radius: 5px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "layout": "carousel",
+        "spacing": 40,
+        "logo_grid_align": "justify-center",
+        "color_scheme": "none",
+        "full_width": true
+      }
+    },
+    "2216310a-d2be-41f1-bdda-f9a924006972": {
+      "type": "custom-helping-list",
+      "settings": {
+        "custom_heading": "most efficient for helping with such Health Problems as:",
+        "image_link_1": "pages\/plantar-fasciitis",
+        "image_src_1": "shopify:\/\/shop_images\/3_6c001f97-c6b6-4dd2-9aa7-6b3b3af9c5ca.png",
+        "image_link_2": "pages\/heel-spurs",
+        "image_src_2": "shopify:\/\/shop_images\/7_03839108-fcfd-4375-ac5c-19f865e4e1a6.png",
+        "image_link_3": "pages\/metatarsalgia",
+        "image_src_3": "shopify:\/\/shop_images\/1_d65cc859-1d11-4119-83b8-ad3305f9fc51.png",
+        "image_link_4": "Shin splints",
+        "image_src_4": "shopify:\/\/shop_images\/3_89dde04e-1085-4181-b6dc-d50340776e41.png",
+        "image_link_5": "pages\/bunions",
+        "image_src_5": "shopify:\/\/shop_images\/4_59827c99-acb8-4cc7-aa1c-df71b105344d.png",
+        "image_link_6": "pages\/morton-s-neuroma",
+        "image_src_6": "shopify:\/\/shop_images\/5_fe5ac25d-e94d-4811-946a-213e76675fb5.png",
+        "image_link_7": "Flat feet",
+        "image_src_7": "shopify:\/\/shop_images\/6_3d59686a-879c-40de-894b-695a899c74f1.png",
+        "image_link_8": "Pronation",
+        "image_src_8": "shopify:\/\/shop_images\/7_63cbc93d-ebf5-4205-a528-195c8a9e8411.png"
+      }
+    },
+    "271ea31b-cbf4-44dc-9006-70f1fd84e3e3": {
+      "type": "product-comparison-grid",
+      "blocks": {
+        "abf772d5-5a0c-44bf-a863-cf0c487e4d31": {
+          "type": "metafield",
+          "settings": {
+            "title": "Arch support - height",
+            "metafield_key": "custom.arch_support_heightt"
+          }
+        },
+        "14a6ec27-dbb2-46cd-b8f6-dde5444ba4e4": {
+          "type": "metafield",
+          "settings": {
+            "title": "Efficience",
+            "metafield_key": "custom.efficiencee"
+          }
+        },
+        "31885753-e68c-470e-a9ee-2552c096dd9c": {
+          "type": "metafield",
+          "settings": {
+            "title": "Comfort daily number of steps",
+            "metafield_key": "custom.comfort_daily_number_of_stepss"
+          }
+        },
+        "template--17234989940976__271ea31b-cbf4-44dc-9006-70f1fd84e3e3-product-1": {
+          "type": "product",
+          "settings": {
+            "show_image": true,
+            "show_title": true,
+            "show_button": true
+          }
+        },
+        "a5e83f26-df53-4a12-85bf-e52c1580f306": {
+          "type": "metafield",
+          "settings": {
+            "title": "Medical reasons",
+            "metafield_key": "custom.medical_reaso"
+          }
+        },
+        "template--17234989940976__271ea31b-cbf4-44dc-9006-70f1fd84e3e3-vendor-1": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--17234989940976__271ea31b-cbf4-44dc-9006-70f1fd84e3e3-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--17234989940976__271ea31b-cbf4-44dc-9006-70f1fd84e3e3-description-1": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "truncate_description": true,
+            "words_to_show": 20
+          }
+        }
+      },
+      "block_order": [
+        "abf772d5-5a0c-44bf-a863-cf0c487e4d31",
+        "14a6ec27-dbb2-46cd-b8f6-dde5444ba4e4",
+        "31885753-e68c-470e-a9ee-2552c096dd9c",
+        "template--17234989940976__271ea31b-cbf4-44dc-9006-70f1fd84e3e3-product-1",
+        "a5e83f26-df53-4a12-85bf-e52c1580f306",
+        "template--17234989940976__271ea31b-cbf4-44dc-9006-70f1fd84e3e3-vendor-1",
+        "template--17234989940976__271ea31b-cbf4-44dc-9006-70f1fd84e3e3-price-1",
+        "template--17234989940976__271ea31b-cbf4-44dc-9006-70f1fd84e3e3-description-1"
+      ],
+      "custom_css": [
+        ".btn--primary {border-radius: 5px; background: #ff444f; color: #fff; border: transparent; transition: all 0.5s ease;}",
+        ".btn--primary:hover {background: #f00; transition: all 0.3s ease;}",
+        ".mb-4 {font-size: 12px; font-weight: 900;}"
+      ],
+      "settings": {
+        "heading": "FIND YOUR EASYFEET",
+        "text": "",
+        "heading_align": "text-center",
+        "view_more_label": "View more",
+        "view_more_link": "",
+        "product_list": [
+          "black-model",
+          "mount-strenght",
+          "flame-boost",
+          "core-energy",
+          "black-onix"
+        ],
+        "empty_field_text": "-",
+        "image_ratio": "1",
+        "image_crop": "center",
+        "num_rows": 0,
+        "color_scheme": "none",
+        "highlight_row": true
+      }
+    },
+    "245a8a93-b8be-476e-96ae-b34d94d60c41": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--17234989940976__245a8a93-b8be-476e-96ae-b34d94d60c41-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Insole Finder",
+            "heading_size": "h3",
+            "heading_h1": false
+          }
+        },
+        "template--17234989940976__245a8a93-b8be-476e-96ae-b34d94d60c41-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Still in doubt about which EASYFEET insoles to choose?<\/p><p><strong>Use our Insole Finder to find the perfect ones! <\/strong><\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--17234989940976__245a8a93-b8be-476e-96ae-b34d94d60c41-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "insole finder",
+            "button_link": "shopify:\/\/pages\/insole-finders",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989940976__245a8a93-b8be-476e-96ae-b34d94d60c41-heading-1",
+        "template--17234989940976__245a8a93-b8be-476e-96ae-b34d94d60c41-text-1",
+        "template--17234989940976__245a8a93-b8be-476e-96ae-b34d94d60c41-button-1"
+      ],
+      "custom_css": [
+        ".btn--primary {border: transparent; border-radius: 5px; background: #ff444f; transition: all 0.5s ease;}",
+        ".btn--primary:hover {border: transparent; background: #f00; transition: all 0.4s ease;}"
+      ],
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/EASYFEET Flame Boost_126f3641-c445-49d2-90dd-3b560ef5043e.mp4",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": true,
+        "layout": "left",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "2"
+      }
+    },
+    "c506bb30-8906-412c-998f-cd396e880515": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17234989940976__c506bb30-8906-412c-998f-cd396e880515-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Happy customers",
+            "heading_size": "h3",
+            "heading_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989940976__c506bb30-8906-412c-998f-cd396e880515-heading-1"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "17047158042ade648c": {
+      "type": "apps",
+      "blocks": {
+        "130d5f17-528a-461a-bc32-14ceee719df3": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "maxNumberOfCharacters": 70,
+            "imageRatio": "1.25",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        },
+        "ea09d06a-db4b-49a9-b0ca-2845387f62c3": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-testimonial-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "maxWidth": 1100,
+            "desktopFontSize": 32,
+            "mobileFontSize": 20,
+            "maxNumberOfCharacters": 100,
+            "quoteMarkIcon": "style-4",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "starsColor": "",
+            "quotesIconColor": "#eaeaea",
+            "arrows_iconColor": "#000000",
+            "arrows_hideOnMobile": true,
+            "pagination_active": true,
+            "pagination_selectedDotColor": "#000000",
+            "pagination_dotColor": "#000000",
+            "autoplay_active": true,
+            "autoplay_duration": 2,
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "130d5f17-528a-461a-bc32-14ceee719df3",
+        "ea09d06a-db4b-49a9-b0ca-2845387f62c3"
+      ],
+      "settings": {
+        "full_width": true
+      }
+    },
+    "247c09d5-a805-424a-91e9-f23b721b2d29": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17234989940976__247c09d5-a805-424a-91e9-f23b721b2d29-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Best seller today:",
+            "heading_size": "h3",
+            "heading_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989940976__247c09d5-a805-424a-91e9-f23b721b2d29-heading-1"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "41fa4499-975f-41c7-b78b-1dc53b3b924b": {
+      "type": "featured-product",
+      "blocks": {
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-vendor-sku-1": {
+          "type": "vendor-sku",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": true
+          }
+        },
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-title-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-price-1": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": true
+          }
+        },
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-divider-1": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "spacing": "mt-8 mb-8"
+          }
+        },
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-variant-picker-1": {
+          "type": "variant-picker",
+          "settings": {
+            "selector_style": "buttons",
+            "enable_dynamic_availability": true,
+            "show_backorder_text": true,
+            "enable_size_chart": true,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-buy-buttons-1": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_qty_selector": true,
+            "enable_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-divider-2": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "spacing": "mt-8 mb-8"
+          }
+        },
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-view-more-button-1": {
+          "type": "view-more-button",
+          "settings": {
+            "button_label": "Full details",
+            "text_align": "text-start"
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-vendor-sku-1",
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-title-1",
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-price-1",
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-divider-1",
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-variant-picker-1",
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-buy-buttons-1",
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-divider-2",
+        "template--17234989940976__41fa4499-975f-41c7-b78b-1dc53b3b924b-view-more-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".btn--primary {border: transparent; border-radius: 5px; background: #ff444f; transition: all 0.5s ease;}",
+        ".btn--primary:hover {border: transparent; background: #f00; transition: all 0.4s ease;}"
+      ],
+      "settings": {
+        "product": "black-model",
+        "media_ratio": "1",
+        "media_crop": "top",
+        "hover_zoom": "large",
+        "enable_video_looping": false,
+        "media_width": 50,
+        "color_scheme": "none",
+        "border_color": "rgba(0,0,0,0)",
+        "bg_color": "#f4f4f4"
+      }
+    },
+    "3d2b363d-039b-434b-a287-66d5d3474ed8": {
+      "type": "custom-product-day",
+      "settings": {
+      }
+    },
+    "5305d2c0-4016-4566-befd-e7de0486322f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17234989940976__5305d2c0-4016-4566-befd-e7de0486322f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "buy more for less",
+            "heading_size": "h3",
+            "heading_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989940976__5305d2c0-4016-4566-befd-e7de0486322f-heading-1"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "7aa5f160-8075-4d2a-82ed-55d71ca4c5e2": {
+      "type": "custom-promo-sale",
+      "settings": {
+        "card1_totalPrice": "71",
+        "card1_subPrice": "99",
+        "card1_promoText_1": "two pairs.",
+        "card1_promoText_2": "Any insoles.",
+        "card1_promoText_3": "great price!",
+        "card1_promoImage_1": "shopify:\/\/shop_images\/soles2_200_x_200_px.gif",
+        "card1_promoImage_2": "shopify:\/\/shop_images\/soles3_200_x_200_px.gif",
+        "card1_btnLink": "\/collections\/all",
+        "card2_totalPrice": "101",
+        "card2_subPrice": "98",
+        "card2_promoText_1": "Bundle of three.",
+        "card2_promoText_2": "Any insoles.",
+        "card2_promoText_3": "15% off!",
+        "card2_promoImage_1": "shopify:\/\/shop_images\/soles3_200_x_200_px.gif",
+        "card2_promoImage_2": "shopify:\/\/shop_images\/soles2_200_x_200_px.gif",
+        "card2_promoImage_3": "shopify:\/\/shop_images\/soles3_200_x_200_px.gif",
+        "card2_btnLink": "\/collections\/all"
+      }
+    },
+    "60748d00-7b0b-48ce-8e63-b3cbc93e50c7": {
+      "type": "custom-donations",
+      "settings": {
+        "donations_title": "WE DONATED",
+        "donations_number": "12,006",
+        "donations_numberText": "Insoles",
+        "donations_imageLeft": "shopify:\/\/shop_images\/4_c924817e-269c-437f-9d2b-86778042516c.png",
+        "donations_textLeft": "1,000 of which have been delivered to Los Angeles Children’s Hospital",
+        "donations_imageRight": "shopify:\/\/shop_images\/6_6419b686-bdb7-40f3-868b-1525ad764882.png",
+        "donations_textRight": "11,006 were sent to the Armed Forces of Ukraine",
+        "donations_btnText": "LEARN MORE",
+        "donations_btnLink": "collections\/all"
+      }
+    },
+    "4a2f7680-957f-4b94-9fce-ac45cad9a5db": {
+      "type": "recently-viewed",
+      "settings": {
+        "heading": "Recently reviewed",
+        "heading_align": "text-center",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "limit": 8
+      }
+    }
+  },
+  "order": [
+    "slideshow_zacADy",
+    "cf7a49ae-1711-4f56-955f-386545bce22d",
+    "67db3c95-d6e5-414d-8647-5767c400093f",
+    "a5d07b3e-a873-4eee-abd5-4001538168db",
+    "20f59457-4212-4d6e-ad88-3ea86bad4e52",
+    "208711dc-9b76-4d55-b1cd-0f3b533fefc4",
+    "23111f13-2106-417d-93b0-5b91f85cc82c",
+    "65a0f993-81d8-43fc-851e-49024b73e5f1",
+    "42814be8-75a0-4ca6-9e11-4b793202f2a4",
+    "2216310a-d2be-41f1-bdda-f9a924006972",
+    "271ea31b-cbf4-44dc-9006-70f1fd84e3e3",
+    "245a8a93-b8be-476e-96ae-b34d94d60c41",
+    "c506bb30-8906-412c-998f-cd396e880515",
+    "17047158042ade648c",
+    "247c09d5-a805-424a-91e9-f23b721b2d29",
+    "41fa4499-975f-41c7-b78b-1dc53b3b924b",
+    "3d2b363d-039b-434b-a287-66d5d3474ed8",
+    "5305d2c0-4016-4566-befd-e7de0486322f",
+    "7aa5f160-8075-4d2a-82ed-55d71ca4c5e2",
+    "60748d00-7b0b-48ce-8e63-b3cbc93e50c7",
+    "4a2f7680-957f-4b94-9fce-ac45cad9a5db"
+  ]
+}

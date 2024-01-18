@@ -1,0 +1,316 @@
+{
+  "sections": {
+    "bc550521-3c9c-43b4-986b-46bfd1fbdf76": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17234989842672__bc550521-3c9c-43b4-986b-46bfd1fbdf76-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "CHOOSE YOUR OWN EASYFEET",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989842672__bc550521-3c9c-43b4-986b-46bfd1fbdf76-heading-1"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_title": false,
+        "show_product_count": true,
+        "show_collection_description": true,
+        "text_align": "text-start",
+        "collection_image": "1.33",
+        "use_product_image": true,
+        "text_width": "standard",
+        "color_scheme": "2"
+      }
+    },
+    "d9bb8740-54a6-4eb6-a390-5bd6b000ad69": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19874198421846__d9bb8740-54a6-4eb6-a390-5bd6b000ad69-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "coperta-in-flanella"
+          }
+        },
+        "template--19874198421846__d9bb8740-54a6-4eb6-a390-5bd6b000ad69-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "foto-tende-arte"
+          }
+        },
+        "template--19874198421846__d9bb8740-54a6-4eb6-a390-5bd6b000ad69-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "foto-tende-mappe"
+          }
+        },
+        "template--19874198421846__d9bb8740-54a6-4eb6-a390-5bd6b000ad69-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "foto-tende-natura"
+          }
+        },
+        "edef48a3-7481-42e3-8f79-39fa22325cfe": {
+          "type": "collection",
+          "settings": {
+            "collection": "tende-a-pacchetto"
+          }
+        },
+        "cdf12024-2801-4cb7-ac6e-3f423306afd4": {
+          "type": "collection",
+          "settings": {
+            "collection": "foto-tende-animali"
+          }
+        }
+      },
+      "block_order": [
+        "template--19874198421846__d9bb8740-54a6-4eb6-a390-5bd6b000ad69-collection-1",
+        "template--19874198421846__d9bb8740-54a6-4eb6-a390-5bd6b000ad69-collection-2",
+        "template--19874198421846__d9bb8740-54a6-4eb6-a390-5bd6b000ad69-collection-3",
+        "template--19874198421846__d9bb8740-54a6-4eb6-a390-5bd6b000ad69-collection-4",
+        "edef48a3-7481-42e3-8f79-39fa22325cfe",
+        "cdf12024-2801-4cb7-ac6e-3f423306afd4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "COLLEZIONI",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "card_size": "small",
+        "use_product_image": false,
+        "circle_image": true
+      }
+    },
+    "collection-products": {
+      "type": "main-collection-products",
+      "settings": {
+        "products_per_page": 30,
+        "card_size_mobile": "small",
+        "card_size": "medium",
+        "show_layout_toggle": true,
+        "enable_filtering": true,
+        "filters_open_lg": true,
+        "stick_on_scroll": true,
+        "show_filter_counts": true,
+        "expand_filters": true,
+        "show_filter_deadends": true,
+        "max_filter_options": 20,
+        "enable_sorting": true,
+        "show_feat_sort_opt": true,
+        "sort_first": true
+      }
+    },
+    "e652fbfd-f233-4a96-becd-c101074d468a": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "a {color: #e9303d; text-decoration: underline;}",
+        "h1 {font-size: 45px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<h1 style=\"padding-bottom:20px; text-align: center;\">Not sure which one to choose? <a href=\"\/pages\/insole-finders\">Click to find out!<\/a>\n<\/h1>",
+        "section_height": "small",
+        "full_width": false,
+        "dividers": "border-top border-bottom",
+        "prevent_animation": true
+      }
+    },
+    "f8ac1bc5-0a24-4337-bbb3-8261ab696056": {
+      "type": "countdown-timer",
+      "blocks": {
+        "template--17234989842672__f8ac1bc5-0a24-4337-bbb3-8261ab696056-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "buy more for less",
+            "heading_size": "h2"
+          }
+        },
+        "template--17234989842672__f8ac1bc5-0a24-4337-bbb3-8261ab696056-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hurry up so you don't miss out on a great deal!<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "template--17234989842672__f8ac1bc5-0a24-4337-bbb3-8261ab696056-countdown-1": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "2024-01-30",
+            "end_time": "",
+            "end_text": "",
+            "enlarge_end_text": false,
+            "hide_on_end": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17234989842672__f8ac1bc5-0a24-4337-bbb3-8261ab696056-heading-1",
+        "template--17234989842672__f8ac1bc5-0a24-4337-bbb3-8261ab696056-text-1",
+        "template--17234989842672__f8ac1bc5-0a24-4337-bbb3-8261ab696056-countdown-1"
+      ],
+      "settings": {
+        "height_mode": "fixed",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": false,
+        "countdown_size": "24",
+        "use_custom_colors": false,
+        "count_color": "#ffffff",
+        "bg_color": "#000000",
+        "color_scheme": "3",
+        "full_width": true,
+        "tint_color": "#000000",
+        "tint_opacity": 20
+      }
+    },
+    "39de400a-977d-4752-9638-a34c96fd70c2": {
+      "type": "rich-text",
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "custom_promo_sale_AmK3zx": {
+      "type": "custom-promo-sale",
+      "settings": {
+        "card1_totalPrice": "71",
+        "card1_subPrice": "99",
+        "card1_promoText_1": "two pairs.",
+        "card1_promoText_2": "Any insoles.",
+        "card1_promoText_3": "great price!",
+        "card1_promoImage_1": "shopify:\/\/shop_images\/soles2_200_x_200_px.gif",
+        "card1_promoImage_2": "shopify:\/\/shop_images\/soles3_200_x_200_px.gif",
+        "card1_btnLink": "https:\/\/easyfeet.store\/products\/black-model",
+        "card2_totalPrice": "101",
+        "card2_subPrice": "98",
+        "card2_promoText_1": "Bundle of three.",
+        "card2_promoText_2": "Any insoles.",
+        "card2_promoText_3": "15% off!",
+        "card2_promoImage_1": "shopify:\/\/shop_images\/soles3_200_x_200_px.gif",
+        "card2_promoImage_2": "shopify:\/\/shop_images\/soles2_200_x_200_px.gif",
+        "card2_promoImage_3": "shopify:\/\/shop_images\/soles3_200_x_200_px.gif",
+        "card2_btnLink": "https:\/\/easyfeet.store\/products\/blue-model"
+      }
+    },
+    "e3fce4a5-a68e-4613-9467-839c01be2b14": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"block-discount0\">\n<div class=\"block-discount\">\n<div style=\"color: #E9303D\" class=\"block-discount-bage\"><span>SAVE<br> 10%<\/span><\/div>\n\n<h2 class=\"h2-discount\">two pairs. <span style=\"color: #E9303D;\">Any insoles.<\/span> great price!<\/h2>\n<div class=\"block-discount-l2\">\n<div class=\"block-discount-l2-col\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/arrow4.png?v=1670165182\" class=\"lazyloadt4sed img-disc-arrow\">\n<h4 class=\"disc-h4\">Choose your ideal<br> combination<\/h4>\n<\/div>\n<div class=\"block-discount-img2\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/soles2_200_x_200_px.gif?v=1670159722\" alt=\"black\" class=\"lazyload block-discount-img\">\n<span class=\"block-discount-math\">+<\/span>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/soles3_200_x_200_px.gif?v=1670159723\" alt=\"black\" class=\"lazyload block-discount-img\">\n<\/div>\n<span class=\"block-discount-math math-h\">=<\/span>\n\n<div class=\"\"><span class=\"block-discount-save\">$71<sup style=\"font-size:68px;\"><sup style=\"font-size:34px;\">.99<\/sup><\/sup><\/span><\/div>\n<\/div>\n\n<a class=\"t4s-btn t4s-btn-base t4s-btn-style-default t4s-btn-size-large t4s-btn-effect-fade btn-my btn-bundl d16-btn\" href=\"\/products\/black-model\">buy now<\/a>\n\n<div class=\"block-discount-bage1\"><span>SAVE<br> 10%<\/span><\/div>\n\n<\/div>\n\n<\/div>",
+        "section_height": "xsmall",
+        "full_width": true,
+        "dividers": "border-bottom",
+        "prevent_animation": true
+      }
+    },
+    "24929245-4980-4b79-9d48-bd1b9894dc4a": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"block-discount0\">\n<div class=\"block-discount\">\n<div style=\"color: #E9303D\"  class=\"block-discount-bage\"><span>SAVE<br> 15%<\/span><\/div>\n\n<h2 class=\"h2-discount\">Bundle of three. <span style=\"color: #E9303D;\">Any insoles.<\/span> 15% off!<\/h2>\n<div class=\"block-discount-l2-d15\">\n\n<div class=\"block-discount-img2-d15\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/soles2_200_x_200_px.gif?v=1670159722\" alt=\"black\" class=\"lazyload block-discount-img-d15\">\n<span class=\"block-discount-math\">+<\/span>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/soles3_200_x_200_px.gif?v=1670159723\" alt=\"black\" class=\"lazyload block-discount-img-d15\">\n<span class=\"block-discount-math\">+<\/span>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/soles2_200_x_200_px.gif?v=1670159722\" alt=\"black\" class=\"lazyload block-discount-img-d15\">\n<\/div>\n<span class=\"block-discount-math math-h\">=<\/span>\n\n<div class=\"\"><span class=\"block-discount-save\">$101<sup style=\"font-size:68px;\"><sup style=\"font-size:34px;\">.98<\/sup><\/sup><\/span><\/div>\n<\/div>\n\n<div class=\"block-discount-col-d15\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/arrow4.png?v=1670165182\" class=\"lazyloadt4sed img-disc-arrow\">\n<h4 class=\"disc-h4\">SUPER DEAL<\/h4>\n<\/div>\n\n<a class=\"t4s-btn t4s-btn-base t4s-btn-style-default t4s-btn-size-large t4s-btn-effect-fade btn-my d15-btn btn-bundl\" href=\"\/products\/black-model\">buy now<\/a>\n\n<div class=\"block-discount-bage1\"><span>SAVE<br> 15%<\/span><\/div>\n<\/div>\n\n<\/div>",
+        "section_height": "xsmall",
+        "full_width": true,
+        "dividers": "none",
+        "prevent_animation": true
+      }
+    },
+    "d10c3b2f-57e6-4014-add6-2ff1b4179986": {
+      "type": "promo-strip",
+      "blocks": {
+        "template--19874198421846__d10c3b2f-57e6-4014-add6-2ff1b4179986-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Promotion",
+            "heading_size": "h4",
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "template--19874198421846__d10c3b2f-57e6-4014-add6-2ff1b4179986-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share something special with your customers.<\/p>",
+            "enlarge_text": true,
+            "show_on_mobile": true,
+            "show_on_desktop": true
+          }
+        },
+        "template--19874198421846__d10c3b2f-57e6-4014-add6-2ff1b4179986-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button",
+            "button_link": "",
+            "button_style": "btn btn--secondary"
+          }
+        },
+        "da39cc1e-d9da-43f0-8b02-7e4b98a1e083": {
+          "type": "discount",
+          "settings": {
+            "discount_code": "DISCOUNTCODE"
+          }
+        }
+      },
+      "block_order": [
+        "template--19874198421846__d10c3b2f-57e6-4014-add6-2ff1b4179986-heading-1",
+        "template--19874198421846__d10c3b2f-57e6-4014-add6-2ff1b4179986-text-1",
+        "template--19874198421846__d10c3b2f-57e6-4014-add6-2ff1b4179986-button-1",
+        "da39cc1e-d9da-43f0-8b02-7e4b98a1e083"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "default",
+        "color_scheme": "1",
+        "full_width": true,
+        "dividers": "border-top",
+        "prevent_animation": false
+      }
+    },
+    "4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7": {
+      "type": "recently-viewed",
+      "settings": {
+        "heading": "Recently reviewed",
+        "heading_align": "text-center",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "limit": 8
+      }
+    }
+  },
+  "order": [
+    "bc550521-3c9c-43b4-986b-46bfd1fbdf76",
+    "collection-banner",
+    "d9bb8740-54a6-4eb6-a390-5bd6b000ad69",
+    "collection-products",
+    "e652fbfd-f233-4a96-becd-c101074d468a",
+    "f8ac1bc5-0a24-4337-bbb3-8261ab696056",
+    "39de400a-977d-4752-9638-a34c96fd70c2",
+    "custom_promo_sale_AmK3zx",
+    "e3fce4a5-a68e-4613-9467-839c01be2b14",
+    "24929245-4980-4b79-9d48-bd1b9894dc4a",
+    "d10c3b2f-57e6-4014-add6-2ff1b4179986",
+    "4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7"
+  ]
+}

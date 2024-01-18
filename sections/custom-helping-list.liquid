@@ -1,0 +1,170 @@
+{{ 'main.css' | asset_url | stylesheet_tag }}
+{{ 'custom-style.css' | asset_url | stylesheet_tag }}
+
+<div class="container">
+  <div class="custom-helping">
+    <div class="custom-helping__text">
+      <h2>{{ section.settings.custom_heading }}</h2>
+    </div>
+    <div class="custom-helping__img">
+      <ul>
+        <li>
+          <a href="{{ section.settings.image_link_1 }}">
+            <img width="150" height="150" src="{{ section.settings.image_src_1 | img_url: 'master' }}" loading="lazy" >
+          </a>
+        </li>
+        <li>
+          <a href="{{ section.settings.image_link_2 }}">
+            <img width="150" height="150" src="{{ section.settings.image_src_2 | img_url: 'master' }}" loading="lazy" >
+          </a>
+        </li>
+        <li>
+          <a href="{{ section.settings.image_link_3 }}">
+            <img width="150" height="150" src="{{ section.settings.image_src_3 | img_url: 'master' }}" loading="lazy" >
+          </a>
+        </li>
+        <li>
+          <a href="{{ section.settings.image_link_4 }}">
+            <img width="150" height="150" src="{{ section.settings.image_src_4 | img_url: 'master' }}" loading="lazy" >
+          </a>
+        </li>
+        <li>
+          <a href="{{ section.settings.image_link_5 }}">
+            <img width="150" height="150" src="{{ section.settings.image_src_5 | img_url: 'master' }}" loading="lazy" >
+          </a>
+        </li>
+        <li>
+          <a href="{{ section.settings.image_link_6 }}">
+            <img width="150" height="150" src="{{ section.settings.image_src_6 | img_url: 'master' }}" loading="lazy" >
+          </a>
+        </li>
+        <li>
+          <a href="{{ section.settings.image_link_7 }}">
+            <img width="150" height="150" src="{{ section.settings.image_src_7 | img_url: 'master' }}" loading="lazy" >
+          </a>
+        </li>
+        <li>
+          <a href="{{ section.settings.image_link_8 }}">
+            <img width="150" height="150" src="{{ section.settings.image_src_8 | img_url: 'master' }}" loading="lazy" >
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Helping List",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Description of the block",
+      "id": "custom_heading",
+      "default": "Replace this text in the settings"
+    },
+    {
+      "type": "text",
+      "label": "Link 1",
+      "id": "image_link_1",
+      "default": "https://example.com"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image 1",
+      "id": "image_src_1",
+      "info": "Select image 1"
+    },
+    {
+      "type": "text",
+      "label": "Link 2",
+      "id": "image_link_2",
+      "default": "https://example.com"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image 2",
+      "id": "image_src_2",
+      "info": "Select image 2"
+    },
+    {
+      "type": "text",
+      "label": "Link 3",
+      "id": "image_link_3",
+      "default": "https://example.com"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image 3",
+      "id": "image_src_3",
+      "info": "Select image 3"
+    },
+    {
+      "type": "text",
+      "label": "Link 4",
+      "id": "image_link_4",
+      "default": "https://example.com"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image 4",
+      "id": "image_src_4",
+      "info": "Select image 4"
+    },
+    {
+      "type": "text",
+      "label": "Link 5",
+      "id": "image_link_5",
+      "default": "https://example.com"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image 5",
+      "id": "image_src_5",
+      "info": "Select image 5"
+    },
+    {
+      "type": "text",
+      "label": "Link 6",
+      "id": "image_link_6",
+      "default": "https://example.com"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image 6",
+      "id": "image_src_6",
+      "info": "Select image 6"
+    },
+    {
+      "type": "text",
+      "label": "Link 7",
+      "id": "image_link_7",
+      "default": "https://example.com"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image 7",
+      "id": "image_src_7",
+      "info": "Select image 7"
+    },
+    {
+      "type": "text",
+      "label": "Link 8",
+      "id": "image_link_8",
+      "default": "https://example.com"
+    },
+    {
+      "type": "image_picker",
+      "label": "Image 8",
+      "id": "image_src_8",
+      "info": "Select image 8"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Helping List",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

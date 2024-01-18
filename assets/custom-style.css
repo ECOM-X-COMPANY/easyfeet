@@ -1,0 +1,202 @@
+.custom-helping{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.custom-helping__text{
+    width: 423px;
+}
+.custom-helping__text h2{
+    font-size: 29px;
+    text-transform: uppercase;
+}
+.custom-helping__img ul{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.custom-helping__img li{
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.custom-helping__img li:hover{
+    transition: all .3s ease;
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 430px) {
+    .custom-helping{
+        width: 390px;
+        flex-direction: column;
+    }
+    .custom-helping__text{
+        width: 300px;
+        padding: 0 9px;
+    }
+    .custom-helping h2{
+        font-size: 24px;
+
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 428px) {
+    .custom-helping{
+        width: 350px;
+        flex-direction: column;
+    }
+    .custom-helping__text{
+        width: 300px;
+        padding: 0 9px;
+    }
+    .custom-helping h2{
+        font-size: 24px;
+
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .custom-helping{
+        width: 350px;
+        flex-direction: column;
+    }
+    .custom-helping__text{
+        width: 300px;
+        padding: 0 9px;
+    }
+    .custom-helping h2{
+        font-size: 24px;
+
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 412px) {
+    .custom-helping{
+        width: 350px;
+        flex-direction: column;
+    }
+    .custom-helping__text{
+        width: 300px;
+        padding: 0 9px;
+    }
+    .custom-helping h2{
+        font-size: 24px;
+
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .custom-helping{
+        width: 350px;
+        flex-direction: column;
+    }
+    .custom-helping__text{
+        width: 300px;
+        padding: 0 9px;
+    }
+    .custom-helping h2{
+        font-size: 24px;
+
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 393px) {
+    .custom-helping{
+        width: 350px;
+        flex-direction: column;
+    }
+    .custom-helping__text{
+        width: 300px;
+        padding: 0 9px;
+    }
+    .custom-helping h2{
+        font-size: 20px;
+
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .custom-helping{
+        width: 350px;
+        flex-direction: column;
+    }
+    .custom-helping__text{
+        width: 300px;
+        padding: 0 9px;
+    }
+    .custom-helping h2{
+        font-size: 20px;
+
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .custom-helping{
+        width: 350px;
+        flex-direction: column;
+    }
+    .custom-helping__text{
+        width: 300px;
+        padding: 0 9px;
+    }
+    .custom-helping h2{
+        font-size: 20px;
+
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 365px) {
+    .custom-helping{
+        width: 320px;
+        flex-direction: column;
+    }
+    .custom-helping__text{
+        width: 300px;
+        padding: 0 9px;
+    }
+    .custom-helping h2{
+        font-size: 20px;
+
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .custom-helping{
+        width: 300px;
+        flex-direction: column;
+    }
+    .custom-helping__text{
+        width: 300px;
+        padding: 0 9px;
+    }
+    .custom-helping h2{
+        font-size: 20px;
+
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 320px) {
+.custom-helping{
+    width: 300px;
+    flex-direction: column;
+}
+    .custom-helping__text{
+        width: 300px;
+        padding: 0 9px;
+    }
+    .custom-helping h2{
+        font-size: 20px;
+
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+}

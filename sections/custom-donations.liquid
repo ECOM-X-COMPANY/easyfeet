@@ -1,0 +1,141 @@
+{{ 'main.css' | asset_url | stylesheet_tag }}
+{{ 'custom-donations.css' | asset_url | stylesheet_tag }}
+
+<div class="donations">
+  <div class="container">
+    <div class="donations-box">
+  <div class="donations-box__content">
+    <p>{{ section.settings.donations_title }}</p>
+    <h2><span id="donations-box__number">{{ section.settings.donations_number }}</span> {{ section.settings.donations_numberText }} </h2>
+  </div>
+      <div class="donations-box__image">
+        <div class="donations-box__image--left">
+          <img width="250" height="250"  src="{{ section.settings.donations_imageLeft | img_url: 'master' }}" alt="donations-image">
+          <p>{{ section.settings.donations_textLeft }}</p>
+        </div>
+        <div class="donations-box__image--right">
+          <img width="250" height="250" src="{{ section.settings.donations_imageRight | img_url: 'master' }}" alt="donations-image">
+          <p>{{ section.settings.donations_textRight }}</p>
+        </div>
+      </div>
+      <div class="donations-box__link">
+        <a href="{{ section.settings.donations_btnLink }}">{{ section.settings.donations_btnText }} </a>
+        <img width="30" height="30" src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/arrow-icon.png?v=1704895441" alt="arrow-icon">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Custom Donations Section",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Donations Title",
+      "id": "donations_title",
+      "default": "Change the title name"
+    },
+    {
+      "type": "text",
+      "label": "Donations Number",
+      "id": "donations_number",
+      "default": "Change the number of donations"
+    },
+    {
+      "type": "text",
+      "label": "Donations Number Text",
+      "id": "donations_numberText",
+      "default": "Change the text to the amount of donations"
+    },
+    {
+      "type": "image_picker",
+      "label": "Donations Image Left",
+      "id": "donations_imageLeft",
+      "info": "Select image Left"
+    },
+    {
+      "type": "text",
+      "label": "Donations Image TextL",
+      "id": "donations_textLeft",
+      "default": "Fill in the text for the picture"
+    },
+    {
+      "type": "image_picker",
+      "label": "Donations Image Right",
+      "id": "donations_imageRight",
+      "info": "Select image Right"
+    },
+    {
+      "type": "text",
+      "label": "Donations Image TextR",
+      "id": "donations_textRight",
+      "default": "Fill in the text for the picture"
+    },
+    {
+      "type": "text",
+      "label": "Donations Btn Text",
+      "id": "donations_btnText",
+      "info": "Enter the name of the button"
+    },
+    {
+      "type": "text",
+      "label": "Donations Btn Link",
+      "id": "donations_btnLink",
+      "default": "https://example.com"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Donations Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const donationsNumber = document.getElementById('donations-box__number');
+    const targetNumber = parseInt(donationsNumber.textContent.replace(/,/g, ''));
+    const duration = 2500;
+    let currentNumber = 0;
+    let scrollDirection = 1;
+
+    function numberWithCommas(x) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    function startAnimation() {
+      const interval = 15;
+      const step = (targetNumber / duration) * interval;
+      const animationInterval = setInterval(() => {
+        currentNumber += step * scrollDirection;
+        donationsNumber.textContent = numberWithCommas(Math.round(Math.abs(currentNumber)));
+
+        if ((scrollDirection === 1 && currentNumber >= targetNumber) ||
+                (scrollDirection === -1 && currentNumber <= 0)) {
+          clearInterval(animationInterval);
+          donationsNumber.textContent = numberWithCommas(targetNumber);
+        }
+      }, interval);
+    }
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const currentScroll = window.scrollY;
+          scrollDirection = currentScroll > previousScroll ? 1 : -1;
+          previousScroll = currentScroll;
+          startAnimation();
+        }
+      });
+    });
+
+    let previousScroll = window.scrollY;
+    observer.observe(donationsNumber);
+
+    startAnimation();
+  });
+</script>

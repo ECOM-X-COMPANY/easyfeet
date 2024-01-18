@@ -1,0 +1,211 @@
+{{ 'custom-description.css' | asset_url | stylesheet_tag }}
+{{ 'main.css' | asset_url | stylesheet_tag }}
+
+<div class="custome-description">
+    <div class="custome-description__box container">
+        <div class="custome-description__content">
+            <div class="custome-description__tab">
+                <ul>
+                    <li>
+                        <button
+                                id="description-info"
+                                class="tab-button"
+                                data-target="desc-info">
+                            Description
+                        </button>
+                    </li>
+                    <li>
+                        <button
+                                id="special-info"
+                                class="tab-button"
+                                data-target="special-info-content">
+                            Why EASYFEET?
+                        </button>
+                    </li>
+                    <li>
+                        <button
+                                id="use-info"
+                                class="tab-button"
+                                data-target="use-info-content">
+                            How to Use?
+                        </button>
+                    </li>
+                    <li>
+                        <button
+                                id="shipping-info"
+                                class="tab-button"
+                                data-target="shipping-info-content">
+                            Shipping and return
+
+                        </button>
+                    </li>
+                    <li>
+                        <button
+                                id="reviews-info"
+                                class="tab-button"
+                                data-target="reviews-info-content">
+                            Reviews +1200
+                        </button>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="custome-description__tab--line"></div>
+            <div class="custome-description__content--info">
+                <div class="desc-info" id="desc-info">
+                    {% if product %}
+                        {% assign paragraphs = product.description | split: '</p>' %}
+                        {% if paragraphs.size > 0 %}
+                            {% assign first_paragraph = paragraphs[0] | append: '</p>' %}
+                            {% if first_paragraph contains '<h2>' %}
+                                <div class="first-h2">
+                                    {{ first_paragraph | split: '<h2>' | last | prepend: '<h2>' }}
+                                </div>
+                            {% else %}
+                                {{ first_paragraph }}
+                            {% endif %}
+
+                            {% if paragraphs.size > 1 %}
+                                {% assign second_paragraph = paragraphs[1] | append: '</p>' %}
+                                {% if second_paragraph contains '<h2>' %}
+                                    <div class="second-h2">
+                                        {{ second_paragraph | split: '<h2>' | last | prepend: '<h2>' }}
+                                    </div>
+                                {% else %}
+                                    {{ second_paragraph }}
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% else %}
+                    {% endif %}
+                </div>
+                <div class="special-info-content" id="special-info-content">
+                    <div id="video-container" style="display: flex;">
+                        <img
+                                src="https://cdn.shopify.com/s/files/1/0612/1177/1120/products/Image7.webp?v=1694010498"
+                                alt="Video Preview Image"
+                                width="640"
+                                height="360"
+                                id="video-preview"
+                                loading="lazy">
+
+                        <div class="why-text" id="why-text">
+                            <div class="why-text__title">
+                                <h2>Why EASYFEET?</h2>
+                            </div>
+                            <div class="why-text__desc">
+                                <p>We are EASYFEET, a healthcare company that provides effective orthotic solutions to foot-related and common body alignment problems. We have helped hundreds of thousands of people enjoy their lives again, free of pain and doing the things they love without restriction. </p>
+                                <span>
+                  ✔️ Those who like active life.
+                </span>
+                                <span>✔️ Those who  like sport.
+                </span>
+                                <span>✔️ Those who like hiking.
+                </span>
+                                <span>
+                  ✔️ Those who comfort.
+                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="use-info-content" id="use-info-content">
+
+                    {% assign page_handle = 'how-to-use' %}
+                    {% assign page_content = pages[page_handle].content %}
+
+                    <div class="custom-page-content">
+                        {{ page_content }}
+                    </div>
+                </div>
+                <div class="reviews-info-content" id="reviews-info-content">
+                    <div class="lt-block-reviews">
+                        <ryviu-widget
+                                handle="{{ product.handle }}"
+                                product_id="{{ product.id }}"
+                                title_product="{{ product.title }}"
+                                image_product="{{ product.featured_image.src | img_url: '100x' }}"></ryviu-widget>
+                    </div>
+                </div>
+                <div class="shipping-info-content" id="shipping-info-content">
+                    <meta charset="utf-8">
+                    <ol data-mce-fragment="1">
+                        <li data-mce-fragment="1">
+                            <p data-mce-fragment="1"><strong data-mce-fragment="1">Standard Shipping Times</strong></p>
+                            <ul data-mce-fragment="1">
+                                <li data-mce-fragment="1">USA 2 - 7 business days</li>
+                            </ul>
+                        </li>
+                        <li data-mce-fragment="1">
+                            <p data-mce-fragment="1"><strong data-mce-fragment="1">Processing Times</strong></p>
+                            <ul data-mce-fragment="1">
+                                <li data-mce-fragment="1">It can take 1-3 business days to process after placing the order before shipping out. We do not ship on weekends.
+                                </li>
+                            </ul>
+                        </li>
+                        <li data-mce-fragment="1">
+                            <p data-mce-fragment="1"><strong data-mce-fragment="1">Where can I find my tracking number?</strong></p>
+                            <ul data-mce-fragment="1">
+                                <li data-mce-fragment="1">When your items are shipped out, you should receive an automatic notification from the system via email providing you with a tracking number.
+                                </li>
+                                <li data-mce-fragment="1">If you haven't received one or if the tracking number doesn't work, no worries. Contact us and we'll solve it!
+                                </li>
+                                <li data-mce-fragment="1">If you haven't received one or if the tracking number doesn't work, no worries. Contact us and we'll solve it!</li>
+                            </ul>
+                        </li>
+                        <li data-mce-fragment="1">
+                            <ul data-mce-fragment="1">
+                                <li data-mce-fragment="1"><strong data-mce-fragment="1">Items can be returned within 90 calendar days of receipt.</strong></li>
+                                <li data-mce-fragment="1">Refunds will be issued to the original payment method or as
+                                    merchandise credit.
+                                </li>
+                                <li data-mce-fragment="1">Items must be returned in their original condition.</li>
+                                <li data-mce-fragment="1">Stony covers the cost of re-shipping for exchanges (up to one
+                                    exchange per order).
+                                </li>
+                                <li data-mce-fragment="1">Exchanges and returns are not accepted in-store; customers
+                                    must request a return through their account.
+                                </li>
+                            </ul>
+                        </li>
+                        <li data-mce-fragment="1">
+                            <p data-mce-fragment="1"><strong data-mce-fragment="1">Return or Exchange (USA, Canada, and
+                                    Switzerland):</strong></p>
+                            <ul data-mce-fragment="1">
+                                <li data-mce-fragment="1">Customers outside of Europe should email <a
+                                            href="mailto:info@stony.com" data-mce-fragment="1"
+                                            data-mce-href="mailto:info@stony.com" target="_new">info@stony.com</a> to
+                                    process a refund or exchange.
+                                </li>
+                                <li data-mce-fragment="1">The return delivery cost is borne by the purchaser, and Stony
+                                    may provide a return label for a refund (the label cost will be deducted from the
+                                    refund).
+                                </li>
+                                <li data-mce-fragment="1">For exchanges, the return cost is borne by the purchaser, but
+                                    Stony covers the cost of re-shipping for one exchange per order.
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Description",
+  "settings": [
+  ],
+  "presets": [
+    {
+      "name": "Custom Description",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<script src="{{ 'custom-description.js' | asset_url }}" defer="defer"></script>

@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": false,
+        "heading_align": "text-center"
+      }
+    },
+    "237e20cd-a91c-4b8b-95ed-ca59946c7859": {
+      "type": "recently-viewed",
+      "settings": {
+        "heading": "Нещодавно переглянуті",
+        "heading_align": "text-start",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "limit": 8
+      }
+    }
+  },
+  "order": [
+    "main",
+    "237e20cd-a91c-4b8b-95ed-ca59946c7859"
+  ]
+}
