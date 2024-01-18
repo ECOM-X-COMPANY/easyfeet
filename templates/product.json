@@ -211,6 +211,50 @@
           "type": "shopify:\/\/apps\/fast-bundle\/blocks\/fbt_position\/9e87fbe2-9041-4c23-acf5-322413994cef",
           "settings": {
           }
+        },
+        "superspeed_googles_page_speed_ss_content_VpdaTK": {
+          "type": "shopify:\/\/apps\/superspeed-googles-page-speed\/blocks\/ss-content\/ea1b2c2c-4644-44b9-b10b-fdb914884a8c",
+          "disabled": true,
+          "settings": {
+            "above_the_fold": "lazy",
+            "t": "",
+            "html": "",
+            "tc": "#fff",
+            "b1_label": "",
+            "b1": "",
+            "b1_color": "ss:btn1",
+            "b2_label": "",
+            "b2": "",
+            "b2_color": "ss:btn2",
+            "fill_bg": false,
+            "fill_content": true,
+            "ta": "md-ss:ss:text-center",
+            "sa": "md-ss:ss:items-center md-ss:ss:justify-center",
+            "fill_bg_mob": false,
+            "fill_content_mob": false,
+            "ta_mob": "ss:text-center",
+            "sa_mob": "ss:items-center ss:justify-center",
+            "overlay": true,
+            "tx": "\/*\n--h: auto;\n--min-h: auto;\n--max-h: auto;\n--w: 100%;\n--max-w: 1100px;\n--mar: 0px;\n--mar-mob: 0px;\n--pad: 0px;\n--pad-mob: 0px;\n--max-image-width: 100%;\n--ar: 1\n--text-balance: balance;\n--img-br: 0px;\n--ss-overlay: #000;\n--min-h-mob: auto;\n*\/",
+            "ex": ""
+          }
+        },
+        "shop_quiz_product_recommender_inline_quiz_RQbEcU": {
+          "type": "shopify:\/\/apps\/shop-quiz-product-recommender\/blocks\/inline-quiz\/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
+          "disabled": true,
+          "settings": {
+            "quiz_id": "",
+            "quiz_height": 600,
+            "quiz_autoscroll": true,
+            "quiz_fixed_height": false
+          }
+        },
+        "richtext_GfVWJY": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about this product with your customers.{{ product.metafields.custom.comfort_daily_number_of_stepss | metafield_tag }}{{ product.metafields.ecomposer.countdown_from | metafield_tag }}<\/p>"
+          }
         }
       },
       "block_order": [
@@ -218,7 +262,10 @@
         "96fe4567-c67c-4ba9-a0e9-9fde95d0645c",
         "0cf86049-d511-4c48-99ba-93bf67f86930",
         "payment-methods",
-        "fast_bundle_fbt_position_FAfUYP"
+        "fast_bundle_fbt_position_FAfUYP",
+        "superspeed_googles_page_speed_ss_content_VpdaTK",
+        "shop_quiz_product_recommender_inline_quiz_RQbEcU",
+        "richtext_GfVWJY"
       ],
       "settings": {
       }
