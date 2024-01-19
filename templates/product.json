@@ -279,7 +279,7 @@
         ".h4 {text-align: left !important;}",
         ".large-text {margin: 0 !important;}",
         ".large-text p {width: 600px !important; text-align: left !important;}",
-        ".large-text h3 {min-width: 600px !important;}"
+        ".rte h5 {min-width: 600px !important; text-align: left !important;}"
       ],
       "settings": {
       }
