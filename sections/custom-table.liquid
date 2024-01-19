@@ -6,9 +6,14 @@
         <div class="custom-table__inner">
             <div class="custom-table__chart">
                 <ul>
-                    <li class="custom-table__chart--desc">
-                        <p>SLS (Sodium Lauryl Sulfate) free</p>
-                        <p>PEG (Polyethylene glycol) free</p>
+                    <li class="custom-table__chart--desc" id="productTableInfo">
+                        {% if product.metafields.custom.product_table_1 %}
+                            <p>{{ product.metafields.custom.product_table_1 }}</p>
+                        {% endif %}
+                        {% if product.metafields.custom.product_table_2 %}
+                            <p>{{ product.metafields.custom.product_table_2 }}</p>
+                        {% endif %}
+
                         <p>Sodium fluoride free</p>
                         <p>Poloxamer free</p>
                         <p>Titanium dioxide free</p>
