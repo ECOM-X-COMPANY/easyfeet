@@ -275,6 +275,10 @@
         "shop_quiz_product_recommender_inline_quiz_RQbEcU",
         "richtext_GfVWJY"
       ],
+      "custom_css": [
+        ".h4 {text-align: left;}",
+        ".large-text{margin: 0;}"
+      ],
       "settings": {
       }
     },
