@@ -276,7 +276,7 @@
         "richtext_GfVWJY"
       ],
       "custom_css": [
-        ".h4 {text-align: left;}",
+        ".h4 {text-align: left !important;}",
         ".large-text {margin: 0 !important;}",
         ".large-text h3 {min-width: 600px !important;}"
       ],
