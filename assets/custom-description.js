@@ -33,14 +33,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
+
 //
-// document.getElementById('video-preview').addEventListener('click', function () {
-//     var videoPreview = document.getElementById('video-preview');
-//     var videoPlayer = document.getElementById('video-player');
-//
-//     videoPreview.style.display = 'none';
-//
-//     videoPlayer.style.display = 'block';
-//
-//     videoPlayer.play();
-// });
+var looxApp = document.getElementById('loox-app');
+var targetBlock = document.getElementById('your-target-block');
+
+// Перевіряємо, чи знайдені обидва елементи
+if (looxApp && targetBlock) {
+    // Копіюємо вміст looxApp в targetBlock
+    targetBlock.innerHTML = looxApp.innerHTML;
+}
