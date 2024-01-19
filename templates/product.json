@@ -160,7 +160,7 @@
           "type": "highlight-text",
           "settings": {
             "title": "Service customer statistics",
-            "text": "<p>This data provides information on the number of customers using the services and reflects the overall level of activity of the company in servicing its customer base on a daily, weekly, monthly, and annual basis.<\/p><h1>🔘 <strong>100<\/strong> Сlients we serve daily<\/h1><h1>🔘 <strong>500<\/strong> Сustomers per week<\/h1><h1><strong>🔘 1500 <\/strong>Сustomers per month<\/h1><h1>🔘<strong> 40,000 <\/strong>Сustomers annually<\/h1>"
+            "text": "<p>This data provides information on the number of customers using the services and reflects the overall level of activity of the company in servicing its customer base on a daily, weekly, monthly, and annual basis.<\/p><h3>🔘 <strong>100<\/strong> Сlients we serve daily<\/h3><h3>🔘 <strong>500<\/strong> Сustomers per week<\/h3><h3><strong>🔘 1500 <\/strong>Сustomers per month<\/h3><h3>🔘<strong> 40,000 <\/strong>Сustomers annually<\/h3>"
           }
         },
         "tabs": {
