@@ -160,7 +160,7 @@
           "type": "highlight-text",
           "settings": {
             "title": "Service customer statistics",
-            "text": "<h6>🔘 <strong>100<\/strong> Сlients we serve daily<\/h6><h6>🔘 <strong>100<\/strong> Сlients we serve daily<\/h6><h6>🔘 <strong>100<\/strong> Сlients we serve daily<\/h6>"
+            "text": "<h6>🔘 <strong>100<\/strong> <strong>Сlients we serve daily<\/strong><\/h6><h6>🔘 <strong>500<\/strong> <strong>Сustomers per week<\/strong><\/h6><h6><strong>🔘 1500 Сustomers per month<\/strong><\/h6><p>🔘<strong>40,000 Сustomers annually<\/strong><\/p>"
           }
         },
         "tabs": {
