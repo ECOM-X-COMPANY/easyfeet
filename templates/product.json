@@ -277,7 +277,8 @@
       ],
       "custom_css": [
         ".h4 {text-align: left;}",
-        ".large-text{margin: 0;}"
+        ".large-text {margin: 0 !important;}",
+        ".large-text h3 {min-width: 600px !important;}"
       ],
       "settings": {
       }
