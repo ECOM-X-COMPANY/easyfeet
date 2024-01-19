@@ -156,6 +156,13 @@
     "details": {
       "type": "product-details",
       "blocks": {
+        "highlight_text_V9EzxJ": {
+          "type": "highlight-text",
+          "settings": {
+            "title": "Service customer statistics",
+            "text": "<h6>🔘 <strong>100<\/strong> Сlients we serve daily<\/h6><h6>🔘 <strong>100<\/strong> Сlients we serve daily<\/h6><h6>🔘 <strong>100<\/strong> Сlients we serve daily<\/h6>"
+          }
+        },
         "tabs": {
           "type": "tabs",
           "disabled": true,
@@ -219,7 +226,7 @@
             "above_the_fold": "lazy",
             "t": "",
             "html": "",
-            "tc": "#fff",
+            "tc": "#ffffff",
             "b1_label": "",
             "b1": "",
             "b1_color": "ss:btn1",
@@ -258,6 +265,7 @@
         }
       },
       "block_order": [
+        "highlight_text_V9EzxJ",
         "tabs",
         "96fe4567-c67c-4ba9-a0e9-9fde95d0645c",
         "0cf86049-d511-4c48-99ba-93bf67f86930",
