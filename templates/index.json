@@ -1042,6 +1042,9 @@
     },
     "4a2f7680-957f-4b94-9fce-ac45cad9a5db": {
       "type": "recently-viewed",
+      "custom_css": [
+        ".card__vendor{display: none;}"
+      ],
       "settings": {
         "heading": "Recently reviewed",
         "heading_align": "text-center",
