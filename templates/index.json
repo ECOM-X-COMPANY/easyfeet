@@ -710,7 +710,7 @@
       "custom_css": [
         ".btn--primary {border-radius: 5px; background: #ff444f; color: #fff; border: transparent; transition: all 0.5s ease;}",
         ".btn--primary:hover {background: #f00; transition: all 0.3s ease;}",
-        ".mb-4 {font-size: 12px; font-weight: 900;}"
+        ".mb-4 {font-size: 24px; font-weight: 900;}"
       ],
       "settings": {
         "heading": "FIND YOUR EASYFEET",
