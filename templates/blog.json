@@ -3,6 +3,26 @@
     "main": {
       "type": "main-blog",
       "settings": {
+        "show_blog_title": true,
+        "description": "",
+        "show_share_links": true,
+        "text_align": "text-start",
+        "posts_per_page": 13,
+        "three_columns": true,
+        "show_tag_filter": true,
+        "show_featured_image": true,
+        "image_ratio": "tallest",
+        "show_tags": true,
+        "show_excerpt": true,
+        "show_author": true,
+        "show_date": true,
+        "show_button": false,
+        "button_style": "btn btn--secondary",
+        "show_featured_post": true,
+        "show_featured_excerpt": true,
+        "show_featured_button": true,
+        "color_scheme": "1",
+        "featured_button_style": "btn btn--secondary"
       }
     }
   },
