@@ -9,7 +9,7 @@
         "text_align": "text-start",
         "posts_per_page": 13,
         "three_columns": true,
-        "show_tag_filter": true,
+        "show_tag_filter": false,
         "show_featured_image": true,
         "image_ratio": "shortest",
         "show_tags": true,
