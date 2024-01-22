@@ -41,6 +41,7 @@
         "icons-with-text-2",
         "icons-with-text-3"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_align": "text-start",

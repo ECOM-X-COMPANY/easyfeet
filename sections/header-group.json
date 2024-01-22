@@ -75,8 +75,9 @@
         "sections--16190209392807__678da1c6-4903-4a27-9ddc-5c74ce927fd8-item-1": {
           "type": "item",
           "settings": {
-            "icon": "credit_card",
-            "heading": "Payment upon receipt",
+            "icon": "dryer",
+            "custom_icon": "shopify:\/\/shop_images\/free_shipping.svg",
+            "heading": "Free Shipping",
             "text": "",
             "link": ""
           }
@@ -85,7 +86,8 @@
           "type": "item",
           "settings": {
             "icon": "price_tag",
-            "heading": "Quality assurance",
+            "custom_icon": "shopify:\/\/shop_images\/guarante.svg",
+            "heading": "1 Year Warranty",
             "text": "",
             "link": ""
           }
@@ -94,16 +96,8 @@
           "type": "item",
           "settings": {
             "icon": "return",
-            "heading": "Exchange and return",
-            "text": "",
-            "link": ""
-          }
-        },
-        "sections--16190209392807__678da1c6-4903-4a27-9ddc-5c74ce927fd8-item-4": {
-          "type": "item",
-          "settings": {
-            "icon": "truck",
-            "heading": "Fast delivery",
+            "custom_icon": "shopify:\/\/shop_images\/dollar.svg",
+            "heading": "90 Day Full Refund",
             "text": "",
             "link": ""
           }
@@ -112,10 +106,8 @@
       "block_order": [
         "sections--16190209392807__678da1c6-4903-4a27-9ddc-5c74ce927fd8-item-1",
         "sections--16190209392807__678da1c6-4903-4a27-9ddc-5c74ce927fd8-item-2",
-        "sections--16190209392807__678da1c6-4903-4a27-9ddc-5c74ce927fd8-item-3",
-        "sections--16190209392807__678da1c6-4903-4a27-9ddc-5c74ce927fd8-item-4"
+        "sections--16190209392807__678da1c6-4903-4a27-9ddc-5c74ce927fd8-item-3"
       ],
-      "disabled": true,
       "custom_css": [
         "svg {width: 24px; height: 24px;}"
       ],
@@ -127,7 +119,7 @@
         "text_type_scale": "extra_small",
         "icon_position": "beside",
         "mobile_stack": false,
-        "section_height": "xsmall",
+        "section_height": "small",
         "color_scheme": "3",
         "full_width": true,
         "dividers": "border-bottom",
