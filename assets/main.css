@@ -5099,7 +5099,7 @@ justify-content: center;
 .bl3-right{
 display: flex;
 flex-direction: row;
-  width: 35% !important;
+  width: 40% !important;
 align-items: center;
 justify-content: end;
 }
@@ -5112,7 +5112,7 @@ line-height: 50px;
 }
 
 .bl3-p-text{
-   width:70% !important;
+   width:40% !important;
 font-weight: 400;
 font-size: 14px;
 line-height: 20px;
