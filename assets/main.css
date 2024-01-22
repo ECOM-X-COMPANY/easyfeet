@@ -5099,7 +5099,7 @@ justify-content: center;
 .bl3-right{
 display: flex;
 flex-direction: row;
-  width: 35% !important;
+  width: 40% !important;
 align-items: center;
 justify-content: end;
 }
