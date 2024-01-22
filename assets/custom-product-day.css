@@ -46,9 +46,11 @@
     font-weight: 700;
     margin-bottom: 10px;
 }
-.product-item__content--btn{
-
-
+.product-item__content--btn .btn{
+    width: 100%;
+    font-size: 19px;
+    font-weight: 400;
+align-items: center;
 }
 .product-item__content--btn button{
     margin-top: 35px;
