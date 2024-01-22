@@ -271,6 +271,9 @@
         "07128094-2b9d-4a58-9140-0307d085afc6",
         "3d1e4c40-b513-456a-9faf-9576a212d19a"
       ],
+      "custom_css": [
+        ".card-link{font-weight: 900;}"
+      ],
       "settings": {
         "title": "",
         "heading_align": "text-center",
