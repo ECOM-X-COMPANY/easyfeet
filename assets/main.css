@@ -5080,6 +5080,7 @@ color: rgba(0, 0, 0, 0.6);
 #shopify-section-template--17336944328944__3fe0f65b-f716-4cb3-9080-c355567b86e3 {
 .bl3{
 display: flex;
+
 flex-direction: row;
 flex-wrap: nowrap;
 justify-content: center;
@@ -5098,7 +5099,7 @@ justify-content: center;
 .bl3-right{
 display: flex;
 flex-direction: row;
-width:58%;
+  width: 35%
 align-items: center;
 justify-content: end;
 }
