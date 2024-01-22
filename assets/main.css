@@ -5092,14 +5092,14 @@ height:544px;
 .bl3-left{
 display: flex;
 flex-direction: column;
-width:42%;
+width:42% !important;
 gap:20px;
 justify-content: center;
 }
 .bl3-right{
 display: flex;
 flex-direction: row;
-  width: 50%
+  width: 50% !important;
 align-items: center;
 justify-content: end;
 }
