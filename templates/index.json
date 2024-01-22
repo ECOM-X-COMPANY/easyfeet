@@ -3,39 +3,6 @@
     "slideshow_zacADy": {
       "type": "slideshow",
       "blocks": {
-        "slide_hpVUyL": {
-          "type": "slide",
-          "settings": {
-            "image_desktop": "shopify:\/\/shop_images\/2_759885fb-cc45-4871-bf56-52d85a3e62e2.png",
-            "url": "",
-            "overlay_position": "justify-center items-center",
-            "overlay_text_align": "text-center",
-            "mob_center_text": false,
-            "subheading": "",
-            "heading": "Insoles that fit your task",
-            "heading_size": "h0",
-            "heading_h1": true,
-            "text": "<p>Feel the quickest pain relief for non-stop life on your feet<\/p>",
-            "enlarge_text": true,
-            "button_1_label": "",
-            "button_1_link": "",
-            "button_1_style": "btn btn--primary",
-            "button_2_label": "Shop now",
-            "button_2_link": "shopify:\/\/collections\/all",
-            "button_2_style": "btn btn--primary",
-            "transparent_content_color": "#ffffff",
-            "countdown_show": false,
-            "countdown_end_date": "",
-            "countdown_end_time": "",
-            "countdown_end_text": "",
-            "enlarge_end_text": false,
-            "countdown_hide_on_end": false,
-            "use_custom_colors": false,
-            "count_color": "#ffffff",
-            "bg_color": "#070707",
-            "bg_grad": ""
-          }
-        },
         "slide_yT9XKB": {
           "type": "slide",
           "settings": {
@@ -68,11 +35,44 @@
             "bg_color": "#070707",
             "bg_grad": ""
           }
+        },
+        "slide_hpVUyL": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/2_759885fb-cc45-4871-bf56-52d85a3e62e2.png",
+            "url": "",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Insoles that fit your task",
+            "heading_size": "h0",
+            "heading_h1": true,
+            "text": "<p>Feel the quickest pain relief for non-stop life on your feet<\/p>",
+            "enlarge_text": true,
+            "button_1_label": "",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Shop now",
+            "button_2_link": "shopify:\/\/collections\/all",
+            "button_2_style": "btn btn--primary",
+            "transparent_content_color": "#ffffff",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
         }
       },
       "block_order": [
-        "slide_hpVUyL",
-        "slide_yT9XKB"
+        "slide_yT9XKB",
+        "slide_hpVUyL"
       ],
       "custom_css": [
         ".btn--primary {border-radius: 5px; background: #ff444f; color: #fff; border: transparent; transition: all 0.5s ease;}",
@@ -1043,7 +1043,7 @@
     "4a2f7680-957f-4b94-9fce-ac45cad9a5db": {
       "type": "recently-viewed",
       "custom_css": [
-        ".card__vendor{display: none;}"
+        ".card__vendor {display: none;}"
       ],
       "settings": {
         "heading": "Recently reviewed",
