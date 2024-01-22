@@ -26,7 +26,7 @@
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/Group_640.png",
         "url": "",
-        "height_mode": "fixed",
+        "height_mode": "auto",
         "fixed_height_desktop": 560,
         "fixed_height_mobile": 400,
         "overlay_position": "justify-start items-center",
