@@ -23,7 +23,7 @@
         "cdcee350-a875-4712-b6c0-b7e013db79ff"
       ],
       "custom_css": [
-        "strong {font-size:20px; color: #ff444f;}"
+        "strong {font-size: 20px; color: #ff444f;}"
       ],
       "settings": {
         "link1": "",
@@ -177,6 +177,7 @@
         "sections--17234990498032__819f08d7-3058-4157-8809-e247323ea62c-button-1",
         "dff2dcd9-cadc-409f-8872-a1321f4d1952"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "small",
         "color_scheme": "3",
