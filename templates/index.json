@@ -448,7 +448,7 @@
         "1ddc5b20-5a13-4512-bea6-6494e2086c80"
       ],
       "custom_css": [
-        ".h5 {font-size: 20px; font-weight: 900;}",
+        ".h5 {font-size: 37px; font-weight: 700;}",
         ".btn--primary {background: #ff444f; border-radius: 5px; border: transparent; transition: all 0.5s ease;}",
         ".btn--primary:hover {background: #f00; transition: all 0.4s ease;}",
         ".card {border-radius: 15px;}",
