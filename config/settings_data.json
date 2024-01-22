@@ -394,7 +394,7 @@
     "prod_card_image_fit": "cover",
     "prod_card_image_align": "",
     "card_show_hover_image": true,
-    "card_show_vendor": true,
+    "card_show_vendor": false,
     "card_show_subtitle": false,
     "card_show_rating": true,
     "card_show_inventory": true,
