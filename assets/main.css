@@ -5562,7 +5562,7 @@ justify-content: center;
 .bl9-right{
 display: flex;
 flex-direction: row;
-width:58%;
+width:50%;
 align-items: center;
 justify-content: start;
 }
