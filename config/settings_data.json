@@ -416,7 +416,7 @@
     "inventory_threshold_very_low": 8,
     "inventory_show_notice": "always",
     "hide_no_stock_backordered": true,
-    "inventory_show_count": "always",
+    "inventory_show_count": "never",
     "in_stock_text_color": "#0da44a",
     "low_stock_text_color": "#363737",
     "very_low_stock_text_color": "#e32b2b",
