@@ -604,7 +604,7 @@
         "heading_align": "text-start",
         "button_label": "",
         "button_link": "",
-        "layout": "carousel",
+        "layout": "grid",
         "spacing": 40,
         "logo_grid_align": "justify-center",
         "color_scheme": "none",
