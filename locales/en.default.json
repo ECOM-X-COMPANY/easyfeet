@@ -107,7 +107,7 @@
       "new": "New",
       "next_product": "Next",
       "percent_reduction": "{{ amount }}% off",
-      "percent_reduction_up_to": "Up to -{{ discount }}% off",
+      "percent_reduction_up_to": "Up to -{{ 15 }}% off",
       "pickup_availability": {
         "check_other_stores": "Check availability at other stores",
         "pick_up_available": "Pickup available",
