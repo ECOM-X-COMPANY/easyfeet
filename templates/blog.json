@@ -24,9 +24,30 @@
         "color_scheme": "1",
         "featured_button_style": "btn btn--secondary"
       }
+    },
+    "featured_blog_UKJCEd": {
+      "type": "featured-blog",
+      "settings": {
+        "title": "Featured blog",
+        "heading_align": "text-start",
+        "show_view_all": false,
+        "blog": "",
+        "layout": "grid",
+        "posts_to_show": 2,
+        "show_featured_image": true,
+        "show_tags": false,
+        "show_excerpt": true,
+        "show_author": true,
+        "show_date": true,
+        "show_button": false,
+        "color_scheme": "3",
+        "image_ratio": "shortest",
+        "button_style": "btn btn--primary"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "featured_blog_UKJCEd"
   ]
 }
