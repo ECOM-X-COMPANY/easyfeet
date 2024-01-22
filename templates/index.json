@@ -726,7 +726,7 @@
           "black-onix"
         ],
         "empty_field_text": "-",
-        "image_ratio": "1",
+        "image_ratio": "shortest",
         "image_crop": "center",
         "num_rows": 0,
         "color_scheme": "none",
