@@ -372,7 +372,7 @@
     "section_gap": "64",
     "input_button_border_width": "1",
     "input_button_border_radius": 0,
-    "slider_show_arrows": "hover",
+    "slider_show_arrows": "always",
     "slider_button_style": "btn--primary",
     "slider_items_per_nav": "page",
     "drawer_border_radius": 0,
