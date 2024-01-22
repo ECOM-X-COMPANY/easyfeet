@@ -23,7 +23,7 @@
         "cdcee350-a875-4712-b6c0-b7e013db79ff"
       ],
       "custom_css": [
-        "strong {color: #ff444f;}"
+        "strong {font-size:20px; color: #ff444f;}"
       ],
       "settings": {
         "link1": "",
@@ -32,7 +32,7 @@
         "link2_label": "",
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "bg_color": "#000000",
+        "bg_color": "#383838",
         "text_color": "#ffffff",
         "text_type_scale": "small",
         "read_time": 7
