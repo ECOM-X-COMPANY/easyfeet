@@ -5092,7 +5092,7 @@ height:544px;
 .bl3-left{
 display: flex;
 flex-direction: column;
-  width:35% !important;
+
 gap:20px;
 justify-content: center;
 }
@@ -5105,14 +5105,13 @@ justify-content: end;
 }
 
 .bl3-h4-text{
- 
+  width:70% !important;
 font-weight: 500;
 font-size: 48px;
 line-height: 50px;
 }
 
 .bl3-p-text{
-   width:70% !important;
 font-weight: 400;
 font-size: 14px;
 line-height: 20px;
