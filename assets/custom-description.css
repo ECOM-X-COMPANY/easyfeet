@@ -115,3 +115,11 @@
     font-size: 28px;
     font-weight: 900;
 }
+.custom-page-content--metatext{
+    margin-top: 20px;
+    width: 50%;
+}
+.custom-page-content--metatitle p{
+    font-weight: 900;
+    margin-bottom: 10px;
+}

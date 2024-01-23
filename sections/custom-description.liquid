@@ -113,18 +113,30 @@
                     </div>
                 </div>
                 <div class="use-info-content" id="use-info-content">
-
-                    {% assign page_handle = 'how-to-use' %}
-                    {% assign page_content = pages[page_handle].content %}
-
                     <div class="custom-page-content">
-                        {{ page_content }}
+                        {% if product.metafields.custom.how_to_use_image %}
+                            <img width="500" height="500" src="{{ product.metafields.custom.how_to_use_image | img_url: 'master' }}" alt="How to Use">
+                        {% endif %}
+                        <div class="custom-page-content--metatext">
+                            {% if product.metafields.custom.how_to_use_title %}
+                                <div  class="custom-page-content--metatitle">
+                                    <p>{{ product.metafields.custom.how_to_use_title }}</p>
+                                </div>
+                            {% endif %}
+                            {% if product.metafields.custom.how_to_use_text %}
+                                <div class="custom-page-content--desc">
+                                    {% assign paragraphs = product.metafields.custom.how_to_use_text | newline_to_br | split: '<br />' %}
+                                    {% for paragraph in paragraphs %}
+                                        <p>{{ paragraph }}</p>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
                 <div class="reviews-info-content" id="reviews-info-content">
                     <div id="your-target-block" class="lt-block-reviews">
                     </div>
-
                 </div>
                 <div class="shipping-info-content" id="shipping-info-content">
                     <meta charset="utf-8">
