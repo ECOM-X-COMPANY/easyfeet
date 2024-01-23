@@ -1008,6 +1008,7 @@
     "7aa5f160-8075-4d2a-82ed-55d71ca4c5e2": {
       "type": "custom-promo-sale",
       "settings": {
+        "card1_discount": "save 10%",
         "card1_totalPrice": "71",
         "card1_subPrice": "99",
         "card1_promoText_1": "two pairs.",
@@ -1016,6 +1017,7 @@
         "card1_promoImage_1": "shopify:\/\/shop_images\/soles2_200_x_200_px.gif",
         "card1_promoImage_2": "shopify:\/\/shop_images\/soles3_200_x_200_px.gif",
         "card1_btnLink": "\/collections\/all",
+        "card2_discount": "save 15%",
         "card2_totalPrice": "101",
         "card2_subPrice": "98",
         "card2_promoText_1": "Bundle of three.",
