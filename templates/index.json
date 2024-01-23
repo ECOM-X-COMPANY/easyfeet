@@ -997,7 +997,7 @@
         "template--17234989940976__5305d2c0-4016-4566-befd-e7de0486322f-heading-1"
       ],
       "custom_css": [
-        "#template--17336943608048__5305d2c0-4016-4566-befd-e7de0486322f{margin-bottom: 20px;}"
+        "#template--17336943608048__5305d2c0-4016-4566-befd-e7de0486322f {margin-bottom: 20px;}"
       ],
       "settings": {
         "text_position": "justify-center",
@@ -1038,9 +1038,9 @@
         "donations_title": "WE DONATED",
         "donations_number": "12,006",
         "donations_numberText": "Insoles",
-        "donations_imageLeft": "shopify:\/\/shop_images\/4_c924817e-269c-437f-9d2b-86778042516c.png",
+        "donations_imageLeft": "shopify:\/\/shop_images\/1_29a92c95-6747-4fa0-a20f-4927d0ddfe75.png",
         "donations_textLeft": "1,000 of which have been delivered to Los Angeles Children’s Hospital",
-        "donations_imageRight": "shopify:\/\/shop_images\/6_6419b686-bdb7-40f3-868b-1525ad764882.png",
+        "donations_imageRight": "shopify:\/\/shop_images\/2_bb23881d-0683-4c51-b977-9b8d8f55ea03.png",
         "donations_textRight": "11,006 were sent to the Armed Forces of Ukraine",
         "donations_btnText": "LEARN MORE",
         "donations_btnLink": "collections\/all"
