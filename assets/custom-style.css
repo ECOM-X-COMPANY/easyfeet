@@ -200,3 +200,14 @@
         margin: 0 auto;
     }
 }
+
+.custom-helping__img p{
+    transition: all .5s ease;
+    margin-top: 5px;
+    font-weight: 900;
+    text-align: left;
+}
+.custom-helping__img li:hover p {
+    transition: all .3s ease;
+    color: #ff444f;
+}
