@@ -996,6 +996,9 @@
       "block_order": [
         "template--17234989940976__5305d2c0-4016-4566-befd-e7de0486322f-heading-1"
       ],
+      "custom_css": [
+        "#template--17336943608048__5305d2c0-4016-4566-befd-e7de0486322f{margin-bottom: 20px;}"
+      ],
       "settings": {
         "text_position": "justify-center",
         "text_align": "text-center",
