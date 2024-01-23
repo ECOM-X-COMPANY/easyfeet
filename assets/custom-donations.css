@@ -1,6 +1,6 @@
 .donations{
     position: relative;
-    background-image: url('https://cdn.shopify.com/s/files/1/0612/1177/1120/files/2_b3f1a72a-e8f1-47f0-994e-6c6233326745.png?v=1704892228');
+    background-color: #232528;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -53,7 +53,7 @@
 }
 .donations-box__image--left,
 .donations-box__image--right{
-    width: 250px;
+    width: 350px;
     color: #fff;
     background: #383838;
     border-radius: 5px;
@@ -65,9 +65,9 @@
 .donations-box__image--left p,
 .donations-box__image--right p{
     padding: 5px 5px;
-    font-size: 15px;
+    font-size: 21px;
     margin: 0;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .donations-box__link{
