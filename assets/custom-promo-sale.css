@@ -70,6 +70,7 @@ gap: 50px;
 .promotion-list__price--text p{
     color: #ff444f;
     margin: 0;
+    padding: 0 5px;
 }
 .promotion-list__price--text h2{
     color: #fff;
