@@ -5,6 +5,7 @@ h2,p{
 .promotion{
     display: flex;
     justify-content: center;
+    padding-top: 50px;
 }
 .promotion-box{
     padding: 0 0 75px;
@@ -100,7 +101,9 @@ gap: 50px;
     border-radius: 5px;
     width: 183px;
     height: 40px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease ;
@@ -117,7 +120,7 @@ gap: 50px;
     transition: all .5s ease ;
     box-shadow: 2px 3px 3px 2px rgb(34 60 80 / 10%);
 }
-.promotion-list__content--btn a{
+.promotion-list__content--btn button{
     padding: 5px 10px;
     color: #fff;
     display: flex;
@@ -463,4 +466,23 @@ gap: 50px;
         width: 75px;
         height: 75px;
     }
+}
+.promotion-list__discount{
+    width: 140px;
+    height: 40px;
+    background: #ff444f;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 15px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.promotion-list__discount span{
+    color: #ffff;
+    font-weight: 900;
+    text-align: center;
+    font-size: 25px;
 }

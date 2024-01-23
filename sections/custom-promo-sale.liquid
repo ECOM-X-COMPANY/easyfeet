@@ -4,62 +4,74 @@
     <div class="container">
         <div class="promotion">
             <ul class="promotion-inner">
+
                 <li class="promotion-list">
-                    <div class="promotion-list__box">
-                        <div class="promotion-list__price">
-                            <div class="promotion-list__price--number">
-                                <h2>${{ section.settings.card1_totalPrice }}</h2>
-                                <span>.{{ section.settings.card1_subPrice }}</span>
+                    <a href="{{ section.settings.card1_btnLink }}">
+                        <div class="promotion-list__discount">
+                            <span>{{ section.settings.card1_discount }}</span>
+                        </div>
+                        <div class="promotion-list__box">
+                            <div class="promotion-list__price">
+                                <div class="promotion-list__price--number">
+                                    <h2>${{ section.settings.card1_totalPrice }}</h2>
+                                    <span>.{{ section.settings.card1_subPrice }}</span>
+                                </div>
+                                <div class="promotion-list__price--text">
+                                    <span>{{ section.settings.card1_promoText_1 }}</span>
+                                    <p>{{ section.settings.card1_promoText_2 }}</p>
+                                    <h2>{{ section.settings.card1_promoText_3 }}</h2>
+                                </div>
                             </div>
-                            <div class="promotion-list__price--text">
-                                <span>{{ section.settings.card1_promoText_1 }}</span>
-                                <p>{{ section.settings.card1_promoText_2 }}</p>
-                                <h2>{{ section.settings.card1_promoText_3 }}</h2>
+                        </div>
+                        <div class="promotion-list__content">
+                            <div class="promotion-list__content--image">
+                                <img width="150" height="150"
+                                     src="{{ section.settings.card1_promoImage_1 | img_url: 'master' }}" alt="product-1">
+                                <span>+</span>
+                                <img width="150" height="150"
+                                     src="{{ section.settings.card1_promoImage_2 | img_url: 'master' }}" alt="product-2">
+                            </div>
+                            <div class="promotion-list__content--btn">
+                                <button>Buy Now</button>
                             </div>
                         </div>
-                    </div>
-                    <div class="promotion-list__content">
-                        <div class="promotion-list__content--image">
-                            <img width="150" height="150"
-                                 src="{{ section.settings.card1_promoImage_1 | img_url: 'master' }}" alt="product-1">
-                            <span>+</span>
-                            <img width="150" height="150"
-                                 src="{{ section.settings.card1_promoImage_2 | img_url: 'master' }}" alt="product-2">
-                        </div>
-                        <div class="promotion-list__content--btn">
-                            <a href="{{ section.settings.card1_btnLink }}">Buy Now</a>
-                        </div>
-                    </div>
+                    </a>
+
                 </li>
                 <li class="promotion-list">
-                    <div class="promotion-list__box">
-                        <div class="promotion-list__price">
-                            <div class="promotion-list__price--number">
-                                <h2>${{ section.settings.card2_totalPrice }}</h2>
-                                <span>.{{ section.settings.card2_subPrice }}</span>
-                            </div>
-                            <div class="promotion-list__price--text">
-                                <span>{{ section.settings.card2_promoText_1 }}</span>
-                                <p>{{ section.settings.card2_promoText_2 }}</p>
-                                <h2>{{ section.settings.card2_promoText_3 }}</h2>
+                    <a href="{{ section.settings.card2_btnLink }}">
+                        <div class="promotion-list__discount">
+                            <span>{{ section.settings.card2_discount }}</span>
+                        </div>
+                        <div class="promotion-list__box">
+                            <div class="promotion-list__price">
+                                <div class="promotion-list__price--number">
+                                    <h2>${{ section.settings.card2_totalPrice }}</h2>
+                                    <span>.{{ section.settings.card2_subPrice }}</span>
+                                </div>
+                                <div class="promotion-list__price--text">
+                                    <span>{{ section.settings.card2_promoText_1 }}</span>
+                                    <p>{{ section.settings.card2_promoText_2 }}</p>
+                                    <h2>{{ section.settings.card2_promoText_3 }}</h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="promotion-list__content">
-                        <div class="promotion-list__content--image">
-                            <img width="100" height="100"
-                                 src="{{ section.settings.card2_promoImage_1 | img_url: 'master' }}" alt="product-1">
-                            <span>+</span>
-                            <img width="100" height="100"
-                                 src="{{ section.settings.card2_promoImage_2 | img_url: 'master' }}" alt="product-2">
-                            <span>+</span>
-                            <img width="100" height="100"
-                                 src="{{ section.settings.card2_promoImage_3 | img_url: 'master' }}" alt="product-2">
+                        <div class="promotion-list__content">
+                            <div class="promotion-list__content--image">
+                                <img width="100" height="100"
+                                     src="{{ section.settings.card2_promoImage_1 | img_url: 'master' }}" alt="product-1">
+                                <span>+</span>
+                                <img width="100" height="100"
+                                     src="{{ section.settings.card2_promoImage_2 | img_url: 'master' }}" alt="product-2">
+                                <span>+</span>
+                                <img width="100" height="100"
+                                     src="{{ section.settings.card2_promoImage_3 | img_url: 'master' }}" alt="product-2">
+                            </div>
+                            <div class="promotion-list__content--btn">
+                                <button>Buy Now</button>
+                            </div>
                         </div>
-                        <button class="promotion-list__content--btn">
-                            <a href="{{ section.settings.card2_btnLink }}">Buy Now</a>
-                        </button>
-                    </div>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -71,6 +83,12 @@
 {
   "name": "Custom Promo Sale Section",
   "settings": [
+    {
+      "type": "text",
+      "label": "Card [1] discount",
+      "id": "card1_discount",
+      "default": "%"
+    },
     {
       "type": "text",
       "label": "Card [1] total price",
@@ -118,6 +136,12 @@
       "label": "Card[1] btn link",
       "id": "card1_btnLink",
       "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Card [2] discount",
+      "id": "card2_discount",
+      "default": "%"
     },
     {
       "type": "text",
