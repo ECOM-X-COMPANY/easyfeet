@@ -811,6 +811,7 @@
       "blocks": {
         "130d5f17-528a-461a-bc32-14ceee719df3": {
           "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
           "settings": {
             "maxWidth": 1100,
             "borderRadius": 8,
@@ -871,7 +872,7 @@
           "type": "shopify:\/\/apps\/ryviu-reviews-qa\/blocks\/ryviu-product-reviews\/807ad6ed-1a6a-4559-abea-ed062858d9da",
           "settings": {
             "product": "mount-strenght",
-            "r_wapper": "",
+            "r_wapper": "custom-reviews",
             "r_max_width": 1920,
             "r_padding_block": 0,
             "one_col_on_mobile": true,
