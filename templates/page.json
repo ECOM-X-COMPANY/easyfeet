@@ -12,6 +12,7 @@
       "blocks": {
         "ryviu_reviews_qa_ryviu_product_reviews_KTVenf": {
           "type": "shopify:\/\/apps\/ryviu-reviews-qa\/blocks\/ryviu-product-reviews\/807ad6ed-1a6a-4559-abea-ed062858d9da",
+          "disabled": true,
           "settings": {
             "product": "blue-model",
             "r_wapper": "",
