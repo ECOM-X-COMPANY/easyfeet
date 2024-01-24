@@ -875,8 +875,8 @@
             "r_max_width": 1920,
             "r_padding_block": 0,
             "one_col_on_mobile": true,
-            "hide_write_review_from": false,
-            "hide_title_image_form": true
+            "hide_write_review_from": true,
+            "hide_title_image_form": false
           }
         }
       },
