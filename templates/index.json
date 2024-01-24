@@ -770,7 +770,7 @@
         ".btn--primary:hover {border: transparent; background: #f00; transition: all 0.4s ease;}"
       ],
       "settings": {
-        "video_shopify": "shopify:\/\/files\/videos\/EASYFEET Flame Boost_126f3641-c445-49d2-90dd-3b560ef5043e.mp4",
+        "image": "shopify:\/\/shop_images\/111_ea28be73-3ece-40d6-b288-6dc60814e675.png",
         "video_external": "",
         "video_description": "",
         "video_autoplay": true,
