@@ -358,6 +358,9 @@
       "block_order": [
         "heading_9AATAA"
       ],
+      "custom_css": [
+        ".color-scheme--transparent{margin-bottom: 0;}"
+      ],
       "settings": {
         "text_position": "justify-center",
         "text_align": "text-center",
