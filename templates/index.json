@@ -865,12 +865,26 @@
             "r_max_width_featured": 1920,
             "padding_block": 0
           }
+        },
+        "ryviu_reviews_qa_ryviu_product_reviews_UaxJ4x": {
+          "type": "shopify:\/\/apps\/ryviu-reviews-qa\/blocks\/ryviu-product-reviews\/807ad6ed-1a6a-4559-abea-ed062858d9da",
+          "disabled": true,
+          "settings": {
+            "product": "blue-model",
+            "r_wapper": "",
+            "r_max_width": 1920,
+            "r_padding_block": 0,
+            "one_col_on_mobile": true,
+            "hide_write_review_from": false,
+            "hide_title_image_form": true
+          }
         }
       },
       "block_order": [
         "130d5f17-528a-461a-bc32-14ceee719df3",
         "ea09d06a-db4b-49a9-b0ca-2845387f62c3",
-        "ryviu_reviews_qa_ryviu_featured_widget_JaMCeU"
+        "ryviu_reviews_qa_ryviu_featured_widget_JaMCeU",
+        "ryviu_reviews_qa_ryviu_product_reviews_UaxJ4x"
       ],
       "settings": {
         "full_width": true
