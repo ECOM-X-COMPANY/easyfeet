@@ -872,7 +872,7 @@
           "settings": {
             "product": "blue-model",
             "r_wapper": "",
-            "r_max_width": 1024,
+            "r_max_width": 1920,
             "r_padding_block": 0,
             "one_col_on_mobile": true,
             "hide_write_review_from": true,
