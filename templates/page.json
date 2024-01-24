@@ -10,6 +10,18 @@
     "17042703314429d52d": {
       "type": "apps",
       "blocks": {
+        "ryviu_reviews_qa_ryviu_product_reviews_KTVenf": {
+          "type": "shopify:\/\/apps\/ryviu-reviews-qa\/blocks\/ryviu-product-reviews\/807ad6ed-1a6a-4559-abea-ed062858d9da",
+          "settings": {
+            "product": "blue-model",
+            "r_wapper": "",
+            "r_max_width": 1280,
+            "r_padding_block": 0,
+            "one_col_on_mobile": true,
+            "hide_write_review_from": false,
+            "hide_title_image_form": false
+          }
+        },
         "c5f46fd1-78ba-4346-94c8-53d8ee5965c8": {
           "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-gallery-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -41,6 +53,7 @@
         }
       },
       "block_order": [
+        "ryviu_reviews_qa_ryviu_product_reviews_KTVenf",
         "c5f46fd1-78ba-4346-94c8-53d8ee5965c8",
         "81d82ab2-5252-4c3e-ae30-a03fae1ac9bf"
       ],
