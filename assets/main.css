@@ -8437,3 +8437,22 @@ padding-right: 0px;
 .verticalBundleItems_item_wrapper_ac1beea2{
   width: 100%;
 }
+.find-this-helpful{
+  border: 1px solid #e8e8e8;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.find-this-helpful span{
+  font-weight: 900;
+  margin-right: 5px;
+}
+#shopify-section-template--17254257295600__17047158042ade648c{
+  margin-top: 0;
+}
+#template--17254257295600__c506bb30-8906-412c-998f-cd396e880515{
+  margin-bottom: 0;
+}
+.r--carousel-item{
+  width: 50%;
+}
