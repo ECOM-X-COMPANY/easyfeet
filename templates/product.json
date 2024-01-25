@@ -3,8 +3,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "ryviu_reviews_qa_ryviu_total_CJX4YK": {
+          "type": "shopify:\/\/apps\/ryviu-reviews-qa\/blocks\/ryviu-total\/807ad6ed-1a6a-4559-abea-ed062858d9da",
+          "settings": {
+            "show_when_no_reviews": false,
+            "show_average_rating": true
+          }
+        },
         "loox_reviews_loox_rating_BetkW3": {
           "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
           "settings": {
             "contentSize": 16,
             "pattern": "",
@@ -115,6 +123,7 @@
         }
       },
       "block_order": [
+        "ryviu_reviews_qa_ryviu_total_CJX4YK",
         "loox_reviews_loox_rating_BetkW3",
         "ab9915a0-eebb-421b-8dbb-aad62ad7736f",
         "vendor-sku",
@@ -359,7 +368,7 @@
         "heading_9AATAA"
       ],
       "custom_css": [
-        ".color-scheme--transparent{margin-bottom: 0;}"
+        ".color-scheme--transparent {margin-bottom: 0;}"
       ],
       "settings": {
         "text_position": "justify-center",
