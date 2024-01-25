@@ -8,13 +8,13 @@
         "announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "<p>Buy 2 Pairs,<strong> Get 15% Off<\/strong><\/p>"
+            "text": "<p>Buy 2 Pairs,<strong> Get 10% Off<\/strong><\/p>"
           }
         },
         "cdcee350-a875-4712-b6c0-b7e013db79ff": {
           "type": "announcement",
           "settings": {
-            "text": "<p>Buy 3 Pairs or More,<strong> Get 20% Off!<\/strong><\/p>"
+            "text": "<p>Buy 3 Pairs or More,<strong> Get 15% Off!<\/strong><\/p>"
           }
         }
       },
