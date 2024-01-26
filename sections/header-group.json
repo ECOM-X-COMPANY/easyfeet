@@ -177,12 +177,23 @@
         "dividers": "border-top",
         "prevent_animation": true
       }
+    },
+    "custom_liquid_NPRGEJ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/Vector.webp?v=1671240866\" class=\"lazyloadt4sed img-head-osn0\">\n<div class=\"container-head-bf\">\n<div class=\"container-head-bf-left\">\n<h4 class=\"text-h4-head1 item-hd\">Make an Inquiry<\/h4>\n<h4 class=\"text-h4-head3 item-hd\">Interested in distributing or reselling our products,\nor working with us? We would love to hear from you\nand provide you with free samples.<br><br>\n\nPlease, fill out the form below and we will get back to you after review.<\/h4>\n\n<div class=\"container-head-bf-left-0\">\n<a class=\"t4s-btn t4s-btn-base t4s-btn-style-default t4s-btn-size-large t4s-btn-effect-fade btn-my\" href=\"\/collections\/shop\">shop now <\/a>\n\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/Group.png?v=1670014508\" class=\"lazyloadt4sed img-head-osn2\">\n\n<h4 class=\"text-h4-head2 item-hd\">Follow the<br> comfort!<\/h4>\n\n<\/div>\n<\/div>\n<div class=\"container-head-bf-right\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/warehouse.webp?v=1671240288\" class=\"lazyloadt4sed img-head-osn1\">\n<\/div>\n<\/div>",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": true
+      }
     }
   },
   "order": [
     "announcement",
     "header",
     "678da1c6-4903-4a27-9ddc-5c74ce927fd8",
-    "819f08d7-3058-4157-8809-e247323ea62c"
+    "819f08d7-3058-4157-8809-e247323ea62c",
+    "custom_liquid_NPRGEJ"
   ]
 }
