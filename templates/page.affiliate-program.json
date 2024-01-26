@@ -38,6 +38,9 @@
     },
     "custom_liquid_JYFJdQ": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".btn-my{justify-content: center;}"
+      ],
       "settings": {
         "custom_liquid": "<div class=\"l-cons-6\">\n\n<div class=\"cons-6-left\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/map.png?v=1677847721\" alt=\"\" class=\"lc6-img\" style=\"width:100%;\">\n<\/div>\n<div class=\"cons-6-right\">\n\t<h3 class=\"th3\" style=\"color:#000;\">GEOs we are<br> working at<\/h3>\n\t<div class=\"lc6-text01\">We are growing fast and moving globally. Today, we accept US traffic only, but that will change soon. Join now not to miss new GEOs to work with.<\/div>\n\n<a class=\"t4s-btn t4s-btn-base t4s-btn-style-default t4s-btn-size-large t4s-btn-effect-fade btn-my\" href=\"https:\/\/af.uppromote.com\/easyfeet-orthotic-solutions\/register\" target=\"_blank\">Join now<\/a>\n<\/div>\n<\/div>",
         "section_height": "default",
