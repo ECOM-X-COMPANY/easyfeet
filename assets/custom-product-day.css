@@ -87,10 +87,10 @@ span{
 
 @media only screen and (max-width: 430px) {
   .custom-page-content--metatext{
-    width: max-content;
+    width: max-content !important;
   }
   .custom-page-content--desc{
-     width: 320px;
+     width: 320px !important;
   }
   .product-item__content{
     width: 100% !important;
