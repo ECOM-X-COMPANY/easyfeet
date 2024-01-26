@@ -426,6 +426,7 @@
     "sale_label_text_color": "#ffffff",
     "sale_label_icon": "price_tag",
     "sale_label_type": "percent",
+    "show_sold_out_label": false,
     "sold_out_label_bg_color": "#2e2e2e",
     "sold_out_label_text_color": "#ffffff",
     "new_label_icon": "none",
