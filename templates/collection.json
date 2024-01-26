@@ -183,6 +183,7 @@
     },
     "39de400a-977d-4752-9638-a34c96fd70c2": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "text_position": "justify-center",
         "text_align": "text-center",
