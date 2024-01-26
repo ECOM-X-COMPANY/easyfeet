@@ -7794,6 +7794,9 @@ padding-right: 0px;
   }
 }
 @media only screen and (max-width: 365px) {
+  .icart .icart-cart-main .icart-header .icart-header-contain{
+    padding: 10px 30px 10px 33px;
+  }
     .custome-description{
     margin-top: 0;
   }
