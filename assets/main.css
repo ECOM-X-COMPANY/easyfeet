@@ -6020,6 +6020,9 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  #shopify-section-template--17336944165104__details{
+  margin-bottom: 0;
+}
   main{
     width: 100%;
     max-width: 100%;
@@ -6240,6 +6243,9 @@ padding-right: 0px;
   }
 }
 @media only screen and (max-width: 428px) {
+  #shopify-section-template--17336944165104__details{
+  margin-bottom: 0;
+}
   main{
     width: 100%;
     max-width: 100%;
@@ -8462,7 +8468,4 @@ padding-right: 0px;
 }
 .product-info__block{
   margin: 0 0 10px 0 !important;
-}
-#shopify-section-template--17336944165104__details{
-  margin-bottom: 0;
 }
