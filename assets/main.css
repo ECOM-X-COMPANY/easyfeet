@@ -8461,5 +8461,5 @@ padding-right: 0px;
    margin-top: 40px !important;
 }
 .product-info__block{
-  margin: 0;
+  margin: 0 !important;
 }
