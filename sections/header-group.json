@@ -180,6 +180,7 @@
     },
     "custom_liquid_NPRGEJ": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -193,6 +194,7 @@
     },
     "custom_liquid_jjPEQn": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
 
       ],
