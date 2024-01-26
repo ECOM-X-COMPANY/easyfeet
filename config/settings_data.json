@@ -611,12 +611,6 @@
         "settings": {
         }
       },
-      "9468172321995857178": {
-        "type": "shopify:\/\/apps\/qikify-upsell-bundle\/blocks\/app-embed\/2e94b962-8172-4839-8ad9-7837eb8b017a",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "1530068250781986104": {
         "type": "shopify:\/\/apps\/fast-bundle\/blocks\/fast_bundle\/9e87fbe2-9041-4c23-acf5-322413994cef",
         "disabled": false,
@@ -633,6 +627,12 @@
       "1990815452989453926": {
         "type": "shopify:\/\/apps\/ryviu-reviews-qa\/blocks\/ryviu-js\/807ad6ed-1a6a-4559-abea-ed062858d9da",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "9468172321995857178": {
+        "type": "shopify:\/\/apps\/qikify-upsell-bundle\/blocks\/app-embed\/2e94b962-8172-4839-8ad9-7837eb8b017a",
+        "disabled": true,
         "settings": {
         }
       }
