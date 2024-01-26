@@ -7,7 +7,7 @@
         "section_height": "default",
         "full_width": false,
         "dividers": "none",
-        "prevent_animation": false
+        "prevent_animation": true
       }
     },
     "main": {
