@@ -87,7 +87,7 @@ span{
 
 @media only screen and (max-width: 430px) {
   .product-item__content{
-    width: 100%;
+    width: 100% !important;
   }
     .product-item{
         flex-direction: column;
