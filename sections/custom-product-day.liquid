@@ -50,12 +50,14 @@
                                 </div>
                                 <div class="product-item__content--size">
                                     <label for="variant-picker-{{ handle }}">Size:</label>
-                                    <select id="variant-picker-{{ handle }}">
+                                    <div class="size-buttons">
                                         {% for variant in product.variants %}
-                                            <option value="{{ variant.id }}">{{ variant.title }}
-                                                - {{ variant.price | money }}</option>
+                                            <button type="button" class="size-button opt-label opt-label--btn btn{% if forloop.first %} size-button--active{% endif %}" data-variant-id="{{ variant.id }}">
+                                                {{ variant.title }}
+                                            </button>
                                         {% endfor %}
-                                    </select>
+                                    </div>
+                                    <input type="hidden" id="selected-variant" name="selected-variant" value="{{ product.variants.first.id }}">
                                 </div>
                                 <div class="product-item__content--btn">
                                     <form action="/cart/add" method="post" enctype="multipart/form-data" class="product-form" id="product-form-{{ product.variants.first.id }}">
@@ -151,4 +153,48 @@
 
         setInterval(loadDailyProduct, 24 * 60 * 60 * 1000);
     });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const sizeButtons = document.querySelectorAll('.size-button');
+        const selectedVariantInput = document.getElementById('selected-variant');
+
+        sizeButtons.forEach(function (button) {
+            button.addEventListener('click', function () {
+                const variantId = button.getAttribute('data-variant-id');
+                selectedVariantInput.value = variantId;
+
+                sizeButtons.forEach(function (btn) {
+                    btn.classList.remove('selected');
+                });
+                button.classList.add('selected');
+
+                const variant = {{ product.variants | where: "id", variantId | first | json }};
+                document.getElementById('product-price').innerText = variant.price | money;
+            });
+        });
+    });
+
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const sizeButtons = document.querySelectorAll('.size-button');
+
+        sizeButtons[0].classList.add('size-button--active');
+
+        sizeButtons.forEach(function (button) {
+            button.addEventListener('click', function () {
+                const clickedVariantId = button.getAttribute('data-variant-id');
+
+                sizeButtons.forEach(function (btn) {
+                    btn.classList.remove('size-button--active');
+                });
+
+                button.classList.add('size-button--active');
+            });
+        });
+    });
+
 </script>

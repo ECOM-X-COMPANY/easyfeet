@@ -2,6 +2,9 @@
     justify-content: center;
     gap: 50px;
 }
+.product-item__content{
+    width: 46%;
+}
 .product-item__content--info h2{
     font-size: 31px;
 }
@@ -39,7 +42,7 @@
 }
 .product-item__content--size{
     display: flex;
-    flex-direction: column;
+   flex-wrap: wrap;
 }
 .product-item__content--size label{
     font-size: 14px;
@@ -73,6 +76,13 @@ span{
     margin: 0;
 }
 
+.size-button{
+    border: 2px solid transparent; !important;
+}
+.size-button--active.size-button{
+    background: white !important;
+    border: 2px solid #ff444f !important;
+}
 
 
 @media only screen and (max-width: 430px) {
