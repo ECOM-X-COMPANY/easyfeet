@@ -174,7 +174,7 @@
         "countdown_size": "24",
         "use_custom_colors": true,
         "count_color": "#ffffff",
-        "bg_color": "#151515",
+        "bg_color": "#ff444f",
         "color_scheme": "3",
         "full_width": true,
         "tint_color": "#ff444f",
