@@ -8547,3 +8547,132 @@ padding-right: 0px;
 .rbr-soldOutBadge__container {
   display: none;
 }
+
+#shopify-section-sections--17336943444208__custom_liquid_NPRGEJ{
+background: #151515 no-repeat fixed center;
+}
+.btn-my{
+    color: #ffffff !important;
+    background: #ff444f !important;
+text-transform: uppercase;
+}
+.img-head-osn0{
+    position: absolute;
+    left: 0;
+    margin-top: -27px;
+    width:280px;
+}
+.container-head-bf{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height:580px;
+}
+.container-head-bf-left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.container-head-bf-left-0{
+    display: none;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.container-head-bf-right{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width:50%;
+  align-content: flex-end;  
+  justify-content: center;
+  align-items: center;
+}
+.img-head-osn1{
+width:440px;
+}
+.img-head-osn2{
+width:120px;
+margin-top: -15px;
+margin-left: 15px;
+}
+.text-h4-head1 {
+    color: #E3212F;
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: 500;
+}
+.text-h4-head2{
+color:#fff; 
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+}
+.text-h4-head3{
+color:#fff; 
+font-weight: 300;
+font-size: 20px;
+line-height: 26px;
+text-transform: none;
+}
+@media only screen and (max-width: 768px) {
+.text-h4-head1 {
+    color: #E3212F;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.text-h4-head3{
+color:#fff; 
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+text-transform: none;
+padding-top:0px;
+padding-bottom:0px;
+text-align:center;
+}
+
+.container-head-bf{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  height:auto;
+  gap:10px;
+  padding-bottom: 20px;
+}
+.container-head-bf-left{
+  width:100%;
+  gap:10px;
+  padding-bottom: 0px;
+padding-top:20px;
+justify-content: center;
+align-items: center;
+}
+.container-head-bf-right{
+  width:100%;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+.img-head-osn2{
+width:50px;
+margin-top: 0px;
+margin-left: 10px;
+}
+.img-head-osn1 {
+    height: 300px;
+}
+.img-head-osn0 {
+    position: absolute;
+    right: 0;
+    margin-top: -26px;
+    width: 120px;
+}
+}
