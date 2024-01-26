@@ -87,6 +87,9 @@ span{
 
 @media only screen and (max-width: 430px) {
   .custom-page-content--metatext{
+    width: 100%;
+  }
+  .custom-page-content--metatext{
     width: max-content !important;
   }
   .custom-page-content--desc{
