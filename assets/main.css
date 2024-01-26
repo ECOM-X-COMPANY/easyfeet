@@ -8908,7 +8908,6 @@ padding-top:6px;
 gap:2px;
 }
 
-
 @media only screen and (max-width: 768px) {
 .l-cons-0{
 display:flex;
@@ -8947,17 +8946,6 @@ font-size: 32px;
 line-height: 40px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
 input[type='range'] {
 	-webkit-appearance: none;
 	border-radius: 5px;
