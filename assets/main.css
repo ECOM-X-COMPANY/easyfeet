@@ -8841,6 +8841,7 @@ text-align:center;
 padding-top:6px;
 padding-bottom:6px;
 font-size:20px ;
+  justify-content: center;
 }
 .cons-0-icon{
 display:flex;
