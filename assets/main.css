@@ -6688,6 +6688,9 @@ padding-right: 0px;
   }
 }
 @media only screen and (max-width: 400px) {
+  #product-info__strong--date{
+    padding: 0;
+  }
     .custome-description{
     margin-top: 0;
   }
