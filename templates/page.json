@@ -32,7 +32,7 @@
         "mob_center_text": true,
         "color_scheme": "none",
         "full_width": true,
-        "prevent_animation": false
+        "prevent_animation": true
       }
     },
     "17042703314429d52d": {
