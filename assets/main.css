@@ -8676,3 +8676,114 @@ margin-left: 10px;
     width: 120px;
 }
 }
+
+#shopify-section-sections--17336943444208__custom_liquid_jjPEQn .globo-form-app p{
+font-size:0px !important;
+}
+#shopify-section-sections--17336943444208__custom_liquid_jjPEQn
+.globo-form-app .globo-form-control select{
+    background-color: #ffffff;
+}
+#shopify-section-sections--17336943444208__custom_liquid_jjPEQn
+.globo-form-app .globo-form-control input{
+    background-color: #ffffff;
+}
+#shopify-section-sections--17336943444208__custom_liquid_jjPEQn
+.globo-form-app .globo-form-control textarea {
+    background-color: #ffffff;
+}
+.globo-form-app {
+    max-width: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.cont-osn{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.cont-left{
+  display: flex;
+  flex-wrap: wrap;
+  width:45%;
+  margin: 10px 25px 10px 25px;
+  padding: 25px 25px 25px 25px;
+  background-color: #EFEFEF;
+}
+.cont-right{
+  display: flex;
+  flex-wrap: wrap;
+  width:55%;
+  gap:22px;
+  padding-left:50px;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+   justify-content: center;
+}
+.cont-h4-1{
+  color: #000;
+  font-size: 38px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.cont-h4-2{
+  color:#000; 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: none;
+}
+.cont-right-img0{
+   width: 230px;
+   margin-top:-180px;
+   margin-left:300px;
+}
+.cont-right-img1{
+  width: 15px;
+  margin-right:3px;
+}
+
+@media only screen and (max-width: 768px) {
+.cont-osn{
+    flex-wrap: wrap;
+    flex-direction: column;
+   gap:30px;
+}
+.cont-left{
+  width:100%;
+  margin: 0px 0px 0px 0px;
+  padding: 25px 35px 25px 35px;
+}
+.cont-right{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  gap:15px;
+align-items: center;
+padding-right: 25px;
+padding-left: 25px;
+}
+.cont-h4-2{
+  font-size: 14px;
+  line-height: 20px;
+text-align: center;
+}
+.cont-h4-1{
+  font-size: 34px;
+  line-height: 44px;
+  text-align:center;
+}
+.cont-right-img0{
+   width: 160px;
+   margin-top:25px;
+   margin-left:0px;
+}
+#shopify-section-sections--17336943444208__custom_liquid_jjPEQn .t4s-container
+{
+padding-right: 0px;
+padding-left: 0px;
+}
+}
