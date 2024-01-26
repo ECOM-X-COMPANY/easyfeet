@@ -1,5 +1,15 @@
 {
   "sections": {
+    "custom_liquid_yTMXcj": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.container_slider_css{\npadding-left:100px;\nwidth:520px;\nheight:420px;\nposition:relative;\nz-index:15;\n}\n.photo_slider_css{position:absolute;animation:round 20s infinite;opacity:0;width:520px;}\n@keyframes round {\n25%{opacity:1}\n40%{opacity:0}\n}\nimg:nth-child(1){animation-delay:16s}\nimg:nth-child(2){animation-delay:12s}\nimg:nth-child(3){animation-delay:8s}\nimg:nth-child(4){animation-delay:4s}\nimg:nth-child(5){animation-delay:0}\n@media(min-width:0px) and (max-width:320px) {\n.container_slider_css{width:80%;height:190px}\n}\n@media(min-width:321px) and (max-width:480px) {\n.container_slider_css{width:80%;height:190px}\n}\n\n@media only screen and (max-width: 768px) {\n.container_slider_css{\npadding-left:10px;\n}\n}\n\n\n.range01 {\n-moz-appearance: none;\nwidth: 100%;\n}\n\n\n\n<\/style>",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -105,6 +115,7 @@
     }
   },
   "order": [
+    "custom_liquid_yTMXcj",
     "main",
     "rich_text_6DqKFr",
     "17042703314429d52d",
