@@ -9125,3 +9125,59 @@ text-align:center;
 #shopify-section-template--17375421694192__custom_liquid_JRP9VM{
   background: #232528;
 }
+.l-cons-6{
+display:flex;
+flex-direction: row;
+align-items: center;
+padding-top:90px;
+padding-bottom:80px;
+gap:80px;
+}
+.cons-6-left{
+display:flex;
+width:65%;
+}
+.cons-6-right{
+display:flex;
+flex-direction: column;
+gap:40px;
+width:35%;
+}
+.lc6-text01{
+
+}
+.btn-my{
+color: #ffffff !important;
+background: #ff444f !important;
+text-transform: uppercase;
+width:140px;
+text-align:center;
+padding-top:8px;
+padding-bottom:8px;
+}
+.t4s-btn-size-large {
+    --padding-btn: 0 25px !important;
+}
+
+@media only screen and (max-width: 768px) {
+.l-cons-6{
+display:flex;
+flex-direction: column;
+align-items: center;
+padding-top:90px;
+padding-bottom:80px;
+gap:80px;
+}
+.cons-6-left{
+display:flex;
+width:100%;
+}
+.cons-6-right{
+display:flex;
+flex-direction: column;
+gap:20px;
+width:100%;
+align-items: center;
+text-align:center;
+}
+}
