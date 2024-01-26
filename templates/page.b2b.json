@@ -10,6 +10,16 @@
         "prevent_animation": true
       }
     },
+    "custom_liquid_k8b8tV": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"cont-osn\">\n\n<div class=\"cont-left\">\n<div class=\"globo-formbuilder\" data-id=\"MTAwNjEy\"><\/div>\n<\/div>\n<div class=\"cont-right\">\n<h4 class=\"cont-h4-1\">Benefits of <span style=\"color: #E3212F;\">EASYFEET<\/span><br> assortment<\/h4>\n<h4 class=\"cont-h4-2\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/Frame_502b0ea1-1fa1-45d2-ac11-99c47df3f691.png?v=1671284983\" class=\"lazyloadt4sed cont-right-img1\"> Unique, bright, and attractive design.<\/h4>\n<h4 class=\"cont-h4-2\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/Frame_502b0ea1-1fa1-45d2-ac11-99c47df3f691.png?v=1671284983\" class=\"lazyloadt4sed cont-right-img1\"> Assortment covers all TOP niches on the market (orthotic, plantar fasciitis, overweight, sport, work, comfort, walking, hiking etc.).<\/h4>\n<h4 class=\"cont-h4-2\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/Frame_502b0ea1-1fa1-45d2-ac11-99c47df3f691.png?v=1671284983\" class=\"lazyloadt4sed cont-right-img1\"> The best quality materials.<\/h4>\n<h4 class=\"cont-h4-2\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/Frame_502b0ea1-1fa1-45d2-ac11-99c47df3f691.png?v=1671284983\" class=\"lazyloadt4sed cont-right-img1\"> More than affordable cost for a product of this high quality.<\/h4>\n<h4 class=\"cont-h4-2\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/Frame_502b0ea1-1fa1-45d2-ac11-99c47df3f691.png?v=1671284983\" class=\"lazyloadt4sed cont-right-img1\"> All our orthotic models have really strong arch support<br> and provide body alignment.<\/h4>\n<h4 class=\"cont-h4-2\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/Frame_502b0ea1-1fa1-45d2-ac11-99c47df3f691.png?v=1671284983\" class=\"lazyloadt4sed cont-right-img1\"> The arch does not squeak due<br> to Unique technology “Anti-squeak”.<\/h4>\n<h4 class=\"cont-h4-2\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/Frame_502b0ea1-1fa1-45d2-ac11-99c47df3f691.png?v=1671284983\" class=\"lazyloadt4sed cont-right-img1\"> All models can be trimmed to fit<br> perfectly.<\/h4>\n\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1177\/1120\/files\/Black1.webp?v=1671285388\" class=\"lazyloadt4sed cont-right-img0\">\n<\/div>\n<\/div>",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": true
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -116,6 +126,7 @@
   },
   "order": [
     "custom_liquid_BEh3F9",
+    "custom_liquid_k8b8tV",
     "main",
     "rich_text_6DqKFr",
     "17042703314429d52d",
