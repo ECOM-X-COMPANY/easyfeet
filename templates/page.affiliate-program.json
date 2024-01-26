@@ -23,6 +23,7 @@
       "block_order": [
         "heading_haGqLW"
       ],
+      "disabled": true,
       "custom_css": [
         "#template--17336944656624__rich_text_6DqKFr {margin: 40px 0px 0px 0px;}"
       ],
@@ -86,14 +87,27 @@
         "c5f46fd1-78ba-4346-94c8-53d8ee5965c8",
         "81d82ab2-5252-4c3e-ae30-a03fae1ac9bf"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false
+      }
+    },
+    "recently_viewed_Q8dCX4": {
+      "type": "recently-viewed",
+      "settings": {
+        "heading": "Recently viewed",
+        "heading_align": "text-start",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "limit": 8
       }
     }
   },
   "order": [
     "main",
     "rich_text_6DqKFr",
-    "17042703314429d52d"
+    "17042703314429d52d",
+    "recently_viewed_Q8dCX4"
   ]
 }
