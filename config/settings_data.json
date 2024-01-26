@@ -342,7 +342,7 @@
     "color_scheme_1_text": "#ffffff",
     "color_scheme_1_btn_bg": "#151515",
     "color_scheme_1_btn_text": "#ffffff",
-    "color_scheme_2_bg": "#000000",
+    "color_scheme_2_bg": "#ff444f",
     "color_scheme_2_bg_grad": "linear-gradient(180deg, rgba(46, 46, 46, 1), rgba(46, 46, 46, 1) 100%)",
     "color_scheme_2_heading": "#ffffff",
     "color_scheme_2_text": "#ffffff",

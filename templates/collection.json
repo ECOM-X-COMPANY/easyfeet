@@ -172,12 +172,12 @@
         "text_align": "text-center",
         "mob_center_text": false,
         "countdown_size": "24",
-        "use_custom_colors": false,
+        "use_custom_colors": true,
         "count_color": "#ffffff",
-        "bg_color": "#000000",
+        "bg_color": "#151515",
         "color_scheme": "3",
         "full_width": true,
-        "tint_color": "#000000",
+        "tint_color": "#ff444f",
         "tint_opacity": 20
       }
     },
@@ -195,6 +195,7 @@
     "custom_promo_sale_AmK3zx": {
       "type": "custom-promo-sale",
       "settings": {
+        "card1_discount": "%",
         "card1_totalPrice": "71",
         "card1_subPrice": "99",
         "card1_promoText_1": "two pairs.",
@@ -203,6 +204,7 @@
         "card1_promoImage_1": "shopify:\/\/shop_images\/soles2_200_x_200_px.gif",
         "card1_promoImage_2": "shopify:\/\/shop_images\/soles3_200_x_200_px.gif",
         "card1_btnLink": "https:\/\/easyfeet.store\/products\/black-model",
+        "card2_discount": "%",
         "card2_totalPrice": "101",
         "card2_subPrice": "98",
         "card2_promoText_1": "Bundle of three.",
