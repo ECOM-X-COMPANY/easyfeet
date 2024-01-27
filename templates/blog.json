@@ -2,6 +2,9 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "custom_css": [
+        ".md\\:img-fit {object-fit: contain;}"
+      ],
       "settings": {
         "show_blog_title": true,
         "description": "",
