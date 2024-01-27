@@ -812,6 +812,7 @@
       "blocks": {
         "130d5f17-528a-461a-bc32-14ceee719df3": {
           "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
           "settings": {
             "maxWidth": 1100,
             "borderRadius": 8,
