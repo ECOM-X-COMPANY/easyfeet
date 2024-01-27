@@ -11,7 +11,7 @@
         "three_columns": true,
         "show_tag_filter": false,
         "show_featured_image": true,
-        "image_ratio": "0.75",
+        "image_ratio": "tallest",
         "show_tags": true,
         "show_excerpt": true,
         "show_author": true,
