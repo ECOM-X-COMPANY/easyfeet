@@ -257,6 +257,65 @@
         "prevent_animation": true
       }
     },
+    "multi_column_EQ4aXf": {
+      "type": "multi-column",
+      "blocks": {
+        "column_BNWfnV": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Frame-81_4da62668-497d-41be-bf2e-6cd5ceeb40f9.webp",
+            "media_scale": 100,
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_FrjTWw": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Frame-84_8c2d942a-6d5a-4d99-bb75-d2cc780547a2.webp",
+            "media_scale": 100,
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_FzLkzd": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/Frame-85_1.webp",
+            "media_scale": 100,
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BNWfnV",
+        "column_FrjTWw",
+        "column_FzLkzd"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "layout": "grid",
+        "column_size": "medium",
+        "column_align": "left",
+        "media_align": "text-center",
+        "image_ratio": "natural",
+        "color_scheme": "3",
+        "button_style": "btn btn--secondary"
+      }
+    },
     "126e650b-efd9-4617-ae1e-bfbb40543100": {
       "type": "logo-list",
       "blocks": {
@@ -293,6 +352,7 @@
         "92af4d70-8ee1-4d68-a820-fd149e1c7240",
         "925cf8e7-cd21-495b-ba3e-15863b07c4fc"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -330,6 +390,7 @@
     "dfada304-6a48-43dc-b393-302e08f80d59",
     "71228f61-3c9e-40f5-a074-5dfee6bc6b36",
     "ddc0a3ef-3c04-4ebf-b0af-df9ee746704d",
+    "multi_column_EQ4aXf",
     "126e650b-efd9-4617-ae1e-bfbb40543100",
     "768a35a1-faba-41b5-9790-4f6bd2888981"
   ]
