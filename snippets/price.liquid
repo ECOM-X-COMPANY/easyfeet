@@ -25,7 +25,7 @@
                  {%- if available == false %} price--sold-out{% endif -%}{% if class %} {{ class }}{% endif %}">
   <div class="price__default">
     {%- if product.price_varies and use_variant == false %}
-      <span class="price__from">{{ 'products.product.from' | t }}</span>
+      <span class="price__from">{{ 'products.product.from' | t }} </span>
     {%- endif %}
     <strong class="price__current">{%- render 'price-as-money', price: price -%}</strong>
     <s class="price__was{% if settings.superscript_decimals %} price__was--supercents{% endif %}">
