@@ -293,13 +293,16 @@
         "92af4d70-8ee1-4d68-a820-fd149e1c7240",
         "925cf8e7-cd21-495b-ba3e-15863b07c4fc"
       ],
+      "custom_css": [
+        ".logo-list__logo {width: 360px;}"
+      ],
       "settings": {
         "title": "",
         "heading_align": "text-center",
         "button_label": "",
         "button_link": "",
         "layout": "grid",
-        "spacing": 104,
+        "spacing": 32,
         "logo_grid_align": "justify-center",
         "color_scheme": "3",
         "full_width": true
