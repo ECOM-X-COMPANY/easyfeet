@@ -16,7 +16,7 @@
     "custom_liquid_yTMXcj": {
       "type": "custom-liquid",
       "custom_css": [
-        ".section--padded-default {padding: 0;}",
+        ".section--padded-default {padding: 0 !important;}",
         ".l-cons-4 {padding-top: 0px;}"
       ],
       "settings": {
