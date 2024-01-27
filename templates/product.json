@@ -422,6 +422,9 @@
         "loox_reviews_loox_card_carousel_section_JkCNyE",
         "ryviu_reviews_qa_ryviu_widget_qTtgrJ"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 768px) {#r--carousel-theme .r--carousel-item {min-height: 340px; height: -webkit-max-content !important; height: -moz-max-content !important; height: max-content !important; }}"
+      ],
       "settings": {
         "full_width": false
       }
