@@ -3,7 +3,8 @@
     "main": {
       "type": "main-blog",
       "custom_css": [
-        ".md\\:img-fit {object-fit: contain;}"
+        ".md\\:img-fit {object-fit: contain;}",
+        "p{color: #000;}"
       ],
       "settings": {
         "show_blog_title": true,
