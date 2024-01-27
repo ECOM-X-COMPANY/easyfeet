@@ -888,6 +888,9 @@
         "ryviu_reviews_qa_ryviu_featured_widget_JaMCeU",
         "ryviu_reviews_qa_ryviu_product_reviews_UaxJ4x"
       ],
+      "custom_css": [
+        "#r--carousel-theme .r--carousel-item {min-height: 340px; height: -webkit-max-content !important; height: -moz-max-content !important; height: max-content !important;}"
+      ],
       "settings": {
         "full_width": true
       }
