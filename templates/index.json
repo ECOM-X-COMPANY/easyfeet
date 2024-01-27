@@ -41,8 +41,8 @@
           "settings": {
             "image_desktop": "shopify:\/\/shop_images\/Frame_1321315680.png",
             "url": "",
-            "overlay_position": "justify-start items-center",
-            "overlay_text_align": "text-start",
+            "overlay_position": "justify-center items-center",
+            "overlay_text_align": "text-center",
             "mob_center_text": true,
             "subheading": "",
             "heading": "Insoles that fit your task",
