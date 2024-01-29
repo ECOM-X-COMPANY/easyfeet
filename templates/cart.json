@@ -29,22 +29,7 @@
       "block_order": [
         "fast_bundle_bundle_with_ids_zgJUw6"
       ],
-      "settings": {
-        "full_width": false
-      }
-    },
-    "1706520190e29ea441": {
-      "type": "apps",
-      "blocks": {
-        "fast_bundle_all_bundles_DjC8cV": {
-          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/all_bundles\/9e87fbe2-9041-4c23-acf5-322413994cef",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "fast_bundle_all_bundles_DjC8cV"
-      ],
+      "disabled": true,
       "settings": {
         "full_width": false
       }
@@ -52,7 +37,6 @@
   },
   "order": [
     "main",
-    "17065201837240e554",
-    "1706520190e29ea441"
+    "17065201837240e554"
   ]
 }
