@@ -9184,3 +9184,6 @@ align-items: center;
 text-align:center;
 }
 }
+.filter__content li::nth-child(1) {
+  display: none;
+}
