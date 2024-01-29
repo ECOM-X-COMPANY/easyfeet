@@ -1981,20 +1981,18 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //
-document.addEventListener('DOMContentLoaded', function () {
-  // Знаходимо всі елементи li в документі
-  var liElements = document.querySelectorAll('li');
+document.addEventListener('DOMContentLoaded', () => {
 
-  // Перебираємо знайдені елементи
-  liElements.forEach(function (liElement) {
-    // Знаходимо мітку (label) у відповідному li
-    var labelElement = liElement.querySelector('label');
+  const liElements = document.querySelectorAll('li');
 
-    // Перевірка, чи мітка має атрибут for зі значенням "filter-filter.p.tag-12"
+  liElements.forEach(liElement => {
+    const labelElement = liElement.querySelector('label');
+
     if (labelElement && labelElement.getAttribute('for') === 'filter-filter.p.tag-12') {
-      // Видалення елементу li
+
       liElement.remove();
     }
   });
 });
+
 
