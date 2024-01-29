@@ -1979,3 +1979,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }, 100);
 });
+
+//
+document.addEventListener('DOMContentLoaded', function () {
+  // Знаходимо елемент li за класом або іншими характеристиками
+  var liToRemove = document.querySelector('li.filter__label span.flex-auto:contains("Other")');
+
+  // Перевірка, чи елемент був знайдений перед видаленням
+  if (liToRemove) {
+    // Видалення елементу li
+    liToRemove.parentElement.remove();
+  }
+});
