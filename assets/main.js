@@ -1980,7 +1980,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 100);
 });
 
-//
+// Remove the li tag from the filter from the DOM
 document.addEventListener('DOMContentLoaded', () => {
 
   const liElements = document.querySelectorAll('li');
