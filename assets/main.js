@@ -1982,12 +1982,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //
 document.addEventListener('DOMContentLoaded', function () {
-  // Знаходимо елемент li за класом або іншими характеристиками
-  var liToRemove = document.querySelector('li.filter__label span.flex-auto:contains("Other")');
+  // Знаходимо всі елементи li з класом filter__label
+  var liElements = document.querySelectorAll('li.filter__label');
 
-  // Перевірка, чи елемент був знайдений перед видаленням
-  if (liToRemove) {
-    // Видалення елементу li
-    liToRemove.parentElement.remove();
-  }
+  // Перебираємо знайдені елементи
+  liElements.forEach(function (liElement) {
+    // Перевірка, чи текст елемента містить "Other"
+    if (liElement.textContent.includes("Other")) {
+      // Видалення елементу li
+      liElement.remove();
+    }
+  });
 });
