@@ -1982,15 +1982,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //
 document.addEventListener('DOMContentLoaded', function () {
-  // Знаходимо всі елементи li з класом filter__label
-  var liElements = document.querySelectorAll('li.filter__label');
+  // Знаходимо всі елементи li в документі
+  var liElements = document.querySelectorAll('li');
 
   // Перебираємо знайдені елементи
   liElements.forEach(function (liElement) {
-    // Перевірка, чи текст елемента містить "Other"
-    if (liElement.textContent.includes("Other")) {
+    // Знаходимо мітку (label) у відповідному li
+    var labelElement = liElement.querySelector('label');
+
+    // Перевірка, чи мітка має атрибут for зі значенням "filter-filter.p.tag-12"
+    if (labelElement && labelElement.getAttribute('for') === 'filter-filter.p.tag-12') {
       // Видалення елементу li
       liElement.remove();
     }
   });
 });
+
