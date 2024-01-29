@@ -7,8 +7,6 @@
     border-radius: 32px;
     background: #FFFFFF;
     box-shadow: 0px 4px 15px 0px #0000001A;
-
-
 }
 
 .custome-description__content {
@@ -122,4 +120,33 @@
 .custom-page-content--metatitle p{
     font-weight: 900;
     margin-bottom: 10px;
+}
+#desc-info img {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+#desc-info h1{
+text-align: left !important;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#desc-info li h2{
+    font-size: 20px;
+}
+#desc-info h2{
+    font-size: 20px;
+}
+#desc-info h3{
+    font-size: 20px;
+    text-align: left !important;
+}
+#tolstoy-container{
+    text-align: left !important;
+    width: 50% !important;
+}
+#tolstoy-container p{
+    margin: 0 !important;
+    height: 0 !important;
 }

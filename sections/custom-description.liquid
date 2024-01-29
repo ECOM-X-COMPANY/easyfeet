@@ -53,28 +53,7 @@
             <div class="custome-description__content--info">
                 <div class="desc-info" id="desc-info">
                     {% if product %}
-                        {% assign paragraphs = product.description | split: '</p>' %}
-                        {% if paragraphs.size > 0 %}
-                            {% assign first_paragraph = paragraphs[0] | append: '</p>' %}
-                            {% if first_paragraph contains '<h2>' %}
-                                <div class="first-h2">
-                                    {{ first_paragraph | split: '<h2>' | last | prepend: '<h2>' }}
-                                </div>
-                            {% else %}
-                                {{ first_paragraph }}
-                            {% endif %}
-
-                            {% if paragraphs.size > 1 %}
-                                {% assign second_paragraph = paragraphs[1] | append: '</p>' %}
-                                {% if second_paragraph contains '<h2>' %}
-                                    <div class="second-h2">
-                                        {{ second_paragraph | split: '<h2>' | last | prepend: '<h2>' }}
-                                    </div>
-                                {% else %}
-                                    {{ second_paragraph }}
-                                {% endif %}
-                            {% endif %}
-                        {% endif %}
+                        {{ product.description }}
                     {% else %}
                     {% endif %}
                 </div>
