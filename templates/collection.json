@@ -101,8 +101,7 @@
     "collection-products": {
       "type": "main-collection-products",
       "custom_css": [
-        ".filter__label {text-transform: capitalize;}",
-        ".filter__content li::nth-child(1) {display: none;}"
+        ".filter__label {text-transform: capitalize;}"
       ],
       "settings": {
         "products_per_page": 30,
