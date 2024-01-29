@@ -9184,6 +9184,6 @@ align-items: center;
 text-align:center;
 }
 }
-.filter__content li::nth-child(1) {
+#filter-filter.p.tag-12 {
   display: none;
 }
