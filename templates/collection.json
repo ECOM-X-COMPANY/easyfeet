@@ -106,7 +106,7 @@
         "card_size": "medium",
         "show_layout_toggle": true,
         "enable_filtering": true,
-        "filters_open_lg": false,
+        "filters_open_lg": true,
         "stick_on_scroll": true,
         "show_filter_counts": false,
         "expand_filters": false,
