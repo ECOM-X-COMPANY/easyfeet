@@ -100,6 +100,9 @@
     },
     "collection-products": {
       "type": "main-collection-products",
+      "custom_css": [
+        ".filter__label{text-transform: capitalize;}"
+      ],
       "settings": {
         "products_per_page": 30,
         "card_size_mobile": "small",
