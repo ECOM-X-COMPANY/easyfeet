@@ -151,5 +151,6 @@ text-align: left !important;
     height: 0 !important;
 }
 #desc-info p{
+  display: none;
   margin: 0;
 }
