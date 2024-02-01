@@ -9184,3 +9184,12 @@ align-items: center;
 text-align:center;
 }
 }
+
+.quick-add__product-details .product-price .product-info__price {
+    display: flex!important;
+    align-items: flex-start!important;
+    flex-direction: column-reverse!important;
+}
+.quick-add__product-details .product-price .product-info_price--discount {
+    margin-left: 0!important;
+}
