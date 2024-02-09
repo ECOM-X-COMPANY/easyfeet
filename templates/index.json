@@ -537,6 +537,7 @@
     },
     "65a0f993-81d8-43fc-851e-49024b73e5f1": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".section--padded-default {padding: 0;}",
         ".p-dr {font-size: 19px;}"
@@ -702,6 +703,33 @@
         "image_src_7": "shopify:\/\/shop_images\/6_3d59686a-879c-40de-894b-695a899c74f1.png",
         "image_link_8": "shopify:\/\/blogs\/our-blog",
         "image_src_8": "shopify:\/\/shop_images\/7_63cbc93d-ebf5-4205-a528-195c8a9e8411.png"
+      }
+    },
+    "rich_text_qM9JiX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ytzyDH": {
+          "type": "heading",
+          "settings": {
+            "heading": "PODIATRISTS RECOMMEND",
+            "heading_size": "h3",
+            "heading_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_ytzyDH"
+      ],
+      "custom_css": [
+        "h1 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": true
       }
     },
     "custom_pediatrists_CYYEJ9": {
@@ -1161,6 +1189,7 @@
     "65a0f993-81d8-43fc-851e-49024b73e5f1",
     "42814be8-75a0-4ca6-9e11-4b793202f2a4",
     "2216310a-d2be-41f1-bdda-f9a924006972",
+    "rich_text_qM9JiX",
     "custom_pediatrists_CYYEJ9",
     "featured_collection_q8C6qa",
     "c506bb30-8906-412c-998f-cd396e880515",
