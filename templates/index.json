@@ -549,51 +549,6 @@
         "prevent_animation": true
       }
     },
-    "collection_list_PWDTpr": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_aVVBKz": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_BG4gGQ": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_DwmLiF": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_Ha3LVr": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_aVVBKz",
-        "collection_BG4gGQ",
-        "collection_DwmLiF",
-        "collection_Ha3LVr"
-      ],
-      "settings": {
-        "title": "PODIATRISTS RECOMMEND",
-        "heading_align": "text-start",
-        "button_label": "",
-        "button_link": "",
-        "layout": "carousel",
-        "card_size": "small",
-        "use_product_image": false,
-        "circle_image": true
-      }
-    },
     "42814be8-75a0-4ca6-9e11-4b793202f2a4": {
       "type": "logo-list",
       "blocks": {
@@ -747,6 +702,41 @@
         "image_src_7": "shopify:\/\/shop_images\/6_3d59686a-879c-40de-894b-695a899c74f1.png",
         "image_link_8": "shopify:\/\/blogs\/our-blog",
         "image_src_8": "shopify:\/\/shop_images\/7_63cbc93d-ebf5-4205-a528-195c8a9e8411.png"
+      }
+    },
+    "custom_pediatrists_CYYEJ9": {
+      "type": "custom-pediatrists",
+      "settings": {
+        "podiatrist1_photo_1": "shopify:\/\/shop_images\/AJ_headshot_21_1_480x480_8f75b208-a8b6-49a5-9921-4bdf81ff5f13.webp",
+        "podiatrist1_btnLink": "https:\/\/example.com",
+        "podiatrist1_name": "DR. ALTON R. JOHNSON JR., DPM",
+        "podiatrist1_profession": "Doctor of Podiatric Medicine",
+        "podiatrist1_address": "Change Address",
+        "podiatrist2_photo_2": "shopify:\/\/shop_images\/10.png",
+        "podiatrist2_btnLink": "https:\/\/example.com",
+        "podiatrist2_name": "Change name",
+        "podiatrist2_profession": "Change Profession",
+        "podiatrist2_address": "Change Address",
+        "podiatrist3_photo_3": "shopify:\/\/shop_images\/9.png",
+        "podiatrist3_btnLink": "https:\/\/example.com",
+        "podiatrist3_name": "Change name",
+        "podiatrist3_profession": "Change Profession",
+        "podiatrist3_address": "Change Address",
+        "podiatrist4_photo_4": "shopify:\/\/shop_images\/1_00f390d3-1245-4755-9831-05c15a3092c4.png",
+        "podiatrist4_btnLink": "https:\/\/example.com",
+        "podiatrist4_name": "Change name",
+        "podiatrist4_profession": "Change Profession",
+        "podiatrist4_address": "Change Address",
+        "podiatrist5_photo_5": "shopify:\/\/shop_images\/7_8eb8d860-ab90-4c65-932d-50a18fcbf9c1.png",
+        "podiatrist5_btnLink": "https:\/\/example.com",
+        "podiatrist5_name": "Change name",
+        "podiatrist5_profession": "Change Profession",
+        "podiatrist5_address": "Change Address",
+        "podiatrist6_photo_6": "shopify:\/\/shop_images\/4_665717d9-176d-4090-8d25-d61efdc095fc.png",
+        "podiatrist6_btnLink": "https:\/\/example.com",
+        "podiatrist6_name": "Change name",
+        "podiatrist6_profession": "Change Profession",
+        "podiatrist6_address": "Change Address"
       }
     },
     "featured_collection_q8C6qa": {
@@ -1169,9 +1159,9 @@
     "featured_collection_HhhGdq",
     "23111f13-2106-417d-93b0-5b91f85cc82c",
     "65a0f993-81d8-43fc-851e-49024b73e5f1",
-    "collection_list_PWDTpr",
     "42814be8-75a0-4ca6-9e11-4b793202f2a4",
     "2216310a-d2be-41f1-bdda-f9a924006972",
+    "custom_pediatrists_CYYEJ9",
     "featured_collection_q8C6qa",
     "c506bb30-8906-412c-998f-cd396e880515",
     "17047158042ade648c",
