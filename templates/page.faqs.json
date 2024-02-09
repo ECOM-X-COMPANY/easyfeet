@@ -23,6 +23,9 @@
       "block_order": [
         "banner-heading-0"
       ],
+      "custom_css": [
+        "h1 {font-size: 64px; line-height: 64px; font-weight: 900;}"
+      ],
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/Group_640.png",
         "url": "",
@@ -164,6 +167,9 @@
         "887ff46f-a416-4dcf-9bd4-036042f90763",
         "8ec28f5e-70d0-4271-a4ba-78e19458a5d5"
       ],
+      "custom_css": [
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+      ],
       "settings": {
         "heading": "FAQs",
         "heading_align": "text-center",
@@ -209,6 +215,10 @@
         "contact-email-3",
         "contact-body-5"
       ],
+      "custom_css": [
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
+        ".btn--primary {font-size: 16px; line-height: 16px;}"
+      ],
       "settings": {
         "heading": "Still looking for answers?",
         "heading_align": "text-center",
@@ -220,6 +230,9 @@
     },
     "aab0110a-6a81-4327-955c-bf8482c1f0fe": {
       "type": "recently-viewed",
+      "custom_css": [
+        "h2{font-size: 32px; line-height: 32px; font-weight: 900;}"
+      ],
       "settings": {
         "heading": "Recently viewed",
         "heading_align": "text-start",

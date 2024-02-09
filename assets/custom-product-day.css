@@ -6,7 +6,9 @@
     width: 33%;
 }
 .product-item__content--info h2{
-    font-size: 31px;
+    font-size: 32px;
+  line-height: 32px;
+  font-weight: 900;
 }
 .product-item__content--vendor{
     display: flex;
@@ -17,10 +19,12 @@
 .product-item__content--price{
     display: flex !important;
     align-items: center !important;
-    font-size: 31px;
+    font-size: 22px;
+  line-height: 22px;
 }
 .product-item__content--price h2{
-    font-size: 31px !important;
+    font-size: 22px !important;
+    line-height: 22px;
     font-weight: 900;
     margin: 0;
 }
@@ -28,7 +32,8 @@
 
     align-items: center;
     margin: 0;
-    font-size: 31px !important;
+    font-size: 22px !important;
+    line-height: 22px !important;
     font-weight: 900;
     color: #000;
 }
@@ -36,23 +41,26 @@
     margin: 20px 0;
 }
 .product-item__content--price span{
-    font-size: 25px;
+    font-size: 22px;
+  line-height: 22px;
     margin-left: 5px;
-    color: #383838;
+    color: #ff444f;
 }
 .product-item__content--size{
     display: flex;
    flex-wrap: wrap;
 }
 .product-item__content--size label{
-    font-size: 14px;
+    font-size: 16px;
+  line-height: 16px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 .product-item__content--btn .btn{
     width: 100%;
-    font-size: 19px;
-    font-weight: 400;
+    font-size: 16px;
+  line-height: 16px;
+    font-weight: 900;
 align-items: center;
 }
 .product-item__content--btn button{
@@ -77,6 +85,8 @@ span{
 }
 
 .size-button{
+  font-size: 14px;
+  line-height: 14px;
     border: 2px solid transparent; !important;
 }
 .size-button--active.size-button{
@@ -361,4 +371,12 @@ span{
     .product-item__content--price span{
         font-size: 20px;
     }
+}
+.product-info__advantages{
+  font-size: 14px;
+  line-height: 14px;
+}
+.buy-info__title{
+  font-size: 22px;
+  line-height: 22px;
 }

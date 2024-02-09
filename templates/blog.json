@@ -5,7 +5,9 @@
       "custom_css": [
         ".md\\:img-fit {object-fit: contain;}",
         "p {color: #000;}",
-        ".img-fit {object-fit: contain;}"
+        ".img-fit {object-fit: contain;}",
+        "h1 {font-size: 64px; line-height: 64px; font-weight: 900;}",
+        ".card__title a {font-size: 32px; line-height: 32px; font-weight: 900;}"
       ],
       "settings": {
         "show_blog_title": true,
@@ -32,6 +34,9 @@
     },
     "featured_blog_UKJCEd": {
       "type": "featured-blog",
+      "custom_css": [
+        "h2{font-size: 32px; line-height: 32px; font-weight: 900;}"
+      ],
       "settings": {
         "title": "Featured blog",
         "heading_align": "text-start",

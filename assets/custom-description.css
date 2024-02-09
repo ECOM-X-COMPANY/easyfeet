@@ -30,7 +30,8 @@
 }
 
 .custome-description__tab button {
-    font-size: 18px;
+    font-size: 22px;
+    line-height: 22px;
     font-weight: 600;
     color: #999394;
 }
@@ -128,12 +129,18 @@
 }
 #desc-info h1{
 text-align: left !important;
-    font-size: 30px;
+    font-size: 22px;
+  line-height: 22px;
     font-weight: 900;
+}
+#desc-info h2{
+  font-size: 22px;
+  line-height: 22px;
 }
 
 #desc-info li h2{
-    font-size: 20px;
+    font-size: 16px;
+  line-height: 16px;
 }
 #desc-info h2{
     font-size: 20px;
@@ -151,5 +158,7 @@ text-align: left !important;
     height: 0 !important;
 }
 #desc-info p{
+  font-size: 14px;
+  line-height: 20px;
   margin: 0;
 }

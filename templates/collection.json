@@ -1,5 +1,99 @@
 {
   "sections": {
+    "image_banner_UkCfrP": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_RFQaMR": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_yedR6K": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "button_xMcqAL": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RFQaMR",
+        "text_yedR6K",
+        "button_xMcqAL"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/12_7584bdb8-b58d-45f6-a202-17141a7d0910.png",
+        "image_mobile": "shopify:\/\/shop_images\/14.png",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 620,
+        "fixed_height_mobile": 420,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0,
+        "prevent_animation": true
+      }
+    },
+    "media_with_text_xCqbWC": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_EAkUkx": {
+          "type": "heading",
+          "settings": {
+            "heading": "BUY 3 pairs,get 15% off",
+            "heading_size": "h2",
+            "heading_h1": true
+          }
+        },
+        "text_EFXLiT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_EAkUkx",
+        "text_EFXLiT"
+      ],
+      "disabled": true,
+      "settings": {
+        "img_link": "",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 46,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "2"
+      }
+    },
     "bc550521-3c9c-43b4-986b-46bfd1fbdf76": {
       "type": "rich-text",
       "blocks": {
@@ -14,6 +108,10 @@
       },
       "block_order": [
         "template--17234989842672__bc550521-3c9c-43b4-986b-46bfd1fbdf76-heading-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
       ],
       "settings": {
         "text_position": "justify-center",
@@ -124,7 +222,7 @@
       "type": "custom-liquid",
       "custom_css": [
         "a {color: #e9303d; text-decoration: underline;}",
-        "h1 {font-size: 45px;}"
+        "h1 {padding-bottom: 0; font-size: 32px; line-height: 32px; font-weight: 900;}"
       ],
       "settings": {
         "custom_liquid": "<h1 style=\"padding-bottom:20px; text-align: center;\">Not sure which one to choose? <a href=\"\/pages\/insole-finders\">Click to find out!<\/a>\n<\/h1>",
@@ -166,6 +264,10 @@
         "template--17234989842672__f8ac1bc5-0a24-4337-bbb3-8261ab696056-heading-1",
         "template--17234989842672__f8ac1bc5-0a24-4337-bbb3-8261ab696056-text-1",
         "template--17234989842672__f8ac1bc5-0a24-4337-bbb3-8261ab696056-countdown-1"
+      ],
+      "custom_css": [
+        "h2 {font-size: 64px; line-height: 64px; font-weight: 900;}",
+        "p {font-size: 22px; line-height: 22px;}"
       ],
       "settings": {
         "height_mode": "fixed",
@@ -295,6 +397,9 @@
     },
     "4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7": {
       "type": "recently-viewed",
+      "custom_css": [
+        "h2 {font-weight: 900;}"
+      ],
       "settings": {
         "heading": "Recently reviewed",
         "heading_align": "text-center",
@@ -306,6 +411,8 @@
     }
   },
   "order": [
+    "image_banner_UkCfrP",
+    "media_with_text_xCqbWC",
     "bc550521-3c9c-43b4-986b-46bfd1fbdf76",
     "collection-banner",
     "d9bb8740-54a6-4eb6-a390-5bd6b000ad69",

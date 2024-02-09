@@ -24,7 +24,8 @@
         "heading_haGqLW"
       ],
       "custom_css": [
-        "#template--17336944656624__rich_text_6DqKFr {margin: 40px 0px 0px 0px;}"
+        "#template--17336944656624__rich_text_6DqKFr {margin: 40px 0px 0px 0px;}",
+        "h1{font-size: 32px; line-height: 32px; font-weight: 900;}"
       ],
       "settings": {
         "text_position": "justify-center",

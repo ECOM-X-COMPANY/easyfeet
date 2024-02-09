@@ -73,6 +73,10 @@
         "template--17246324588784__37c5e8f3-8892-4d2f-b55e-f5d38c0341bf-heading-1",
         "template--17246324588784__37c5e8f3-8892-4d2f-b55e-f5d38c0341bf-text-1"
       ],
+      "custom_css": [
+        "h1 {font-size: 64px; line-height: 64px; font-weight: 900;}",
+        "p {font-size: 22px; line-height: 30px;}"
+      ],
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/mariaverkalets456_7c1ef62e-fde0-4feb-b9ce-ee2c83103e52.webp",
         "url": "",
@@ -166,6 +170,9 @@
         "template--17246324588784__da23af6f-ea93-4441-8c6a-d2a78841c7eb-logo-2",
         "69ef9c94-619e-47a1-875c-0e1032b8c4b3",
         "adbbb812-a402-4490-b0b3-ab59d978a9c9"
+      ],
+      "custom_css": [
+        "h2{font-size: 32px; line-height: 32px; font-weight: 900;}"
       ],
       "settings": {
         "title": "We make products for",

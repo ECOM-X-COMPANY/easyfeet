@@ -27,21 +27,24 @@
 }
 .donations-box__content p{
     margin: 0;
-    font-size: 40px;
+    font-size: 32px;
+  line-height: 32px;
     font-weight: 400;
     color: #fff;
 }
 .donations-box__content h2{
     margin: 0;
-    font-size: 100px;
-    font-weight: 000;
+    font-size: 64px;
+  line-height: 64px;
+    font-weight: 900;
     color: #fff;
     text-transform: uppercase;
 }
 .donations-box__content span{
     margin: 0;
-    font-size: 100px;
-    font-weight: 000;
+    font-size: 64px;
+  line-height: 64px;
+    font-weight: 900;
     color: #fff;
     text-transform: uppercase;
 }
@@ -65,15 +68,16 @@
 .donations-box__image--left p,
 .donations-box__image--right p{
     padding: 5px 5px;
-    font-size: 21px;
+    font-size: 22px;
+  line-height: 25px
     margin: 0;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .donations-box__link{
     cursor: pointer;
 border-radius: 5px;
-    width: 183px;
+    width: 153px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -97,7 +101,8 @@ border-radius: 5px;
 }
 .donations-box__link a{
     color: #fff;
-    font-size: 19px;
+    font-size: 16px;
+  line-height: 16px;
     font-weight: 700;
 }
 @media only screen and (max-width: 430px) {

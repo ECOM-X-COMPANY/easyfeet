@@ -1995,4 +1995,18 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// Making a clickable collection card
+document.addEventListener('DOMContentLoaded', function() {
+  const cardMediaElements = document.querySelectorAll('.card');
+
+  cardMediaElements.forEach(function(cardMediaElement) {
+    cardMediaElement.addEventListener('click', function() {
+      const buttonInsideMedia = this.querySelector('.card__button');
+      if (buttonInsideMedia) {
+        buttonInsideMedia.click();
+      }
+    });
+  });
+});
+
 

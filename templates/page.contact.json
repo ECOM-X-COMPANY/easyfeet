@@ -16,6 +16,9 @@
     },
     "bf9ed213-5c89-4491-9dab-02fc0e900766": {
       "type": "recently-viewed",
+      "custom_css": [
+        "h2{font-size: 32px; line-height: 32px; font-weight: 900}"
+      ],
       "settings": {
         "heading": "Recently viewed",
         "heading_align": "text-start",

@@ -41,7 +41,6 @@
         },
         "vendor-sku": {
           "type": "vendor-sku",
-          "disabled": true,
           "settings": {
             "show_vendor": true,
             "show_sku": true
@@ -58,17 +57,10 @@
             "show_tax_and_shipping": false
           }
         },
-        "divider-0": {
-          "type": "divider",
-          "settings": {
-            "show_line": true,
-            "spacing": "mt-8 mb-8"
-          }
-        },
         "variant-picker": {
           "type": "variant-picker",
           "settings": {
-            "selector_style": "buttons",
+            "selector_style": "dropdown",
             "enable_dynamic_availability": true,
             "show_backorder_text": true,
             "enable_size_chart": true,
@@ -86,7 +78,7 @@
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
-            "show_qty_selector": false,
+            "show_qty_selector": true,
             "enable_dynamic_checkout": true,
             "show_pickup_availability": true,
             "show_gift_card_recipient": false
@@ -120,6 +112,11 @@
           "settings": {
             "product": ""
           }
+        },
+        "king_linked_options_app_block_qPWMHh": {
+          "type": "shopify:\/\/apps\/king-linked-options\/blocks\/app-block\/564f3d71-fe5e-48d7-a0de-284b76666f1e",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -129,14 +126,17 @@
         "vendor-sku",
         "title",
         "price",
-        "divider-0",
         "variant-picker",
         "divider-1",
         "buy-buttons",
         "22907d0e-1791-4477-9c3e-fec7da66abe1",
         "qikify_upsell_bundle_bogo_offer_gChYW9",
         "qikify_upsell_bundle_bundle_offer_kDP8dd",
-        "qikify_upsell_bundle_volume_offer_YUNWWK"
+        "qikify_upsell_bundle_volume_offer_YUNWWK",
+        "king_linked_options_app_block_qPWMHh"
+      ],
+      "custom_css": [
+        ".product-title {font-size: 32px; line-height: 33px; font-weight: 900;}"
       ],
       "settings": {
         "stick_on_scroll": true,
@@ -151,7 +151,7 @@
         "enable_video_looping": false,
         "stacked_scroll": "change",
         "underline_active": true,
-        "media_thumbs": "desktop",
+        "media_thumbs": "always",
         "thumb_ratio": "1",
         "thumb_crop": "top",
         "media_arrows": "never",
@@ -285,11 +285,13 @@
         "richtext_GfVWJY"
       ],
       "custom_css": [
-        ".h4 {text-align: left !important;}",
+        ".h4 {text-align: left !important; font-size: 32px !important; line-height: 32px !important;}",
         ".large-text {margin: 0 !important;}",
         ".large-text p {width: 600px !important; text-align: left !important;}",
         ".rte h5 {min-width: 600px !important; text-align: left !important;}",
-        ".rte strong {color: #ff444f !important;}"
+        ".rte strong {color: #ff444f !important;}",
+        "p {font-size: 16px; line-height: 26px;}",
+        "h5 {font-size: 22px !important; line-height: 30px !important;}"
       ],
       "settings": {
       }
@@ -369,7 +371,8 @@
         "heading_9AATAA"
       ],
       "custom_css": [
-        ".color-scheme--transparent {margin-bottom: 0;}"
+        ".color-scheme--transparent {margin-bottom: 0;}",
+        "h1 {font-size: 32px; line-height: 32px; font-weight: 900;}"
       ],
       "settings": {
         "text_position": "justify-center",
@@ -431,6 +434,9 @@
     },
     "recommendations": {
       "type": "product-recommendations",
+      "custom_css": [
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+      ],
       "settings": {
         "heading": "You may also like",
         "heading_align": "text-start",
