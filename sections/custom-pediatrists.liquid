@@ -1,0 +1,323 @@
+{{ 'custom-podiatrists.css' | asset_url | stylesheet_tag }}
+{{ 'main.css' | asset_url | stylesheet_tag }}
+<div class="podiatrists">
+    <div class="container">
+        <div class="podiatrists-inner">
+            <ul>
+                <li>
+                   <div class="podiatrists-inner__box">
+                       <div class="podiatrists-inner__image">
+                           <img width="200" height="200"
+                                src="{{ section.settings.podiatrist1_photo_1 | img_url: 'master' }}" alt="image-1">
+                           <div class="podiatrists-inner__image--social">
+                               <a href="{{ section.settings.podiatrist1_btnLink }}">
+                                   <img src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/instagram.svg?v=1707481873" alt="social-image">
+                               </a>
+
+                           </div>
+                       </div>
+                       <div class="podiatrists-inner__cont">
+                           <h2>{{ section.settings.podiatrist1_name }}</h2>
+                           <p>{{ section.settings.podiatrist1_profession }}</p>
+                           <span>{{ section.settings.podiatrist1_address }}</span>
+                       </div>
+                   </div>
+                </li>
+                <li>
+                    <div class="podiatrists-inner__box">
+                        <div class="podiatrists-inner__image">
+                            <img width="200" height="200"
+                                 src="{{ section.settings.podiatrist2_photo_2 | img_url: 'master' }}" alt="image-1">
+                            <div class="podiatrists-inner__image--social">
+                                <a href="{{ section.settings.podiatrist2_btnLink }}">
+                                    <img src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/instagram.svg?v=1707481873" alt="social-image">
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="podiatrists-inner__cont">
+                            <h2>{{ section.settings.podiatrist2_name }}</h2>
+                            <p>{{ section.settings.podiatrist2_profession }}</p>
+                            <span>{{ section.settings.podiatrist2_address }}</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="podiatrists-inner__box">
+                        <div class="podiatrists-inner__image">
+                            <img width="200" height="200"
+                                 src="{{ section.settings.podiatrist3_photo_3 | img_url: 'master' }}" alt="image-1">
+                            <div class="podiatrists-inner__image--social">
+                                <a href="{{ section.settings.podiatrist3_btnLink }}">
+                                    <img src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/instagram.svg?v=1707481873" alt="social-image">
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="podiatrists-inner__cont">
+                            <h2>{{ section.settings.podiatrist3_name }}</h2>
+                            <p>{{ section.settings.podiatrist3_profession }}</p>
+                            <span>{{ section.settings.podiatrist3_address }}</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="podiatrists-inner__box">
+                        <div class="podiatrists-inner__image">
+                            <img width="200" height="200"
+                                 src="{{ section.settings.podiatrist4_photo_4 | img_url: 'master' }}" alt="image-1">
+                            <div class="podiatrists-inner__image--social">
+                                <a href="{{ section.settings.podiatrist4_btnLink }}">
+                                    <img src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/instagram.svg?v=1707481873" alt="social-image">
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="podiatrists-inner__cont">
+                            <h2>{{ section.settings.podiatrist4_name }}</h2>
+                            <p>{{ section.settings.podiatrist4_profession }}</p>
+                            <span>{{ section.settings.podiatrist4_address }}</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="podiatrists-inner__box">
+                        <div class="podiatrists-inner__image">
+                            <img width="200" height="200"
+                                 src="{{ section.settings.podiatrist5_photo_5 | img_url: 'master' }}" alt="image-1">
+                            <div class="podiatrists-inner__image--social">
+                                <a href="{{ section.settings.podiatrist5_btnLink }}">
+                                    <img src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/instagram.svg?v=1707481873" alt="social-image">
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="podiatrists-inner__cont">
+                            <h2>{{ section.settings.podiatrist5_name }}</h2>
+                            <p>{{ section.settings.podiatrist5_profession }}</p>
+                            <span>{{ section.settings.podiatrist5_address }}</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="podiatrists-inner__box">
+                        <div class="podiatrists-inner__image">
+                            <img width="200" height="200"
+                                 src="{{ section.settings.podiatrist6_photo_6 | img_url: 'master' }}" alt="image-1">
+                            <div class="podiatrists-inner__image--social">
+                                <a href="{{ section.settings.podiatrist6_btnLink }}">
+                                    <img src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/instagram.svg?v=1707481873" alt="social-image">
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="podiatrists-inner__cont">
+                            <h2>{{ section.settings.podiatrist6_name }}</h2>
+                            <p>{{ section.settings.podiatrist6_profession }}</p>
+                            <span>{{ section.settings.podiatrist6_address }}</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Custom Podiatrists",
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Podiatrist[1] Photo(1)",
+      "id": "podiatrist1_photo_1",
+      "info": "Select photo 1"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[1] Link(1)",
+      "id": "podiatrist1_btnLink",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[1] Name",
+      "id": "podiatrist1_name",
+      "default": "Change name"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[1] Profession",
+      "id": "podiatrist1_profession",
+      "default": "Change Profession"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[1] Address",
+      "id": "podiatrist1_address",
+      "default": "Change Address"
+    },
+    {
+      "type": "image_picker",
+      "label": "Podiatrist[2] Photo(2)",
+      "id": "podiatrist2_photo_2",
+      "info": "Select photo 2"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[2] Link(2)",
+      "id": "podiatrist2_btnLink",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[2] Name",
+      "id": "podiatrist2_name",
+      "default": "Change name"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[2] Profession",
+      "id": "podiatrist2_profession",
+      "default": "Change Profession"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[2] Address",
+      "id": "podiatrist2_address",
+      "default": "Change Address"
+    },
+
+    {
+      "type": "image_picker",
+      "label": "Podiatrist[3] Photo(3)",
+      "id": "podiatrist3_photo_3",
+      "info": "Select photo 3"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[3] Link(3)",
+      "id": "podiatrist3_btnLink",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[3] Name",
+      "id": "podiatrist3_name",
+      "default": "Change name"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[3] Profession",
+      "id": "podiatrist3_profession",
+      "default": "Change Profession"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[3] Address",
+      "id": "podiatrist3_address",
+      "default": "Change Address"
+    },
+
+    {
+      "type": "image_picker",
+      "label": "Podiatrist[4] Photo(4)",
+      "id": "podiatrist4_photo_4",
+      "info": "Select photo 4"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[4] Link(4)",
+      "id": "podiatrist4_btnLink",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[4] Name",
+      "id": "podiatrist4_name",
+      "default": "Change name"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[4] Profession",
+      "id": "podiatrist4_profession",
+      "default": "Change Profession"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[4] Address",
+      "id": "podiatrist4_address",
+      "default": "Change Address"
+    },
+    {
+      "type": "image_picker",
+      "label": "Podiatrist[5] Photo(5)",
+      "id": "podiatrist5_photo_5",
+      "info": "Select photo 5"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[5] Link(5)",
+      "id": "podiatrist5_btnLink",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[5] Name",
+      "id": "podiatrist5_name",
+      "default": "Change name"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[5] Profession",
+      "id": "podiatrist5_profession",
+      "default": "Change Profession"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[5] Address",
+      "id": "podiatrist5_address",
+      "default": "Change Address"
+    },
+    {
+      "type": "image_picker",
+      "label": "Podiatrist[6] Photo(6)",
+      "id": "podiatrist6_photo_6",
+      "info": "Select photo 6"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[6] Link(6)",
+      "id": "podiatrist6_btnLink",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[6] Name",
+      "id": "podiatrist6_name",
+      "default": "Change name"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[6] Profession",
+      "id": "podiatrist6_profession",
+      "default": "Change Profession"
+    },
+    {
+      "type": "text",
+      "label": "Podiatrist[6] Address",
+      "id": "podiatrist6_address",
+      "default": "Change Address"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Podiatrists",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
