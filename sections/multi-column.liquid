@@ -101,7 +101,7 @@
     {%- endif -%}
 
       <div class="container">
-        <ul class="{% if carousel %}slider__grid grid {{ grid_classes }}{% else %} flex flex-wrap{% endif %} gap-x-theme{% if color_scheme == 'none' and carousel == false %} gap-y-12 md:gap-y-6{% else %} gap-y-6{% endif %}" role="list">
+        <ul  class="{% if carousel %}slider__grid grid {{ grid_classes }}{% else %} flex flex-wrap{% endif %} gap-x-theme{% if color_scheme == 'none' and carousel == false %} gap-y-12 md:gap-y-6{% else %} gap-y-6{% endif %}" role="list">
           {%- for block in section.blocks -%}
             {%- liquid
               if section.settings.image_ratio == "natural"
@@ -112,7 +112,7 @@
                 endif
               endif
             -%}
-            <li class="multi-column grow w-full max-w-none{% if carousel %} slider__item{% endif %}" {{ block.shopify_attributes }}{% if settings.animations_enabled != "disabled" %} data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s"{% endif %}>
+            <li  class="multi-column grow w-full max-w-none{% if carousel %} slider__item{% endif %}" {{ block.shopify_attributes }}{% if settings.animations_enabled != "disabled" %} data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s"{% endif %}>
               <div class="card{% if block.settings.video_shopify != blank %} video-section{% endif %}{% unless color_scheme == 'none' %} color-scheme color-scheme--{{ color_scheme }}{% endunless %} relative flex flex-col h-full">
                 {%- if block.settings.enable_media -%}
                   {%- liquid
@@ -198,7 +198,9 @@
               </div>
             </li>
           {%- endfor -%}
+
         </ul>
+
       </div>
 
     {%- if carousel -%}
@@ -215,7 +217,8 @@
               </button>
             </div>
           {%- endif -%}
-        </div>
+      </div>
+      <div class="dots-container"></div>
       </carousel-slider>
     {%- endif -%}
   </div>
@@ -234,8 +237,9 @@
     background: #383838;
     padding: 50px 20px;
 }
+
   </style>
-          
+
 {% schema %}
 {
   "name": "Multi-column",
@@ -518,3 +522,91 @@
   }
 }
 {% endschema %}
+
+<style>
+  #myList{
+    width: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-color: #FFFFFF #FFFFFF;
+  }
+  #myList::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent !important;
+  }
+  #myList::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 5px;
+  }
+  .dot {
+    height: 4px;
+    width: 20px;
+    background-color: #999394;
+    display: inline-block;
+
+    cursor: pointer;
+    margin: 10px;
+  }
+  .dots-container{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .active {
+    background-color: #ff444f;
+  }
+</style>
+
+<script>
+  function createDots() {
+    const list = document.getElementById('myList');
+    const dotsContainer = document.createElement('div');
+    dotsContainer.classList.add('dots-container');
+
+    const itemCount = list.querySelectorAll('li').length;
+
+    for (let i = 0; i < itemCount; i++) {
+      const dot = document.createElement('span');
+      dot.classList.add('dot');
+      dot.setAttribute('data-index', i);
+      dotsContainer.appendChild(dot);
+    }
+
+    list.insertAdjacentElement('afterend', dotsContainer);
+  }
+
+  function updateActiveDot() {
+    const list = document.getElementById('myList');
+    const dots = document.querySelectorAll('.dot');
+    const scrollLeft = list.scrollLeft;
+    const scrollWidth = list.scrollWidth - list.clientWidth;
+
+    dots.forEach(dot => {
+      dot.classList.remove('active');
+    });
+
+    let activeDotIndex = Math.round(scrollLeft / (scrollWidth / 5));
+
+    dots[activeDotIndex].classList.add('active');
+  }
+
+  function dotClickHandler(event) {
+    const dotIndex = event.target.getAttribute('data-index');
+    const list = document.getElementById('myList');
+    const targetItem = list.querySelector('li:nth-child(' + (parseInt(dotIndex) + 1) + ')');
+    const listItemWidth = targetItem.offsetWidth;
+
+    list.scrollTo({
+      left: targetItem.offsetLeft,
+      behavior: 'smooth'
+    });
+  }
+
+  createDots();
+  updateActiveDot();
+
+  document.getElementById('myList').addEventListener('scroll', updateActiveDot);
+
+  document.querySelector('.dots-container').addEventListener('click', dotClickHandler);
+</script>
