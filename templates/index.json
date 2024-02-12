@@ -819,6 +819,47 @@
         "prevent_animation": false
       }
     },
+    "custom_reviews_RN4gz9": {
+      "type": "custom-reviews",
+      "settings": {
+        "reviews_photo_1": "shopify:\/\/shop_images\/1.jpg",
+        "reviews_card1_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card1_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card1_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card1_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card1_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_1": "Kenneth B B.",
+        "reviews_content_1": "I was MIA from the hiking scene for the first time in my life. I tried every remedy out there. Planters socks, braces, wraps, exercises etc. Spent a lot of money in so doing. I bought these Easy Feet Pain Relief Orthotic’s. I was able to get around much better immediately. These combined with a stretching exercise for my Achilles I came up with has me hiking again. I bought a set for my daughter and she has had the same positive experience; pain relief. Thank you Easyfeet!",
+        "reviews_number_1": "10",
+        "reviews_photo_2": "shopify:\/\/shop_images\/2_18aa28cd-c604-4d45-8b24-e59ecb0ac725.jpg",
+        "reviews_card2_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card2_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card2_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card2_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card2_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_2": "Shawn Stacy S.",
+        "reviews_content_2": "Definitely my go too insert. On my feet 10 hours a day and these are the only thing that has given me relief. On my third pair. They work great and recommend them to anyone who will listen. Thanks",
+        "reviews_number_2": "23",
+        "reviews_photo_3": "shopify:\/\/shop_images\/3_c8d77a70-c3f9-4c22-bed9-1952c5ce3522.jpg",
+        "reviews_card3_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card3_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card3_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card3_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card3_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_3": "Nisha L.",
+        "reviews_content_3": "Absolutely love this item!! This is my second pair!! Work wonderful and very comfortable. They are easy to fit with my favorite shoes and very nice to wear all day long! They are very supportive, inexpensive compared to name brands but works great!",
+        "reviews_number_3": "54",
+        "reviews_photo_4": "shopify:\/\/shop_images\/4_bcdaa6cc-9f96-46e2-9f60-32bdf7daa2cc.jpg",
+        "reviews_card4_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card4_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card4_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card4_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card4_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_4": "Johnatan M.",
+        "reviews_content_4": "I bought a black medium one and cut it to the smallest length. I have been using it for the past couple of days and it is providing good arch support for walking, it’s good value for the money spent. I feel now my shoes have good support and grip to the foot.",
+        "reviews_number_4": "47"
+      }
+    },
     "17047158042ade648c": {
       "type": "apps",
       "blocks": {
@@ -900,6 +941,7 @@
         "ryviu_reviews_qa_ryviu_featured_widget_JaMCeU",
         "ryviu_reviews_qa_ryviu_product_reviews_UaxJ4x"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 768px) {#r--carousel-theme .r--carousel-item {min-height: 340px; height: -webkit-max-content !important; height: -moz-max-content !important; height: max-content !important; }}"
       ],
@@ -1136,31 +1178,6 @@
         "limit": 8
       }
     },
-    "7aa5f160-8075-4d2a-82ed-55d71ca4c5e2": {
-      "type": "custom-promo-sale",
-      "disabled": true,
-      "settings": {
-        "card1_discount": "save 10%",
-        "card1_totalPrice": "71",
-        "card1_subPrice": "99",
-        "card1_promoText_1": "two pairs.",
-        "card1_promoText_2": "Any insoles.",
-        "card1_promoText_3": "great price!",
-        "card1_promoImage_1": "shopify:\/\/shop_images\/soles2_200_x_200_px.gif",
-        "card1_promoImage_2": "shopify:\/\/shop_images\/soles3_200_x_200_px.gif",
-        "card1_btnLink": "\/collections\/all",
-        "card2_discount": "save 15%",
-        "card2_totalPrice": "101",
-        "card2_subPrice": "98",
-        "card2_promoText_1": "Bundle of three.",
-        "card2_promoText_2": "Any insoles.",
-        "card2_promoText_3": "15% off!",
-        "card2_promoImage_1": "shopify:\/\/shop_images\/soles3_200_x_200_px.gif",
-        "card2_promoImage_2": "shopify:\/\/shop_images\/soles2_200_x_200_px.gif",
-        "card2_promoImage_3": "shopify:\/\/shop_images\/soles3_200_x_200_px.gif",
-        "card2_btnLink": "\/collections\/all"
-      }
-    },
     "60748d00-7b0b-48ce-8e63-b3cbc93e50c7": {
       "type": "custom-donations",
       "settings": {
@@ -1193,6 +1210,7 @@
     "custom_pediatrists_CYYEJ9",
     "featured_collection_q8C6qa",
     "c506bb30-8906-412c-998f-cd396e880515",
+    "custom_reviews_RN4gz9",
     "17047158042ade648c",
     "245a8a93-b8be-476e-96ae-b34d94d60c41",
     "271ea31b-cbf4-44dc-9006-70f1fd84e3e3",
@@ -1200,7 +1218,6 @@
     "3d2b363d-039b-434b-a287-66d5d3474ed8",
     "5305d2c0-4016-4566-befd-e7de0486322f",
     "4a2f7680-957f-4b94-9fce-ac45cad9a5db",
-    "7aa5f160-8075-4d2a-82ed-55d71ca4c5e2",
     "60748d00-7b0b-48ce-8e63-b3cbc93e50c7"
   ]
 }
