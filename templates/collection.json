@@ -39,8 +39,8 @@
         "button_xMcqAL"
       ],
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/12_7584bdb8-b58d-45f6-a202-17141a7d0910.png",
-        "image_mobile": "shopify:\/\/shop_images\/14.png",
+        "image_desktop": "shopify:\/\/shop_images\/shop-bg.png",
+        "image_mobile": "shopify:\/\/shop_images\/shop-bg-mob.png",
         "url": "",
         "height_mode": "fixed",
         "fixed_height_desktop": 620,
