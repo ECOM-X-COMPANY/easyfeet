@@ -1,0 +1,425 @@
+{{ 'custom-reviews.css' | asset_url | stylesheet_tag }}
+{{ 'main.css' | asset_url | stylesheet_tag }}
+
+<div class="reviews">
+    <div class="container">
+        <div class="reviews-inner">
+            <ul>
+                <li class="reviews-inner__item">
+                    <div class="reviews-box">
+                        <div class="reviews-box__image">
+                            <img width="200" height="200"
+                                 src="{{ section.settings.reviews_photo_1 | img_url: 'master' }}" alt="image-1" loading="lazy">
+                            <div class="reviews-box__image--rating">
+                                <ul>
+                                    <li>
+                                        <img width="20" height="20"
+                                             src="{{ section.settings.reviews_card1_star1 | img_url: 'master' }}" alt="rating-1" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                             src="{{ section.settings.reviews_card1_star2 | img_url: 'master' }}" alt="rating-2" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                             src="{{ section.settings.reviews_card1_star3 | img_url: 'master' }}" alt="rating-3" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                             src="{{ section.settings.reviews_card1_star4 | img_url: 'master' }}" alt="rating-4" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                             src="{{ section.settings.reviews_card1_star5 | img_url: 'master' }}" alt="rating-5" loading="lazy">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="reviews-box__content">
+                            <div class="reviews-box__content--author">
+                                <h2>{{ section.settings.reviews_author_1 }}</h2>
+                            </div>
+                            <div class="reviews-box__content--review">
+                                <p>{{ section.settings.reviews_content_1 }}</p>
+                            </div>
+                            <div class="reviews-box__content--helpful">
+                                <h2>{{ section.settings.reviews_number_1 }}<span>People Find This Helpful</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="reviews-inner__item">
+                    <div class="reviews-box">
+                        <div class="reviews-box__image">
+                            <img width="200" height="200"
+                                 src="{{ section.settings.reviews_photo_2 | img_url: 'master' }}" alt="image-1" loading="lazy">
+                            <div class="reviews-box__image--rating">
+                                <ul>
+                                    <li>
+                                        <img width="20" height="20"
+                                             src="{{ section.settings.reviews_card2_star1 | img_url: 'master' }}" alt="rating-1" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                              src="{{ section.settings.reviews_card2_star2 | img_url: 'master' }}" alt="rating-2" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                              src="{{ section.settings.reviews_card2_star3 | img_url: 'master' }}" alt="rating-3" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                              src="{{ section.settings.reviews_card2_star4 | img_url: 'master' }}" alt="rating-4" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                              src="{{ section.settings.reviews_card2_star5 | img_url: 'master' }}" alt="rating-5" loading="lazy">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="reviews-box__content">
+                            <div class="reviews-box__content--author">
+                                <h2>{{ section.settings.reviews_author_2 }}</h2>
+                            </div>
+                            <div class="reviews-box__content--review">
+                                <p>{{ section.settings.reviews_content_2 }}</p>
+                            </div>
+                            <div class="reviews-box__content--helpful">
+                                <h2>{{ section.settings.reviews_number_2 }}<span>People Find This Helpful</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="reviews-inner__item">
+                    <div class="reviews-box">
+                        <div class="reviews-box__image">
+                            <img width="200" height="200"
+                                 src="{{ section.settings.reviews_photo_3 | img_url: 'master' }}" alt="image-1" loading="lazy">
+                            <div class="reviews-box__image--rating">
+                                <ul>
+                                    <li>
+                                        <img width="20" height="20"
+                                             src="{{ section.settings.reviews_card3_star1 | img_url: 'master' }}" alt="rating-1" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                              src="{{ section.settings.reviews_card3_star2 | img_url: 'master' }}" alt="rating-2" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                              src="{{ section.settings.reviews_card3_star3 | img_url: 'master' }}" alt="rating-3" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                              src="{{ section.settings.reviews_card3_star4 | img_url: 'master' }}" alt="rating-4" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                              src="{{ section.settings.reviews_card3_star5 | img_url: 'master' }}" alt="rating-5" loading="lazy">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="reviews-box__content">
+                            <div class="reviews-box__content--author">
+                                <h2>{{ section.settings.reviews_author_3 }}</h2>
+                            </div>
+                            <div class="reviews-box__content--review">
+                                <p>{{ section.settings.reviews_content_3 }}</p>
+                            </div>
+                            <div class="reviews-box__content--helpful">
+                                <h2>{{ section.settings.reviews_number_3 }}<span>People Find This Helpful</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="reviews-inner__item">
+                    <div class="reviews-box">
+                        <div class="reviews-box__image">
+                            <img width="200" height="200"
+                                 src="{{ section.settings.reviews_photo_4 | img_url: 'master' }}" alt="image-1" loading="lazy">
+                            <div class="reviews-box__image--rating">
+                                <ul>
+                                    <li>
+                                        <img width="20" height="20"
+                                             src="{{ section.settings.reviews_card4_star1 | img_url: 'master' }}" alt="rating-1" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                              src="{{ section.settings.reviews_card4_star2 | img_url: 'master' }}" alt="rating-2" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                              src="{{ section.settings.reviews_card4_star3 | img_url: 'master' }}" alt="rating-3" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                              src="{{ section.settings.reviews_card4_star4 | img_url: 'master' }}" alt="rating-4" loading="lazy">
+                                    </li>
+                                    <li>
+                                        <img  width="20" height="20"
+                                              src="{{ section.settings.reviews_card4_star5 | img_url: 'master' }}" alt="rating-5" loading="lazy">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="reviews-box__content">
+                            <div class="reviews-box__content--author">
+                                <h2>{{ section.settings.reviews_author_4 }}</h2>
+                            </div>
+                            <div class="reviews-box__content--review">
+                                <p>{{ section.settings.reviews_content_4 }}</p>
+                            </div>
+                            <div class="reviews-box__content--helpful">
+                                <h2>{{ section.settings.reviews_number_4 }}<span>People Find This Helpful</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Custom Reviews",
+  "settings": [
+
+    {
+      "type": "image_picker",
+      "label": "Card[1] Photo(1)",
+      "id": "reviews_photo_1",
+      "info": "Select photo 1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[1] Star(1)",
+      "id": "reviews_card1_star1",
+      "info": "Select star 1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[1] Star(2)",
+      "id": "reviews_card1_star2",
+      "info": "Select star 2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[1] Star(3)",
+      "id": "reviews_card1_star3",
+      "info": "Select star 3"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[1] Star(4)",
+      "id": "reviews_card1_star4",
+      "info": "Select star 4"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[1] Star(5)",
+      "id": "reviews_card1_star5",
+      "info": "Select star 5"
+    },
+
+    {
+      "type": "text",
+      "label": "Card[1] Author(1)",
+      "id": "reviews_author_1",
+      "default": "Change name"
+    },
+    {
+      "type": "text",
+      "label": "Card[1] Content(1)",
+      "id": "reviews_content_1",
+      "default": "Change content"
+    },
+    {
+      "type": "text",
+      "label": "Card[1] Number(1)",
+      "id": "reviews_number_1",
+      "default": "Change number"
+    },
+
+
+    {
+      "type": "image_picker",
+      "label": "Card[2] Photo(2)",
+      "id": "reviews_photo_2",
+      "info": "Select photo 2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[2] Star(1)",
+      "id": "reviews_card2_star1",
+      "info": "Select star 1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[2] Star(2)",
+      "id": "reviews_card2_star2",
+      "info": "Select star 2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[2] Star(3)",
+      "id": "reviews_card2_star3",
+      "info": "Select star 3"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[2] Star(4)",
+      "id": "reviews_card2_star4",
+      "info": "Select star 4"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[2] Star(5)",
+      "id": "reviews_card2_star5",
+      "info": "Select star 5"
+    },
+
+    {
+      "type": "text",
+      "label": "Card[2] Author(2)",
+      "id": "reviews_author_2",
+      "default": "Change name"
+    },
+    {
+      "type": "text",
+      "label": "Card[2] Content(2)",
+      "id": "reviews_content_2",
+      "default": "Change content"
+    },
+    {
+      "type": "text",
+      "label": "Card[2] Number(2)",
+      "id": "reviews_number_2",
+      "default": "Change number"
+    },
+
+    {
+      "type": "image_picker",
+      "label": "Card[3] Photo(3)",
+      "id": "reviews_photo_3",
+      "info": "Select photo 3"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[3] Star(1)",
+      "id": "reviews_card3_star1",
+      "info": "Select star 1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[3] Star(2)",
+      "id": "reviews_card3_star2",
+      "info": "Select star 2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[3] Star(3)",
+      "id": "reviews_card3_star3",
+      "info": "Select star 3"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[3] Star(4)",
+      "id": "reviews_card3_star4",
+      "info": "Select star 4"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[3] Star(5)",
+      "id": "reviews_card3_star5",
+      "info": "Select star 5"
+    },
+
+    {
+      "type": "text",
+      "label": "Card[3] Author(3)",
+      "id": "reviews_author_3",
+      "default": "Change name"
+    },
+    {
+      "type": "text",
+      "label": "Card[3] Content(3)",
+      "id": "reviews_content_3",
+      "default": "Change content"
+    },
+    {
+      "type": "text",
+      "label": "Card[3] Number(3)",
+      "id": "reviews_number_3",
+      "default": "Change number"
+    },
+
+    {
+      "type": "image_picker",
+      "label": "Card[4] Photo(4)",
+      "id": "reviews_photo_4",
+      "info": "Select photo 4"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[4] Star(1)",
+      "id": "reviews_card4_star1",
+      "info": "Select star 1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[4] Star(2)",
+      "id": "reviews_card4_star2",
+      "info": "Select star 2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[4] Star(3)",
+      "id": "reviews_card4_star3",
+      "info": "Select star 3"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[4] Star(4)",
+      "id": "reviews_card4_star4",
+      "info": "Select star 4"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[4] Star(5)",
+      "id": "reviews_card4_star5",
+      "info": "Select star 5"
+    },
+
+    {
+      "type": "text",
+      "label": "Card[4] Author(4)",
+      "id": "reviews_author_4",
+      "default": "Change name"
+    },
+    {
+      "type": "text",
+      "label": "Card[4] Content(4)",
+      "id": "reviews_content_4",
+      "default": "Change content"
+    },
+    {
+      "type": "text",
+      "label": "Card[4] Number(4)",
+      "id": "reviews_number_4",
+      "default": "Change number"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Reviews",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+<script src="{{ 'custom-reviews.js' | asset_url }}" defer="defer"></script>
