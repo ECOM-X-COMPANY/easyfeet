@@ -6034,6 +6034,9 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  .podiatrists-inner li{
+    width: 72%;
+  }
   #template--17336943608048__multi_column_3eKWWw{
     margin-top: 35px;
   }
