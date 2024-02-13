@@ -6032,8 +6032,23 @@ padding-right: 0px;
   gap: 20px;
 
 }
-
+.input-with-button button{
+  padding: 0 !important;
+  bottom: -18px !important;
+}
 @media only screen and (max-width: 430px) {
+  .footer-menu h2{
+    display: block;
+  }
+  .footer-menu__links li:nth-child(1){
+    display: none;
+  }
+  .footer-menu__links li:nth-child(2){
+    display: none;
+  }
+  .footer-menu__links li:nth-child(9){
+    display: none;
+  }
   .footer{
     padding-top: 10px !important;
   }
