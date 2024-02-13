@@ -84,7 +84,7 @@
         "4c8c1972-2937-492a-8f68-acecf28e1ebb": {
           "type": "newsletter",
           "settings": {
-            "heading": "Subscribe to our newsletter",
+            "heading": "Sign up for email",
             "text": "<p>Sign up to get the latest on sales, new releases and more …<\/p>",
             "collapse_mobile": true
           }
