@@ -2010,10 +2010,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //
-const accordions = document.querySelectorAll('.footer-menu.disclosure');
+function openAccordion() {
+    const accordion = document.getElementById('myAccordion');
+    accordion.setAttribute('open', 'true');
+}
 
-    accordions.forEach(function(accordion) {
-        accordion.setAttribute('open', 'true');
-    });
-
-
+window.addEventListener('load', openAccordion);
