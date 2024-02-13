@@ -6036,6 +6036,26 @@ padding-right: 0px;
   padding: 0 !important;
   bottom: -18px !important;
 }
+.header__logo{
+  max-width: fit-content !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.header__icons{
+  order: 3;
+  max-width: min-content;
+  margin: 0;
+  padding: 0;
+}
+.header-custom{
+  width: inherit !important;
+  justify-content: space-between !important;
+}
+.header__grid--centered-logo .header__search{
+  order: 3;
+  max-width: min-content !important;
+  height: 44px !important;
+}
 @media only screen and (max-width: 430px) {
   .footer-menu h2{
     display: block;
