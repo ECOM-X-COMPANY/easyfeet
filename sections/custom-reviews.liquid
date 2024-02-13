@@ -3,192 +3,326 @@
 
 <div class="reviews">
     <div class="container">
-        <div class="reviews-inner">
-            <ul>
-                <li class="reviews-inner__item">
-                    <div class="reviews-box">
-                        <div class="reviews-box__image">
-                            <img width="200" height="200"
-                                 src="{{ section.settings.reviews_photo_1 | img_url: 'master' }}" alt="image-1" loading="lazy">
-                            <div class="reviews-box__image--rating">
-                                <ul>
-                                    <li>
-                                        <img width="20" height="20"
-                                             src="{{ section.settings.reviews_card1_star1 | img_url: 'master' }}" alt="rating-1" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                             src="{{ section.settings.reviews_card1_star2 | img_url: 'master' }}" alt="rating-2" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                             src="{{ section.settings.reviews_card1_star3 | img_url: 'master' }}" alt="rating-3" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                             src="{{ section.settings.reviews_card1_star4 | img_url: 'master' }}" alt="rating-4" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                             src="{{ section.settings.reviews_card1_star5 | img_url: 'master' }}" alt="rating-5" loading="lazy">
-                                    </li>
-                                </ul>
+        <div class="slider-container">
+            <div class="reviews-inner slides-container">
+                <ul class="slides">
+                    <li class="reviews-inner__item slide">
+                        <div class="reviews-box">
+                            <div class="reviews-box__image">
+                                <img width="200" height="200"
+                                     src="{{ section.settings.reviews_photo_1 | img_url: 'master' }}" alt="image-1"
+                                     loading="lazy">
+                                <div class="reviews-box__image--rating">
+                                    <ul>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card1_star1 | img_url: 'master' }}"
+                                                 alt="rating-1" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card1_star2 | img_url: 'master' }}"
+                                                 alt="rating-2" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card1_star3 | img_url: 'master' }}"
+                                                 alt="rating-3" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card1_star4 | img_url: 'master' }}"
+                                                 alt="rating-4" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card1_star5 | img_url: 'master' }}"
+                                                 alt="rating-5" loading="lazy">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="reviews-box__content">
+                                <div class="reviews-box__content--author">
+                                    <h2>{{ section.settings.reviews_author_1 }}</h2>
+                                </div>
+                                <div class="reviews-box__content--review">
+                                    <p>{{ section.settings.reviews_content_1 }}</p>
+                                </div>
+                                <div class="reviews-box__content--helpful">
+                                    <h2>{{ section.settings.reviews_number_1 }}<span>People Find This Helpful</span>
+                                    </h2>
+                                </div>
                             </div>
                         </div>
-                        <div class="reviews-box__content">
-                            <div class="reviews-box__content--author">
-                                <h2>{{ section.settings.reviews_author_1 }}</h2>
+                    </li>
+                    <li class="reviews-inner__item slide">
+                        <div class="reviews-box">
+                            <div class="reviews-box__image">
+                                <img width="200" height="200"
+                                     src="{{ section.settings.reviews_photo_2 | img_url: 'master' }}" alt="image-1"
+                                     loading="lazy">
+                                <div class="reviews-box__image--rating">
+                                    <ul>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card2_star1 | img_url: 'master' }}"
+                                                 alt="rating-1" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card2_star2 | img_url: 'master' }}"
+                                                 alt="rating-2" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card2_star3 | img_url: 'master' }}"
+                                                 alt="rating-3" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card2_star4 | img_url: 'master' }}"
+                                                 alt="rating-4" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card2_star5 | img_url: 'master' }}"
+                                                 alt="rating-5" loading="lazy">
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="reviews-box__content--review">
-                                <p>{{ section.settings.reviews_content_1 }}</p>
-                            </div>
-                            <div class="reviews-box__content--helpful">
-                                <h2>{{ section.settings.reviews_number_1 }}<span>People Find This Helpful</span></h2>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="reviews-inner__item">
-                    <div class="reviews-box">
-                        <div class="reviews-box__image">
-                            <img width="200" height="200"
-                                 src="{{ section.settings.reviews_photo_2 | img_url: 'master' }}" alt="image-1" loading="lazy">
-                            <div class="reviews-box__image--rating">
-                                <ul>
-                                    <li>
-                                        <img width="20" height="20"
-                                             src="{{ section.settings.reviews_card2_star1 | img_url: 'master' }}" alt="rating-1" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                              src="{{ section.settings.reviews_card2_star2 | img_url: 'master' }}" alt="rating-2" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                              src="{{ section.settings.reviews_card2_star3 | img_url: 'master' }}" alt="rating-3" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                              src="{{ section.settings.reviews_card2_star4 | img_url: 'master' }}" alt="rating-4" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                              src="{{ section.settings.reviews_card2_star5 | img_url: 'master' }}" alt="rating-5" loading="lazy">
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="reviews-box__content">
-                            <div class="reviews-box__content--author">
-                                <h2>{{ section.settings.reviews_author_2 }}</h2>
-                            </div>
-                            <div class="reviews-box__content--review">
-                                <p>{{ section.settings.reviews_content_2 }}</p>
-                            </div>
-                            <div class="reviews-box__content--helpful">
-                                <h2>{{ section.settings.reviews_number_2 }}<span>People Find This Helpful</span></h2>
+                            <div class="reviews-box__content">
+                                <div class="reviews-box__content--author">
+                                    <h2>{{ section.settings.reviews_author_2 }}</h2>
+                                </div>
+                                <div class="reviews-box__content--review">
+                                    <p>{{ section.settings.reviews_content_2 }}</p>
+                                </div>
+                                <div class="reviews-box__content--helpful">
+                                    <h2>{{ section.settings.reviews_number_2 }}<span>People Find This Helpful</span>
+                                    </h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <li class="reviews-inner__item">
-                    <div class="reviews-box">
-                        <div class="reviews-box__image">
-                            <img width="200" height="200"
-                                 src="{{ section.settings.reviews_photo_3 | img_url: 'master' }}" alt="image-1" loading="lazy">
-                            <div class="reviews-box__image--rating">
-                                <ul>
-                                    <li>
-                                        <img width="20" height="20"
-                                             src="{{ section.settings.reviews_card3_star1 | img_url: 'master' }}" alt="rating-1" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                              src="{{ section.settings.reviews_card3_star2 | img_url: 'master' }}" alt="rating-2" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                              src="{{ section.settings.reviews_card3_star3 | img_url: 'master' }}" alt="rating-3" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                              src="{{ section.settings.reviews_card3_star4 | img_url: 'master' }}" alt="rating-4" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                              src="{{ section.settings.reviews_card3_star5 | img_url: 'master' }}" alt="rating-5" loading="lazy">
-                                    </li>
-                                </ul>
+                    </li>
+                    <li class="reviews-inner__item slide">
+                        <div class="reviews-box">
+                            <div class="reviews-box__image">
+                                <img width="200" height="200"
+                                     src="{{ section.settings.reviews_photo_3 | img_url: 'master' }}" alt="image-1"
+                                     loading="lazy">
+                                <div class="reviews-box__image--rating">
+                                    <ul>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card3_star1 | img_url: 'master' }}"
+                                                 alt="rating-1" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card3_star2 | img_url: 'master' }}"
+                                                 alt="rating-2" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card3_star3 | img_url: 'master' }}"
+                                                 alt="rating-3" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card3_star4 | img_url: 'master' }}"
+                                                 alt="rating-4" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card3_star5 | img_url: 'master' }}"
+                                                 alt="rating-5" loading="lazy">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="reviews-box__content">
+                                <div class="reviews-box__content--author">
+                                    <h2>{{ section.settings.reviews_author_3 }}</h2>
+                                </div>
+                                <div class="reviews-box__content--review">
+                                    <p>{{ section.settings.reviews_content_3 }}</p>
+                                </div>
+                                <div class="reviews-box__content--helpful">
+                                    <h2>{{ section.settings.reviews_number_3 }}<span>People Find This Helpful</span>
+                                    </h2>
+                                </div>
                             </div>
                         </div>
-                        <div class="reviews-box__content">
-                            <div class="reviews-box__content--author">
-                                <h2>{{ section.settings.reviews_author_3 }}</h2>
+                    </li>
+                    <li class="reviews-inner__item slide">
+                        <div class="reviews-box">
+                            <div class="reviews-box__image">
+                                <img width="200" height="200"
+                                     src="{{ section.settings.reviews_photo_4 | img_url: 'master' }}" alt="image-1"
+                                     loading="lazy">
+                                <div class="reviews-box__image--rating">
+                                    <ul>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card4_star1 | img_url: 'master' }}"
+                                                 alt="rating-1" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card4_star2 | img_url: 'master' }}"
+                                                 alt="rating-2" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card4_star3 | img_url: 'master' }}"
+                                                 alt="rating-3" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card4_star4 | img_url: 'master' }}"
+                                                 alt="rating-4" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card4_star5 | img_url: 'master' }}"
+                                                 alt="rating-5" loading="lazy">
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="reviews-box__content--review">
-                                <p>{{ section.settings.reviews_content_3 }}</p>
-                            </div>
-                            <div class="reviews-box__content--helpful">
-                                <h2>{{ section.settings.reviews_number_3 }}<span>People Find This Helpful</span></h2>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="reviews-inner__item">
-                    <div class="reviews-box">
-                        <div class="reviews-box__image">
-                            <img width="200" height="200"
-                                 src="{{ section.settings.reviews_photo_4 | img_url: 'master' }}" alt="image-1" loading="lazy">
-                            <div class="reviews-box__image--rating">
-                                <ul>
-                                    <li>
-                                        <img width="20" height="20"
-                                             src="{{ section.settings.reviews_card4_star1 | img_url: 'master' }}" alt="rating-1" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                              src="{{ section.settings.reviews_card4_star2 | img_url: 'master' }}" alt="rating-2" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                              src="{{ section.settings.reviews_card4_star3 | img_url: 'master' }}" alt="rating-3" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                              src="{{ section.settings.reviews_card4_star4 | img_url: 'master' }}" alt="rating-4" loading="lazy">
-                                    </li>
-                                    <li>
-                                        <img  width="20" height="20"
-                                              src="{{ section.settings.reviews_card4_star5 | img_url: 'master' }}" alt="rating-5" loading="lazy">
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="reviews-box__content">
-                            <div class="reviews-box__content--author">
-                                <h2>{{ section.settings.reviews_author_4 }}</h2>
-                            </div>
-                            <div class="reviews-box__content--review">
-                                <p>{{ section.settings.reviews_content_4 }}</p>
-                            </div>
-                            <div class="reviews-box__content--helpful">
-                                <h2>{{ section.settings.reviews_number_4 }}<span>People Find This Helpful</span></h2>
+                            <div class="reviews-box__content">
+                                <div class="reviews-box__content--author">
+                                    <h2>{{ section.settings.reviews_author_4 }}</h2>
+                                </div>
+                                <div class="reviews-box__content--review">
+                                    <p>{{ section.settings.reviews_content_4 }}</p>
+                                </div>
+                                <div class="reviews-box__content--helpful">
+                                    <h2>{{ section.settings.reviews_number_4 }}<span>People Find This Helpful</span>
+                                    </h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
+                    </li>
+                    <li class="reviews-inner__item slide">
+                        <div class="reviews-box">
+                            <div class="reviews-box__image">
+                                <img width="200" height="200"
+                                     src="{{ section.settings.reviews_photo_5 | img_url: 'master' }}" alt="image-1"
+                                     loading="lazy">
+                                <div class="reviews-box__image--rating">
+                                    <ul>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card5_star1 | img_url: 'master' }}"
+                                                 alt="rating-1" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card5_star2 | img_url: 'master' }}"
+                                                 alt="rating-2" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card5_star3 | img_url: 'master' }}"
+                                                 alt="rating-3" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card5_star4 | img_url: 'master' }}"
+                                                 alt="rating-4" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card5_star5 | img_url: 'master' }}"
+                                                 alt="rating-5" loading="lazy">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="reviews-box__content">
+                                <div class="reviews-box__content--author">
+                                    <h2>{{ section.settings.reviews_author_5 }}</h2>
+                                </div>
+                                <div class="reviews-box__content--review">
+                                    <p>{{ section.settings.reviews_content_5 }}</p>
+                                </div>
+                                <div class="reviews-box__content--helpful">
+                                    <h2>{{ section.settings.reviews_number_5 }}<span>People Find This Helpful</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="reviews-inner__item slide">
+                        <div class="reviews-box">
+                            <div class="reviews-box__image">
+                                <img width="200" height="200"
+                                     src="{{ section.settings.reviews_photo_6 | img_url: 'master' }}" alt="image-1"
+                                     loading="lazy">
+                                <div class="reviews-box__image--rating">
+                                    <ul>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card6_star1 | img_url: 'master' }}"
+                                                 alt="rating-1" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card6_star2 | img_url: 'master' }}"
+                                                 alt="rating-2" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card6_star3 | img_url: 'master' }}"
+                                                 alt="rating-3" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card6_star4 | img_url: 'master' }}"
+                                                 alt="rating-4" loading="lazy">
+                                        </li>
+                                        <li>
+                                            <img width="20" height="20"
+                                                 src="{{ section.settings.reviews_card6_star5 | img_url: 'master' }}"
+                                                 alt="rating-5" loading="lazy">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="reviews-box__content">
+                                <div class="reviews-box__content--author">
+                                    <h2>{{ section.settings.reviews_author_6 }}</h2>
+                                </div>
+                                <div class="reviews-box__content--review">
+                                    <p>{{ section.settings.reviews_content_6 }}</p>
+                                </div>
+                                <div class="reviews-box__content--helpful">
+                                    <h2>{{ section.settings.reviews_number_6 }}<span>People Find This Helpful</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button class="prev-btn" onclick="prevSlide()">
+                <img width="25" height="25" src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/left-arrow-7356.png?v=1707808153" alt="prev" loading="lazy">
+            </button>
+            <button class="next-btn" onclick="nextSlide()">
+                <img width="25" height="25" src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/right-arrow-7355.png?v=1707808153" alt="prev" loading="lazy">
+            </button>
         </div>
     </div>
 </div>
-
 
 
 {% schema %}
 {
   "name": "Custom Reviews",
   "settings": [
-
     {
       "type": "image_picker",
       "label": "Card[1] Photo(1)",
@@ -225,7 +359,6 @@
       "id": "reviews_card1_star5",
       "info": "Select star 5"
     },
-
     {
       "type": "text",
       "label": "Card[1] Author(1)",
@@ -244,8 +377,6 @@
       "id": "reviews_number_1",
       "default": "Change number"
     },
-
-
     {
       "type": "image_picker",
       "label": "Card[2] Photo(2)",
@@ -282,7 +413,6 @@
       "id": "reviews_card2_star5",
       "info": "Select star 5"
     },
-
     {
       "type": "text",
       "label": "Card[2] Author(2)",
@@ -301,7 +431,6 @@
       "id": "reviews_number_2",
       "default": "Change number"
     },
-
     {
       "type": "image_picker",
       "label": "Card[3] Photo(3)",
@@ -338,7 +467,6 @@
       "id": "reviews_card3_star5",
       "info": "Select star 5"
     },
-
     {
       "type": "text",
       "label": "Card[3] Author(3)",
@@ -357,7 +485,6 @@
       "id": "reviews_number_3",
       "default": "Change number"
     },
-
     {
       "type": "image_picker",
       "label": "Card[4] Photo(4)",
@@ -394,7 +521,6 @@
       "id": "reviews_card4_star5",
       "info": "Select star 5"
     },
-
     {
       "type": "text",
       "label": "Card[4] Author(4)",
@@ -411,6 +537,115 @@
       "type": "text",
       "label": "Card[4] Number(4)",
       "id": "reviews_number_4",
+      "default": "Change number"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[5] Photo(5)",
+      "id": "reviews_photo_5",
+      "info": "Select photo 5"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[5] Star(1)",
+      "id": "reviews_card5_star1",
+      "info": "Select star 1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[5] Star(2)",
+      "id": "reviews_card5_star2",
+      "info": "Select star 2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[5] Star(3)",
+      "id": "reviews_card5_star3",
+      "info": "Select star 3"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[5] Star(4)",
+      "id": "reviews_card5_star4",
+      "info": "Select star 4"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[5] Star(5)",
+      "id": "reviews_card5_star5",
+      "info": "Select star 5"
+    },
+    {
+      "type": "text",
+      "label": "Card[5] Author(5)",
+      "id": "reviews_author_5",
+      "default": "Change name"
+    },
+    {
+      "type": "text",
+      "label": "Card[5] Content(5)",
+      "id": "reviews_content_5",
+      "default": "Change content"
+    },
+    {
+      "type": "text",
+      "label": "Card[5] Number(5)",
+      "id": "reviews_number_5",
+      "default": "Change number"
+    },
+
+    {
+      "type": "image_picker",
+      "label": "Card[6] Photo(6)",
+      "id": "reviews_photo_6",
+      "info": "Select photo 6"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[6] Star(1)",
+      "id": "reviews_card6_star1",
+      "info": "Select star 1"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[6] Star(2)",
+      "id": "reviews_card6_star2",
+      "info": "Select star 2"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[6] Star(3)",
+      "id": "reviews_card6_star3",
+      "info": "Select star 3"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[6] Star(4)",
+      "id": "reviews_card6_star4",
+      "info": "Select star 4"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[6] Star(5)",
+      "id": "reviews_card6_star5",
+      "info": "Select star 5"
+    },
+    {
+      "type": "text",
+      "label": "Card[6] Author(6)",
+      "id": "reviews_author_6",
+      "default": "Change name"
+    },
+    {
+      "type": "text",
+      "label": "Card[6] Content(6)",
+      "id": "reviews_content_6",
+      "default": "Change content"
+    },
+    {
+      "type": "text",
+      "label": "Card[6] Number(6)",
+      "id": "reviews_number_6",
       "default": "Change number"
     }
   ],
