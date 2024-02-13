@@ -93,10 +93,10 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/qr-whatsapp.png",
+            "image": "shopify:\/\/shop_images\/icons8-telegram-app-96.svg",
             "image_width": 150,
             "heading": "",
-            "text": "<p>Contact us on WhatsApp<\/p>",
+            "text": "<p>Contact us on Telegram<\/p>",
             "button_label": "",
             "button_link": "https:\/\/url.easyfeet.store\/whatsappp",
             "enable_follow_on_shop": false,
