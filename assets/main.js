@@ -2009,10 +2009,4 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-//
-function openAccordion() {
-    const accordion = document.getElementById('myAccordion');
-    accordion.setAttribute('open', 'true');
-}
 
-window.addEventListener('load', openAccordion);
