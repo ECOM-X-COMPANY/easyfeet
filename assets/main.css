@@ -6034,6 +6034,15 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  .footer{
+    padding-top: 10px !important;
+  }
+  .footer-text__company p:nth-child(1){
+    display: none !important;
+  }
+  .footer-logo{
+    display: none !important;
+  }
   .podiatrists-inner li{
     width: 72%;
   }
@@ -6335,7 +6344,7 @@ padding-right: 0px;
    .logo__link span{
     width: 75px !important;
   }
-  
+
    .multi-column:hover{
     transform: scale(1) !important;
   }
@@ -6566,7 +6575,7 @@ padding-right: 0px;
    .logo__link span{
     width: 75px !important;
   }
-  
+
    .multi-column:hover{
     transform: scale(1) !important;
   }
@@ -6791,7 +6800,7 @@ padding-right: 0px;
    .logo__link span{
     width: 75px !important;
   }
-  
+
    .multi-column:hover{
     transform: scale(1) !important;
   }
@@ -7024,7 +7033,7 @@ padding-right: 0px;
    .logo__link span{
     width: 75px !important;
   }
-  
+
    .multi-column:hover{
     transform: scale(1) !important;
   }
@@ -7256,7 +7265,7 @@ padding-right: 0px;
    .logo__link span{
     width: 75px !important;
   }
-  
+
    .multi-column:hover{
     transform: scale(1) !important;
   }
@@ -7446,7 +7455,7 @@ padding-right: 0px;
   #why-text{
     display: none !important;
   }
- 
+
   #shipping-info{
     width: 100px;
   }
@@ -7479,7 +7488,7 @@ padding-right: 0px;
    .logo__link span{
     width: 75px !important;
   }
- 
+
    .multi-column:hover{
     transform: scale(1) !important;
   }
@@ -7703,7 +7712,7 @@ padding-right: 0px;
    .logo__link span{
     width: 75px !important;
   }
-  
+
    .multi-column:hover{
     transform: scale(1) !important;
   }
@@ -7933,7 +7942,7 @@ padding-right: 0px;
    .logo__link span{
     width: 75px !important;
   }
-  
+
  #shopify-section-template--17336944165104__details .rte h5{
     font-size: 16px !important;
     line-height: 20px !important;
@@ -8169,7 +8178,7 @@ padding-right: 0px;
    .logo__link span{
     width: 75px !important;
   }
- 
+
    .multi-column:hover{
     transform: scale(1) !important;
   }
@@ -8399,7 +8408,7 @@ padding-right: 0px;
    .logo__link span{
     width: 75px !important;
   }
-  
+
   #shopify-section-template--17336944165104__details .h4{
     font-size: 28px !important;
     line-height: 32px !important;
@@ -8630,7 +8639,7 @@ padding-right: 0px;
 .rbr-productNamePrice__title__container{
   font-size: 22px;
   line-height: 22px;
-  
+
 }
 .verticalBundleItems_container_ac1beea2{
   flex-direction: row;
