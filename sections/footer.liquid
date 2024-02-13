@@ -128,7 +128,7 @@
               {%- if block.settings.menu != blank and block.settings.heading != blank -%}
                 <div class="footer-col footer-col--links footer-col--collapsed" {{ block.shopify_attributes }}{% if settings.animations_enabled != "disabled" %} data-cc-animate data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s"{% endif %}>
                   <footer-menu>
-                    <details id="myAccordion" class="footer-menu disclosure{% if is_first_disclosure %} footer-menu--first{% endif %}" open="true">
+                    <details  class="footer-menu disclosure{% if is_first_disclosure %} footer-menu--first{% endif %}" open="true">
                       <summary tabindex="-1">
                         <div class="flex justify-between items-center">
                           <h2 class="disclosure__title font-body font-bold text-h6 regular-text">
@@ -453,11 +453,11 @@
 {% endschema %}
 
 <script>
-window.addEventListener('load', function() {
-    const accordions = document.querySelectorAll('.footer-menu.disclosure');
+// window.addEventListener('load', function() {
+//     const accordions = document.querySelectorAll('.footer-menu.disclosure');
 
-    accordions.forEach(function(accordion) {
-        accordion.setAttribute('open', 'true');
-    });
-});
+//     accordions.forEach(function(accordion) {
+//         accordion.setAttribute('open', 'true');
+//     });
+// });
 </script>
