@@ -377,7 +377,7 @@
     "slider_items_per_nav": "page",
     "drawer_border_radius": 0,
     "overlay_border_radius": 0,
-    "disclosure_toggle": "arrow",
+    "disclosure_toggle": "plus",
     "show_breadcrumbs_collection": false,
     "show_breadcrumbs_collection_list": false,
     "show_breadcrumbs_article": false,
