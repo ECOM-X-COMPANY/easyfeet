@@ -2010,11 +2010,12 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //
- document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('load', function() {
     const accordions = document.querySelectorAll('.footer-menu.disclosure');
 
     accordions.forEach(function(accordion) {
-      accordion.setAttribute('open', 'true');
+        accordion.setAttribute('open', 'true');
     });
-  });
+});
+
 
