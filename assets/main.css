@@ -6057,6 +6057,9 @@ padding-right: 0px;
   height: 44px !important;
 }
 @media only screen and (max-width: 430px) {
+  .footer-qr{
+    padding-top: 20px;
+  }
   .footer__main{
     margin-bottom: auto;
   } 
