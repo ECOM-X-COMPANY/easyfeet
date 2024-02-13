@@ -2009,4 +2009,12 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+//
+ document.addEventListener('DOMContentLoaded', function() {
+    const accordions = document.querySelectorAll('.footer-menu.disclosure');
+
+    accordions.forEach(function(accordion) {
+      accordion.setAttribute('open', 'true');
+    });
+  });
 
