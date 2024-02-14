@@ -41,6 +41,8 @@
     "header": {
       "type": "header",
       "settings": {
+        "custom_promo_photo": "shopify:\/\/shop_images\/156.jpg",
+        "custom_promo_link": "https:\/\/easyfeet.store\/collections\/sale",
         "enable_sticky": true,
         "mobile_menu_position": "burger-left",
         "logo_text": "",
