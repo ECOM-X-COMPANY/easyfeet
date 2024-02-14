@@ -8720,6 +8720,9 @@ padding-right: 0px;
 .main-nav li:nth-of-type(10) {
   color: #ff444f !important;
 }
+.main-nav li:nth-of-type(11) {
+  color: #ff444f !important;
+}
 .icart-checkout-content{
   display: none !important;
 }
