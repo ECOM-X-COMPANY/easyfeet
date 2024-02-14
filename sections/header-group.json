@@ -40,6 +40,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".header{border-bottom: 1px;}"
+      ],
       "settings": {
         "custom_promo_photo": "shopify:\/\/shop_images\/156.jpg",
         "custom_promo_link": "https:\/\/easyfeet.store\/collections\/sale",
