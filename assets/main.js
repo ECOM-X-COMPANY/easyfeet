@@ -2009,15 +2009,13 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-//
+// Add a banner block to the menu list
 document.addEventListener('DOMContentLoaded', function() {
-  // Знаходимо елементи
   const customImageItem = document.getElementById('custom-menu__image');
   const mainNavItems = document.querySelectorAll('.main-nav li');
-
-  // Перевіряємо, чи є достатня кількість елементів у списку
+  
   if (mainNavItems.length >= 4) {
-    // Вставляємо елемент custom-menu__image після третього li
+   
     mainNavItems[3].parentNode.insertBefore(customImageItem, mainNavItems[3].nextSibling);
   }
 });
