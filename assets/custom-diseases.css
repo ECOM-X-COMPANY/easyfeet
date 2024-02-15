@@ -1,0 +1,199 @@
+
+.diseases {
+    margin: 50px 0 30px 0;
+}
+
+.diseases-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.diseases-inner__text p, .diseases-inner__text span {
+    margin: 0;
+    font-size: 44px;
+    line-height: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.diseases-inner__text span {
+    color: #ff444f;
+}
+
+.diseases-cart__top {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.diseases-cart__top--left ul {
+    display: flex;
+    gap: 12px;
+    height: 300px;
+    align-items: center;
+}
+
+.diseases-cart__bottom--left ul {
+    display: flex;
+    gap: 12px;
+    height: 300px;
+    align-items: center;
+}
+
+.diseases-cart__top--left li:nth-child(2) {
+    padding-bottom: 25%;
+}
+
+.diseases-cart__bottom--left li:nth-child(2) {
+    padding-bottom: 25%;
+}
+
+.diseases-cart__top--left li, .diseases-cart__top--right li {
+    transition: transform 0.3s ease;
+}
+
+.diseases-cart__bottom--left li, .diseases-cart__bottom--right li {
+    transition: transform 0.3s ease;
+}
+
+.diseases-cart__top--left li:hover, .diseases-cart__top--right li:hover {
+    transform: translateY(-5px);
+}
+
+.diseases-cart__bottom--left li:hover, .diseases-cart__bottom--right li:hover {
+    transform: translateY(-5px);
+}
+
+.diseases-cart__top--left p,
+.diseases-cart__top--right p,
+.diseases-cart__bottom--left p,
+.diseases-cart__bottom--right p {
+    margin-top: 12px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.diseases-cart__top--left a, .diseases-cart__top--left p {
+    transition: all .5s ease;
+}
+
+.diseases-cart__top--right a, .diseases-cart__top--right p {
+    transition: all .5s ease;
+}
+
+.diseases-cart__bottom--left a, .diseases-cart__bottom--left p {
+    transition: all .5s ease;
+}
+
+.diseases-cart__bottom--right a, .diseases-cart__bottom--right p {
+    transition: all .5s ease;
+}
+
+.diseases-cart__top--left a:hover, .diseases-cart__top--left p:hover {
+    color: #ff444f;
+    transition: all .4s ease;
+}
+
+.diseases-cart__top--right a:hover, .diseases-cart__top--right p:hover {
+    color: #ff444f;
+    transition: all .4s ease;
+}
+
+.diseases-cart__bottom--left a:hover, .diseases-cart__bottom--left p:hover {
+    color: #ff444f;
+    transition: all .4s ease;
+}
+
+.diseases-cart__bottom--right a:hover, .diseases-cart__bottom--right p:hover {
+    color: #ff444f;
+    transition: all .4s ease;
+}
+
+.diseases-cart__top--right ul {
+    display: flex;
+    gap: 12px;
+    height: 300px;
+    align-items: center;
+}
+
+.diseases-cart__bottom--right ul {
+    display: flex;
+    gap: 12px;
+    height: 300px;
+    align-items: center;
+}
+
+.diseases-cart__top--right li:nth-child(2) {
+    padding-bottom: 25%;
+}
+
+.diseases-cart__bottom--right li:nth-child(2) {
+    padding-bottom: 25%;
+}
+
+.diseases-cart__bottom {
+    display: flex;
+    gap: 12px;
+}
+
+.diseases-cart__bottom--left ul {
+    display: flex;
+    gap: 12px;
+}
+
+.diseases-cart__bottom--right ul {
+    display: flex;
+    gap: 12px;
+}
+
+@media only screen and (max-width: 430px) {
+    .diseases {
+        margin-top: 20px;
+    }
+
+    .diseases-inner {
+        flex-direction: column;
+    }
+
+    .diseases-inner__text p, .diseases-inner__text span {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .diseases-cart__top{
+        height: 200px;
+    }
+    .diseases-cart__bottom{
+        height: 230px;
+    }
+    .diseases-cart__bottom--right ul,.diseases-cart__bottom--left ul{
+        height: 265px;
+    }
+    .diseases-cart__top--right ul,.diseases-cart__top--left ul{
+        height: 265px;
+    }
+    .diseases-cart__top--left p, .diseases-cart__top--right p, .diseases-cart__bottom--left p, .diseases-cart__bottom--right p{
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .diseases-cart__top--right ul, .diseases-cart__top--left ul{
+        height: 240px;
+    }
+    .diseases-cart__bottom--right ul, .diseases-cart__bottom--left ul{
+        height: 160px;
+    }
+    .diseases-cart__bottom{
+        height: 160px;
+    }
+    .diseases-cart__top--left p, .diseases-cart__top--right p, .diseases-cart__bottom--left p, .diseases-cart__bottom--right p{
+        font-size: 13px;
+    }
+}

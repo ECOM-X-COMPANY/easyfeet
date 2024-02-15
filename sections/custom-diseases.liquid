@@ -1,0 +1,261 @@
+{{ 'custom-diseases.css' | asset_url | stylesheet_tag }}
+{{ 'main.css' | asset_url | stylesheet_tag }}
+<div class="diseases">
+    <div class="container">
+        <div class="diseases-inner">
+            <div class="diseases-inner__text">
+                <p>{{ section.settings.diseases_title_1 }}</p>
+                <p>{{ section.settings.diseases_title_2 }}</p>
+                <span>{{ section.settings.diseases_title_3 }}</span>
+            </div>
+            <div class="diseases-cart">
+                <div class="diseases-cart__top">
+                    <div class="diseases-cart__top--left">
+                        <ul>
+                            <li>
+                                <a href="{{ section.settings.card1_link1 }}">
+                                    <img width="136" height="204" src="{{ section.settings.card1_image1 | img_url: 'master' }}" alt="diseases-image" loading="lazy">
+                                    <p>{{ section.settings.card1_link_text1 }}</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ section.settings.card2_link2 }}">
+                                    <img width="136" height="204" src="{{ section.settings.card2_image2 | img_url: 'master' }}" alt="diseases-image" loading="lazy">
+                                    <p>{{ section.settings.card2_link_text2 }}</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="diseases-cart__top--right">
+                        <ul>
+                            <li>
+                                <a href="{{ section.settings.card3_link3 }}">
+                                    <img width="136" height="204" src="{{ section.settings.card3_image3 | img_url: 'master' }}" alt="diseases-image" loading="lazy">
+                                    <p>{{ section.settings.card3_link_text3 }}</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ section.settings.card4_link4 }}">
+                                    <img width="136" height="204" src="{{ section.settings.card4_image4 | img_url: 'master' }}" alt="diseases-image" loading="lazy">
+                                    <p>{{ section.settings.card4_link_text4 }}</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="diseases-cart__bottom">
+                    <div class="diseases-cart__bottom--left">
+                        <ul>
+                            <li>
+                                <a href="{{ section.settings.card5_link5 }}">
+                                    <img width="136" height="204" src="{{ section.settings.card5_image5 | img_url: 'master' }}" alt="diseases-image" loading="lazy">
+                                    <p>{{ section.settings.card5_link_text5 }}</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ section.settings.card6_link6 }}">
+                                    <img width="136" height="204" src="{{ section.settings.card6_image6 | img_url: 'master' }}" alt="diseases-image" loading="lazy">
+                                    <p>{{ section.settings.card6_link_text6 }}</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="diseases-cart__bottom--right">
+                        <ul>
+                            <li>
+                                <a href="{{ section.settings.card7_link7 }}">
+                                    <img width="136" height="204" src="{{ section.settings.card7_image7 | img_url: 'master' }}" alt="diseases-image" loading="lazy">
+                                    <p>{{ section.settings.card7_link_text7 }}</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ section.settings.card8_link8 }}">
+                                    <img width="136" height="204" src="{{ section.settings.card8_image8 | img_url: 'master' }}" alt="diseases-image" loading="lazy">
+                                    <p>{{ section.settings.card8_link_text8 }}</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Diseases",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Diseases Text Title 1",
+      "id": "diseases_title_1",
+      "default": "Change text 1"
+    },
+    {
+      "type": "text",
+      "label": "Diseases Text Title 2",
+      "id": "diseases_title_2",
+      "default": "Change text 2"
+    },
+    {
+      "type": "text",
+      "label": "Diseases Text Title 3",
+      "id": "diseases_title_3",
+      "default": "Change text 3"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[1] Image 1",
+      "id": "card1_image1",
+      "info": "Select image 1"
+    },
+    {
+      "type": "text",
+      "label": "Card[1] Link 1",
+      "id": "card1_link1",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Card[1] Link Text 1",
+      "id": "card1_link_text1",
+      "default": "Change link text 1"
+    },
+
+    {
+      "type": "image_picker",
+      "label": "Card[2] Image 2",
+      "id": "card2_image2",
+      "info": "Select image 2"
+    },
+    {
+      "type": "text",
+      "label": "Card[2] Link 2",
+      "id": "card2_link2",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Card[2] Link Text 2",
+      "id": "card2_link_text2",
+      "default": "Change link text 2"
+    },
+
+    {
+      "type": "image_picker",
+      "label": "Card[3] Image 3",
+      "id": "card3_image3",
+      "info": "Select image 3"
+    },
+    {
+      "type": "text",
+      "label": "Card[3] Link 3",
+      "id": "card3_link3",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Card[3] Link Text 3",
+      "id": "card3_link_text3",
+      "default": "Change link text 3"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[4] Image 4",
+      "id": "card4_image4",
+      "info": "Select image 4"
+    },
+    {
+      "type": "text",
+      "label": "Card[4] Link 4",
+      "id": "card4_link4",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Card[4] Link Text 4",
+      "id": "card4_link_text4",
+      "default": "Change link text 4"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[5] Image 5",
+      "id": "card5_image5",
+      "info": "Select image 5"
+    },
+    {
+      "type": "text",
+      "label": "Card[5] Link 5",
+      "id": "card5_link5",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Card[5] Link Text 5",
+      "id": "card5_link_text5",
+      "default": "Change link text 5"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[6] Image 6",
+      "id": "card6_image6",
+      "info": "Select image 6"
+    },
+    {
+      "type": "text",
+      "label": "Card[6] Link 6",
+      "id": "card6_link6",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Card[6] Link Text 6",
+      "id": "card6_link_text6",
+      "default": "Change link text 6"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[7] Image 7",
+      "id": "card7_image7",
+      "info": "Select image 7"
+    },
+    {
+      "type": "text",
+      "label": "Card[7] Link 7",
+      "id": "card7_link7",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Card[7] Link Text 7",
+      "id": "card7_link_text7",
+      "default": "Change link text 7"
+    },
+    {
+      "type": "image_picker",
+      "label": "Card[8] Image 8",
+      "id": "card8_image8",
+      "info": "Select image 8"
+    },
+    {
+      "type": "text",
+      "label": "Card[8] Link 8",
+      "id": "card8_link8",
+      "default": "https://example.com"
+    },
+    {
+      "type": "text",
+      "label": "Card[8] Link Text 8",
+      "id": "card8_link_text8",
+      "default": "Change link text 8"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Diseases",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
