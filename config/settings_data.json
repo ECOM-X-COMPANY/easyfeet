@@ -588,12 +588,6 @@
           "enable_email_capture": true
         }
       },
-      "6544724514127332554": {
-        "type": "shopify:\/\/apps\/go-gift-cards\/blocks\/app-embed\/3676fc08-8fa0-4857-baf6-8c6e28f899dc",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "3058953513814606179": {
         "type": "shopify:\/\/apps\/upsell-hero-in-cart-upsell\/blocks\/app\/734192da-c932-4324-8307-a8ed8feb0282",
         "disabled": true,

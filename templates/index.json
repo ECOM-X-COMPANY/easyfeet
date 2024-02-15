@@ -767,6 +767,38 @@
         "podiatrist6_address": "Change Address"
       }
     },
+    "custom_diseases_hYm8Vw": {
+      "type": "custom-diseases",
+      "settings": {
+        "diseases_title_1": "Most efficient for",
+        "diseases_title_2": "Helping with such",
+        "diseases_title_3": "Health problems as:",
+        "card1_image1": "shopify:\/\/shop_images\/card-1.png",
+        "card1_link1": "https:\/\/example.com",
+        "card1_link_text1": "Plantar fasclitis",
+        "card2_image2": "shopify:\/\/shop_images\/card-2.png",
+        "card2_link2": "https:\/\/example.com",
+        "card2_link_text2": "Heel spurs",
+        "card3_image3": "shopify:\/\/shop_images\/card-3.png",
+        "card3_link3": "https:\/\/example.com",
+        "card3_link_text3": "Metatarsalgia",
+        "card4_image4": "shopify:\/\/shop_images\/card-4.png",
+        "card4_link4": "https:\/\/example.com",
+        "card4_link_text4": "Shin splints",
+        "card5_image5": "shopify:\/\/shop_images\/card-5.png",
+        "card5_link5": "https:\/\/example.com",
+        "card5_link_text5": "Bunions",
+        "card6_image6": "shopify:\/\/shop_images\/card-6.png",
+        "card6_link6": "https:\/\/example.com",
+        "card6_link_text6": "Bunions",
+        "card7_image7": "shopify:\/\/shop_images\/card-7.png",
+        "card7_link7": "https:\/\/example.com",
+        "card7_link_text7": "Flat feet",
+        "card8_image8": "shopify:\/\/shop_images\/card-8.png",
+        "card8_link8": "https:\/\/example.com",
+        "card8_link_text8": "Pronation"
+      }
+    },
     "featured_collection_q8C6qa": {
       "type": "featured-collection",
       "custom_css": [
@@ -1152,35 +1184,6 @@
       "settings": {
       }
     },
-    "5305d2c0-4016-4566-befd-e7de0486322f": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17234989940976__5305d2c0-4016-4566-befd-e7de0486322f-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "buy more for less",
-            "heading_size": "h3",
-            "heading_h1": true
-          }
-        }
-      },
-      "block_order": [
-        "template--17234989940976__5305d2c0-4016-4566-befd-e7de0486322f-heading-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "#template--17336943608048__5305d2c0-4016-4566-befd-e7de0486322f {margin-bottom: 20px;}",
-        "h1 {font-size: 32px; line-height: 32px; font-weight: 900;}"
-      ],
-      "settings": {
-        "text_position": "justify-center",
-        "text_align": "text-center",
-        "mob_center_text": true,
-        "color_scheme": "none",
-        "full_width": true,
-        "prevent_animation": false
-      }
-    },
     "4a2f7680-957f-4b94-9fce-ac45cad9a5db": {
       "type": "recently-viewed",
       "custom_css": [
@@ -1226,6 +1229,7 @@
     "2216310a-d2be-41f1-bdda-f9a924006972",
     "rich_text_qM9JiX",
     "custom_pediatrists_CYYEJ9",
+    "custom_diseases_hYm8Vw",
     "featured_collection_q8C6qa",
     "c506bb30-8906-412c-998f-cd396e880515",
     "custom_reviews_RN4gz9",
@@ -1234,7 +1238,6 @@
     "271ea31b-cbf4-44dc-9006-70f1fd84e3e3",
     "247c09d5-a805-424a-91e9-f23b721b2d29",
     "3d2b363d-039b-434b-a287-66d5d3474ed8",
-    "5305d2c0-4016-4566-befd-e7de0486322f",
     "4a2f7680-957f-4b94-9fce-ac45cad9a5db",
     "60748d00-7b0b-48ce-8e63-b3cbc93e50c7"
   ]
