@@ -128,7 +128,7 @@
         "collapsible_content_ChhmWy": {
           "type": "collapsible-content",
           "settings": {
-            "heading": "Collapsible content",
+            "heading": "Product Description",
             "icon": "none",
             "text": "{{ product.metafields.custom.mini_description | metafield_tag }}",
             "page": "",
