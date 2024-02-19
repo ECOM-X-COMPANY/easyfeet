@@ -118,6 +118,12 @@
           "settings": {
           }
         },
+        "richtext_azjLHn": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><strong>Take Insole Quiz<\/strong><\/p>"
+          }
+        },
         "collapsible_content_ChhmWy": {
           "type": "collapsible-content",
           "settings": {
@@ -144,6 +150,7 @@
         "qikify_upsell_bundle_bundle_offer_kDP8dd",
         "qikify_upsell_bundle_volume_offer_YUNWWK",
         "king_linked_options_app_block_qPWMHh",
+        "richtext_azjLHn",
         "collapsible_content_ChhmWy"
       ],
       "custom_css": [
