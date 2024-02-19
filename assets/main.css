@@ -9581,3 +9581,6 @@ text-align:center;
 .media-ctrl__btn{
   padding: 0;
 }
+.sbar_btn button{
+display: flex important;
+}
