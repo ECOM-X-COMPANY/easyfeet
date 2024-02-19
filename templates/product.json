@@ -308,6 +308,27 @@
       "settings": {
       }
     },
+    "featured_collection_7DpYEp": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "BEST SELLERS",
+        "heading_align": "text-center",
+        "show_view_all": true,
+        "collection": "buy-3-get-15",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    },
     "media_with_text_6dpQ9p": {
       "type": "media-with-text",
       "blocks": {
@@ -514,6 +535,7 @@
     "details",
     "custom_description_hkMJFY",
     "custom_table_3xecJ9",
+    "featured_collection_7DpYEp",
     "media_with_text_6dpQ9p",
     "b8fd6549-6366-4a68-8b36-fdbb29f91836",
     "rich_text_eBiPrk",
