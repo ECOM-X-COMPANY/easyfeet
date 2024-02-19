@@ -346,6 +346,57 @@
         "products_to_show": 5
       }
     },
+    "media_with_text_B8iBBi": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_kdLiVf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Collaborating with Industry Experts",
+            "heading_size": "h3",
+            "heading_h1": true
+          }
+        },
+        "text_TBjyxY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our commitment to excellence goes beyond research and testing to collaborate with the industry's leading experts.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "button_MMEtqJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/blogs\/our-blog\/does-plantar-fasciitis-affect-mobility",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kdLiVf",
+        "text_TBjyxY",
+        "button_MMEtqJ"
+      ],
+      "custom_css": [
+        ".btn--primary {font-size: 16px; line-height: 20px; border-radius: 6px; background: #ff444f; border: inherit;}",
+        ".section__block {margin-left: 0;}",
+        ".section--full-width {padding: 35px 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Running_3_0e15184c-64bd-484c-a0ee-5bcbd009d81c.webp",
+        "img_link": "",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "2"
+      }
+    },
     "media_with_text_6dpQ9p": {
       "type": "media-with-text",
       "blocks": {
@@ -540,6 +591,7 @@
     "custom_table_3xecJ9",
     "featured_collection_7DpYEp",
     "recommendations",
+    "media_with_text_B8iBBi",
     "media_with_text_6dpQ9p",
     "b8fd6549-6366-4a68-8b36-fdbb29f91836",
     "rich_text_eBiPrk",
