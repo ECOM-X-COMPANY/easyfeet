@@ -154,7 +154,7 @@
         "media_thumbs": "always",
         "thumb_ratio": "1",
         "thumb_crop": "top",
-        "media_arrows": "never",
+        "media_arrows": "always",
         "show_slide_count": false,
         "border_color": "#eeeeee",
         "bg_color": "#f4f4f4",
@@ -229,7 +229,7 @@
           }
         },
         "superspeed_googles_page_speed_ss_content_VpdaTK": {
-          "type": "shopify:\/\/apps\/superspeed-googles-page-speed\/blocks\/ss-content\/ea1b2c2c-4644-44b9-b10b-fdb914884a8c",
+          "type": "shopify:\/\/apps\/superspeed-web-vitals\/blocks\/ss-content\/ea1b2c2c-4644-44b9-b10b-fdb914884a8c",
           "disabled": true,
           "settings": {
             "above_the_fold": "lazy",
