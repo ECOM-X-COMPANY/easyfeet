@@ -121,12 +121,14 @@
         },
         "richtext_azjLHn": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>Take Insole Quiz<\/strong><\/p>"
           }
         },
         "collapsible_content_ChhmWy": {
           "type": "collapsible-content",
+          "disabled": true,
           "settings": {
             "heading": "Product Description",
             "icon": "none",
@@ -137,11 +139,12 @@
         },
         "collapsible_content_XETL37": {
           "type": "collapsible-content",
+          "disabled": true,
           "settings": {
             "heading": "How to use",
             "icon": "none",
-            "text": "<p>{{ product.metafields.custom.how_to_use_text | metafield_tag }}<\/p>",
-            "page": "how-to-use",
+            "text": "<p>{{ product.metafields.custom.how_to_use_title | metafield_tag }}<\/p><p>{{ product.metafields.custom.how_to_use_text | metafield_tag }}<\/p>",
+            "page": "",
             "open": false
           }
         }
