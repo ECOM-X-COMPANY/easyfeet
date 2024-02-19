@@ -117,6 +117,16 @@
           "type": "shopify:\/\/apps\/king-linked-options\/blocks\/app-block\/564f3d71-fe5e-48d7-a0de-284b76666f1e",
           "settings": {
           }
+        },
+        "collapsible_content_ChhmWy": {
+          "type": "collapsible-content",
+          "settings": {
+            "heading": "Collapsible content",
+            "icon": "none",
+            "text": "{{ product.metafields.custom.mini_description | metafield_tag }}",
+            "page": "",
+            "open": false
+          }
         }
       },
       "block_order": [
@@ -133,7 +143,8 @@
         "qikify_upsell_bundle_bogo_offer_gChYW9",
         "qikify_upsell_bundle_bundle_offer_kDP8dd",
         "qikify_upsell_bundle_volume_offer_YUNWWK",
-        "king_linked_options_app_block_qPWMHh"
+        "king_linked_options_app_block_qPWMHh",
+        "collapsible_content_ChhmWy"
       ],
       "custom_css": [
         ".product-title {font-size: 32px; line-height: 33px; font-weight: 900;}",
