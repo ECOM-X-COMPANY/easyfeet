@@ -346,6 +346,34 @@
         "products_to_show": 5
       }
     },
+    "rich_text_CawR3t": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LqwGC4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Product layers overview",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LqwGC4"
+      ],
+      "custom_css": [
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
+        "#template--17336943608048__rich_text_tLTaKR {margin-bottom: 20px; margin-top: 50px;}"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": true
+      }
+    },
     "media_with_text_B8iBBi": {
       "type": "media-with-text",
       "blocks": {
@@ -395,43 +423,6 @@
         "media_scale": 100,
         "text_align": "text-start",
         "color_scheme": "2"
-      }
-    },
-    "media_with_text_6dpQ9p": {
-      "type": "media-with-text",
-      "blocks": {
-        "heading_6ahfDU": {
-          "type": "heading",
-          "settings": {
-            "heading": "Media with text",
-            "heading_size": "h3",
-            "heading_h1": true
-          }
-        },
-        "text_eJx4eX": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "enlarge_text": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_6ahfDU",
-        "text_eJx4eX"
-      ],
-      "disabled": true,
-      "settings": {
-        "img_link": "",
-        "video_external": "",
-        "video_description": "",
-        "video_autoplay": false,
-        "layout": "right",
-        "image_fit": "contain",
-        "media_width": 50,
-        "media_scale": 100,
-        "text_align": "text-start",
-        "color_scheme": "none"
       }
     },
     "b8fd6549-6366-4a68-8b36-fdbb29f91836": {
@@ -591,8 +582,8 @@
     "custom_table_3xecJ9",
     "featured_collection_7DpYEp",
     "recommendations",
+    "rich_text_CawR3t",
     "media_with_text_B8iBBi",
-    "media_with_text_6dpQ9p",
     "b8fd6549-6366-4a68-8b36-fdbb29f91836",
     "rich_text_eBiPrk",
     "170531818388597e88",
