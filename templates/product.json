@@ -299,6 +299,7 @@
     },
     "custom_description_hkMJFY": {
       "type": "custom-description",
+      "disabled": true,
       "settings": {
       }
     },
