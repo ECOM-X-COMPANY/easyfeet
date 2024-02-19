@@ -426,6 +426,9 @@
     },
     "featured_collection_YjHTR8": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+      ],
       "settings": {
         "title": "EXPLORE NEW LINE",
         "heading_align": "text-center",
