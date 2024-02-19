@@ -424,6 +424,27 @@
         "color_scheme": "2"
       }
     },
+    "featured_collection_YjHTR8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "EXPLORE NEW LINE",
+        "heading_align": "text-center",
+        "show_view_all": false,
+        "collection": "hikers",
+        "layout": "carousel_on_mobile",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 5,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    },
     "b8fd6549-6366-4a68-8b36-fdbb29f91836": {
       "type": "recently-viewed",
       "disabled": true,
@@ -583,6 +604,7 @@
     "recommendations",
     "rich_text_CawR3t",
     "media_with_text_B8iBBi",
+    "featured_collection_YjHTR8",
     "b8fd6549-6366-4a68-8b36-fdbb29f91836",
     "rich_text_eBiPrk",
     "170531818388597e88",
