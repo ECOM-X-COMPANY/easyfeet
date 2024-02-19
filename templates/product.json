@@ -310,15 +310,18 @@
     },
     "featured_collection_7DpYEp": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+      ],
       "settings": {
         "title": "BEST SELLERS",
         "heading_align": "text-center",
-        "show_view_all": true,
+        "show_view_all": false,
         "collection": "buy-3-get-15",
-        "layout": "carousel",
+        "layout": "carousel_on_mobile",
         "card_size_mobile": "small",
         "card_size": "small",
-        "products_to_show": 8,
+        "products_to_show": 5,
         "show_promo_info": false,
         "image_ratio": "fill",
         "promo_title": "A headline to grab attention",
