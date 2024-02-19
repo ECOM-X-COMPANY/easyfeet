@@ -84,6 +84,11 @@
             "show_gift_card_recipient": false
           }
         },
+        "product_descriptions_by_amp_advanced_description_VAK796": {
+          "type": "shopify:\/\/apps\/product-descriptions-by-amp\/blocks\/advanced-description\/cffc7d91-64c9-4f4d-88f8-8eb78b420747",
+          "settings": {
+          }
+        },
         "22907d0e-1791-4477-9c3e-fec7da66abe1": {
           "type": "complementary",
           "settings": {
@@ -129,6 +134,7 @@
         "variant-picker",
         "divider-1",
         "buy-buttons",
+        "product_descriptions_by_amp_advanced_description_VAK796",
         "22907d0e-1791-4477-9c3e-fec7da66abe1",
         "qikify_upsell_bundle_bogo_offer_gChYW9",
         "qikify_upsell_bundle_bundle_offer_kDP8dd",
