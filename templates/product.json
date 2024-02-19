@@ -137,7 +137,7 @@
       ],
       "custom_css": [
         ".product-title {font-size: 32px; line-height: 33px; font-weight: 900;}",
-        ".media-ctrl {position: absolute; top: 50%; }"
+        ".media-ctrl {position: absolute; top: 50%; display: flex; justify-content: space-between; min-width: -moz-available;}"
       ],
       "settings": {
         "stick_on_scroll": true,
