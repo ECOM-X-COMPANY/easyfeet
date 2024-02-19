@@ -136,7 +136,8 @@
         "king_linked_options_app_block_qPWMHh"
       ],
       "custom_css": [
-        ".product-title {font-size: 32px; line-height: 33px; font-weight: 900;}"
+        ".product-title {font-size: 32px; line-height: 33px; font-weight: 900;}",
+        ".media-ctrl {position: absolute; top: 50%; }"
       ],
       "settings": {
         "stick_on_scroll": true,
