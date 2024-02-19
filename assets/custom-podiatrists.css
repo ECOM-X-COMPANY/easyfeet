@@ -45,6 +45,10 @@
     line-height: 30px;
     font-weight: 900;
     margin: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .podiatrists-inner__cont p{
     margin: 0;
