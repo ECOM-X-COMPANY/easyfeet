@@ -140,7 +140,7 @@
           "settings": {
             "heading": "How to use",
             "icon": "none",
-            "text": "",
+            "text": "<p>{{ product.metafields.custom.how_to_use_text | metafield_tag }}<\/p>",
             "page": "how-to-use",
             "open": false
           }
