@@ -9578,3 +9578,6 @@ text-align:center;
 .product-breadcrumbs{
   display: none;
 }
+.media-ctrl__btn{
+  padding: 0;
+}
