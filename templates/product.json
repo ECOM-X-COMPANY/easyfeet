@@ -362,8 +362,7 @@
         "heading_LqwGC4"
       ],
       "custom_css": [
-        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
-        "#template--17336943608048__rich_text_tLTaKR {margin-bottom: 20px; margin-top: 50px;}"
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
       ],
       "settings": {
         "text_position": "justify-center",
