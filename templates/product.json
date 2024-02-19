@@ -134,6 +134,16 @@
             "page": "",
             "open": false
           }
+        },
+        "collapsible_content_XETL37": {
+          "type": "collapsible-content",
+          "settings": {
+            "heading": "How to use",
+            "icon": "none",
+            "text": "",
+            "page": "how-to-use",
+            "open": false
+          }
         }
       },
       "block_order": [
@@ -152,7 +162,8 @@
         "qikify_upsell_bundle_volume_offer_YUNWWK",
         "king_linked_options_app_block_qPWMHh",
         "richtext_azjLHn",
-        "collapsible_content_ChhmWy"
+        "collapsible_content_ChhmWy",
+        "collapsible_content_XETL37"
       ],
       "custom_css": [
         ".product-title {font-size: 32px; line-height: 33px; font-weight: 900;}",
