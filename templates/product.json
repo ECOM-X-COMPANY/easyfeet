@@ -156,7 +156,7 @@
       "custom_css": [
         ".product-title {font-size: 32px; line-height: 33px; font-weight: 900;}",
         ".media-ctrl {position: absolute; top: 50%; display: flex; justify-content: space-between; min-width: -moz-available;}",
-        ".shopify-payment-button__more-options BUz42FHpSPncCPJ4Pr_f {display: none;}"
+        ".shopify-payment-button__more-options BUz42FHpSPncCPJ4Pr_f {display: none !important;}"
       ],
       "settings": {
         "stick_on_scroll": true,
