@@ -86,6 +86,7 @@
         },
         "22907d0e-1791-4477-9c3e-fec7da66abe1": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "heading": "Va bene con",
             "products_to_show": 4,
@@ -155,8 +156,7 @@
       ],
       "custom_css": [
         ".product-title {font-size: 32px; line-height: 33px; font-weight: 900;}",
-        ".media-ctrl {position: absolute; top: 50%; display: flex; justify-content: space-between; min-width: -moz-available;}",
-        ".shopify-payment-button__more-options BUz42FHpSPncCPJ4Pr_f {display: none !important;}"
+        ".media-ctrl {position: absolute; top: 50%; display: flex; justify-content: space-between; min-width: -moz-available;}"
       ],
       "settings": {
         "stick_on_scroll": true,
