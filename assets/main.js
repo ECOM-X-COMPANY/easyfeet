@@ -2013,9 +2013,39 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   const customImageItem = document.getElementById('custom-menu__image');
   const mainNavItems = document.querySelectorAll('.main-nav li');
-  
+
   if (mainNavItems.length >= 4) {
-   
+
     mainNavItems[3].parentNode.insertBefore(customImageItem, mainNavItems[3].nextSibling);
   }
+});
+
+// Generating a rating in the product
+document.addEventListener('DOMContentLoaded', () => {
+  const numberSpan = document.querySelector('.product-info__rating--number span');
+
+  const generateRandomNumber = () => Math.floor(Math.random() * (150 - 30 + 1)) + 30;
+
+  const updateNumber = () => {
+    numberSpan.textContent = generateRandomNumber();
+  };
+
+  updateNumber();
+
+  numberSpan.addEventListener('click', updateNumber);
+});
+
+// Product Accordion
+document.addEventListener('DOMContentLoaded', () => {
+  const accordions = document.querySelectorAll('.product-accordion__btn');
+
+  accordions.forEach(accordion => {
+    accordion.addEventListener('click', () => {
+
+      accordion.classList.toggle('openActive');
+
+      const panel = accordion.nextElementSibling;
+      panel.style.maxHeight = panel.style.maxHeight ? null : panel.scrollHeight + 'px';
+    });
+  });
 });
