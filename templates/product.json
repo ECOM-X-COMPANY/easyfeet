@@ -499,10 +499,10 @@
         ".text-overlay__block p {font-size: 16px; line-height: 20px; width: 50%;}"
       ],
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/Group_655_5a562349-bde0-42d2-b4e2-dc2999b0acbc.png",
+        "image_desktop": "shopify:\/\/shop_images\/Group_655.png",
         "url": "",
         "height_mode": "fixed",
-        "fixed_height_desktop": 600,
+        "fixed_height_desktop": 500,
         "fixed_height_mobile": 300,
         "overlay_position": "justify-start items-center",
         "overlay_text_align": "text-start",
