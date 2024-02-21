@@ -458,6 +458,61 @@
         "color_scheme": "2"
       }
     },
+    "image_banner_Xgn8FR": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_emR7a3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Collaborating with Industry Experts",
+            "heading_size": "h3",
+            "heading_h1": true
+          }
+        },
+        "text_p6GLYf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our commitment to excellence goes beyond research and testing to collaborate with the industry's leading experts.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "button_m3kPrL": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Learn more",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_emR7a3",
+        "text_p6GLYf",
+        "button_m3kPrL"
+      ],
+      "custom_css": [
+        ".btn--primary {font-size: 16px; line-height: 20px; border-radius: 6px; background: #ff444f; border: inherit; color: #fff;}"
+      ],
+      "settings": {
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-start items-center",
+        "overlay_text_align": "text-start",
+        "mob_center_text": true,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "prevent_animation": false
+      }
+    },
     "featured_collection_YjHTR8": {
       "type": "featured-collection",
       "custom_css": [
@@ -782,6 +837,7 @@
     "recommendations",
     "rich_text_CawR3t",
     "media_with_text_B8iBBi",
+    "image_banner_Xgn8FR",
     "featured_collection_YjHTR8",
     "b8fd6549-6366-4a68-8b36-fdbb29f91836",
     "rich_text_eBiPrk",
