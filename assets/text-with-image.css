@@ -7,10 +7,7 @@
      justify-content: center;
      align-items: center;
    }
-    .second-left{
-      color: #fff;
-      font-size: 2rem;
-    }
+    
   .second-main-image img{
       width: 100%;
       height: auto;
@@ -18,7 +15,7 @@
       object-fit: cover;
    }
    .second-left{
-    color: #000;
+    color: #fff;
     font-size: 4rem;
     text-transform: uppercase;
     font-weight: 600;
