@@ -1,3 +1,5 @@
+{{ 'text-with-image.css' | asset_url | stylesheet_tag }}
+
 <section>
 <div class="container">
             <div class="second-main">
@@ -19,31 +21,6 @@
             </div>
      </div>
         </section>
-
- <style>
-   .row{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   }
-    .second-left{
-      color: #000;
-      font-size: 2rem;
-    }
- .second-main-image img{
-      width: 100%;
-      height: auto;
-      vertical-align: top;
-      object-fit: cover;
-   }
-   
-   @media screen and (max-width: 992px){
-    .second-main .column-reverse{
-    display: flex;
-    flex-direction: column-reverse;
-        }
-     }
-  </style> 
 
   
 {% schema %}
