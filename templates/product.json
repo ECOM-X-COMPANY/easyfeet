@@ -439,6 +439,7 @@
         "text_TBjyxY",
         "button_MMEtqJ"
       ],
+      "disabled": true,
       "custom_css": [
         ".btn--primary {font-size: 16px; line-height: 20px; border-radius: 6px; background: #ff444f; border: inherit;}",
         ".section__block {margin-left: 0;}",
