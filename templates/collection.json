@@ -1,5 +1,12 @@
 {
   "sections": {
+    "text_with_image_cyFErP": {
+      "type": "text-with-image",
+      "settings": {
+        "des": "Buy 3, get 15% off",
+        "img": "shopify:\/\/shop_images\/13_6e135097-1504-41c5-ada4-4971b8f7180d.png"
+      }
+    },
     "image_banner_UkCfrP": {
       "type": "image-banner",
       "blocks": {
@@ -38,6 +45,7 @@
         "text_yedR6K",
         "button_xMcqAL"
       ],
+      "disabled": true,
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/shop-bg.png",
         "image_mobile": "shopify:\/\/shop_images\/shop-bg-mob.png",
@@ -411,6 +419,7 @@
     }
   },
   "order": [
+    "text_with_image_cyFErP",
     "image_banner_UkCfrP",
     "media_with_text_xCqbWC",
     "bc550521-3c9c-43b4-986b-46bfd1fbdf76",
