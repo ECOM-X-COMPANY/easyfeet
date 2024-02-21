@@ -495,7 +495,8 @@
         "button_m3kPrL"
       ],
       "custom_css": [
-        ".btn--primary {font-size: 16px; line-height: 20px; border-radius: 6px; background: #ff444f; border: inherit; color: #fff;}"
+        ".btn--primary {font-size: 16px; line-height: 20px; border-radius: 6px; background: #ff444f; border: inherit; color: #fff;}",
+        ".text-overlay__block p{font-size: 16px; line-height: 20px; width: 50%;}"
       ],
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/Group_655.png",
