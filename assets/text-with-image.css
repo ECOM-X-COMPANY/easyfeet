@@ -1,11 +1,14 @@
-
+.second-main{
+  background: #000;
+  margin-top: 40px;
+}
    .row{
      display: flex;
      justify-content: center;
      align-items: center;
    }
     .second-left{
-      color: #000;
+      color: #fff;
       font-size: 2rem;
     }
   .second-main-image img{
