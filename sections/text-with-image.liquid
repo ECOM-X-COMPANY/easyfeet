@@ -1,48 +1,41 @@
 <section>
-  <div class="container">
             <div class="second-main">
-                <div class="row column-reverse">
+                <div class="row">
+                  <div class="col-lg-6" style="width: 50%">
+                        <div class="second-right">
+                            <div class="second-main-image">
+                                <img src="{{ section.settings.img|img_url:'master' }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                  
                     <div class="col-lg-6" style="width: 50%">
                         <div class="second-left">
                             {{ section.settings.des }}
                         </div>
                     </div>
-
-                   <div class="col-lg-6" style="width: 50%">
-                        <div class="second-right">
-                            <div class="second-main-image">
-                                <img src="{{ section.settings.img | img_url:'master' }}" alt="">
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-    </div>
         </section>
 
  <style>
     .second-left{
       color: #000;
     }
-   /* @media screen and (max-width: 992px){
-    .second-main .column-reverse{
-    display: flex;
-    flex-direction: column-reverse;
-        }
-     } */
+   
   </style> 
 
   
 {% schema %}
 {
-  "name": "Text with image right",
+  "name": "Text with image left",
   "settings": [
     
     {
       "type":"text",
       "label":"Description",
       "id":"des"
-      },
+    },
     {
       "type":"image_picker",
       "label":"Main Image",
@@ -51,7 +44,7 @@
   ],
   "presets":[
     {
-      "name":"Text with image right",
+      "name":"Text with image left",
       "category":"custom"
     }
   ]
