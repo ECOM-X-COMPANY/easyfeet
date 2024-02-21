@@ -496,10 +496,10 @@
       ],
       "custom_css": [
         ".btn--primary {font-size: 16px; line-height: 20px; border-radius: 6px; background: #ff444f; border: inherit; color: #fff;}",
-        ".text-overlay__block p{font-size: 16px; line-height: 20px; width: 50%;}"
+        ".text-overlay__block p {font-size: 16px; line-height: 20px; width: 50%;}"
       ],
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/Group_655.png",
+        "image_desktop": "shopify:\/\/shop_images\/Group_655_5a562349-bde0-42d2-b4e2-dc2999b0acbc.png",
         "url": "",
         "height_mode": "fixed",
         "fixed_height_desktop": 600,
