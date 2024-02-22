@@ -164,6 +164,12 @@
         {%- endif -%}
       </a>
 
+     {% if product.metafields.custom.theme_label !=blank %}
+      <div class="custom-product-label"> 
+      <span> {{ product.metafields.custom.theme_label }}</span>
+      </div>
+     {%- endif -%}
+     
       {%- liquid
         if settings.product_label_card_position != "none"
           render 'product-label', product: product, position: settings.product_label_card_position, is_product_card: true, limit: 2
