@@ -210,13 +210,15 @@
         ".filter__label {text-transform: capitalize;}",
         ".product-inventory__status {display: none;}",
         ".card__info-inner .flex {justify-content: center;}",
-        ".card__title {text-align: center;}"
+        ".card__title {text-align: center; text-transform: uppercase;}",
+        ".card--product .price__current {font-size: 16px; color: red;}",
+        ".price__was {font-size: 16px !important; color: #838383 !important; font-weight: 500 !important;}"
       ],
       "settings": {
         "products_per_page": 30,
         "card_size_mobile": "small",
         "card_size": "medium",
-        "show_layout_toggle": true,
+        "show_layout_toggle": false,
         "enable_filtering": true,
         "filters_open_lg": false,
         "stick_on_scroll": true,
