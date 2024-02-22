@@ -332,34 +332,27 @@ if (!customElements.get('facet-filters')) {
 
 
 
-// Функция для изменения порядка элементов в списке
-function reorderFilters() {
-    // Получаем список элементов фильтра
-    var filterList = document.querySelectorAll('.filter__label');
-
-    // Массив значений фильтров в новом порядке
-    var newOrder = ['extra strong', 'strong', 'medium', 'light'];
-
-    // Создаем объект для хранения элементов фильтра в новом порядке
-    var reorderedFilters = {};
-
-    // Перебираем элементы фильтра и сохраняем их в объекте в новом порядке
-    filterList.forEach(function(filter) {
-        var value = filter.querySelector('.flex-auto').textContent.trim();
-        reorderedFilters[value] = filter.parentNode.outerHTML;
+// Находит элементы li внутри details и сортирует их по id
+function sortLiElements() {
+    var details = document.querySelector('.filter.disclosure[data-index="4"]');
+    var ul = details.querySelector('ul');
+    var lis = Array.from(ul.children);
+    
+    // Сортирует li по id
+    lis.sort(function(a, b) {
+        var idA = parseInt(a.querySelector('input').id.split('-').pop());
+        var idB = parseInt(b.querySelector('input').id.split('-').pop());
+        return idA - idB;
     });
-
-    // Очищаем содержимое фильтра
-    var filterContent = document.querySelector('.filter__content ul');
-    filterContent.innerHTML = '';
-
-    // Добавляем элементы фильтра в новом порядке
-    newOrder.forEach(function(value) {
-        if (reorderedFilters[value]) {
-            filterContent.innerHTML += reorderedFilters[value];
-        }
+    
+    // Удаляет все li из ul
+    ul.innerHTML = '';
+    
+    // Вставляет отсортированные li обратно в ul
+    lis.forEach(function(li) {
+        ul.appendChild(li);
     });
 }
 
-// Вызываем функцию для изменения порядка элементов при загрузке страницы
-document.addEventListener('DOMContentLoaded', reorderFilters);
+// Вызывает функцию для сортировки li при загрузке страницы
+document.addEventListener('DOMContentLoaded', sortLiElements);
