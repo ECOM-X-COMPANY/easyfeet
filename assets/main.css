@@ -6130,6 +6130,7 @@ padding-right: 0px;
   transition: max-height 0.2s ease-out;
 }
 .shopify-payment-button__button--unbranded{
+  margin-top: 27px;
   position: relative;
 }
 
