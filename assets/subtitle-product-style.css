@@ -1,0 +1,27 @@
+ .benefits-box {
+        margin: 0 auto;
+      }
+
+   .benefit-first,
+   .benefit-second {
+     display: flex;
+     align-items: center;
+     margin-top: 5px;
+     font-size: 14px;
+     color: #4d4d4d;
+   }
+   
+   .benefit-first::before,
+   .benefit-second::before {
+     display: inline-block;  
+     width: 14px;
+     margin-right: 8px;
+   }
+   
+   .benefit-first::before{
+     content: url("https://cdn.shopify.com/s/files/1/0612/1177/1120/files/foot.svg?v=1708598078"); 
+   }
+
+   .benefit-second::before{
+     content: url("https://cdn.shopify.com/s/files/1/0612/1177/1120/files/barefoot.svg?v=1708598078"); 
+   }  
