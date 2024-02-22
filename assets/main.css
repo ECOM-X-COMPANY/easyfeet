@@ -9679,3 +9679,10 @@ display: flex;
   .price--bottom {
     padding-top: 5px !important;
 } 
+
+#products-sort-by-opt-2,
+#products-sort-by-opt-3,
+#products-sort-by-opt-6,
+#products-sort-by-opt-7 {
+  display: none;
+}
