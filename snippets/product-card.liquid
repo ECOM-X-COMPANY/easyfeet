@@ -197,6 +197,8 @@
             </div>
           {%- endif -%}
 
+        {%- render 'subtitle-product' -%}
+  
           {%- if settings.card_price_bottom == false -%}
             {%- render 'price', product: product, class: "price--top" -%}
           {%- endif -%}
