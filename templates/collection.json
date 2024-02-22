@@ -207,12 +207,7 @@
     "collection-products": {
       "type": "main-collection-products",
       "custom_css": [
-        ".filter__label {text-transform: capitalize;}",
-        ".product-inventory__status {display: none;}",
-        ".card__info-inner .flex {justify-content: center;}",
-        ".card__title {text-align: center; text-transform: uppercase;}",
-        ".card--product .price__current {font-size: 16px; color: red;}",
-        ".price__was {font-size: 16px !important; color: #838383 !important; font-weight: 500 !important;}"
+        ".filter__label {text-transform: capitalize;}"
       ],
       "settings": {
         "products_per_page": 30,
