@@ -6130,6 +6130,9 @@ padding-right: 0px;
   transition: max-height 0.2s ease-out;
 }
 @media only screen and (max-width: 430px) {
+  #shopify-section-template--17336944165104__main .media-ctrl{
+    width: 100%;
+  }
   .slides li{
     width: 100%;
   }
