@@ -6117,6 +6117,9 @@ padding-right: 0px;
 .product-accordion__btn--after:after{
   display: none;
 }
+.product-accordion__btn--after a{
+  width: 100%;
+}
 .openActive:after{
   content: "\2796";
 }
