@@ -403,6 +403,69 @@
         "prevent_animation": false
       }
     },
+    "multi_column_nBFbff": {
+      "type": "multi-column",
+      "blocks": {
+        "column_UMrdMG": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/4_fd82cecf-04f3-4d94-a133-4a65a161a32d.png",
+            "media_scale": 100,
+            "heading": "Hikers",
+            "text": "<p>Core Energy are the best plantar fascia insoles for flat feet and they are great for both men and women. <\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/hikers"
+          }
+        },
+        "column_LcWyWX": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/6.png",
+            "media_scale": 100,
+            "heading": "Anti-Fatigue",
+            "text": "<p>This correct positioning helps to prevent pain and minimize the risk of injury. <\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/anti-fatigue"
+          }
+        },
+        "column_qaaXEz": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "media_scale": 100,
+            "heading": "Column",
+            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UMrdMG",
+        "column_LcWyWX",
+        "column_qaaXEz"
+      ],
+      "custom_css": [
+        "h3,h2 {font-weight: 900;}",
+        ".mt-8 {display: none;}",
+        "div {margin-bottom: 20px; padding-bottom: 0;}"
+      ],
+      "settings": {
+        "title": "INSOLES THAT FIT YOUR TASKS",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "layout": "carousel",
+        "column_size": "small",
+        "column_align": "left",
+        "media_align": "text-left",
+        "image_ratio": "1",
+        "color_scheme": "3",
+        "button_style": "btn btn--secondary"
+      }
+    },
     "4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7": {
       "type": "recently-viewed",
       "custom_css": [
@@ -433,6 +496,7 @@
     "e3fce4a5-a68e-4613-9467-839c01be2b14",
     "24929245-4980-4b79-9d48-bd1b9894dc4a",
     "d10c3b2f-57e6-4014-add6-2ff1b4179986",
+    "multi_column_nBFbff",
     "4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7"
   ]
 }
