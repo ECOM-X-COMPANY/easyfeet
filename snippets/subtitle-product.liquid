@@ -1,10 +1,10 @@
 <ul class="benefits-box">
 
         {% if product.metafields.custom.product_characteristic_1 !=blank %}
-        <li class="benefits">
+        <li class="benefit-first">
         {{ product.metafields.custom.product_characteristic_1 }}</li>
          {% else %}
-        <li class="benefits">Arch Support</li>
+        <li class="benefit-first">Arch Support</li>
         {% endif %}
 
         {% if product.metafields.custom.product_characteristic_2 !=blank %}
@@ -21,12 +21,12 @@
         margin: 0 auto;
       }
    
-.benefits::before {
+/* .benefits::before {
        content: url("https://cdn.shopify.com/s/files/1/0612/1177/1120/files/foot.svg?v=1708598078"); 
         display: inline-block;  
         width: 20px;
         margin-right: 15px;
-      }
+      } */
      /* .benefit-first,
      .benefit-second{
         display: flex;
@@ -42,14 +42,17 @@
         margin-right: 15px;
       } */
 
-   .benefit-first{
+   .benefit-first::before{
      content: url("https://cdn.shopify.com/s/files/1/0612/1177/1120/files/foot.svg?v=1708598078"); 
+     display: inline-block;  
+     width: 16px;
+     margin-right: 8px;
    }
 
    .benefit-second::before{
      content: url("https://cdn.shopify.com/s/files/1/0612/1177/1120/files/barefoot.svg?v=1708598078"); 
      display: inline-block;  
-        width: 20px;
-        margin-right: 15px;
+     width: 16px;
+     margin-right: 8px;
    }
     </style>
