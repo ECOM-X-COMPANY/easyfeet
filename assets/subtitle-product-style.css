@@ -49,8 +49,9 @@
 
 @media only screen and (max-width: 768px){
   .custom-product-label {
-  top: 20px;
+  top: 25px;
   left: 0;
+    width: max-content;
 }
 
   .custom-product-label span {
