@@ -46,3 +46,15 @@
 .custom-product-label span {
   color: #fff;
 }
+
+@media only screen and (max-width: 768px){
+  .custom-product-label {
+  top: 20px;
+  left: 0;
+}
+
+  .custom-product-label span {
+    color: #fff;
+    font-size: 11px;
+}
+}
