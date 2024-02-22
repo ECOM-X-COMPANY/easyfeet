@@ -22,11 +22,22 @@
      text-align: center;
    }
        
-  
-   @media screen and (max-width: 992px){
+  .col-lg-6{
+    width: 50%;
+  }
+
+   @media screen and (max-width: 767px){
     .second-main .column-reverse{
-    display: flex;
-    flex-direction: column-reverse;
+          display: flex;
+          flex-direction: column-reverse;
         }
+
+     .col-lg-6{
+          width: 100%;
+        }
+
+     .second-left{
+    font-size: 2.5rem;
+   }
      }
   
