@@ -9679,6 +9679,9 @@ display: flex;
   .price--bottom {
     padding-top: 5px !important;
 } 
+.product-accordion__btn::after:nth-child(1){
+  display: none;
+}
 
 #products-sort-by-opt-2,
 #products-sort-by-opt-3,
