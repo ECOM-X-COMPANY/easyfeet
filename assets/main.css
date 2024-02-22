@@ -6130,19 +6130,7 @@ padding-right: 0px;
   transition: max-height 0.2s ease-out;
 }
 
-  html{
 
-    width: 100% !important;
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-}
-
-  body
-  {
-    width: 100% !important;
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-  }
 @media only screen and (max-width: 430px) {
 
   #shopify-section-template--17336944165104__main .media-ctrl{
