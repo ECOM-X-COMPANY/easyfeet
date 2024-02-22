@@ -442,7 +442,7 @@
     "variant_picker_color_style": "variant-images",
     "card_colors_style": "swatches",
     "filter_color_style": "swatches",
-    "swatch_colors": "Black:mix.png;\nBlue:#007dc6;\nBeige:#fcd9ae;",
+    "swatch_colors": "Black:#000\nBlue:#007dc6\nBeige:#fcd9ae\nMix:#000000#fcd9ae",
     "social_facebook_url": "https:\/\/www.facebook.com\/easyfeet.official",
     "social_youtube_url": "https:\/\/www.youtube.com\/channel\/UCWyXEz67q-095kIZ8o6kXzw",
     "social_instagram_url": "https:\/\/www.instagram.com\/easyfeet.worldwide\/",
