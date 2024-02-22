@@ -1,0 +1,21 @@
+<ul class="benefits-box">
+
+        {% if product.metafields.custom.benefit_1 !=blank %}
+        <li class="benefits">
+        {{ product.metafields.custom.benefit_1 }}</li>
+         {% else %}
+        <li class="benefits">Arch Support</li>
+        {% endif %}
+
+        {% if product.metafields.custom.benefit_2 !=blank %}
+        <li class="benefits">
+        {{ product.metafields.custom.benefit_2 }}</li>
+        {% else %}
+         <li class="benefits">Easy to Adjust</li>
+        {% endif %}
+
+</ul>
+
+ <style>
+      
+    </style>
