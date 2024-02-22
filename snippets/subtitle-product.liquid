@@ -8,10 +8,10 @@
         {% endif %}
 
         {% if product.metafields.custom.product_characteristic_2 !=blank %}
-        <li class="benefits">
+        <li class="benefits benefit-second">
         {{ product.metafields.custom.product_characteristic_2 }}</li>
         {% else %}
-         <li class="benefits">Easy to Adjust</li>
+         <li class="benefits benefit-second">Easy to Adjust</li>
         {% endif %}
 
 </ul>
@@ -20,6 +20,7 @@
       .benefits-box {
         margin: 0 auto;
       }
+   
 .benefits::before {
        content: url("https://cdn.shopify.com/s/files/1/0612/1177/1120/files/foot.svg?v=1708598078"); 
         display: inline-block;  
