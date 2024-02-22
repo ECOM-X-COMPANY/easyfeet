@@ -465,6 +465,18 @@
             "button_label": "Learn more",
             "button_link": "shopify:\/\/collections\/runners"
           }
+        },
+        "column_DyeiBT": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/444.webp",
+            "media_scale": 100,
+            "heading": "Fitness",
+            "text": "<p>It is flexible, and it improves motion control via advanced arch support. <\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/fitness"
+          }
         }
       },
       "block_order": [
@@ -472,7 +484,8 @@
         "column_LcWyWX",
         "column_qaaXEz",
         "column_KmCCBG",
-        "column_rFe6Cd"
+        "column_rFe6Cd",
+        "column_DyeiBT"
       ],
       "custom_css": [
         "h3,h2 {font-weight: 900;}",
