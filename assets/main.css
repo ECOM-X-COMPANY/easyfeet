@@ -6114,6 +6114,9 @@ padding-right: 0px;
   float: right;
   margin-left: 5px;
 }
+.product-accordion__btn--after:after{
+  display: none;
+}
 .openActive:after{
   content: "\2796";
 }
