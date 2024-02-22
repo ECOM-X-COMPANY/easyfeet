@@ -6129,7 +6129,9 @@ padding-right: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-
+.shopify-payment-button__button--unbranded{
+  position: relative;
+}
 
 @media only screen and (max-width: 430px) {
 
