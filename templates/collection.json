@@ -441,12 +441,25 @@
             "button_label": "Learn more",
             "button_link": "shopify:\/\/collections\/athletes"
           }
+        },
+        "column_KmCCBG": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/9999.webp",
+            "media_scale": 100,
+            "heading": "Pain relief",
+            "text": "<p>Feel your feet land boldly, secured in Mount Strength’s supportive cushion. <\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/pain-relief"
+          }
         }
       },
       "block_order": [
         "column_UMrdMG",
         "column_LcWyWX",
-        "column_qaaXEz"
+        "column_qaaXEz",
+        "column_KmCCBG"
       ],
       "custom_css": [
         "h3,h2 {font-weight: 900;}",
