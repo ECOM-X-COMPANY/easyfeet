@@ -1,17 +1,17 @@
 <ul class="benefits-box">
 
         {% if product.metafields.custom.product_characteristic_1 !=blank %}
-        <li class="benefit-first">
+        <li class="benefits">
         {{ product.metafields.custom.product_characteristic_1 }}</li>
          {% else %}
-        <li class="benefit-first">Arch Support</li>
+        <li class="benefits">Arch Support</li>
         {% endif %}
 
         {% if product.metafields.custom.product_characteristic_2 !=blank %}
-        <li class="benefit-second">
+        <li class="benefits">
         {{ product.metafields.custom.product_characteristic_2 }}</li>
         {% else %}
-         <li class="benefit-second">Easy to Adjust</li>
+         <li class="benefits">Easy to Adjust</li>
         {% endif %}
 
 </ul>
@@ -20,8 +20,14 @@
       .benefits-box {
         margin: 0 auto;
       }
-
-     .benefit-first,
+.benefits::before {
+        /* content:url("data:image/svg+xml;charset=UTF-8,<svg width='22' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 512 512' xml:space='preserve' fill='%23000000'><g id='SVGRepo_bgCarrier' stroke-width='0'></g><g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g><g id='SVGRepo_iconCarrier'> <polygon style='fill:%23000000;' points='202.624,478.016 0,291.36 70.512,214.8 191.968,326.656 431.44,33.984 512,99.904'></polygon> </g></svg>"); */
+        content: url("https://cdn.shopify.com/s/files/1/0680/6703/3314/files/Group.svg?v=1703769828"); 
+        display: inline-block;  
+        width: 20px;
+        margin-right: 15px;
+      }
+     /* .benefit-first,
      .benefit-second{
         display: flex;
        font-size: 14px;
@@ -34,7 +40,7 @@
         display: inline-block;  
         width: 20px;
         margin-right: 15px;
-      }
+      } */
 
    .benefit-first{
      content: url("https://cdn.shopify.com/s/files/1/0612/1177/1120/files/foot.svg?v=1708598078"); 
