@@ -207,7 +207,10 @@
     "collection-products": {
       "type": "main-collection-products",
       "custom_css": [
-        ".filter__label {text-transform: capitalize;}"
+        ".filter__label {text-transform: capitalize;}",
+        ".product-inventory__status {display: none;}",
+        ".card__info-inner .flex {justify-content: center;}",
+        ".card__title {text-align: center;}"
       ],
       "settings": {
         "products_per_page": 30,
