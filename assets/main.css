@@ -6130,6 +6130,9 @@ padding-right: 0px;
   transition: max-height 0.2s ease-out;
 }
 @media only screen and (max-width: 430px) {
+  .slides li{
+    width: 100%;
+  }
    #template--17336943608048__rich_text_tLTaKR{
     margin-top: 16px !important;
   }
