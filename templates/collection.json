@@ -453,13 +453,26 @@
             "button_label": "Learn more",
             "button_link": "shopify:\/\/collections\/pain-relief"
           }
+        },
+        "column_rFe6Cd": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/2222.webp",
+            "media_scale": 100,
+            "heading": "Runners",
+            "text": "<p>These inserts for running shoes are shock absorbent and provide increased comfort for varying athletic activities.<\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/runners"
+          }
         }
       },
       "block_order": [
         "column_UMrdMG",
         "column_LcWyWX",
         "column_qaaXEz",
-        "column_KmCCBG"
+        "column_KmCCBG",
+        "column_rFe6Cd"
       ],
       "custom_css": [
         "h3,h2 {font-weight: 900;}",
