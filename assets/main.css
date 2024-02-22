@@ -9675,3 +9675,7 @@ display: flex;
   color: #878787 !important;
   font-weight: 500 !important;
 }
+
+ .price--bottom {
+    padding-top: 5px !important;
+}
