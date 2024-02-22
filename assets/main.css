@@ -6133,6 +6133,9 @@ padding-right: 0px;
   margin-top: 27px;
   position: relative;
 }
+.shopify-payment-button__more-options{
+    position: relative;
+}
 
 @media only screen and (max-width: 430px) {
 
