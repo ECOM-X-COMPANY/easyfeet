@@ -6145,6 +6145,9 @@ padding-right: 0px;
 .option-selector .label{
   padding-bottom: 10px;
 }
+  #shopify-section-template--17336944165104__main .media-ctrl{
+    width: 100%;
+  }
 @media only screen and (max-width: 430px) {
 
   #shopify-section-template--17336944165104__main .media-ctrl{
