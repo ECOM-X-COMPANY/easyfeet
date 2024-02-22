@@ -202,24 +202,24 @@
           {%- endif -%}
 
       
-
-  <ul class="benefits-box">
-
-        {% if product.metafields.custom.product_characteristic_1 !=blank %}
-        <li class="benefit-first">
-        {{ product.metafields.custom.product_characteristic_1 }}</li>
-          {% else %}
-        <li class="benefit-first">Arch Support</li> 
-        {% endif %}
-
-        {% if product.metafields.custom.product_characteristic_2 !=blank %}
-        <li class="benefit-second">
-        {{ product.metafields.custom.product_characteristic_2 }}</li>
-        {% else %}
-         <li class="benefit-second">Easy to Adjust</li>
-        {% endif %}
-
-</ul>
+        <div class="benefits-block">
+                <ul class="benefits-box">
+                      {% if product.metafields.custom.product_characteristic_1 !=blank %}
+                      <li class="benefit-first">
+                      {{ product.metafields.custom.product_characteristic_1 }}</li>
+                        {% else %}
+                      <li class="benefit-first">Arch Support</li> 
+                      {% endif %}
+              
+                      {% if product.metafields.custom.product_characteristic_2 !=blank %}
+                      <li class="benefit-second">
+                      {{ product.metafields.custom.product_characteristic_2 }}</li>
+                      {% else %}
+                       <li class="benefit-second">Easy to Adjust</li>
+                      {% endif %}
+              
+                </ul>
+        </div>
   
           {%- if settings.card_price_bottom == false -%}
             {%- render 'price', product: product, class: "price--top" -%}
