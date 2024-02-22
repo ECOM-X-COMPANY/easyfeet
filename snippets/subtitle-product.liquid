@@ -23,18 +23,24 @@
    
    .benefit-first::before{
      content: url("https://cdn.shopify.com/s/files/1/0612/1177/1120/files/foot.svg?v=1708598078"); 
-     display: inline-block;  
+     /* display: inline-block;  
      width: 16px;
-     margin-right: 8px;
+     margin-right: 8px; */
    }
 
    .benefit-second::before{
      content: url("https://cdn.shopify.com/s/files/1/0612/1177/1120/files/barefoot.svg?v=1708598078"); 
+     /* display: inline-block;  
+     width: 16px;
+     margin-right: 8px; */
+   }
+
+  .benefit-first::before,
+   .benefit-second::before {
      display: inline-block;  
      width: 16px;
      margin-right: 8px;
    }
-
    .benefit-first,
    .benefit-second{
      display: flex;
