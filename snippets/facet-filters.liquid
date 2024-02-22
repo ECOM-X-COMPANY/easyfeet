@@ -340,3 +340,40 @@
 {%- if section.settings.stick_on_scroll -%}
 </sticky-scroll-direction>
 {%- endif -%}
+
+
+<script>
+
+// Функция для изменения порядка элементов в списке
+function reorderFilters() {
+    // Получаем список элементов фильтра
+    var filterList = document.querySelectorAll('.filter__label');
+
+    // Массив значений фильтров в новом порядке
+    var newOrder = ['extra strong', 'strong', 'medium', 'light'];
+
+    // Создаем объект для хранения элементов фильтра в новом порядке
+    var reorderedFilters = {};
+
+    // Перебираем элементы фильтра и сохраняем их в объекте в новом порядке
+    filterList.forEach(function(filter) {
+        var value = filter.querySelector('.flex-auto').textContent.trim();
+        reorderedFilters[value] = filter.parentNode.outerHTML;
+    });
+
+    // Очищаем содержимое фильтра
+    var filterContent = document.querySelector('.filter__content ul');
+    filterContent.innerHTML = '';
+
+    // Добавляем элементы фильтра в новом порядке
+    newOrder.forEach(function(value) {
+        if (reorderedFilters[value]) {
+            filterContent.innerHTML += reorderedFilters[value];
+        }
+    });
+}
+
+// Вызываем функцию для изменения порядка элементов при загрузке страницы
+document.addEventListener('DOMContentLoaded', reorderFilters);
+
+</script>
