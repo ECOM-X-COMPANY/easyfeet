@@ -2053,21 +2053,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 //
-
 document.addEventListener('DOMContentLoaded', function() {
     // Перевіряємо, чи поточна сторінка є сторінкою конкретного товару
     if (window.location.href.includes("/products/core-energy")) {
-        // Знаходимо елемент з класом ".image-banner__image"
-        const imageBanner = document.querySelector('.image-banner__image');
+        // Знаходимо тег <img> всередині елементу з класом ".image-banner__image"
+        const image = document.querySelector('.image-banner__image img');
 
-        if (imageBanner) {
-            // Замінюємо значення атрибуту src зображення на нове посилання
-            imageBanner.querySelector('img').src = "https://cdn.shopify.com/s/files/1/0612/1177/1120/files/PLANTAR_FASCIA_ORTHOTIC_Product_page.png?v=1708691527";
+        if (image) {
+            // Змінюємо значення атрибуту src зображення на нове посилання
+            image.src = "https://cdn.shopify.com/s/files/1/0612/1177/1120/files/PLANTAR_FASCIA_ORTHOTIC_Product_page.png?v=1708691527";
         } else {
-            console.error('Елемент з класом ".image-banner__image" не знайдено.');
+            console.error('Елемент <img> всередині елементу з класом ".image-banner__image" не знайдено.');
         }
     }
 });
+
 
 
 
