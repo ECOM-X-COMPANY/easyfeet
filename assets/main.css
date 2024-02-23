@@ -4365,6 +4365,8 @@ label[data-swatch]::before {
   }
   .header__icon--search-left-search {
     display: none;
+    position: absolute;
+    right: -38%;
   }
   .header__grid .header__icon--search-left-close svg {
     width: 24px;
