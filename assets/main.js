@@ -2054,14 +2054,17 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', function() {
     // Перевіряємо, чи ширина вікна менше або рівна 430px (мобільний розмір)
     if (window.innerWidth <= 430) {
-        // Знаходимо блок з класом ".product-info__block"
+        // Знаходимо блоки з класами ".product-info__block" і ".product-info__block--flex"
         const productInfoBlock = document.querySelector('.product-info__block');
+        const productInfoBlockFlex = document.querySelector('.product-info__block--flex');
         // Знаходимо блок з ідентифікатором "product-media"
         const productMedia = document.getElementById('product-media');
 
-        if (productInfoBlock && productMedia) {
+        if (productInfoBlock && productInfoBlockFlex && productMedia) {
             // Вставляємо блок ".product-info__block" в самий початок блоку "product-media"
             productMedia.insertBefore(productInfoBlock, productMedia.firstChild);
+            // Вставляємо блок ".product-info__block--flex" після блоку ".product-info__block"
+            productMedia.insertBefore(productInfoBlockFlex, productInfoBlock.nextSibling);
         } else {
             console.error('Елементи не знайдено.');
         }
