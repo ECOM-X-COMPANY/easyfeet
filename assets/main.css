@@ -6177,7 +6177,7 @@ padding-right: 0px;
 .predictive-search__list{
   width: 403px !important;
 
-.search__input{
+.speech-search--failed .search__input, .header__grid--centered-logo .speech-search--failed .search__input:not(.search__input--dirty){
   padding: 10px !important;
 }
 @media only screen and (max-width: 430px) {
