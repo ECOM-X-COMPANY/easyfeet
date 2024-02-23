@@ -6177,7 +6177,7 @@ padding-right: 0px;
 .predictive-search__list{
   width: 403px !important;
 
-#header-search{
+.search__input{
   padding: 10px !important;
 }
 @media only screen and (max-width: 430px) {
