@@ -2052,28 +2052,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //
 document.addEventListener('DOMContentLoaded', function() {
-    // Знаходимо кнопку з класом "products-toolbar__filter-btn"
-    const filterButton = document.querySelector('.products-toolbar__filter-btn');
+    // Знаходимо всі елементи з класом "disclosure" та атрибутом "data-index" зі значенням "3"
+    const disclosureElements = document.querySelectorAll('.disclosure[data-index="3"]');
 
-    // Додаємо обробник подій для кнопки
-    filterButton.addEventListener('click', function() {
-        // Перевіряємо, чи атрибут aria-expanded дорівнює "true"
-        if (filterButton.getAttribute('aria-expanded') === 'true') {
-            // Знаходимо елемент з ідентифікатором "facets"
-            const facetsElement = document.getElementById('facets');
-            
-            if (facetsElement) {
-                // Знаходимо всі елементи з класом "details-disclosure" всередині елементу "facets"
-                const detailsDisclosures = facetsElement.querySelectorAll('.details-disclosure');
-
-                // Виводимо перші 4 знайдені елементи у консоль
-                for (let i = 0; i < 4 && i < detailsDisclosures.length; i++) {
-                    console.log(detailsDisclosures[i]);
-                }
-            } else {
-                console.error('Елемент з ідентифікатором "facets" не знайдено.');
-            }
-        }
+    // Виводимо знайдені елементи у консоль
+    disclosureElements.forEach(function(element) {
+        console.log(element);
     });
 });
 
