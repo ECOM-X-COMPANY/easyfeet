@@ -401,7 +401,114 @@
                       </ul>
                     </div>
                   </div>
-                
+                  <div id="product-accordion__custom" class="product-accordion__custom">
+                    <div class="product-accordion__btn product-accordion__btn--after"><a href="/pages/insole-finders">Take Insole Quiz</a></div>
+                    <div class="product-accordion__btn">Product Description</div>
+                    <div class="product-accordion__panel">
+                      <div class="desc-info" id="desc-info">
+                        {% if product %}
+                          {{ product.description }}
+                        {% else %}
+                        {% endif %}
+                      </div>
+                    </div>
+
+                    <div class="product-accordion__btn">How to use</div>
+                    <div class="product-accordion__panel">
+                      <div class="custom-page-content">
+                        {% if product.metafields.custom.how_to_use_image %}
+                          <img width="500" height="500" src="{{ product.metafields.custom.how_to_use_image | img_url: 'master' }}" alt="How to Use">
+                        {% endif %}
+                        <div class="custom-page-content--metatext">
+                          {% if product.metafields.custom.how_to_use_title %}
+                            <div  class="custom-page-content--metatitle">
+                              <p>{{ product.metafields.custom.how_to_use_title }}</p>
+                            </div>
+                          {% endif %}
+                          {% if product.metafields.custom.how_to_use_text %}
+                            <div class="custom-page-content--desc">
+                              {% assign paragraphs = product.metafields.custom.how_to_use_text | newline_to_br | split: '<br />' %}
+                              {% for paragraph in paragraphs %}
+                                <p>{{ paragraph }}</p>
+                              {% endfor %}
+                            </div>
+                          {% endif %}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="product-accordion__btn">Shipping & Return </div>
+                    <div class="product-accordion__panel">
+                      <div class="shipping-info-content">
+                        <meta charset="utf-8">
+                        <ol data-mce-fragment="1">
+                          <li data-mce-fragment="1">
+                            <p data-mce-fragment="1"><strong data-mce-fragment="1">Standard Shipping Times</strong></p>
+                            <ul data-mce-fragment="1">
+                              <li data-mce-fragment="1">USA 2 - 7 business days</li>
+                            </ul>
+                          </li>
+                          <li data-mce-fragment="1">
+                            <p data-mce-fragment="1"><strong data-mce-fragment="1">Processing Times</strong></p>
+                            <ul data-mce-fragment="1">
+                              <li data-mce-fragment="1">It can take 1-3 business days to process after placing the
+                                order before shipping out. We do not ship on weekends.
+                              </li>
+                            </ul>
+                          </li>
+                          <li data-mce-fragment="1">
+                            <p data-mce-fragment="1"><strong data-mce-fragment="1">Where can I find my tracking
+                                number?</strong></p>
+                            <ul data-mce-fragment="1">
+                              <li data-mce-fragment="1">When your items are shipped out, you should receive an
+                                automatic notification from the system via email providing you with a tracking
+                                number.
+                              </li>
+                              <li data-mce-fragment="1">If you haven't received one or if the tracking number doesn't
+                                work, no worries. Contact us and we'll solve it!
+                              </li>
+                              <li data-mce-fragment="1">If you haven't received one or if the tracking number doesn't
+                                work, no worries. Contact us and we'll solve it!
+                              </li>
+                            </ul>
+                          </li>
+                          <li data-mce-fragment="1">
+                            <ul data-mce-fragment="1">
+                              <li data-mce-fragment="1"><strong data-mce-fragment="1">Items can be returned within 90
+                                  calendar days of receipt.</strong></li>
+                              <li data-mce-fragment="1">Refunds will be issued to the original payment method or as
+                                merchandise credit.
+                              </li>
+                              <li data-mce-fragment="1">Items must be returned in their original condition.</li>
+                              <li data-mce-fragment="1">EASYFEET covers the cost of re-shipping for exchanges (up to one
+                                exchange per order).
+                              </li>
+                              <li data-mce-fragment="1">Exchanges and returns are not accepted in-store; customers
+                                must request a return through their account.
+                              </li>
+                            </ul>
+                          </li>
+                          <li data-mce-fragment="1">
+                            <p data-mce-fragment="1"><strong data-mce-fragment="1">Return or Exchange (USA):</strong></p>
+                            <ul data-mce-fragment="1">
+                              <li data-mce-fragment="1">Customers should email <a
+                                        href="mailto:support@easyfeet.store" data-mce-fragment="1"
+                                        data-mce-href="mailto:support@easyfeet.store" target="_new">support@easyfeet.store</a> to process a refund or exchange.
+                              </li>
+                              <li data-mce-fragment="1">The return delivery cost is borne by the purchaser, and EASYFEET
+                                may provide a return label for a refund (the label cost will be deducted from the
+                                refund).
+                              </li>
+                              <li data-mce-fragment="1">For exchanges, the return cost is borne by the purchaser, but
+                                EASYFEET covers the cost of re-shipping for one exchange per order.
+                              </li>
+                            </ul>
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+
+                  </div>
                 {%- endform -%}
 
               </product-form>
@@ -654,115 +761,7 @@
               </details-disclosure>
             {%- else -%}
               <div class="product-info__block product-info__block--sm rte product-description" {{ block.shopify_attributes }}>
-                <div id="product-accordion__custom" class="product-accordion__custom">
-                
-    <div class="product-accordion__btn product-accordion__btn--after"><a href="/pages/insole-finders">Take Insole Quiz</a></div>
-                    <div class="product-accordion__btn">Product Description</div>
-                    <div class="product-accordion__panel">
-                      <div class="desc-info" id="desc-info">
-                        {% if product %}
-                          {{ product.description }}
-                        {% else %}
-                        {% endif %}
-                      </div>
-                    </div>
-
-                    <div class="product-accordion__btn">How to use</div>
-                    <div class="product-accordion__panel">
-                      <div class="custom-page-content">
-                        {% if product.metafields.custom.how_to_use_image %}
-                          <img width="500" height="500" src="{{ product.metafields.custom.how_to_use_image | img_url: 'master' }}" alt="How to Use">
-                        {% endif %}
-                        <div class="custom-page-content--metatext">
-                          {% if product.metafields.custom.how_to_use_title %}
-                            <div  class="custom-page-content--metatitle">
-                              <p>{{ product.metafields.custom.how_to_use_title }}</p>
-                            </div>
-                          {% endif %}
-                          {% if product.metafields.custom.how_to_use_text %}
-                            <div class="custom-page-content--desc">
-                              {% assign paragraphs = product.metafields.custom.how_to_use_text | newline_to_br | split: '<br />' %}
-                              {% for paragraph in paragraphs %}
-                                <p>{{ paragraph }}</p>
-                              {% endfor %}
-                            </div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="product-accordion__btn">Shipping & Return </div>
-                    <div class="product-accordion__panel">
-                      <div class="shipping-info-content">
-                        <meta charset="utf-8">
-                        <ol data-mce-fragment="1">
-                          <li data-mce-fragment="1">
-                            <p data-mce-fragment="1"><strong data-mce-fragment="1">Standard Shipping Times</strong></p>
-                            <ul data-mce-fragment="1">
-                              <li data-mce-fragment="1">USA 2 - 7 business days</li>
-                            </ul>
-                          </li>
-                          <li data-mce-fragment="1">
-                            <p data-mce-fragment="1"><strong data-mce-fragment="1">Processing Times</strong></p>
-                            <ul data-mce-fragment="1">
-                              <li data-mce-fragment="1">It can take 1-3 business days to process after placing the
-                                order before shipping out. We do not ship on weekends.
-                              </li>
-                            </ul>
-                          </li>
-                          <li data-mce-fragment="1">
-                            <p data-mce-fragment="1"><strong data-mce-fragment="1">Where can I find my tracking
-                                number?</strong></p>
-                            <ul data-mce-fragment="1">
-                              <li data-mce-fragment="1">When your items are shipped out, you should receive an
-                                automatic notification from the system via email providing you with a tracking
-                                number.
-                              </li>
-                              <li data-mce-fragment="1">If you haven't received one or if the tracking number doesn't
-                                work, no worries. Contact us and we'll solve it!
-                              </li>
-                              <li data-mce-fragment="1">If you haven't received one or if the tracking number doesn't
-                                work, no worries. Contact us and we'll solve it!
-                              </li>
-                            </ul>
-                          </li>
-                          <li data-mce-fragment="1">
-                            <ul data-mce-fragment="1">
-                              <li data-mce-fragment="1"><strong data-mce-fragment="1">Items can be returned within 90
-                                  calendar days of receipt.</strong></li>
-                              <li data-mce-fragment="1">Refunds will be issued to the original payment method or as
-                                merchandise credit.
-                              </li>
-                              <li data-mce-fragment="1">Items must be returned in their original condition.</li>
-                              <li data-mce-fragment="1">EASYFEET covers the cost of re-shipping for exchanges (up to one
-                                exchange per order).
-                              </li>
-                              <li data-mce-fragment="1">Exchanges and returns are not accepted in-store; customers
-                                must request a return through their account.
-                              </li>
-                            </ul>
-                          </li>
-                          <li data-mce-fragment="1">
-                            <p data-mce-fragment="1"><strong data-mce-fragment="1">Return or Exchange (USA):</strong></p>
-                            <ul data-mce-fragment="1">
-                              <li data-mce-fragment="1">Customers should email <a
-                                        href="mailto:support@easyfeet.store" data-mce-fragment="1"
-                                        data-mce-href="mailto:support@easyfeet.store" target="_new">support@easyfeet.store</a> to process a refund or exchange.
-                              </li>
-                              <li data-mce-fragment="1">The return delivery cost is borne by the purchaser, and EASYFEET
-                                may provide a return label for a refund (the label cost will be deducted from the
-                                refund).
-                              </li>
-                              <li data-mce-fragment="1">For exchanges, the return cost is borne by the purchaser, but
-                                EASYFEET covers the cost of re-shipping for one exchange per order.
-                              </li>
-                            </ul>
-                          </li>
-                        </ol>
-                      </div>
-                    </div>
-
-                  </div>
+                {{ product.description }}
               </div>
             {%- endif -%}
 
@@ -2257,3 +2256,28 @@
   ]
 }
 {% endschema %}
+
+<script>
+  //
+document.addEventListener('DOMContentLoaded', function() {
+    // Перевіряємо, чи поточна сторінка є сторінкою конкретного товару
+    if (window.location.href.includes("/products/core-energy")) {
+        // Знаходимо елемент з класом ".image-banner__image"
+        const imageBanner = document.querySelector('.image-banner__image');
+
+        if (imageBanner) {
+            // Знаходимо тег img всередині елементу .image-banner__image
+            const imgElement = imageBanner.querySelector('img');
+            
+            if (imgElement) {
+                // Замінюємо посилання на зображення
+                imgElement.src = "https://cdn.shopify.com/s/files/1/0612/1177/1120/files/PLANTAR_FASCIA_ORTHOTIC_Product_page.png?v=1708691527";
+            } else {
+                console.error('Тег img всередині елементу з класом ".image-banner__image" не знайдено.');
+            }
+        } else {
+            console.error('Елемент з класом ".image-banner__image" не знайдено.');
+        }
+    }
+});
+</script>
