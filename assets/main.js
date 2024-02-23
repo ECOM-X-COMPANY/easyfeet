@@ -2051,32 +2051,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //
-document.addEventListener('DOMContentLoaded', function() {
-    // Знаходимо елемент з тегом "facet-filters" за ідентифікатором "facet-filters"
-    const facetFiltersElement = document.getElementById('facet-filters');
-    
-    if (facetFiltersElement) {
-        // Створюємо копію знайденого елементу
-        const copiedFacetFiltersElement = facetFiltersElement.cloneNode(true);
-        
-        // Знаходимо елемент з ідентифікатором "products-toolbar"
-        const productsToolbar = document.getElementById('products-toolbar');
-
-        // Додаємо скопійований елемент до елементу "products-toolbar"
-        productsToolbar.appendChild(copiedFacetFiltersElement);
-
-        // Заміна id скопійованого елементу, щоб уникнути дублювання
-        copiedFacetFiltersElement.id += '-copy';
-
-        // Очищення всіх обробників подій на клонованому елементі
-        copiedFacetFiltersElement.querySelectorAll('*').forEach(node => {
-            node.removeAttribute('onclick');
-            node.removeAttribute('onchange');
-        });
-    } else {
-        console.error('Елемент з ідентифікатором "facet-filters" не знайдено.');
-    }
-});
 
 
 
