@@ -2049,3 +2049,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+// 
+  document.addEventListener('DOMContentLoaded', function() {
+    const facets = document.getElementById("facets");
+    const detailsDisclosure = facets.querySelectorAll(".details-disclosure");
+
+    const productsToolbar = document.getElementById("products-toolbar");
+    detailsDisclosure.forEach(detail => {
+        productsToolbar.appendChild(detail);
+    });
+  });
