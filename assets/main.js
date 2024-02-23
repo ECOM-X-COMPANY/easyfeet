@@ -2052,20 +2052,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //
 document.addEventListener('DOMContentLoaded', function() {
-    // Перевіряємо, чи ширина вікна менше або рівна 430px (мобільний розмір)
     if (window.innerWidth <= 430) {
-        // Знаходимо блоки з класами ".product-info__block" і ".product-info__block--flex"
         const productInfoBlock = document.querySelector('.product-info__block');
         const productInfoBlockFlex = document.querySelector('.product-info__block--flex');
         const productinfoRating = document.querySelector('.product-info__rating');
-
-        // Знаходимо блок з ідентифікатором "product-media"
         const productMedia = document.getElementById('product-media');
 
         if (productInfoBlock && productInfoBlockFlex && productinfoRating && productMedia) {
-            // Вставляємо блок ".product-info__block" в самий початок блоку "product-media"
             productMedia.insertBefore(productInfoBlock, productMedia.firstChild);
-            // Вставляємо блок ".product-info__block--flex" після блоку ".product-info__block"
             productMedia.insertBefore(productInfoBlockFlex, productInfoBlock.nextSibling);
             productMedia.insertBefore(productinfoRating, productInfoBlockFlex.nextSibling);
         } else {
@@ -2073,6 +2067,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+
 
 
 
