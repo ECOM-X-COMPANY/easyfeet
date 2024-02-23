@@ -2054,13 +2054,27 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', function() {
     // Знаходимо кнопку з класом "products-toolbar__filter-btn"
     const filterButton = document.querySelector('.products-toolbar__filter-btn');
-    
-    if (filterButton) {
-        // Виводимо знайдену кнопку у консоль
-        console.log(filterButton);
-    } else {
-        console.error('Кнопку з класом "products-toolbar__filter-btn" не знайдено.');
-    }
+
+    // Додаємо обробник подій для кнопки
+    filterButton.addEventListener('click', function() {
+        // Перевіряємо, чи атрибут aria-expanded дорівнює "true"
+        if (filterButton.getAttribute('aria-expanded') === 'true') {
+            // Знаходимо елемент з ідентифікатором "facets"
+            const facetsElement = document.getElementById('facets');
+            
+            if (facetsElement) {
+                // Знаходимо всі елементи з класом "details-disclosure" всередині елементу "facets"
+                const detailsDisclosures = facetsElement.querySelectorAll('.details-disclosure');
+
+                // Виводимо перші 4 знайдені елементи у консоль
+                for (let i = 0; i < 4 && i < detailsDisclosures.length; i++) {
+                    console.log(detailsDisclosures[i]);
+                }
+            } else {
+                console.error('Елемент з ідентифікатором "facets" не знайдено.');
+            }
+        }
+    });
 });
 
 
