@@ -90,6 +90,14 @@
             "show_gift_card_recipient": false
           }
         },
+        "description_xgBXFR": {
+          "type": "description",
+          "settings": {
+            "show_as_collapsible_content": false,
+            "icon": "none",
+            "open": false
+          }
+        },
         "22907d0e-1791-4477-9c3e-fec7da66abe1": {
           "type": "complementary",
           "disabled": true,
@@ -166,6 +174,7 @@
         "divider-1",
         "platmart_swatches_platmart_product_colors_ekKtQ6",
         "buy-buttons",
+        "description_xgBXFR",
         "22907d0e-1791-4477-9c3e-fec7da66abe1",
         "qikify_upsell_bundle_bogo_offer_gChYW9",
         "qikify_upsell_bundle_bundle_offer_kDP8dd",
