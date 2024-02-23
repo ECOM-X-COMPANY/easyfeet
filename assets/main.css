@@ -6161,7 +6161,7 @@ padding-right: 0px;
   }
 .predictive-search{
   width: max-content !important;
-  left: -283px !important;;
+  left: -283px !important;
   top: 60px !important;;
   padding: 0;
 }
@@ -6184,6 +6184,9 @@ padding-right: 0px;
   overflow-x: hidden;
 }
 @media only screen and (max-width: 430px) {
+  .predictive-search{
+    
+  }
   #header-search{
     width: 200px;
   }
