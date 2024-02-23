@@ -2067,7 +2067,7 @@ document.addEventListener('DOMContentLoaded', function() {
             productMedia.insertBefore(productInfoBlock, productMedia.firstChild);
             // Вставляємо блок ".product-info__block--flex" після блоку ".product-info__block"
             productMedia.insertBefore(productInfoBlockFlex, productInfoBlock.nextSibling);
-            productMedia.insertBefore(productinfoRating, productInfoBlock.nextSibling);
+            productMedia.insertBefore(productinfoRating, productInfoBlockFlex.nextSibling);
         } else {
             console.error('Елементи не знайдено.');
         }
