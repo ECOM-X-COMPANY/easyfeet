@@ -479,6 +479,7 @@
       "blocks": {
         "heading_emR7a3": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Collaborating with Industry Experts",
             "heading_size": "h3",
@@ -487,6 +488,7 @@
         },
         "text_p6GLYf": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Our commitment to excellence goes beyond research and testing to collaborate with the industry's leading experts.<\/p>",
             "enlarge_text": true
@@ -494,6 +496,7 @@
         },
         "button_m3kPrL": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_1_label": "Learn more",
             "button_1_link": "shopify:\/\/collections\/kinergy-line",
@@ -514,7 +517,8 @@
         ".text-overlay__block p {font-size: 16px; line-height: 20px; width: 50%;}"
       ],
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/Group_655.png",
+        "image_desktop": "shopify:\/\/shop_images\/PLANTAR_FASCIA_220_LB_ORTHOTIC_Product_page.png",
+        "image_mobile": "shopify:\/\/shop_images\/PLANTAR_FASCIA_220_LB_ORTHOTIC_Product_page_mob.png",
         "url": "",
         "height_mode": "fixed",
         "fixed_height_desktop": 500,
