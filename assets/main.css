@@ -7516,6 +7516,13 @@ margin-top: 16px !important;
   }
 }
 @media only screen and (max-width: 393px) {
+        .predictive-search{
+  left: -292px !important;
+
+}
+  .predictive-search__list{
+  width: 393px !important;
+}
     #template--17336943608048__rich_text_tLTaKR{
 margin-top: 16px !important;
   }
