@@ -455,7 +455,7 @@
     "search_show_suggestions": true,
     "predictive_search_show_collections": true,
     "predictive_search_limit": 5,
-    "predictive_search_show_vendor": true,
+    "predictive_search_show_vendor": false,
     "predictive_search_show_price": true,
     "predictive_search_include_skus": false,
     "predictive_search_include_tags": true,
