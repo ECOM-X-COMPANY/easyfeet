@@ -520,7 +520,7 @@
         "image_desktop": "shopify:\/\/shop_images\/PLANTAR_FASCIA_220_LB_ORTHOTIC_Product_page.png",
         "image_mobile": "shopify:\/\/shop_images\/PLANTAR_FASCIA_220_LB_ORTHOTIC_Product_page_mob.png",
         "url": "",
-        "height_mode": "auto",
+        "height_mode": "fixed",
         "fixed_height_desktop": 530,
         "fixed_height_mobile": 300,
         "overlay_position": "justify-start items-center",
