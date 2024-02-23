@@ -6187,6 +6187,12 @@ padding-right: 0px;
   width: auto !important;
 } */
 @media only screen and (max-width: 430px) {
+  .product-info__block--flex{
+    align-items: unset;
+  }
+  #shopify-section-template--17336944165104__main .product-title{
+    line-height: 25px;
+  }
   .predictive-search{
      left: -310px !important;
   }
