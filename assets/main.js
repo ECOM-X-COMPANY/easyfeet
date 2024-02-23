@@ -2060,13 +2060,14 @@ document.addEventListener('DOMContentLoaded', function() {
         const productMedia = document.getElementById('product-media');
 
         if (productInfoBlock && productMedia) {
-            // Переносимо блок ".product-info__block" в блок "product-media"
-            productMedia.appendChild(productInfoBlock);
+            // Вставляємо блок ".product-info__block" в самий початок блоку "product-media"
+            productMedia.insertBefore(productInfoBlock, productMedia.firstChild);
         } else {
             console.error('Елементи не знайдено.');
         }
     }
 });
+
 
 
 
