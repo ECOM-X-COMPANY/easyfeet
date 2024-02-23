@@ -170,7 +170,7 @@
         "title": "Best sellers",
         "heading_align": "text-center",
         "show_view_all": false,
-        "collection": "all",
+        "collection": "test",
         "layout": "carousel_on_mobile",
         "card_size_mobile": "small",
         "card_size": "small",
