@@ -6163,6 +6163,7 @@ padding-right: 0px;
   width: max-content !important;
   left: -283px !important;;
   top: 60px !important;;
+  padding: 0;
 }
 .search__form{
   position: absolute;
