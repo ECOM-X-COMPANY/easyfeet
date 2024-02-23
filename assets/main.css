@@ -6159,17 +6159,17 @@ padding-right: 0px;
   #shopify-section-template--17336944165104__main .media-ctrl{
     width: 100%;
   }
-.predictive-search[open] .predictive-search{
-  width: max-content;
-  left: -283px;
-  top: 60px;
+.predictive-search{
+  width: max-content !important;
+  left: -283px !important;;
+  top: 60px !important;;
 }
 .search__form{
   position: absolute;
   right: 0;
 }
 .search__submit{
-  top: 50%;
+  top: 50% !important;
 }
 @media only screen and (max-width: 430px) {
 
