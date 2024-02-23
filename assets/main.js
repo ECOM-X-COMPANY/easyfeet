@@ -2052,23 +2052,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-//
-document.addEventListener('DOMContentLoaded', function() {
-    // Перевіряємо, чи поточна сторінка є сторінкою конкретного товару
-    if (window.location.href.includes("/products/core-energy")) {
-        // Знаходимо тег <img> всередині елементу з класом ".image-banner__image"
-        const image = document.querySelector('.image-banner__image img');
-
-        if (image) {
-            // Змінюємо значення атрибуту src зображення на нове посилання
-            image.src = "https://cdn.shopify.com/s/files/1/0612/1177/1120/files/PLANTAR_FASCIA_ORTHOTIC_Product_page.png?v=1708691527";
-        } else {
-            console.error('Елемент <img> всередині елементу з класом ".image-banner__image" не знайдено.');
-        }
-    }
-});
-
-
 
 
 
