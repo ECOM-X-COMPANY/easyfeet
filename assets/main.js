@@ -2064,10 +2064,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Додаємо скопійований елемент до елементу "products-toolbar"
         productsToolbar.appendChild(copiedFacetFiltersElement);
+
+        // Заміна id скопійованого елементу, щоб уникнути дублювання
+        copiedFacetFiltersElement.id += '-copy';
+
+        // Очищення всіх обробників подій на клонованому елементі
+        copiedFacetFiltersElement.querySelectorAll('*').forEach(node => {
+            node.removeAttribute('onclick');
+            node.removeAttribute('onchange');
+        });
     } else {
         console.error('Елемент з ідентифікатором "facet-filters" не знайдено.');
     }
 });
+
 
 
 
