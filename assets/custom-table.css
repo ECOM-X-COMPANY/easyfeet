@@ -3,7 +3,8 @@
 }
 .custom-table__inner{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+  gap: 150px;
 }
 .custom-table__chart ul{
     display: flex;
