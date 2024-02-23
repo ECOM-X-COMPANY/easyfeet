@@ -4367,7 +4367,7 @@ label[data-swatch]::before {
     display: none;
   
   }
-  .header__icon, .header__icon--search-left{
+  .header__icon--search-left{
     right: 0 !important;
   }
   .header__grid .header__icon--search-left-close svg {
