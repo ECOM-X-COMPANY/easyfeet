@@ -2051,12 +2051,15 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // 
-  document.addEventListener('DOMContentLoaded', function() {
-    const facets = document.getElementById("facets");
-    const detailsDisclosure = facets.querySelectorAll(".details-disclosure");
+document.addEventListener('DOMContentLoaded', function() {
+    // Знаходимо елементи details-disclosure
+    const detailsDisclosureBlocks = document.querySelectorAll('.details-disclosure');
 
-    const productsToolbar = document.getElementById("products-toolbar");
-    detailsDisclosure.forEach(detail => {
-        productsToolbar.appendChild(detail);
+    // Знаходимо елемент, куди ми хочемо перемістити details-disclosure
+    const productsToolbar = document.getElementById('products-toolbar');
+
+    // Переміщуємо кожен details-disclosure в products-toolbar
+    detailsDisclosureBlocks.forEach(function(block) {
+        productsToolbar.appendChild(block);
     });
-  });
+});
