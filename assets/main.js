@@ -2057,6 +2057,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Знаходимо блоки з класами ".product-info__block" і ".product-info__block--flex"
         const productInfoBlock = document.querySelector('.product-info__block');
         const productInfoBlockFlex = document.querySelector('.product-info__block--flex');
+        const productinfoRating = document.querySelector('.product-info__rating');
+
         // Знаходимо блок з ідентифікатором "product-media"
         const productMedia = document.getElementById('product-media');
 
@@ -2065,6 +2067,7 @@ document.addEventListener('DOMContentLoaded', function() {
             productMedia.insertBefore(productInfoBlock, productMedia.firstChild);
             // Вставляємо блок ".product-info__block--flex" після блоку ".product-info__block"
             productMedia.insertBefore(productInfoBlockFlex, productInfoBlock.nextSibling);
+            productMedia.insertBefore(productinfoRating, productInfoBlock.nextSibling);
         } else {
             console.error('Елементи не знайдено.');
         }
