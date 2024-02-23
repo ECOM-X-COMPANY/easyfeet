@@ -6183,9 +6183,9 @@ padding-right: 0px;
 .predictive-search__scroller{
   overflow-x: hidden;
 }
-.icart-cart-qty-box button{
+/* .icart-cart-qty-box button{
   width: auto !important;
-}
+} */
 @media only screen and (max-width: 430px) {
   .predictive-search{
      left: -310px !important;
