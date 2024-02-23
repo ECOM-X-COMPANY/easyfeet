@@ -2051,15 +2051,20 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // 
-document.addEventListener('DOMContentLoaded', function() {
-    // Знаходимо елементи details-disclosure
-    const detailsDisclosureBlocks = document.querySelectorAll('.details-disclosure');
+ document.addEventListener('DOMContentLoaded', function() {
+    // Знаходимо елемент форми з ідентифікатором "facets"
+    const form = document.getElementById('facets');
+    
+    if (form) {
+      // Знаходимо всі елементи details-disclosure в межах форми
+      const detailsDisclosures = form.querySelectorAll('.details-disclosure');
 
-    // Знаходимо елемент, куди ми хочемо перемістити details-disclosure
-    const productsToolbar = document.getElementById('products-toolbar');
+      // Знаходимо елемент products-toolbar за його ідентифікатором
+      const productsToolbar = document.getElementById('products-toolbar');
 
-    // Переміщуємо кожен details-disclosure в products-toolbar
-    detailsDisclosureBlocks.forEach(function(block) {
-        productsToolbar.appendChild(block);
-    });
-});
+      // Переміщуємо перші 4 елементи details-disclosure в елемент products-toolbar
+      for (let i = 0; i < 4 && i < detailsDisclosures.length; i++) {
+          productsToolbar.appendChild(detailsDisclosures[i]);
+      }
+    }
+  });
