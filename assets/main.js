@@ -2053,7 +2053,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // 
 document.addEventListener('DOMContentLoaded', function() {
     // Знаходимо елемент з ідентифікатором "facets"
-    const facetsElement = document.getElementById('facets');
+    const facetsElement = document.getElementById('facet-filters');
     
     if (facetsElement) {
         // Знаходимо всі елементи з класом "details-disclosure" всередині елементу "facets"
