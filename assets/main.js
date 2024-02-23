@@ -2051,22 +2051,22 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Move the title, price, rating above the product image
-// document.addEventListener('DOMContentLoaded', function() {
-//     if (window.innerWidth <= 430) {
-//         const productInfoBlock = document.querySelector('.product-info__block');
-//         const productInfoBlockFlex = document.querySelector('.product-info__block--flex');
-//         const productinfoRating = document.querySelector('.product-info__rating');
-//         const productMedia = document.getElementById('product-media');
+document.addEventListener('DOMContentLoaded', function() {
+    if (window.innerWidth <= 430) {
+        const productInfoBlock = document.querySelector('.product-info__block');
+        const productInfoBlockFlex = document.querySelector('.product-info__block--flex');
+        const productinfoRating = document.querySelector('.product-info__rating');
+        const productMedia = document.getElementById('product-media');
 
-//         if (productInfoBlock && productInfoBlockFlex && productinfoRating && productMedia) {
-//             productMedia.insertBefore(productInfoBlock, productMedia.firstChild);
-//             productMedia.insertBefore(productInfoBlockFlex, productInfoBlock.nextSibling);
-//             productMedia.insertBefore(productinfoRating, productInfoBlockFlex.nextSibling);
-//         } else {
-//             console.error('No items found.');
-//         }
-//     }
-// });
+        if (productInfoBlock && productInfoBlockFlex && productinfoRating && productMedia) {
+            productMedia.insertBefore(productInfoBlock, productMedia.firstChild);
+            productMedia.insertBefore(productInfoBlockFlex, productInfoBlock.nextSibling);
+            productMedia.insertBefore(productinfoRating, productInfoBlockFlex.nextSibling);
+        } else {
+            console.error('No items found.');
+        }
+    }
+});
 
 
 
