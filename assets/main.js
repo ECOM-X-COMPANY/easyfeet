@@ -2051,29 +2051,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //
-document.addEventListener('DOMContentLoaded', function() {
-    // Знаходимо елемент з класом "main-products-grid__filters"
-    const filtersElement = document.querySelector('.main-products-grid__filters');
 
-    if (filtersElement) {
-        // Створюємо копію знайденого елементу
-        const copiedFiltersElement = filtersElement.cloneNode(true);
-
-        // Знаходимо елемент з ідентифікатором "products-toolbar"
-        const productsToolbar = document.getElementById('products-toolbar');
-
-        // Додаємо скопійований елемент до елементу "products-toolbar"
-        productsToolbar.appendChild(copiedFiltersElement);
-
-        // Очищення всіх обробників подій на клонованому елементі
-        copiedFiltersElement.querySelectorAll('*').forEach(node => {
-            node.removeAttribute('onclick');
-            node.removeAttribute('onchange');
-        });
-    } else {
-        console.error('Елемент з класом "main-products-grid__filters" не знайдено.');
-    }
-});
 
 
 
