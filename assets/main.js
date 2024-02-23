@@ -2051,20 +2051,20 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // 
- document.addEventListener('DOMContentLoaded', function() {
-    // Знаходимо елемент форми з ідентифікатором "facets"
-    const form = document.getElementById('facets');
+document.addEventListener('DOMContentLoaded', function() {
+    // Знаходимо елемент з ідентифікатором "facets"
+    const facetsElement = document.getElementById('facets');
     
-    if (form) {
-      // Знаходимо всі елементи details-disclosure в межах форми
-      const detailsDisclosures = form.querySelectorAll('.details-disclosure');
+    if (facetsElement) {
+        // Знаходимо всі елементи з класом "details-disclosure" всередині елементу "facets"
+        const detailsDisclosures = facetsElement.querySelectorAll('.details-disclosure');
 
-      // Знаходимо елемент products-toolbar за його ідентифікатором
-      const productsToolbar = document.getElementById('products-toolbar');
-
-      // Переміщуємо перші 4 елементи details-disclosure в елемент products-toolbar
-      for (let i = 0; i < 4 && i < detailsDisclosures.length; i++) {
-          productsToolbar.appendChild(detailsDisclosures[i]);
-      }
+        // Виводимо знайдені елементи у консоль
+        detailsDisclosures.forEach(function(element) {
+            console.log(element);
+        });
+    } else {
+        console.error('Елемент з ідентифікатором "facets" не знайдено.');
     }
-  });
+});
+
