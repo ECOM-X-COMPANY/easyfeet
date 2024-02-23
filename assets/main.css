@@ -6181,6 +6181,9 @@ padding-right: 0px;
   padding: 10px !important;
 }
 @media only screen and (max-width: 430px) {
+  #header-search{
+    width: 200px;
+  }
 
   #shopify-section-template--17336944165104__main .media-ctrl{
     width: 100%;
