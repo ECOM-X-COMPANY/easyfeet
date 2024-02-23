@@ -6176,6 +6176,9 @@ padding-right: 0px;
 }
 .predictive-search__list{
   width: 403px !important;
+
+#header-search{
+  padding: 10px;
 }
 @media only screen and (max-width: 430px) {
 
