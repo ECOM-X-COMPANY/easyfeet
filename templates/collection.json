@@ -490,7 +490,8 @@
       "custom_css": [
         "h3,h2 {font-weight: 900;}",
         ".mt-8 {display: none;}",
-        "div {margin-bottom: 20px; padding-bottom: 0;}"
+        "div {margin-bottom: 20px; padding-bottom: 0;}",
+        ".card__info {align-items: flex-start;}"
       ],
       "settings": {
         "title": "INSOLES THAT FIT YOUR TASKS",
