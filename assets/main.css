@@ -7039,6 +7039,13 @@ padding-right: 0px;
   }
 }
 @media only screen and (max-width: 400px) {
+            .predictive-search{
+  left: -309px !important;
+
+}
+  .predictive-search__list{
+  width: 400px !important;
+}
     #template--17336943608048__rich_text_tLTaKR{
  margin-top: 16px !important;
   }
