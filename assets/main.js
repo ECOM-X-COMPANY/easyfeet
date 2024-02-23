@@ -2052,19 +2052,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //
 document.addEventListener('DOMContentLoaded', function() {
-    // Знаходимо всі елементи з класом "main-products-grid__filters"
-    const filtersElements = document.querySelectorAll('.main-products-grid__filters');
-
-    // Проходимося по кожному елементу
-    filtersElements.forEach(function(filtersElement) {
-        // Знаходимо всі елементи з класом "details-disclosure" всередині елементу "main-products-grid__filters"
-        const detailsDisclosures = filtersElement.querySelectorAll('.details-disclosure');
-
-        // Виводимо знайдені елементи у консоль
-        detailsDisclosures.forEach(function(element) {
-            console.log(element);
-        });
-    });
+    // Знаходимо кнопку з класом "products-toolbar__filter-btn"
+    const filterButton = document.querySelector('.products-toolbar__filter-btn');
+    
+    if (filterButton) {
+        // Виводимо знайдену кнопку у консоль
+        console.log(filterButton);
+    } else {
+        console.error('Кнопку з класом "products-toolbar__filter-btn" не знайдено.');
+    }
 });
 
 
