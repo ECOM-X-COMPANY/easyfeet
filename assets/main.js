@@ -2050,21 +2050,5 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// 
-document.addEventListener('DOMContentLoaded', function() {
-    // Знаходимо елемент з ідентифікатором "facets"
-    const facetsElement = document.getElementById('facet-filters');
-    
-    if (facetsElement) {
-        // Знаходимо всі елементи з класом "details-disclosure" всередині елементу "facets"
-        const detailsDisclosures = facetsElement.querySelectorAll('.details-disclosure');
 
-        // Виводимо знайдені елементи у консоль
-        detailsDisclosures.forEach(function(element) {
-            console.log(element);
-        });
-    } else {
-        console.error('Елемент з ідентифікатором "facets" не знайдено.');
-    }
-});
 
