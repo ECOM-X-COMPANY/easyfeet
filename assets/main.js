@@ -2055,9 +2055,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Знаходимо всі елементи з класом "disclosure" та атрибутом "data-index" зі значенням "3"
     const disclosureElements = document.querySelectorAll('.disclosure[data-index="3"]');
 
-    // Виводимо знайдені елементи у консоль
+    // Знаходимо елемент з ідентифікатором "products-toolbar"
+    const productsToolbar = document.getElementById('products-toolbar');
+
+    // Переміщуємо кожен знайдений елемент до елементу "products-toolbar"
     disclosureElements.forEach(function(element) {
-        console.log(element);
+        productsToolbar.appendChild(element);
     });
 });
 
