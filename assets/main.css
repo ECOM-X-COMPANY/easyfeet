@@ -1,9 +1,5 @@
-.price__from, .product-label--new {
-display: none;
+#gf-controls-container {
 
-}
-.product-label--new {
-display: none !important;
 
 }
 
@@ -6186,6 +6182,9 @@ padding-right: 0px;
 }
 .predictive-search__scroller{
   overflow-x: hidden;
+}
+.icart-cart-qty-box button{
+  width: auto;
 }
 @media only screen and (max-width: 430px) {
   .predictive-search{
