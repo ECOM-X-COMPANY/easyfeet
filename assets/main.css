@@ -6160,7 +6160,9 @@ padding-right: 0px;
     width: 100%;
   }
 .predictive-search{
-padding: 0;
+  width: max-content !important;
+  left: -283px !important;;
+  top: 60px !important;;
 }
 .search__form{
   position: absolute;
