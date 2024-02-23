@@ -2057,18 +2057,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Проходимося по кожному елементу
     filtersElements.forEach(function(filtersElement) {
-        // Перевіряємо, чи елемент має клас "lg:js-hidden"
-        if (!filtersElement.classList.contains('lg:js-hidden')) {
-            // Знаходимо всі елементи з класом "details-disclosure" всередині елементу "main-products-grid__filters"
-            const detailsDisclosures = filtersElement.querySelectorAll('.details-disclosure');
+        // Знаходимо всі елементи з класом "details-disclosure" всередині елементу "main-products-grid__filters"
+        const detailsDisclosures = filtersElement.querySelectorAll('.details-disclosure');
 
-            // Виводимо знайдені елементи у консоль
-            detailsDisclosures.forEach(function(element) {
-                console.log(element);
-            });
-        }
+        // Виводимо знайдені елементи у консоль
+        detailsDisclosures.forEach(function(element) {
+            console.log(element);
+        });
     });
 });
+
 
 
 
