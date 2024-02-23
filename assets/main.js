@@ -2058,11 +2058,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Знаходимо елемент з ідентифікатором "products-toolbar"
     const productsToolbar = document.getElementById('products-toolbar');
 
-    // Переміщуємо кожен знайдений елемент до елементу "products-toolbar"
+    // Переміщуємо кожен знайдений елемент та обгортаємо його в теги <details-disclosure>, а потім додаємо до елементу "products-toolbar"
     disclosureElements.forEach(function(element) {
-        productsToolbar.appendChild(element);
+        const detailsDisclosureElement = document.createElement('details-disclosure');
+        detailsDisclosureElement.appendChild(element.cloneNode(true));
+        productsToolbar.appendChild(detailsDisclosureElement);
     });
 });
+
 
 
 
