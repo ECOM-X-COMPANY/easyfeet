@@ -2063,7 +2063,7 @@ document.addEventListener('DOMContentLoaded', function() {
             productMedia.insertBefore(productInfoBlockFlex, productInfoBlock.nextSibling);
             productMedia.insertBefore(productinfoRating, productInfoBlockFlex.nextSibling);
         } else {
-            console.error('Елементи не знайдено.');
+            console.error('No items found.');
         }
     }
 });
