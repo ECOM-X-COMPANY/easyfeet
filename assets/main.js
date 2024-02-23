@@ -2062,7 +2062,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Знаходимо блок з ідентифікатором "product-media"
         const productMedia = document.getElementById('product-media');
 
-        if (productInfoBlock && productInfoBlockFlex && productMedia) {
+        if (productInfoBlock && productInfoBlockFlex && productinfoRating && productMedia) {
             // Вставляємо блок ".product-info__block" в самий початок блоку "product-media"
             productMedia.insertBefore(productInfoBlock, productMedia.firstChild);
             // Вставляємо блок ".product-info__block--flex" після блоку ".product-info__block"
