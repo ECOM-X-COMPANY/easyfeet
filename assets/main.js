@@ -2056,17 +2056,21 @@ document.addEventListener('DOMContentLoaded', function() {
     if (window.innerWidth <= 430) {
         // Знаходимо блок з класом ".product-info__block"
         const productInfoBlock = document.querySelector('.product-info__block');
-        // Знаходимо блок з ідентифікатором "product-media"
-        const productMedia = document.getElementById('product-media');
+        // Знаходимо блок з класом ".product-info__block--flex"
+        const productInfoBlockFlex = document.querySelector('.product-info__block--flex');
 
-        if (productInfoBlock && productMedia) {
-            // Вставляємо блок ".product-info__block" в самий початок блоку "product-media"
-            productMedia.insertBefore(productInfoBlock, productMedia.firstChild);
+        if (productInfoBlock && productInfoBlockFlex) {
+            // Знаходимо батьківський елемент блоку ".product-info__block"
+            const productInfoParent = productInfoBlock.parentElement;
+            
+            // Вставляємо блок ".product-info__block--flex" після блоку ".product-info__block"
+            productInfoParent.insertBefore(productInfoBlockFlex, productInfoBlock.nextSibling);
         } else {
             console.error('Елементи не знайдено.');
         }
     }
 });
+
 
 
 
