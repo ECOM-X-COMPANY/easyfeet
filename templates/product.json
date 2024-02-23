@@ -76,6 +76,11 @@
             "spacing": "mt-8 mb-8"
           }
         },
+        "platmart_swatches_platmart_product_colors_ekKtQ6": {
+          "type": "shopify:\/\/apps\/platmart-swatches\/blocks\/platmart-product-colors\/3d4801b8-13e2-488f-8d06-69ca04fc155d",
+          "settings": {
+          }
+        },
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
@@ -159,6 +164,7 @@
         "price",
         "variant-picker",
         "divider-1",
+        "platmart_swatches_platmart_product_colors_ekKtQ6",
         "buy-buttons",
         "22907d0e-1791-4477-9c3e-fec7da66abe1",
         "qikify_upsell_bundle_bogo_offer_gChYW9",
