@@ -4373,6 +4373,10 @@ label[data-swatch]::before {
   .search__form {
     width: 200px;
   }
+  .header__icon--search-left-close{
+    position: absolute;
+    right: -162px;
+  }
   .header__grid .header__icon--search-left-close svg {
     width: 24px;
     height: 24px;
