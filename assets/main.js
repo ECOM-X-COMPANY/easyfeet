@@ -2050,6 +2050,23 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+//
+document.addEventListener('DOMContentLoaded', function() {
+    // Перевіряємо, чи ширина вікна менше або рівна 430px (мобільний розмір)
+    if (window.innerWidth <= 430) {
+        // Знаходимо блок з класом ".product-info__block"
+        const productInfoBlock = document.querySelector('.product-info__block');
+        // Знаходимо блок з ідентифікатором "product-media"
+        const productMedia = document.getElementById('product-media');
+
+        if (productInfoBlock && productMedia) {
+            // Переносимо блок ".product-info__block" в блок "product-media"
+            productMedia.appendChild(productInfoBlock);
+        } else {
+            console.error('Елементи не знайдено.');
+        }
+    }
+});
 
 
 
