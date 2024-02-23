@@ -6180,6 +6180,9 @@ padding-right: 0px;
 .speech-search--failed .search__input, .header__grid--centered-logo .speech-search--failed .search__input:not(.search__input--dirty){
   padding: 10px !important;
 }
+.predictive-search__scroller{
+  overflow-x: hidden;
+}
 @media only screen and (max-width: 430px) {
   #header-search{
     width: 200px;
