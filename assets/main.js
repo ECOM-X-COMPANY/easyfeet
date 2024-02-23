@@ -2051,20 +2051,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //
-document.addEventListener('DOMContentLoaded', function() {
-    // Знаходимо всі елементи з класом "disclosure" та атрибутом "data-index" зі значенням "3"
-    const disclosureElements = document.querySelectorAll('.disclosure[data-index="3"]');
 
-    // Знаходимо елемент з ідентифікатором "products-toolbar"
-    const productsToolbar = document.getElementById('products-toolbar');
-
-    // Переміщуємо кожен знайдений елемент та обгортаємо його в теги <details-disclosure>, а потім додаємо до елементу "products-toolbar"
-    disclosureElements.forEach(function(element) {
-        const detailsDisclosureElement = document.createElement('details-disclosure');
-        detailsDisclosureElement.appendChild(element.cloneNode(true));
-        productsToolbar.appendChild(detailsDisclosureElement);
-    });
-});
 
 
 
