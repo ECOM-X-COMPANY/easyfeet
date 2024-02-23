@@ -92,6 +92,7 @@
         },
         "description_xgBXFR": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "show_as_collapsible_content": false,
             "icon": "none",
