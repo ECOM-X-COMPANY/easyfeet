@@ -6164,6 +6164,10 @@ padding-right: 0px;
   left: -283px;
   top: 60px;
 }
+.search__form{
+  position: absolute;
+  right: 0;
+}
 @media only screen and (max-width: 430px) {
 
   #shopify-section-template--17336944165104__main .media-ctrl{
