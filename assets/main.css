@@ -6159,6 +6159,11 @@ padding-right: 0px;
   #shopify-section-template--17336944165104__main .media-ctrl{
     width: 100%;
   }
+.predictive-search[open] .predictive-search{
+  width: max-content;
+  left: -283px;
+  top: 60px;
+}
 @media only screen and (max-width: 430px) {
 
   #shopify-section-template--17336944165104__main .media-ctrl{
