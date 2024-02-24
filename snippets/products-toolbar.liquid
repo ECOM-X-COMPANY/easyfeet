@@ -46,7 +46,7 @@
         assign option_values = option_values | split: '|'
         assign label = 'products.sorting.sort_by_label' | t
       -%}
-      <script>console.log({{ products.sorting.sort_by_label | json }});</script>
+      
       {% render 'custom-select',
         id: 'products-sort-by',
         label: label,
