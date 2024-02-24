@@ -6,7 +6,7 @@
   Usage:
   {% render 'products-toolbar', results: collection %}
 {%- endcomment -%}
-<script>{{ custom-filters | json }}</script>
+<script>console.log({{ custom-filters | json }})</script>
 {%- liquid
   assign sort_or_filters_visible = false
   if section.settings.enable_filtering or section.settings.enable_sorting
