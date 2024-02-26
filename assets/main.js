@@ -2083,7 +2083,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-//
+// Swap blog and about
 document.addEventListener('DOMContentLoaded', function() {
     if (window.innerWidth <= 430) {
         const mainNav = document.querySelector('.main-nav');
@@ -2098,7 +2098,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-//
+// Setting the white color for Blog
 document.addEventListener('DOMContentLoaded', function() {
     if (window.innerWidth <= 430) {
         const ourBlogLi = document.querySelector('li:has(a[href="/blogs/our-blog"])');
