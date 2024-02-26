@@ -6224,8 +6224,8 @@ padding-right: 0px;
   .main-nav li:nth-child(9){
     display: none;
   }
-  .main-nav__item:nth-child(7){
-    color: red !important;
+  .main-nav li+a:nth-child(10){
+    color: #fffff !important;
   }
 
   .main-nav li:nth-child(11){
