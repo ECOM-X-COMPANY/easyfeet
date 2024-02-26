@@ -6191,7 +6191,7 @@ padding-right: 0px;
         display: none; /* Приховуємо оригінальне зображення */
     }
 
-    .media-with-text:nth-child(1)::before {
+    .media-with-text:nth-child(2)::before {
         content: url('https://cdn.shopify.com/s/files/1/0612/1177/1120/files/mob-insole.png?v=1708960608');
         display: block;
         width: 100%;
