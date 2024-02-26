@@ -924,10 +924,11 @@
           "type": "slide",
           "settings": {
             "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/7q.png",
             "rating_amount": "4.5",
-            "review_person_name": "Change name",
-            "review_content": "Change content",
-            "review_number": "Change number"
+            "review_person_name": "Shawn Stacy S.",
+            "review_content": "Іnitially bought for plantar fasciitis relief, these shoes surpassed expectations! After two years of faithful service, it's time for a fresh pair. Highly recommended for anyone seeking lasting comfort and support.",
+            "review_number": "10"
           }
         },
         "slide_AWCNc6": {
