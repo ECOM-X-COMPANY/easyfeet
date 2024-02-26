@@ -6187,7 +6187,18 @@ padding-right: 0px;
   width: auto !important;
 } */
 @media only screen and (max-width: 430px) {
+   .media-with-text img[src*="insole-finder-image.png"]:first-of-type {
+        display: none; /* Приховуємо оригінальне зображення */
+    }
 
+    .media-with-text:nth-child(1)::before {
+        content: url('https://cdn.shopify.com/s/files/1/0612/1177/1120/files/mob-insole.png?v=1708960608');
+        display: block;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        /* Додайте будь-які інші стилі за необхідності */
+    }
   #shopify-section-template--17336943739120__collection-products{
     margin-top: 15px !important;
   }
