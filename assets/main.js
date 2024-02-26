@@ -2072,6 +2072,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    // Знаходимо ul з класом main-nav
+    const mainNav = document.querySelector('.main-nav');
+    // Знаходимо елемент з ідентифікатором custom-menu__image
+    const customMenuImage = document.getElementById('custom-menu__image');
+    // Знаходимо li з вкладеним елементом a з href="/collections/sale"
+    const saleLi = document.querySelector('li:has(a[href="/collections/sale"])');
+
+    // Перевіряємо, чи всі елементи знайдено
+    if (mainNav && customMenuImage && saleLi) {
+        // Вставляємо li з елементом a з href="/collections/sale" перед елементом з ідентифікатором custom-menu__image
+        mainNav.insertBefore(saleLi, customMenuImage);
+    } else {
+        console.error('Елементи не знайдено.');
+    }
+});
 
 
 
