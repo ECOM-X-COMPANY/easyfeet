@@ -514,7 +514,8 @@
       ],
       "custom_css": [
         ".btn--primary {font-size: 16px; line-height: 20px; border-radius: 6px; background: #ff444f; border: inherit; color: #fff;}",
-        ".text-overlay__block p {font-size: 16px; line-height: 20px; width: 50%;}"
+        ".text-overlay__block p {font-size: 16px; line-height: 20px; width: 50%;}",
+        "@media only screen and (max-width: 430px) {.image-banner {padding: 0 5px; }}"
       ],
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/PLANTAR_FASCIA_220_LB_ORTHOTIC_Product_page.png",
