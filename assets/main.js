@@ -2133,21 +2133,16 @@ document.addEventListener('DOMContentLoaded', function() {
 //
 document.addEventListener('DOMContentLoaded', function() {
     if (window.innerWidth <= 430) {
-        const mediaWithText = document.querySelector('.media-with-text');
-        
-        if (mediaWithText) {
-            const imgElements = mediaWithText.querySelectorAll('img');
-            
-            imgElements.forEach(imgElement => {
-                if (imgElement.alt === 'custom-insole-mobile — Foto') {
-                    imgElement.src = 'https://cdn.shopify.com/s/files/1/0612/1177/1120/files/mob-insole.png?v=1708960608';
-                }
-            });
+        const imgElement = document.querySelector('img[data-src*="insole-finder-image.png"]');
+
+        if (imgElement) {
+            imgElement.src = 'https://cdn.shopify.com/s/files/1/0612/1177/1120/files/mob-insole.png?v=1708960608';
         } else {
-            console.error('Блок "media-with-text" не знайдено.');
+            console.error('Зображення не знайдено.');
         }
     }
 });
+
 
 
 
