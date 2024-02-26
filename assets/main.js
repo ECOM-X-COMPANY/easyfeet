@@ -2125,7 +2125,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 anchorElement.style.display = 'none'; 
             }
         } else {
-            console.error('Елемент "li:has(a[href="/"])" не знайдено.');
+            
         }
     }
 });
