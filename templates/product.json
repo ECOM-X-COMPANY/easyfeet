@@ -602,9 +602,8 @@
     "custom_reviews_xGkRgN": {
       "type": "custom-reviews",
       "settings": {
-        "reviews_photo_1": "shopify:\/\/shop_images\/14q.png",
-        "reviews_card1_star1": "shopify:\/\/shop_images\/star-full.svg",
-        "reviews_card1_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "rating_star": "shopify:\/\/shop_images\/star-full.svg",
+        "rating_star_half": "shopify:\/\/shop_images\/half-star-2.svg",
         "reviews_card1_star3": "shopify:\/\/shop_images\/star-full.svg",
         "reviews_card1_star4": "shopify:\/\/shop_images\/star-full.svg",
         "reviews_card1_star5": "shopify:\/\/shop_images\/half-star-2.svg",
