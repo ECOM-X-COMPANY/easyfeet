@@ -722,6 +722,17 @@
             "review_content": "Good quality and good arch support. Support is incredible. I can't believe I was greedy enough not to buy a dozen pairs before. Will buy again, it changes your life, seriously. How? Less knee pain! Less foot pain! Your comfort is worth every penny.",
             "review_number": "29"
           }
+        },
+        "slide_rWQ4e4": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/1q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "David G.",
+            "review_content": "These insoles are incredible. I was a gymnast growing up, and naturally had a higher arch over time that has decreased causing me to have ongoing back issues. They have helped me get that arch back and decreased the uncomfort.",
+            "review_number": "71"
+          }
         }
       },
       "block_order": [
@@ -735,7 +746,8 @@
         "slide_QRQaK9",
         "slide_GqqRLL",
         "slide_GVYkWg",
-        "slide_nXwKkR"
+        "slide_nXwKkR",
+        "slide_rWQ4e4"
       ],
       "settings": {
         "rating_star": "shopify:\/\/shop_images\/star-full.svg",
