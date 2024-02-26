@@ -612,10 +612,34 @@
             "review_content": "I was MIA from the hiking scene for the first time in my life. I tried every remedy out there. Planters socks, braces, wraps, exercises etc. Spent a lot of money in so doing. I bought these Easy Feet Pain Relief Orthotic’s.",
             "review_number": "49"
           }
+        },
+        "slide_WjHUfQ": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/12q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "James C.",
+            "review_content": "These insoles were an answer to my plantar fasciitis problem. I remove the insoles that come in my Hoka’s and put these in! I am active all day and in no pain!",
+            "review_number": "2"
+          }
+        },
+        "slide_czBbBy": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/10q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Mandy K.",
+            "review_content": "I liked that these insoles were not so expensive and provided relief. Excellent! They are easy to fit with my favorite shoes and very nice to wear all day long! This is my second pair .. it's one of the better insoles",
+            "review_number": "34"
+          }
         }
       },
       "block_order": [
-        "slide_RyBgAH"
+        "slide_RyBgAH",
+        "slide_WjHUfQ",
+        "slide_czBbBy"
       ],
       "settings": {
         "rating_star": "shopify:\/\/shop_images\/star-full.svg",
