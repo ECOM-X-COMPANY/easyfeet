@@ -2114,18 +2114,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-//
+// Remove from the mobile version of home
 document.addEventListener('DOMContentLoaded', function() {
     if (window.innerWidth <= 430) {
-        const ourBlogLi = document.querySelector('li:has(a[href="/"])');
+        const ourHomeLi = document.querySelector('li:has(a[href="/"])');
 
-        if (ourBlogLi) {
-            const anchorElement = ourBlogLi.querySelector('a[href="/"]');
+        if (ourHomeLi) {
+            const anchorElement = ourHomeLi.querySelector('a[href="/"]');
             if (anchorElement) {
                 anchorElement.style.display = 'none'; 
             }
         } else {
-            console.error('Елемент "li:has(a[href="/blogs/our-blog"])" не знайдено.');
+            console.error('Елемент "li:has(a[href="/"])" не знайдено.');
         }
     }
 });
