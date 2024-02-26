@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let slideIndex = 0;
     const numSlides = document.querySelectorAll('.slide').length;
     const slideWidth = document.querySelector('.slide').offsetWidth;
-    const numVisibleSlides = 4; // Кількість видимих карточок
+    const numVisibleSlides = 4; 
 
     function scrollToSlide(index) {
         slidesContainer.style.transform = `translateX(-${index * slideWidth}px)`;
