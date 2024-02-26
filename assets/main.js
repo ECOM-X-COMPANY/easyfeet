@@ -2130,20 +2130,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-//
-document.addEventListener('DOMContentLoaded', function() {
-    if (window.innerWidth <= 430) {
-        const imgElements = document.querySelectorAll('img[src="//easyfeet.store/cdn/shop/files/insole-finder-image.png?v=1707829283&width=536"]');
-
-        imgElements.forEach(imgElement => {
-            imgElement.src = 'https://cdn.shopify.com/s/files/1/0612/1177/1120/files/mob-insole.png?v=1708960608';
-        });
-
-        if (imgElements.length === 0) {
-            console.error('Зображення не знайдено.');
-        }
-    }
-});
 
 
 
