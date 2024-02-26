@@ -656,6 +656,17 @@
             "review_content": "These inserts are my go-to. I'm on my feet for 10 hours a day, and they're the only thing that brings relief. I'm on my third pair. They work amazingly well, and I recommend them to everyone.",
             "review_number": "37"
           }
+        },
+        "slide_F3Dk76": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/4_bcdaa6cc-9f96-46e2-9f60-32bdf7daa2cc.jpg",
+            "rating_amount": "4.5",
+            "review_person_name": "Johnatan M.",
+            "review_content": "Purchased a black medium one, trimmed it to the smallest length. Used it daily; excellent arch support for walking, remarkable value for money. Now, my shoes provide exceptional support and grip, enhancing overall comfort and stability with every step.",
+            "review_number": "21"
+          }
         }
       },
       "block_order": [
@@ -663,7 +674,8 @@
         "slide_WjHUfQ",
         "slide_czBbBy",
         "slide_YQwByw",
-        "slide_jnTMek"
+        "slide_jnTMek",
+        "slide_F3Dk76"
       ],
       "settings": {
         "rating_star": "shopify:\/\/shop_images\/star-full.svg",
