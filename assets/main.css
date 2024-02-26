@@ -6188,7 +6188,7 @@ padding-right: 0px;
 } */
 @media only screen and (max-width: 430px) {
 ..main-nav__item{
-  padding: 15px;
+  padding: 15px !important;
 }
   .product-info__block--flex{
     align-items: unset;
