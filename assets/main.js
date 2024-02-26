@@ -2136,13 +2136,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const mediaWithText = document.querySelector('.media-with-text');
         
         if (mediaWithText) {
-            const imgElement = mediaWithText.querySelector('img[src="//easyfeet.store/cdn/shop/files/insole-finder-image.png?v=1707829283&width=536"]');
+            const imgElements = mediaWithText.querySelectorAll('img');
             
-            if (imgElement) {
-                imgElement.src = 'https://cdn.shopify.com/s/files/1/0612/1177/1120/files/mob-insole.png?v=1708960608';
-            } else {
-                console.error('Зображення не знайдено.');
-            }
+            imgElements.forEach(imgElement => {
+                if (imgElement.src.includes('insole-finder-image.png')) {
+                    imgElement.src = 'https://cdn.shopify.com/s/files/1/0612/1177/1120/files/mob-insole.png?v=1708960608';
+                }
+            });
         } else {
             console.error('Блок "media-with-text" не знайдено.');
         }
