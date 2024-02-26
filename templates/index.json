@@ -853,10 +853,177 @@
     },
     "custom_reviews_RN4gz9": {
       "type": "custom-reviews",
+      "blocks": {
+        "slide_hCL973": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/14q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Kenneth B B.",
+            "review_content": "I was MIA from the hiking scene for the first time in my life. I tried every remedy out there. Planters socks, braces, wraps, exercises etc. Spent a lot of money in so doing. I bought these Easy Feet Pain Relief Orthotic’s.",
+            "review_number": "49"
+          }
+        },
+        "slide_QjfKTm": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_yMk4FV": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_hJhDdi": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_adyKEm": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_N3MYDV": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_9W9qcG": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_AWCNc6": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_JtazAj": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_99Yy6e": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_VAeay6": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_t7Nj3F": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_CyqqnE": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_8kbnRX": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        },
+        "slide_MUMN9H": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "rating_amount": "4.5",
+            "review_person_name": "Change name",
+            "review_content": "Change content",
+            "review_number": "Change number"
+          }
+        }
+      },
+      "block_order": [
+        "slide_hCL973",
+        "slide_QjfKTm",
+        "slide_yMk4FV",
+        "slide_hJhDdi",
+        "slide_adyKEm",
+        "slide_N3MYDV",
+        "slide_9W9qcG",
+        "slide_AWCNc6",
+        "slide_JtazAj",
+        "slide_99Yy6e",
+        "slide_VAeay6",
+        "slide_t7Nj3F",
+        "slide_CyqqnE",
+        "slide_8kbnRX",
+        "slide_MUMN9H"
+      ],
       "settings": {
-        "reviews_photo_1": "shopify:\/\/shop_images\/1q.png",
-        "reviews_card1_star1": "shopify:\/\/shop_images\/star-full.svg",
-        "reviews_card1_star2": "shopify:\/\/shop_images\/star-full.svg",
         "reviews_card1_star3": "shopify:\/\/shop_images\/star-full.svg",
         "reviews_card1_star4": "shopify:\/\/shop_images\/star-full.svg",
         "reviews_card1_star5": "shopify:\/\/shop_images\/half-star-2.svg",
