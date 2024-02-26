@@ -2014,7 +2014,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const customImageItem = document.getElementById('custom-menu__image');
   const mainNavItems = document.querySelectorAll('.main-nav li');
 
-  if (mainNavItems.length >= 4) {
+  if (mainNavItems.length >= 3) {
 
     mainNavItems[3].parentNode.insertBefore(customImageItem, mainNavItems[3].nextSibling);
   }
