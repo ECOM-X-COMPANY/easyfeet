@@ -634,12 +634,24 @@
             "review_content": "I liked that these insoles were not so expensive and provided relief. Excellent! They are easy to fit with my favorite shoes and very nice to wear all day long! This is my second pair .. it's one of the better insoles",
             "review_number": "34"
           }
+        },
+        "slide_YQwByw": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/13q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Eddie W.",
+            "review_content": "My wife got these to replace her worn arch supports in her orthotic walking shoes. She’s been dealing off and on with plantar fasciitis and thought these might add some additional support.",
+            "review_number": "13"
+          }
         }
       },
       "block_order": [
         "slide_RyBgAH",
         "slide_WjHUfQ",
-        "slide_czBbBy"
+        "slide_czBbBy",
+        "slide_YQwByw"
       ],
       "settings": {
         "rating_star": "shopify:\/\/shop_images\/star-full.svg",
