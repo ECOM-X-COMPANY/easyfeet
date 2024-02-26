@@ -1012,10 +1012,11 @@
           "type": "slide",
           "settings": {
             "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/15q.png",
             "rating_amount": "4.5",
-            "review_person_name": "Change name",
-            "review_content": "Change content",
-            "review_number": "Change number"
+            "review_person_name": "Preston",
+            "review_content": "Bought these to help with plantar fasciitis and they worked wonders! First pair listed two years, now it’s time for a new pair. Highly recommended.",
+            "review_number": "4"
           }
         }
       },
