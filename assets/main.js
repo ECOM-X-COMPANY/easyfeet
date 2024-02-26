@@ -2016,7 +2016,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (mainNavItems.length >= 3) {
 
-    mainNavItems[3].parentNode.insertBefore(customImageItem, mainNavItems[3].nextSibling);
+    mainNavItems[2].parentNode.insertBefore(customImageItem, mainNavItems[2].nextSibling);
   }
 });
 
