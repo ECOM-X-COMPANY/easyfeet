@@ -744,6 +744,17 @@
             "review_content": "These insoles are incredible. I was a gymnast growing up, and naturally had a higher arch over time that has decreased causing me to have ongoing back issues. They have helped me get that arch back and decreased the uncomfort.",
             "review_number": "71"
           }
+        },
+        "slide_yk38zX": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/9q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Steven M.",
+            "review_content": "First of all, these are a bit pricey. However, they are well constructed and of good quality. The packaging is also very nice which I would expect for the price. I like that they have a scan code that provides answers to any questions.",
+            "review_number": "56"
+          }
         }
       },
       "block_order": [
@@ -759,7 +770,8 @@
         "slide_GVYkWg",
         "slide_nXwKkR",
         "slide_rWQ4e4",
-        "slide_7dCqPP"
+        "slide_7dCqPP",
+        "slide_yk38zX"
       ],
       "settings": {
         "rating_star": "shopify:\/\/shop_images\/star-full.svg",
