@@ -700,6 +700,17 @@
             "review_content": "My feet killed me before purchasing these. I brought it to my foot doctor's office who approved them for me. He was surprised at the quality for off the shelf type of insoles. This insole has been very comfortable for my legs since I have started using this.",
             "review_number": "3"
           }
+        },
+        "slide_GVYkWg": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/7q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Shawn Stacy S.",
+            "review_content": "Іnitially bought for plantar fasciitis relief, these shoes surpassed expectations! After two years of faithful service, it's time for a fresh pair. Highly recommended for anyone seeking lasting comfort and support.",
+            "review_number": "10"
+          }
         }
       },
       "block_order": [
@@ -711,7 +722,8 @@
         "slide_F3Dk76",
         "slide_PdjMiU",
         "slide_QRQaK9",
-        "slide_GqqRLL"
+        "slide_GqqRLL",
+        "slide_GVYkWg"
       ],
       "settings": {
         "rating_star": "shopify:\/\/shop_images\/star-full.svg",
