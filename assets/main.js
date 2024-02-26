@@ -2068,6 +2068,28 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+//
+document.addEventListener('DOMContentLoaded', function() {
+    // Знаходимо елементи ul та li
+    const mainNav = document.querySelector('.main-nav');
+    const listItems = mainNav.querySelectorAll('li');
+
+    // Знаходимо li з id custom-menu__image
+    const customMenuImage = document.getElementById('custom-menu__image');
+
+    // Перевіряємо, чи всі необхідні елементи знайдено
+    if (mainNav && listItems.length >= 10 && customMenuImage) {
+        // Вибираємо перші 10 елементів і зберігаємо їх у змінну
+        const firstTenItems = Array.from(listItems).slice(0, 10);
+
+        // Вставляємо перші 10 елементів перед елементом з id custom-menu__image
+        firstTenItems.forEach(item => {
+            mainNav.insertBefore(item, customMenuImage);
+        });
+    } else {
+        console.error('Елементи не знайдено або не вдалося знайти потрібну кількість li.');
+    }
+});
 
 
 
