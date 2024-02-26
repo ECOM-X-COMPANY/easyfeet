@@ -2136,18 +2136,25 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     // Перевірка, чи ми на мобільному пристрої (ширина екрана менше або рівна 430px)
     if (window.innerWidth <= 430) {
-        // Знаходимо зображення за допомогою його src або alt атрибутів
-        const image = document.querySelector('#shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 img[src*="insole-finder-image.png"]');
+        // Створення нового елементу зображення
+        const newImage = document.createElement('img');
+        newImage.src = 'https://cdn.shopify.com/s/files/1/0612/1177/1120/files/mob-insole.png?v=1708960608';
+        newImage.alt = 'custom-insole-mobile';
+        newImage.classList.add('img-fit', 'no-js-hidden');
         
-        // Перевірка, чи знайдено зображення
-        if (image) {
-            // Заміна src зображення на нове зображення для мобільних пристроїв
-            image.src = 'https://cdn.shopify.com/s/files/1/0612/1177/1120/files/mob-insole.png?v=1708960608';
+        // Знаходимо оригінальне зображення
+        const originalImage = document.querySelector('#shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 img[src*="insole-finder-image.png"]');
+        
+        // Перевірка, чи знайдено оригінальне зображення та чи створено нове зображення
+        if (originalImage && newImage) {
+            // Вставляємо нове зображення перед оригінальним зображенням
+            originalImage.parentNode.insertBefore(newImage, originalImage);
         } else {
-            console.error('Зображення не знайдено.');
+            console.error('Зображення або оригінальне зображення не знайдено.');
         }
     }
 });
+
 
 
 
