@@ -2133,7 +2133,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //
 document.addEventListener('DOMContentLoaded', function() {
     if (window.innerWidth <= 430) {
-        const imgElement = document.querySelector('img[data-src*="insole-finder-image.png"]');
+        const imgElement = document.querySelector('img[src*="insole-finder-image.png"]');
 
         if (imgElement) {
             imgElement.src = 'https://cdn.shopify.com/s/files/1/0612/1177/1120/files/mob-insole.png?v=1708960608';
