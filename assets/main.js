@@ -2071,22 +2071,6 @@ document.addEventListener('DOMContentLoaded', function() {
 //
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Знаходимо ul з класом main-nav
-    const mainNav = document.querySelector('.main-nav');
-    // Знаходимо сьомий елемент li
-    const seventhLi = mainNav.querySelector('li:nth-child(7)');
-    // Знаходимо елемент з ідентифікатором custom-menu__image
-    const customMenuImage = document.getElementById('custom-menu__image');
-
-    // Перевіряємо, чи всі елементи знайдено
-    if (mainNav && seventhLi && customMenuImage) {
-        // Вставляємо сьомий елемент li перед елементом з ідентифікатором custom-menu__image
-        mainNav.insertBefore(seventhLi, customMenuImage);
-    } else {
-        console.error('Елементи не знайдено.');
-    }
-});
 
 
 
