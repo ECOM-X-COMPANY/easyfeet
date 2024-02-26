@@ -517,8 +517,8 @@
         ".text-overlay__block p {font-size: 16px; line-height: 20px; width: 50%;}"
       ],
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/PLANTAR_FASCIA_220_LB_ORTHOTIC_Product_page.png",
-        "image_mobile": "shopify:\/\/shop_images\/PLANTAR_FASCIA_220_LB_ORTHOTIC_Product_page_mob.png",
+        "image_desktop": "shopify:\/\/shop_images\/PAIN_RELIEF_ORTHOTIC_Product_page.png",
+        "image_mobile": "shopify:\/\/shop_images\/mob_-_PAIN_RELIEF_ORTHOTIC_Product_page.png",
         "url": "",
         "height_mode": "fixed",
         "fixed_height_desktop": 810,
