@@ -755,6 +755,17 @@
             "review_content": "First of all, these are a bit pricey. However, they are well constructed and of good quality. The packaging is also very nice which I would expect for the price. I like that they have a scan code that provides answers to any questions.",
             "review_number": "56"
           }
+        },
+        "slide_436dYd": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/15q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Preston",
+            "review_content": "Bought these to help with plantar fasciitis and they worked wonders! First pair listed two years, now it’s time for a new pair. Highly recommended.",
+            "review_number": "4"
+          }
         }
       },
       "block_order": [
@@ -771,7 +782,8 @@
         "slide_nXwKkR",
         "slide_rWQ4e4",
         "slide_7dCqPP",
-        "slide_yk38zX"
+        "slide_yk38zX",
+        "slide_436dYd"
       ],
       "settings": {
         "rating_star": "shopify:\/\/shop_images\/star-full.svg",
