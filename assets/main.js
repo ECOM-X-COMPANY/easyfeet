@@ -2093,7 +2093,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (mainNav && ourBlogLi && aboutPageLi) {
             mainNav.insertBefore(aboutPageLi, ourBlogLi);
         } else {
-            console.error('Елементи не знайдено.');
+            
         }
     }
 });
