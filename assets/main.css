@@ -6187,6 +6187,9 @@ padding-right: 0px;
   width: auto !important;
 } */
 @media only screen and (max-width: 430px) {
+  #shopify-section-template--17336943739120__collection-products{
+    margin-top: 15px;
+  }
   .second-main{
     margin-top: 15px;
   }
