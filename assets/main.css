@@ -6224,7 +6224,7 @@ padding-right: 0px;
   .main-nav li:nth-child(9){
     display: none;
   }
-  .main-nav__item:nth-child(6){
+  .main-nav__item a:nth-child(6){
     color: #fffff !important;
   }
 
