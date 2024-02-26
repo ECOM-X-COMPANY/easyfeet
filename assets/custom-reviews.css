@@ -160,6 +160,9 @@ button {
 }
 
 @media screen and (max-width: 430px) {
+  .reviews-inner__item{
+    width: 100%;
+  }
     .slides {
         gap: 10px;
         overflow-x: scroll;
