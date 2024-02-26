@@ -1,0 +1,1053 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "ryviu_reviews_qa_ryviu_total_CJX4YK": {
+          "type": "shopify:\/\/apps\/ryviu-reviews-qa\/blocks\/ryviu-total\/807ad6ed-1a6a-4559-abea-ed062858d9da",
+          "disabled": true,
+          "settings": {
+            "show_when_no_reviews": false,
+            "show_average_rating": true
+          }
+        },
+        "loox_reviews_loox_rating_BetkW3": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "ab9915a0-eebb-421b-8dbb-aad62ad7736f": {
+          "type": "inventory-status",
+          "disabled": true,
+          "settings": {
+            "show_indicator_bar": false,
+            "show_urgency_message": false,
+            "text_very_low": "<p>- Almost gone!<\/p>",
+            "text_low": "<p>- Hurry while stocks last!<\/p>",
+            "text_normal": "",
+            "text_no_stock": "",
+            "text_no_stock_backordered": "<p>Backordered<\/p>"
+          }
+        },
+        "vendor-sku": {
+          "type": "vendor-sku",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": true
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "selector_style": "dropdown",
+            "enable_dynamic_availability": true,
+            "show_backorder_text": true,
+            "enable_size_chart": true,
+            "size_chart_variant": "Size:",
+            "size_chart_page": ""
+          }
+        },
+        "divider-1": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "spacing": "mt-8 mb-8"
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_qty_selector": true,
+            "enable_dynamic_checkout": true,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "platmart_swatches_platmart_product_colors_ekKtQ6": {
+          "type": "shopify:\/\/apps\/platmart-swatches\/blocks\/platmart-product-colors\/3d4801b8-13e2-488f-8d06-69ca04fc155d",
+          "settings": {
+          }
+        },
+        "description_xgBXFR": {
+          "type": "description",
+          "settings": {
+            "show_as_collapsible_content": false,
+            "icon": "none",
+            "open": false
+          }
+        },
+        "22907d0e-1791-4477-9c3e-fec7da66abe1": {
+          "type": "complementary",
+          "disabled": true,
+          "settings": {
+            "heading": "Va bene con",
+            "products_to_show": 4,
+            "layout": "carousel"
+          }
+        },
+        "qikify_upsell_bundle_bogo_offer_gChYW9": {
+          "type": "shopify:\/\/apps\/qikify-upsell-bundle\/blocks\/bogo_offer\/2e94b962-8172-4839-8ad9-7837eb8b017a",
+          "disabled": true,
+          "settings": {
+            "product": "black-model"
+          }
+        },
+        "qikify_upsell_bundle_bundle_offer_kDP8dd": {
+          "type": "shopify:\/\/apps\/qikify-upsell-bundle\/blocks\/bundle_offer\/2e94b962-8172-4839-8ad9-7837eb8b017a",
+          "disabled": true,
+          "settings": {
+            "product": "black-model"
+          }
+        },
+        "qikify_upsell_bundle_volume_offer_YUNWWK": {
+          "type": "shopify:\/\/apps\/qikify-upsell-bundle\/blocks\/volume_offer\/2e94b962-8172-4839-8ad9-7837eb8b017a",
+          "disabled": true,
+          "settings": {
+            "product": ""
+          }
+        },
+        "king_linked_options_app_block_qPWMHh": {
+          "type": "shopify:\/\/apps\/king-linked-options\/blocks\/app-block\/564f3d71-fe5e-48d7-a0de-284b76666f1e",
+          "settings": {
+          }
+        },
+        "richtext_azjLHn": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Take Insole Quiz<\/strong><\/p>"
+          }
+        },
+        "collapsible_content_ChhmWy": {
+          "type": "collapsible-content",
+          "disabled": true,
+          "settings": {
+            "heading": "Product Description",
+            "icon": "none",
+            "text": "{{ product.metafields.custom.mini_description | metafield_tag }}",
+            "page": "",
+            "open": false
+          }
+        },
+        "collapsible_content_XETL37": {
+          "type": "collapsible-content",
+          "disabled": true,
+          "settings": {
+            "heading": "How to use",
+            "icon": "none",
+            "text": "<p>{{ product.metafields.custom.how_to_use_title | metafield_tag }}<\/p><p>{{ product.metafields.custom.how_to_use_text | metafield_tag }}<\/p>",
+            "page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "ryviu_reviews_qa_ryviu_total_CJX4YK",
+        "loox_reviews_loox_rating_BetkW3",
+        "ab9915a0-eebb-421b-8dbb-aad62ad7736f",
+        "vendor-sku",
+        "title",
+        "price",
+        "variant-picker",
+        "divider-1",
+        "buy-buttons",
+        "platmart_swatches_platmart_product_colors_ekKtQ6",
+        "description_xgBXFR",
+        "22907d0e-1791-4477-9c3e-fec7da66abe1",
+        "qikify_upsell_bundle_bogo_offer_gChYW9",
+        "qikify_upsell_bundle_bundle_offer_kDP8dd",
+        "qikify_upsell_bundle_volume_offer_YUNWWK",
+        "king_linked_options_app_block_qPWMHh",
+        "richtext_azjLHn",
+        "collapsible_content_ChhmWy",
+        "collapsible_content_XETL37"
+      ],
+      "custom_css": [
+        ".product-title {font-size: 32px; line-height: 33px; font-weight: 900;}",
+        ".media-ctrl {position: absolute; top: 50%; display: flex; justify-content: space-between; min-width: -moz-available;}"
+      ],
+      "settings": {
+        "stick_on_scroll": true,
+        "sticky_atc_panel": true,
+        "sticky_atc_position": "sticky-atc-panel--center",
+        "sticky_atc_mobile": true,
+        "media_layout": "slider",
+        "media_size": "default",
+        "media_ratio": "1",
+        "media_crop": "top",
+        "hover_zoom": "medium",
+        "enable_video_looping": false,
+        "stacked_scroll": "change",
+        "underline_active": true,
+        "media_thumbs": "always",
+        "thumb_ratio": "natural",
+        "thumb_crop": "top",
+        "media_arrows": "always",
+        "show_slide_count": false,
+        "border_color": "#eeeeee",
+        "bg_color": "#f4f4f4",
+        "enable_media_grouping": false,
+        "media_grouping_option": "Size"
+      }
+    },
+    "details": {
+      "type": "product-details",
+      "blocks": {
+        "highlight_text_V9EzxJ": {
+          "type": "highlight-text",
+          "settings": {
+            "title": "Service customer statistics",
+            "text": "<p>This data provides information about the number of customers using the products and reflects the overall level of activity of the company in servicing its customer base on a daily, weekly, monthly, and annual basis.<\/p><h5>🔘 <strong>100<\/strong> Сlients we serve daily<br\/>🔘 <strong>700<\/strong> Сustomers per week<br\/>🔘 <strong>3000<\/strong> Сustomers per month<br\/>🔘 <strong>36,500<\/strong> Сustomers annually<\/h5>"
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "disabled": true,
+          "settings": {
+            "style": "tabs",
+            "show_description": true,
+            "show_specification": true,
+            "show_reviews": false,
+            "open_first": false,
+            "spec_metafields": "",
+            "spec_right_align": false,
+            "spec_show_empty_metafields": true,
+            "spec_empty_field_text": "-",
+            "tab_1_title": "Spedizione",
+            "tab_1_text": "<p>Spediamo i nostri prodotti in tutto il mondo e offriamo la spedizione gratuita per ordini superiori a 80 EUR.<\/p><p>I costi della spedizione ammontano a 15 EUR per gli ordini sotto gli 80 EUR.<\/p><p>Tutti i prodotti sono fatti su misura dei singoli clienti. I vostri ordini saranno evasi molto velocemente – in 2-4 giorni lavorativi. <\/p>",
+            "tab_1_page": "",
+            "tab_2_title": "Recensioni",
+            "tab_2_text": "",
+            "tab_2_page": "foto-recensioni",
+            "tab_3_title": "",
+            "tab_3_text": "",
+            "tab_3_page": ""
+          }
+        },
+        "96fe4567-c67c-4ba9-a0e9-9fde95d0645c": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_line": true,
+            "spacing": "mt-8 mb-8"
+          }
+        },
+        "0cf86049-d511-4c48-99ba-93bf67f86930": {
+          "type": "custom-liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div class=\"product-details__block product-details__highlight-grid grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2\"><div class=\"product-details__highlight text-center\"><p class=\"h4\">WELMIRA<\/p><div class=\"rte large-text\"><p><span class=\"metafield-multi_line_text_field\">Ordinate qualcosa di nuovo per il comfort e l'armonia della vostra amata casasenza sforzarvie senza fare noiosi viaggi in vari negozi o saloni di tende<\/span><\/p><\/div><\/div><div class=\"product-details__highlight text-center\"><p class=\"h4\"> 2-4 giorni lavorativi<\/p><div class=\"rte large-text\"><p><span class=\"metafield-multi_line_text_field\">I vostri ordini saranno evasi molto velocemente – in 2-4 giorni lavorativi<\/span><\/p><\/div><\/div><\/div>"
+          }
+        },
+        "payment-methods": {
+          "type": "payment-methods",
+          "disabled": true,
+          "settings": {
+            "title": "Pagamento e sicurezza",
+            "title1": "Modalità di pagamento",
+            "show_payment_icons": true,
+            "text1": "<p>I tuoi dati di pagamento vengono elaborati in modo sicuro. Non memorizziamo i dettagli della carta di credito né abbiamo accesso ai dati della tua carta di credito.<\/p>",
+            "title2": "",
+            "text2": ""
+          }
+        },
+        "fast_bundle_fbt_position_FAfUYP": {
+          "type": "shopify:\/\/apps\/fast-bundle\/blocks\/fbt_position\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {
+          }
+        },
+        "superspeed_googles_page_speed_ss_content_VpdaTK": {
+          "type": "shopify:\/\/apps\/superspeed-web-vitals\/blocks\/ss-content\/ea1b2c2c-4644-44b9-b10b-fdb914884a8c",
+          "disabled": true,
+          "settings": {
+            "above_the_fold": "lazy",
+            "t": "",
+            "html": "",
+            "tc": "#ffffff",
+            "b1_label": "",
+            "b1": "",
+            "b1_color": "ss:btn1",
+            "b2_label": "",
+            "b2": "",
+            "b2_color": "ss:btn2",
+            "fill_bg": false,
+            "fill_content": true,
+            "ta": "md-ss:ss:text-center",
+            "sa": "md-ss:ss:items-center md-ss:ss:justify-center",
+            "fill_bg_mob": false,
+            "fill_content_mob": false,
+            "ta_mob": "ss:text-center",
+            "sa_mob": "ss:items-center ss:justify-center",
+            "overlay": true,
+            "tx": "\/*\n--h: auto;\n--min-h: auto;\n--max-h: auto;\n--w: 100%;\n--max-w: 1100px;\n--mar: 0px;\n--mar-mob: 0px;\n--pad: 0px;\n--pad-mob: 0px;\n--max-image-width: 100%;\n--ar: 1\n--text-balance: balance;\n--img-br: 0px;\n--ss-overlay: #000;\n--min-h-mob: auto;\n*\/",
+            "ex": ""
+          }
+        },
+        "shop_quiz_product_recommender_inline_quiz_RQbEcU": {
+          "type": "shopify:\/\/apps\/shop-quiz-product-recommender\/blocks\/inline-quiz\/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
+          "disabled": true,
+          "settings": {
+            "quiz_id": "",
+            "quiz_height": 600,
+            "quiz_autoscroll": true,
+            "quiz_fixed_height": false
+          }
+        },
+        "richtext_GfVWJY": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about this product with your customers.{{ product.metafields.custom.comfort_daily_number_of_stepss | metafield_tag }}{{ product.metafields.ecomposer.countdown_from | metafield_tag }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_text_V9EzxJ",
+        "tabs",
+        "96fe4567-c67c-4ba9-a0e9-9fde95d0645c",
+        "0cf86049-d511-4c48-99ba-93bf67f86930",
+        "payment-methods",
+        "fast_bundle_fbt_position_FAfUYP",
+        "superspeed_googles_page_speed_ss_content_VpdaTK",
+        "shop_quiz_product_recommender_inline_quiz_RQbEcU",
+        "richtext_GfVWJY"
+      ],
+      "custom_css": [
+        ".h4 {text-align: left !important; font-size: 32px !important; line-height: 32px !important;}",
+        ".large-text {margin: 0 !important;}",
+        ".large-text p {width: 600px !important; text-align: left !important;}",
+        ".rte h5 {min-width: 600px !important; text-align: left !important;}",
+        ".rte strong {color: #ff444f !important;}",
+        "p {font-size: 16px; line-height: 26px;}",
+        "h5 {font-size: 22px !important; line-height: 30px !important;}"
+      ],
+      "settings": {
+      }
+    },
+    "custom_description_hkMJFY": {
+      "type": "custom-description",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "custom_table_3xecJ9": {
+      "type": "custom-table",
+      "settings": {
+      }
+    },
+    "featured_collection_7DpYEp": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+      ],
+      "settings": {
+        "title": "BEST SELLERS",
+        "heading_align": "text-center",
+        "show_view_all": false,
+        "collection": "buy-3-get-15",
+        "layout": "carousel_on_mobile",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 5,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+      ],
+      "settings": {
+        "heading": "You may also like",
+        "heading_align": "text-center",
+        "layout": "carousel_on_mobile",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 5
+      }
+    },
+    "rich_text_CawR3t": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LqwGC4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Product layers overview",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LqwGC4"
+      ],
+      "custom_css": [
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": true
+      }
+    },
+    "media_with_text_B8iBBi": {
+      "type": "media-with-text",
+      "blocks": {
+        "heading_kdLiVf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Collaborating with Industry Experts",
+            "heading_size": "h3",
+            "heading_h1": true
+          }
+        },
+        "text_TBjyxY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our commitment to excellence goes beyond research and testing to collaborate with the industry's leading experts.<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "button_MMEtqJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/blogs\/our-blog\/does-plantar-fasciitis-affect-mobility",
+            "button_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kdLiVf",
+        "text_TBjyxY",
+        "button_MMEtqJ"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".btn--primary {font-size: 16px; line-height: 20px; border-radius: 6px; background: #ff444f; border: inherit;}",
+        ".section__block {margin-left: 0;}",
+        ".section--full-width {padding: 35px 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Running_3_0e15184c-64bd-484c-a0ee-5bcbd009d81c.webp",
+        "img_link": "",
+        "video_external": "",
+        "video_description": "",
+        "video_autoplay": false,
+        "layout": "right",
+        "image_fit": "contain",
+        "media_width": 50,
+        "media_scale": 100,
+        "text_align": "text-start",
+        "color_scheme": "2"
+      }
+    },
+    "image_banner_Xgn8FR": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_emR7a3": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Collaborating with Industry Experts",
+            "heading_size": "h3",
+            "heading_h1": true
+          }
+        },
+        "text_p6GLYf": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our commitment to excellence goes beyond research and testing to collaborate with the industry's leading experts.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "button_m3kPrL": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_label": "Learn more",
+            "button_1_link": "shopify:\/\/collections\/kinergy-line",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_emR7a3",
+        "text_p6GLYf",
+        "button_m3kPrL"
+      ],
+      "custom_css": [
+        ".btn--primary {font-size: 16px; line-height: 20px; border-radius: 6px; background: #ff444f; border: inherit; color: #fff;}",
+        ".text-overlay__block p {font-size: 16px; line-height: 20px; width: 50%;}"
+      ],
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/PLANTAR_FASCIA_220_LB_ORTHOTIC_Product_page.png",
+        "image_mobile": "shopify:\/\/shop_images\/PLANTAR_FASCIA_220_LB_ORTHOTIC_Product_page_mob.png",
+        "url": "",
+        "height_mode": "fixed",
+        "fixed_height_desktop": 810,
+        "fixed_height_mobile": 300,
+        "overlay_position": "justify-start items-center",
+        "overlay_text_align": "text-start",
+        "mob_center_text": true,
+        "mobile_stacked": true,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 0,
+        "prevent_animation": false
+      }
+    },
+    "featured_collection_YjHTR8": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+      ],
+      "settings": {
+        "title": "EXPLORE NEW LINE",
+        "heading_align": "text-center",
+        "show_view_all": false,
+        "collection": "shop",
+        "layout": "carousel_on_mobile",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 5,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
+    },
+    "b8fd6549-6366-4a68-8b36-fdbb29f91836": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "heading": "Visualizzato recentemente",
+        "heading_align": "text-start",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "limit": 8
+      }
+    },
+    "rich_text_eBiPrk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9AATAA": {
+          "type": "heading",
+          "settings": {
+            "heading": "HAPPY CUSTOMERS",
+            "heading_size": "h2",
+            "heading_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_9AATAA"
+      ],
+      "custom_css": [
+        ".color-scheme--transparent {margin-bottom: 0;}",
+        "h1 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+      ],
+      "settings": {
+        "text_position": "justify-center",
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true,
+        "prevent_animation": false
+      }
+    },
+    "custom_reviews_xGkRgN": {
+      "type": "custom-reviews",
+      "blocks": {
+        "slide_RyBgAH": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/14q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Kenneth B B.",
+            "review_content": "I was MIA from the hiking scene for the first time in my life. I tried every remedy out there. Planters socks, braces, wraps, exercises etc. Spent a lot of money in so doing. I bought these Easy Feet Pain Relief Orthotic’s.",
+            "review_number": "49"
+          }
+        },
+        "slide_WjHUfQ": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/12q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "James C.",
+            "review_content": "These insoles were an answer to my plantar fasciitis problem. I remove the insoles that come in my Hoka’s and put these in! I am active all day and in no pain!",
+            "review_number": "2"
+          }
+        },
+        "slide_czBbBy": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/10q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Mandy K.",
+            "review_content": "I liked that these insoles were not so expensive and provided relief. Excellent! They are easy to fit with my favorite shoes and very nice to wear all day long! This is my second pair .. it's one of the better insoles",
+            "review_number": "34"
+          }
+        },
+        "slide_YQwByw": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/13q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Eddie W.",
+            "review_content": "My wife got these to replace her worn arch supports in her orthotic walking shoes. She’s been dealing off and on with plantar fasciitis and thought these might add some additional support.",
+            "review_number": "13"
+          }
+        },
+        "slide_jnTMek": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/6_66c60d17-ea66-43d0-9e80-dfbdf43f78fe.jpg",
+            "rating_amount": "4.5",
+            "review_person_name": "Roberta D.",
+            "review_content": "These inserts are my go-to. I'm on my feet for 10 hours a day, and they're the only thing that brings relief. I'm on my third pair. They work amazingly well, and I recommend them to everyone.",
+            "review_number": "37"
+          }
+        },
+        "slide_F3Dk76": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/4_bcdaa6cc-9f96-46e2-9f60-32bdf7daa2cc.jpg",
+            "rating_amount": "4.5",
+            "review_person_name": "Johnatan M.",
+            "review_content": "Purchased a black medium one, trimmed it to the smallest length. Used it daily; excellent arch support for walking, remarkable value for money. Now, my shoes provide exceptional support and grip, enhancing overall comfort and stability with every step.",
+            "review_number": "21"
+          }
+        },
+        "slide_PdjMiU": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/5_551f60d6-878f-4df8-8dcb-b0ff3a6aa943.jpg",
+            "rating_amount": "4.5",
+            "review_person_name": "Nisha L.",
+            "review_content": "Absolutely love this product!! My second pair now! They're fantastic and super comfy. Fit perfectly in my favorite shoes, great for all-day wear! Supportive, affordable, and just as effective! Highly recommended!",
+            "review_number": "21"
+          }
+        },
+        "slide_QRQaK9": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/8q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Pwdecker",
+            "review_content": "It did not fit in the first pair of shoes I tried to get them in because the shoes were narrow and this was broad and I would have to cut a lot of it.However, put them in a second pair of shoes that had no support and these made the shoes feel great.",
+            "review_number": "8"
+          }
+        },
+        "slide_GqqRLL": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/V1lYnfdOCn_mid.jpg",
+            "rating_amount": "4.5",
+            "review_person_name": "Charles M.",
+            "review_content": "My feet killed me before purchasing these. I brought it to my foot doctor's office who approved them for me. He was surprised at the quality for off the shelf type of insoles. This insole has been very comfortable for my legs since I have started using this.",
+            "review_number": "3"
+          }
+        },
+        "slide_GVYkWg": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/7q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Shawn Stacy S.",
+            "review_content": "Іnitially bought for plantar fasciitis relief, these shoes surpassed expectations! After two years of faithful service, it's time for a fresh pair. Highly recommended for anyone seeking lasting comfort and support.",
+            "review_number": "10"
+          }
+        },
+        "slide_nXwKkR": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/1_00f390d3-1245-4755-9831-05c15a3092c4.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Dr. C.",
+            "review_content": "Good quality and good arch support. Support is incredible. I can't believe I was greedy enough not to buy a dozen pairs before. Will buy again, it changes your life, seriously. How? Less knee pain! Less foot pain! Your comfort is worth every penny.",
+            "review_number": "29"
+          }
+        },
+        "slide_rWQ4e4": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/1q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "David G.",
+            "review_content": "Definitely my go too insert. On my feet 10 hours a day and these are the only thing that has given me relief. On my third pair. They work great and recommend them to anyone who will listen. Thanks",
+            "review_number": "62"
+          }
+        },
+        "slide_7dCqPP": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/11q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Phillip A.",
+            "review_content": "These insoles are incredible. I was a gymnast growing up, and naturally had a higher arch over time that has decreased causing me to have ongoing back issues. They have helped me get that arch back and decreased the uncomfort.",
+            "review_number": "71"
+          }
+        },
+        "slide_yk38zX": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/9q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Steven M.",
+            "review_content": "First of all, these are a bit pricey. However, they are well constructed and of good quality. The packaging is also very nice which I would expect for the price. I like that they have a scan code that provides answers to any questions.",
+            "review_number": "56"
+          }
+        },
+        "slide_436dYd": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/15q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Preston",
+            "review_content": "Bought these to help with plantar fasciitis and they worked wonders! First pair listed two years, now it’s time for a new pair. Highly recommended.",
+            "review_number": "4"
+          }
+        }
+      },
+      "block_order": [
+        "slide_RyBgAH",
+        "slide_WjHUfQ",
+        "slide_czBbBy",
+        "slide_YQwByw",
+        "slide_jnTMek",
+        "slide_F3Dk76",
+        "slide_PdjMiU",
+        "slide_QRQaK9",
+        "slide_GqqRLL",
+        "slide_GVYkWg",
+        "slide_nXwKkR",
+        "slide_rWQ4e4",
+        "slide_7dCqPP",
+        "slide_yk38zX",
+        "slide_436dYd"
+      ],
+      "settings": {
+        "rating_star": "shopify:\/\/shop_images\/star-full.svg",
+        "rating_star_half": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_card1_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card1_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card1_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_1": "Kenneth B B.",
+        "reviews_content_1": "I was MIA from the hiking scene for the first time in my life. I tried every remedy out there. Planters socks, braces, wraps, exercises etc. Spent a lot of money in so doing. I bought these Easy Feet Pain Relief Orthotic’s.",
+        "reviews_number_1": "49",
+        "reviews_photo_2": "shopify:\/\/shop_images\/12q.png",
+        "reviews_card2_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card2_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card2_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card2_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card2_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_2": "James C.",
+        "reviews_content_2": "These insoles were an answer to my plantar fasciitis problem. I remove the insoles that come in my Hoka’s and put these in! I am active all day and in no pain!",
+        "reviews_number_2": "2",
+        "reviews_photo_3": "shopify:\/\/shop_images\/10q.png",
+        "reviews_card3_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card3_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card3_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card3_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card3_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_3": "Mandy K.",
+        "reviews_content_3": "I liked that these insoles were not so expensive and provided relief. Excellent! They are easy to fit with my favorite shoes and very nice to wear all day long! This is my second pair .. it's one of the better insoles",
+        "reviews_number_3": "34",
+        "reviews_photo_4": "shopify:\/\/shop_images\/13q.png",
+        "reviews_card4_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card4_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card4_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card4_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card4_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_4": "Eddie W.",
+        "reviews_content_4": "My wife got these to replace her worn arch supports in her orthotic walking shoes. She’s been dealing off and on with plantar fasciitis and thought these might add some additional support.",
+        "reviews_number_4": "13",
+        "reviews_photo_5": "shopify:\/\/shop_images\/6_66c60d17-ea66-43d0-9e80-dfbdf43f78fe.jpg",
+        "reviews_card5_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card5_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card5_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card5_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card5_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_5": "Roberta D.",
+        "reviews_content_5": "These inserts are my go-to. I'm on my feet for 10 hours a day, and they're the only thing that brings relief. I'm on my third pair. They work amazingly well, and I recommend them to everyone.",
+        "reviews_number_5": "37",
+        "reviews_photo_6": "shopify:\/\/shop_images\/4_bcdaa6cc-9f96-46e2-9f60-32bdf7daa2cc.jpg",
+        "reviews_card6_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card6_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card6_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card6_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card6_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_6": "Johnatan M.",
+        "reviews_content_6": "Purchased a black medium one, trimmed it to the smallest length. Used it daily; excellent arch support for walking, remarkable value for money. Now, my shoes provide exceptional support and grip, enhancing overall comfort and stability with every step.",
+        "reviews_number_6": "50",
+        "reviews_photo_7": "shopify:\/\/shop_images\/5_551f60d6-878f-4df8-8dcb-b0ff3a6aa943.jpg",
+        "reviews_card7_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card7_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card7_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card7_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card7_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_7": "Nisha L.",
+        "reviews_content_7": "Absolutely love this product!! My second pair now! They're fantastic and super comfy. Fit perfectly in my favorite shoes, great for all-day wear! Supportive, affordable, and just as effective! Highly recommended!",
+        "reviews_number_7": "21",
+        "reviews_photo_8": "shopify:\/\/shop_images\/8q.png",
+        "reviews_card8_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card8_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card8_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card8_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card8_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_8": "Pwdecker",
+        "reviews_content_8": "It did not fit in the first pair of shoes I tried to get them in because the shoes were narrow and this was broad and I would have to cut a lot of it.However, put them in a second pair of shoes that had no support and these made the shoes feel great.",
+        "reviews_number_8": "8",
+        "reviews_photo_9": "shopify:\/\/shop_images\/V1lYnfdOCn_mid.jpg",
+        "reviews_card9_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card9_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card9_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card9_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card9_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_9": "Charles M.",
+        "reviews_content_9": "My feet killed me before purchasing these. I brought it to my foot doctor's office who approved them for me. He was surprised at the quality for off the shelf type of insoles. This insole has been very comfortable for my legs since I have started using this.",
+        "reviews_number_9": "3",
+        "reviews_photo_10": "shopify:\/\/shop_images\/7q.png",
+        "reviews_card10_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card10_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card10_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card10_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card10_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_10": "Shawn Stacy S.",
+        "reviews_content_10": "Іnitially bought for plantar fasciitis relief, these shoes surpassed expectations! After two years of faithful service, it's time for a fresh pair. Highly recommended for anyone seeking lasting comfort and support.",
+        "reviews_number_10": "10",
+        "reviews_photo_11": "shopify:\/\/shop_images\/1_00f390d3-1245-4755-9831-05c15a3092c4.png",
+        "reviews_card11_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card11_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card11_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card11_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card11_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_11": "Dr. C.",
+        "reviews_content_11": "Good quality and good arch support. Support is incredible. I can't believe I was greedy enough not to buy a dozen pairs before. Will buy again, it changes your life, seriously. How? Less knee pain! Less foot pain! Your comfort is worth every penny.",
+        "reviews_number_11": "29",
+        "reviews_photo_12": "shopify:\/\/shop_images\/1q.png",
+        "reviews_card12_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card12_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card12_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card12_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card12_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_12": "David G.",
+        "reviews_content_12": "Definitely my go too insert. On my feet 10 hours a day and these are the only thing that has given me relief. On my third pair. They work great and recommend them to anyone who will listen. Thanks",
+        "reviews_number_12": "62",
+        "reviews_photo_13": "shopify:\/\/shop_images\/11q.png",
+        "reviews_card13_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card13_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card13_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card13_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card13_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_13": "Phillip A.",
+        "reviews_content_13": "These insoles are incredible. I was a gymnast growing up, and naturally had a higher arch over time that has decreased causing me to have ongoing back issues. They have helped me get that arch back and decreased the uncomfort.",
+        "reviews_number_13": "71",
+        "reviews_photo_14": "shopify:\/\/shop_images\/9q.png",
+        "reviews_card14_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card14_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card14_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card14_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card14_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_14": "Steven M.",
+        "reviews_content_14": "First of all, these are a bit pricey. However, they are well constructed and of good quality. The packaging is also very nice which I would expect for the price. I like that they have a scan code that provides answers to any questions.",
+        "reviews_number_14": "56",
+        "reviews_photo_15": "shopify:\/\/shop_images\/15q.png",
+        "reviews_card15_star1": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card15_star2": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card15_star3": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card15_star4": "shopify:\/\/shop_images\/star-full.svg",
+        "reviews_card15_star5": "shopify:\/\/shop_images\/half-star-2.svg",
+        "reviews_author_15": "Preston",
+        "reviews_content_15": "Bought these to help with plantar fasciitis and they worked wonders! First pair listed two years, now it’s time for a new pair. Highly recommended.",
+        "reviews_number_15": "4"
+      }
+    },
+    "170531818388597e88": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_card_carousel_section_JkCNyE": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        },
+        "ryviu_reviews_qa_ryviu_widget_qTtgrJ": {
+          "type": "shopify:\/\/apps\/ryviu-reviews-qa\/blocks\/ryviu-widget\/807ad6ed-1a6a-4559-abea-ed062858d9da",
+          "settings": {
+            "r_wapper_class": "",
+            "r_max_width": 1920,
+            "r_padding_block": 0,
+            "hide_when_no_reviews": false,
+            "one_col_on_mobile": false,
+            "hide_title_image_form": false
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_card_carousel_section_JkCNyE",
+        "ryviu_reviews_qa_ryviu_widget_qTtgrJ"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media screen and (min-width: 768px) {#r--carousel-theme .r--carousel-item {min-height: 340px; height: -webkit-max-content !important; height: -moz-max-content !important; height: max-content !important; }}"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "5fac415e-af3e-4bf4-86ca-0630969ba9a0": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19874199339350__5fac415e-af3e-4bf4-86ca-0630969ba9a0-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "coperta-in-flanella"
+          }
+        },
+        "template--19874199339350__5fac415e-af3e-4bf4-86ca-0630969ba9a0-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "foto-tende"
+          }
+        },
+        "template--19874199339350__5fac415e-af3e-4bf4-86ca-0630969ba9a0-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "foto-tende-natura"
+          }
+        },
+        "template--19874199339350__5fac415e-af3e-4bf4-86ca-0630969ba9a0-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "foto-tende-fiori"
+          }
+        },
+        "a784d7ff-9c5c-4d72-9acb-872191eeda7a": {
+          "type": "collection",
+          "settings": {
+            "collection": "tovaglie"
+          }
+        },
+        "db34a42f-fa38-469d-b478-70c1b5703fc1": {
+          "type": "collection",
+          "settings": {
+            "collection": "foto-tende-natale"
+          }
+        }
+      },
+      "block_order": [
+        "template--19874199339350__5fac415e-af3e-4bf4-86ca-0630969ba9a0-collection-1",
+        "template--19874199339350__5fac415e-af3e-4bf4-86ca-0630969ba9a0-collection-2",
+        "template--19874199339350__5fac415e-af3e-4bf4-86ca-0630969ba9a0-collection-3",
+        "template--19874199339350__5fac415e-af3e-4bf4-86ca-0630969ba9a0-collection-4",
+        "a784d7ff-9c5c-4d72-9acb-872191eeda7a",
+        "db34a42f-fa38-469d-b478-70c1b5703fc1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Collezioni",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "layout": "carousel",
+        "card_size": "small",
+        "use_product_image": false,
+        "circle_image": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "details",
+    "custom_description_hkMJFY",
+    "custom_table_3xecJ9",
+    "featured_collection_7DpYEp",
+    "recommendations",
+    "rich_text_CawR3t",
+    "media_with_text_B8iBBi",
+    "image_banner_Xgn8FR",
+    "featured_collection_YjHTR8",
+    "b8fd6549-6366-4a68-8b36-fdbb29f91836",
+    "rich_text_eBiPrk",
+    "custom_reviews_xGkRgN",
+    "170531818388597e88",
+    "5fac415e-af3e-4bf4-86ca-0630969ba9a0"
+  ]
+}
