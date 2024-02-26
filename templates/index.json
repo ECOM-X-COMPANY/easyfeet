@@ -869,10 +869,11 @@
           "type": "slide",
           "settings": {
             "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/6_66c60d17-ea66-43d0-9e80-dfbdf43f78fe.jpg",
             "rating_amount": "4.5",
-            "review_person_name": "Change name",
-            "review_content": "Change content",
-            "review_number": "Change number"
+            "review_person_name": "Roberta D.",
+            "review_content": "These inserts are my go-to. I'm on my feet for 10 hours a day, and they're the only thing that brings relief. I'm on my third pair. They work amazingly well, and I recommend them to everyone.",
+            "review_number": "37"
           }
         },
         "slide_yMk4FV": {
