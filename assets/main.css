@@ -6187,6 +6187,9 @@ padding-right: 0px;
   width: auto !important;
 } */
 @media only screen and (max-width: 430px) {
+  .media-with-text__media {
+    position: relative;
+  }
   .product-info__block--flex{
     align-items: unset;
   }
