@@ -6216,9 +6216,7 @@ padding-right: 0px;
   .media-with-text__text {
     padding-top: 12px !important;
   }
-  .main-nav li:nth-child(1){
-    display: none;
-  }
+ 
   .main-nav li:nth-child(4){
     display: none;
   }
