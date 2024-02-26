@@ -2068,7 +2068,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// 
+// Rearrange the Sale section of the mobile menu
 document.addEventListener('DOMContentLoaded', function() {
     if (window.innerWidth <= 430) {
         const mainNav = document.querySelector('.main-nav');
