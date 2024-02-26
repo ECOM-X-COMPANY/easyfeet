@@ -2078,9 +2078,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const customMenuImage = document.getElementById('custom-menu__image');
 
     // Перевіряємо, чи всі необхідні елементи знайдено
-    if (mainNav && listItems.length >= 10 && customMenuImage) {
+    if (mainNav && listItems.length >= 5 && customMenuImage) {
         // Вибираємо перші 10 елементів і зберігаємо їх у змінну
-        const firstTenItems = Array.from(listItems).slice(0, 10);
+        const firstTenItems = Array.from(listItems).slice(0, 5);
 
         // Вставляємо перші 10 елементів перед елементом з id custom-menu__image
         firstTenItems.forEach(item => {
