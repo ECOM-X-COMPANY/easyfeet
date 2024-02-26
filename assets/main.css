@@ -6225,7 +6225,7 @@ padding-right: 0px;
     display: none;
   }
   .main-nav__item:nth-child(7){
-    color: #ffff !important;
+    color: red !important;
   }
 
   .main-nav li:nth-child(11){
