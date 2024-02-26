@@ -2086,18 +2086,18 @@ document.addEventListener('DOMContentLoaded', function() {
 //
 document.addEventListener('DOMContentLoaded', function() {
     if (window.innerWidth <= 430) {
+        const mainNav = document.querySelector('.main-nav');
         const ourBlogLi = document.querySelector('li:has(a[href="/blogs/our-blog"])');
+        const aboutPageLi = document.querySelector('li:has(a[href="/pages/about"])');
 
-        if (ourBlogLi) {
-            const anchorElement = ourBlogLi.querySelector('a[href="/blogs/our-blog"]');
-            if (anchorElement) {
-                anchorElement.style.color = '#ffffff'; // Задаємо колір
-            }
+        if (mainNav && ourBlogLi && aboutPageLi) {
+            mainNav.insertBefore(aboutPageLi, ourBlogLi);
         } else {
-            console.error('Елемент "li:has(a[href="/blogs/our-blog"])" не знайдено.');
+            console.error('Елементи не знайдено.');
         }
     }
 });
+
 
 
 
