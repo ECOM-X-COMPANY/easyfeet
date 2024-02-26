@@ -957,10 +957,11 @@
           "type": "slide",
           "settings": {
             "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/10q.png",
             "rating_amount": "4.5",
-            "review_person_name": "Change name",
-            "review_content": "Change content",
-            "review_number": "Change number"
+            "review_person_name": "Mandy K.",
+            "review_content": "I liked that these insoles were not so expensive and provided relief. Excellent! They are easy to fit with my favorite shoes and very nice to wear all day long! This is my second pair .. it's one of the better insoles",
+            "review_number": "34"
           }
         },
         "slide_VAeay6": {
