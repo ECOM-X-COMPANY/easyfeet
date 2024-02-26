@@ -2078,7 +2078,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (mainNav && customMenuImage && saleLi) {
             mainNav.insertBefore(saleLi, customMenuImage);
         } else {
-            console.error('Елементи не знайдено.');
+           
         }
     }
 });
