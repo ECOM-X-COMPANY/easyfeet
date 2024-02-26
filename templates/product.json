@@ -601,6 +601,22 @@
     },
     "custom_reviews_xGkRgN": {
       "type": "custom-reviews",
+      "blocks": {
+        "slide_RyBgAH": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/14q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Kenneth B B.",
+            "review_content": "I was MIA from the hiking scene for the first time in my life. I tried every remedy out there. Planters socks, braces, wraps, exercises etc. Spent a lot of money in so doing. I bought these Easy Feet Pain Relief Orthotic’s.",
+            "review_number": "49"
+          }
+        }
+      },
+      "block_order": [
+        "slide_RyBgAH"
+      ],
       "settings": {
         "rating_star": "shopify:\/\/shop_images\/star-full.svg",
         "rating_star_half": "shopify:\/\/shop_images\/half-star-2.svg",
