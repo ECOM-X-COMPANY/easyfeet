@@ -990,10 +990,11 @@
           "type": "slide",
           "settings": {
             "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/13q.png",
             "rating_amount": "4.5",
-            "review_person_name": "Change name",
-            "review_content": "Change content",
-            "review_number": "Change number"
+            "review_person_name": "Eddie W.",
+            "review_content": "My wife got these to replace her worn arch supports in her orthotic walking shoes. She’s been dealing off and on with plantar fasciitis and thought these might add some additional support.",
+            "review_number": "13"
           }
         },
         "slide_8kbnRX": {
