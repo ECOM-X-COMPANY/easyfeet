@@ -228,6 +228,7 @@
     },
     "e652fbfd-f233-4a96-becd-c101074d468a": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "a {color: #e9303d; text-decoration: underline;}",
         "h1 {padding-bottom: 0; font-size: 32px; line-height: 32px; font-weight: 900;}"
@@ -273,6 +274,7 @@
         "template--17234989842672__f8ac1bc5-0a24-4337-bbb3-8261ab696056-text-1",
         "template--17234989842672__f8ac1bc5-0a24-4337-bbb3-8261ab696056-countdown-1"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 64px; line-height: 64px; font-weight: 900;}",
         "p {font-size: 22px; line-height: 22px;}"
@@ -308,6 +310,7 @@
     },
     "custom_promo_sale_AmK3zx": {
       "type": "custom-promo-sale",
+      "disabled": true,
       "settings": {
         "card1_discount": "save 10%",
         "card1_totalPrice": "71",
