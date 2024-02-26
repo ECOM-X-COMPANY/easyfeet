@@ -2,7 +2,7 @@
 margin-top: 30px;
 }
 .reviews-inner__item{
-  width: 15%;
+  width: 15% !important;
     cursor: pointer;
     padding: 30px;
     border-radius: 15px;
