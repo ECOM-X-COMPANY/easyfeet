@@ -6188,7 +6188,8 @@ padding-right: 0px;
 } */
 @media only screen and (max-width: 430px) {
 .main-nav__item{
-  padding: 15px !important;
+  padding: 1.65rem !important;
+  font-size: 14px !important;
 }
   .product-info__block--flex{
     align-items: unset;
