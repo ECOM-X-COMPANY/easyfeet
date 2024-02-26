@@ -2109,7 +2109,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 anchorElement.style.color = '#ffffff'; 
             }
         } else {
-            console.error('Елемент "li:has(a[href="/blogs/our-blog"])" не знайдено.');
+         
         }
     }
 });
