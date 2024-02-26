@@ -2139,7 +2139,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const imgElements = mediaWithText.querySelectorAll('img');
             
             imgElements.forEach(imgElement => {
-                if (imgElement.src.includes('insole-finder-image.png')) {
+                if (imgElement.src.includes('insole-finder-image.png') && imgElement.alt === ' — Foto') {
                     imgElement.src = 'https://cdn.shopify.com/s/files/1/0612/1177/1120/files/mob-insole.png?v=1708960608';
                 }
             });
@@ -2148,6 +2148,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+
 
 
 
