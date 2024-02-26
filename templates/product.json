@@ -678,6 +678,17 @@
             "review_content": "Absolutely love this product!! My second pair now! They're fantastic and super comfy. Fit perfectly in my favorite shoes, great for all-day wear! Supportive, affordable, and just as effective! Highly recommended!",
             "review_number": "21"
           }
+        },
+        "slide_QRQaK9": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/8q.png",
+            "rating_amount": "4.5",
+            "review_person_name": "Pwdecker",
+            "review_content": "It did not fit in the first pair of shoes I tried to get them in because the shoes were narrow and this was broad and I would have to cut a lot of it.However, put them in a second pair of shoes that had no support and these made the shoes feel great.",
+            "review_number": "8"
+          }
         }
       },
       "block_order": [
@@ -687,7 +698,8 @@
         "slide_YQwByw",
         "slide_jnTMek",
         "slide_F3Dk76",
-        "slide_PdjMiU"
+        "slide_PdjMiU",
+        "slide_QRQaK9"
       ],
       "settings": {
         "rating_star": "shopify:\/\/shop_images\/star-full.svg",
