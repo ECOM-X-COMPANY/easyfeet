@@ -87,6 +87,7 @@ body:not(.tab-used) .products-toolbar__sort .custom-select__btn {
     padding-inline-end: 10px;
   }
   .products-toolbar__filter-btn {
+    min-width: 80px;
     padding: 9px 24px;
     border: var(--btn-border-width) solid rgba(var(--text-color)/0.15);
     border-radius: var(--btn-border-radius, 0);

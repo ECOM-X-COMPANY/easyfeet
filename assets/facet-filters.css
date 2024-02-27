@@ -1,3 +1,23 @@
+.hide-filter-on-mobile{
+  display: block;
+}
+.custom-order{
+  display: flex;
+  flex-direction: column;
+}
+.custom-order li:nth-child(1){
+  order: 1;
+  margin-top: calc(4* var(--space-unit));
+}
+#custom_form__filters{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+.custom-filter-btn{
+  min-width: 80px;
+}
 .facets.drawer {
   max-width: 550px;
   height: var(--viewport-height, 100vh);
@@ -154,5 +174,10 @@ input[disabled] + .filter__label {
   }
   .main-products-grid--contained .main-products-grid__filters {
     margin-inline-end: calc(8 * var(--space-unit));
+  }
+}
+@media screen and (max-width: 900px) {
+  .hide-filter-on-mobile {
+    display: none;
   }
 }

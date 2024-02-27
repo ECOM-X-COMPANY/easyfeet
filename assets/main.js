@@ -293,17 +293,27 @@ customElements.define('deferred-media', DeferredMedia);
 class DetailsDisclosure extends HTMLElement {
   constructor() {
     super();
+    this.custom = this.dataset.custom;
+    this.customId = this.dataset.customid
+    console.log('this.custom', this.custom);
     this.disclosure = this.querySelector('details');
     this.toggle = this.querySelector('summary');
+    this.allToogles = document.querySelectorAll('[data-customSum="true"]');
+
     this.panel = this.toggle.nextElementSibling;
     this.init();
   }
 
   init() {
+    if(this.custom){
+      this.body = document.querySelector('body');
+      console.log('body', this.body);
+    }
     // Check if the content element has a CSS transition.
     if (window.getComputedStyle(this.panel).transitionDuration !== '0s') {
       this.toggle.addEventListener('click', this.handleToggle.bind(this));
       this.disclosure.addEventListener('transitionend', this.handleTransitionEnd.bind(this));
+      this.body.addEventListener('click', this.handleCloseAll.bind(this))
     }
   }
 
@@ -312,7 +322,22 @@ class DetailsDisclosure extends HTMLElement {
    * @param {object} evt - Event object.
    */
   handleToggle(evt) {
+    console.log('handleToggle', this.toggle.dataset);
+    evt.stopPropagation();
     evt.preventDefault();
+    this.allToogles.forEach((toggle) => {
+      console.log('toggle ', toggle.dataset);
+      if (toggle.dataset.customid !== this.toggle.dataset.customid){
+        console.log('close toggle ', toggle);
+        const details = toggle.parentElement;
+        const panel = toggle.nextElementSibling;
+        //details.classList.add('is-closing')
+        details.open = false
+        setTimeout(() => {
+          panel.style.height = '0';
+        });
+      }
+    })
 
     if (!this.disclosure.open) {
       this.open();
@@ -333,13 +358,26 @@ class DetailsDisclosure extends HTMLElement {
       this.disclosure.open = false;
     }
 
-    this.panel.removeAttribute('style');
+
+    if(!this.custom){
+      this.panel.removeAttribute('style');
+    }
   }
 
   /**
    * Adds inline 'height' style to the content element, to trigger open transition.
    */
   addContentHeight() {
+    if(this.custom){
+      this.panel.style.position = 'absolute';
+      this.panel.style.background = 'white';
+      this.panel.style.zIndex = '100';
+      this.panel.style.padding = '20px';
+      this.panel.style.borderWidth = '1px'
+      this.panel.style.borderStyle = 'solid'
+      this.panel.style.borderColor = '#c7c7c7'
+      this.panel.style.top = '90px'
+    }
     this.panel.style.height = `${this.panel.scrollHeight}px`;
   }
 

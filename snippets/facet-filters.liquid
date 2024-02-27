@@ -215,6 +215,11 @@
           {%- endif -%}
 
           {%- for filter in results.filters -%}
+            {% if filter.label == 'Arch support - hardness' %}
+              {% assign customPosition = true %}
+            {% else %}
+              {% assign customPosition = false %}
+            {% endif %}
             {%- liquid
               assign swatches = false
               assign has_active_filters = false
@@ -245,7 +250,7 @@
             {%- capture filter_markup -%}
               {%- case filter.type -%}
                 {%- when 'boolean' or 'list' -%}
-                  <ul role="list"{% if swatches %} class="filter__swatches"{% endif %}>
+                  <ul role="list"{% if swatches %} class="filter__swatches"{% endif %} {% if customPosition %} class="custom-order" {% endif %}>
                     {%- for value in filter.values -%}
                       {%- if value.count > 0 or section.settings.show_filter_deadends -%}
                         {%- assign selectable_filter_count = selectable_filter_count | plus: 1 -%}
@@ -279,7 +284,7 @@
 
             {%- if selectable_filter_count > 0 -%}
               <details-disclosure>
-                <details class="filter disclosure" data-type="{{ filter.type }}" data-index="{{ forloop.index }}"{% if section.settings.expand_filters %} open{% endif %}>
+                <details class="filter disclosure{% if hideFiltersOnDesktop %} hide-filter-on-desktop {% endif %}" data-type="{{ filter.type }}" data-index="{{ forloop.index }}"{% if section.settings.expand_filters %} open{% endif %}>
                   <summary class="filter__toggle">
                     <div class="flex justify-between items-center">
                       <span class="flex-auto font-bold">{{ filter.label | escape }}</span>
