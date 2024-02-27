@@ -167,7 +167,7 @@ button {
   align-items: center;
 }
 .reviews-inner__item {
-  width: 13% !important;
+  width: 12.5% !important;
 }
 @media screen and (max-width: 430px) {
   .reviews-inner__item{
