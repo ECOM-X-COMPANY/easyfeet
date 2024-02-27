@@ -2131,6 +2131,17 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+//
+document.addEventListener('DOMContentLoaded', function() {
+    const richTextSection = document.getElementById('shopify-section-template--17336943739120__rich_text_XDMrQz');
+    const productsToolbar = document.getElementById('products-toolbar');
+
+    if (richTextSection && productsToolbar) {
+        productsToolbar.appendChild(richTextSection);
+    } else {
+        console.error('Елементи не знайдено.');
+    }
+});
 
 
 
