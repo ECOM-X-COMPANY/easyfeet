@@ -63,3 +63,14 @@
     line-height: 20px;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 430px) {
+.podiatrists-inner__cont h2{
+  font-size: 20px;
+  line-height: 25px;
+}
+  .podiatrists-inner__cont p{
+  font-size: 15px;
+  line-height: 18px;
+}
+}
