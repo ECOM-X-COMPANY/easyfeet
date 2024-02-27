@@ -234,7 +234,8 @@
     "collection-products": {
       "type": "main-collection-products",
       "custom_css": [
-        ".filter__label {text-transform: capitalize;}"
+        ".filter__label {text-transform: capitalize;}",
+        "@media only screen and (max-width: 430px) {#filter-results{margin-top: 14px; }}"
       ],
       "settings": {
         "products_per_page": 30,
