@@ -28,6 +28,8 @@ margin-top: 30px;
     align-items: center;
 }
 .reviews-box__video video{
+  width: 200;
+  height: 200px;
   object-fit: cover;
 }
 .reviews-box__image--rating{
