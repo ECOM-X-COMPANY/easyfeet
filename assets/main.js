@@ -2137,7 +2137,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const productsToolbar = document.getElementById('products-toolbar');
 
     if (richTextSection && productsToolbar) {
-        productsToolbar.appendChild(richTextSection);
+        productsToolbar.insertAdjacentElement('afterend', richTextSection);
     } else {
         console.error('Елементи не знайдено.');
     }
