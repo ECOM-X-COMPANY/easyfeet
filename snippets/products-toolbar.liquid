@@ -16,7 +16,7 @@
 <products-toolbar class="products-toolbar flex items-center mb-8{% if settings.enable_compare and settings.compare_toggle != "none" %} products-toolbar--compare{% if section.settings.show_layout_toggle and sort_or_filters_visible %} products-toolbar--compare-shift-xs mt-16{% endif %}{% endif %} no-js-hidden" id="products-toolbar">
   {%- if section.settings.enable_filtering -%}
     <div class="products-toolbar__filter">
-      <button type="button" class="products-toolbar__filter-btn flex justify-between items-center text-current font-bold {% if section.settings.filters_open_lg %}is-active {% endif %}js-toggle-filters" aria-controls="facet-filters" aria-expanded="false">
+      <button type="button" class="custom-filter-btn products-toolbar__filter-btn flex justify-between items-center text-current font-bold {% if section.settings.filters_open_lg %}is-active {% endif %}js-toggle-filters" aria-controls="facet-filters" aria-expanded="false">
         <span class="hidden md:block">{{ 'products.filtering.filter' | t }}</span>
         {%- if section.settings.enable_sorting -%}
           <span class="md:hidden">{{ 'products.filtering.filter_sort' | t }}</span>
@@ -61,6 +61,103 @@
     </div>
     <script src="{{ 'custom-select.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
+
+  <!-- section.settings.enabled_custom_filter -->
+  {% if true %}
+    <div class="hide-filter-on-mobile">
+      <div id="custom__filters">
+        <form id="custom_form__filters">
+        {% for filter in results.filters %}
+          {% assign index = forloop.index %}
+          {% if filter.label == 'Arch support - height' %}
+            {% assign showFilter = true %}
+          {% elsif filter.label == 'Arch support - hardness' %}
+            {% assign showFilter = true %}
+            {% assign customPosition = true %}
+          {% elsif filter.label == 'Medical reasons: symptoms & conditions' %}
+            {% assign showFilter = true %}
+          {% elsif filter.label == "Person's weight" %}
+            {% assign showFilter = true %}
+
+          {% else %}
+            {% assign showFilter = false %}
+            {% assign customPosition = false %}
+          {% endif %}
+
+          {% if showFilter %}
+
+            <details-disclosure data-custom="true" >
+              <details class="disclosure show-desktop" data-custom="{{ index }}" {% if section.settings.expand_filters %} open{% endif %}>
+                <summary class="filter__toggle" data-customSum="true" data-customId="{{ forloop.index }}">
+                  <div class="flex justify-between items-center">
+                    <span class="flex-auto font-bold">{{ filter.label | escape }}</span>
+                    <span class="disclosure__toggle">
+                            {%- if settings.disclosure_toggle == 'plus' -%}
+                              {% render 'icon-plus' %}
+                            {%- else -%}
+                              {% render 'icon-chevron-down' %}
+                            {%- endif -%}
+                          </span>
+                  </div>
+                </summary>
+                <div class="disclosure__panel has-motion">
+                  <div class="disclosure__content">
+                    <div class="filter__content">
+                      {%- case filter.type -%}
+
+                        {%- when 'boolean' or 'list' -%}
+                          <ul role="list"{% if swatches %} class="filter__swatches"{% endif %}{% if customPosition %} class="custom-order" {% endif %}>
+                            {%- for value in filter.values -%}
+
+                              {%- if value.count > 0 or section.settings.show_filter_deadends -%}
+                                {%- assign selectable_filter_count = selectable_filter_count | plus: 1 -%}
+                                <li{% if selectable_filter_count > section.settings.max_filter_options %}{% endif %}>
+                                  <input type="checkbox"
+                                         class="{% unless swatches %}checkbox {% endunless %}visually-hidden focus-label-before"
+                                         id="filter-{{ filter.param_name | escape }}-{{ forloop.index }}"
+                                         data-id="{{ forloop.index }}"
+                                         data-custom="{{ index }}"
+                                         name="{{ value.param_name }}"
+                                         value="{{ value.value | escape }}"
+                                         {% if value.active %}checked{% endif %}
+                                    {% if value.count == 0 and value.active == false %}disabled{% endif %}>
+                                  <label for="filter-{{ filter.param_name | escape }}-{{ forloop.index }}"
+                                         class="filter__label flex items-start w-full m-0"
+                                  {%- if swatches %} data-swatch="{{ value.label | replace: '"', '' | downcase }}"{% endif %}>
+                                    <span class="flex-auto">{{ value.label | escape }}</span>
+                                    {% if section.settings.show_filter_counts -%}
+                                      <span class="filter__count">({{ value.count }})</span>
+                                    {%- endif -%}
+                                  </label>
+                                </li>
+                              {%- endif -%}
+                            {%- endfor -%}
+                          </ul>
+                      {%- endcase -%}
+                    </div>
+                    <div class="flex relative items-center mt-6">
+                      {%- if selectable_filter_count > section.settings.max_filter_options -%}
+                        <button type="button" class="filter__more link text-current text-sm js-show-more">
+                          {{- 'products.filtering.show_more' | t -}}
+                        </button>
+                      {%- endif -%}
+
+                      <div class="filter__header">
+                        <a href="{{ filter.url_to_remove }}" class="link text-current text-sm js-clear-filter"{% if has_active_filters == false %} hidden{% endif %}>
+                          {{- 'products.filtering.clear' | t -}}
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </details-disclosure>
+          {% endif %}
+        {% endfor %}
+        </form>
+      </div>
+    </div>
+  {% endif %}
 
   {%- if settings.enable_compare and settings.compare_toggle != "none" -%}
     <div class="products-toolbar__compare end">

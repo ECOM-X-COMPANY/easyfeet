@@ -2,6 +2,7 @@
 
 if (!customElements.get('facet-filters')) {
   class FacetFilters extends SideDrawer {
+    duplicateFilter = null
     connectedCallback() {
       this.init();
     }
@@ -18,10 +19,13 @@ if (!customElements.get('facet-filters')) {
       this.filteringEnabled = this.dataset.filtering === 'true';
       this.sortingEnabled = this.dataset.sorting === 'true';
       this.form = document.getElementById('facets');
+      this.customForm = document.getElementById('custom_form__filters');
       this.results = document.getElementById('filter-results');
+      this.duplicateFilter = '';
 
       if (this.filteringEnabled) {
         this.filters = this.querySelector('.facets__filters');
+        this.customFilters = document.getElementById('custom__filters');
         this.activeFilters = this.querySelector('.facets__active-filters');
         this.activeFiltersList = this.querySelector('.active-filters');
         this.activeFiltersHeader = this.querySelector('.active-filters-header');
@@ -39,10 +43,11 @@ if (!customElements.get('facet-filters')) {
 
     addListeners() {
       if (this.filteringEnabled) {
-        this.breakpointChangeHandler = this.breakpointChangeHandler
-          || this.handleBreakpointChange.bind(this);
+        this.breakpointChangeHandler = this.breakpointChangeHandler || this.handleBreakpointChange.bind(this);
         this.filters.addEventListener('click', this.handleFiltersClick.bind(this));
         this.filters.addEventListener('input', debounce(this.handleFilterChange.bind(this), 500));
+        this.customFilters.addEventListener('click', this.handleFiltersClick.bind(this));
+        this.customFilters.addEventListener('input', debounce(this.handleFilterChangeCustom.bind(this), 500));
         this.activeFilters.addEventListener('click', this.handleActiveFiltersClick.bind(this));
         window.addEventListener('on:breakpoint-change', this.breakpointChangeHandler);
       }
@@ -73,12 +78,49 @@ if (!customElements.get('facet-filters')) {
       }
     }
 
+    handleFilterChangeCustom(evt) {
+      const filterId = +evt.target.dataset.id
+      const index = evt.target.dataset.custom
+      console.log('evt id', index);
+      console.log('evt filterId', filterId);
+      console.log('custom filter', this.customFilters);
+
+      // find id in filters
+      console.log('form', this.filters)
+      const nodes = document.querySelectorAll('.filter')
+      console.log('nodes', nodes);
+      nodes.forEach((filter) => {
+        if(filter.dataset.index === index){
+          let getFilter = filter
+          console.log('getFilter', getFilter)
+
+          // find options that must be cloned
+          // get list
+          const ulOption = getFilter.querySelector(`[role="list"]`)
+          console.log('ulOption', ulOption);
+          const option = ulOption.children[`${filterId - 1}`];
+          console.log('option', option)
+          option.children[0].click()
+        }
+      })
+
+      // get changed filter in custom form
+    }
+
+
     /**
      * Handles 'input' events on the filters and 'change' events on the sort by dropdown.
      * @param {object} evt - Event object.
      */
     handleFilterChange(evt) {
       const formData = new FormData(this.form);
+      //const customFormData = new FormData(this.customForm);
+
+      // Iterate over the entries of this.customForm and append them to formData
+      // for (const [customKey, customValue] of customFormData) {
+      //   formData.append(customKey, customValue);
+      // }
+
       const searchParams = new URLSearchParams(formData);
       const emptyParams = [];
 
@@ -187,6 +229,9 @@ if (!customElements.get('facet-filters')) {
         // Update the filters.
         if (this.filteringEnabled) this.updateFilters(tmpl.content, evt);
 
+        // Update the filters.
+        //if (this.filteringEnabled) this.updateCustomFilters(tmpl.content, evt);
+
         // Update the label of the mobile filter button
         closeBtn.innerText = tmpl.content.querySelector('.js-close-drawer-mob').innerText;
 
@@ -234,15 +279,29 @@ if (!customElements.get('facet-filters')) {
       this.results.classList.remove('is-loading');
     }
 
+    updateCustomFilters(html, evt){
+      document.querySelectorAll('.filter').forEach((filter) => {
+        console.log('ID', filter.dataset.index)
+        const { index, custom } = filter.dataset;
+        let fetchedFilter = html.querySelector(`.filter[data-index="${index}"]`);
+        if (custom) {
+          fetchedFilter = html.querySelector(`.filter[data-custom="${index}"]`);
+        }
+        console.log('filter', filter);
+        console.log('fetchedFilter', fetchedFilter);
+      })
+    }
+
     /**
      * Updates the filters with the fetched data.
      * @param {string} html - HTML of the fetched document.
      * @param {object} evt - Event object.
      */
     updateFilters(html, evt) {
-      document.querySelectorAll('.filter').forEach((filter) => {
-        const { index } = filter.dataset;
-        const fetchedFilter = html.querySelector(`.filter[data-index="${index}"]`);
+      const nodes = document.querySelectorAll('.filter')
+      nodes.forEach((filter) => {
+        const { index, custom } = filter.dataset;
+        let fetchedFilter = html.querySelector(`.filter[data-index="${index}"]`);
 
         if (filter.dataset.type !== 'sort') {
           if (filter.dataset.type === 'price_range') {
@@ -290,10 +349,7 @@ if (!customElements.get('facet-filters')) {
           filter.innerHTML = fetchedFilter.innerHTML;
         } else {
           // Update toggle and header only.
-          filter.replaceChild(
-            fetchedFilter.querySelector('.filter__toggle'),
-            filter.querySelector('.filter__toggle')
-          );
+          filter.replaceChild(fetchedFilter.querySelector('.filter__toggle'), filter.querySelector('.filter__toggle'));
           filter.querySelector('.filter__header').innerHTML = fetchedFilter.querySelector('.filter__header').innerHTML;
         }
       } else {
