@@ -2131,17 +2131,16 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-//
+// Move rich-text on the shop page under the filters
 document.addEventListener('DOMContentLoaded', function() {
     const richTextSection = document.getElementById('shopify-section-template--17336943739120__rich_text_XDMrQz');
     const productsToolbar = document.getElementById('products-toolbar');
 
     if (richTextSection && productsToolbar) {
         productsToolbar.insertAdjacentElement('afterend', richTextSection);
-    } else {
-        console.error('Елементи не знайдено.');
     }
 });
+
 
 
 
