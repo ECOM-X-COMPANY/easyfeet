@@ -722,8 +722,9 @@
         "slide_nXwKkR": {
           "type": "slide",
           "settings": {
-            "media_type": "image",
+            "media_type": "video",
             "review_image": "shopify:\/\/shop_images\/1_00f390d3-1245-4755-9831-05c15a3092c4.png",
+            "review_video": "shopify:\/\/files\/videos\/11.mp4",
             "rating_amount": "4.5",
             "review_person_name": "Dr. C.",
             "review_content": "Good quality and good arch support. Support is incredible. I can't believe I was greedy enough not to buy a dozen pairs before. Will buy again, it changes your life, seriously. How? Less knee pain! Less foot pain! Your comfort is worth every penny.",
