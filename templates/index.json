@@ -414,7 +414,7 @@
         ".btn--primary {font-size: 16px; line-height: 20px; border-radius: 6px; background: #ff444f; border: inherit;}",
         ".section__block {margin-left: 0;}",
         ".section--full-width {padding: 35px 0px;}",
-        "@media only screen and (max-width: 430px) {.media{padding-top: 82% !important; }}"
+        "@media only screen and (max-width: 430px) {.media {padding-top: 82% !important; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Main_Page_Kinergy_Plantar_Fasciitis.png",
@@ -859,7 +859,7 @@
           "type": "slide",
           "settings": {
             "media_type": "image",
-            "review_image": "shopify:\/\/shop_images\/1q.png",
+            "review_video": "shopify:\/\/files\/videos\/1.mp4",
             "rating_amount": "4.5",
             "review_person_name": "David G.",
             "review_content": "Definitely my go too insert. On my feet 10 hours a day and these are the only thing that has given me relief. On my third pair. They work great and recommend them to anyone who will listen. Thanks",
