@@ -6187,6 +6187,9 @@ padding-right: 0px;
   width: auto !important;
 } */
 @media only screen and (max-width: 430px) {
+  .product-info__block {
+    display: none;
+  }
   /* Міняємо картинку головна Insole  моб версія */
     #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 img {
         content: url('https://cdn.shopify.com/s/files/1/0612/1177/1120/files/mob-insole-2.png?v=1708962445');
