@@ -6186,6 +6186,9 @@ padding-right: 0px;
 /* .icart-cart-qty-box button{
   width: auto !important;
 } */
+.product-label-container{
+  display: none;
+}
 @media only screen and (max-width: 430px) {
   .product-details__highlight {
     display: none;
