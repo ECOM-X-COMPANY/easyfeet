@@ -770,6 +770,10 @@
     },
     "custom_diseases_hYm8Vw": {
       "type": "custom-diseases",
+      "custom_css": [
+        ".diseases-inner__text p{display: none;}",
+        ".diseases-inner__text span{color: inherit;}"
+      ],
       "settings": {
         "diseases_title_1": "Most efficient for",
         "diseases_title_2": "Helping with such",
