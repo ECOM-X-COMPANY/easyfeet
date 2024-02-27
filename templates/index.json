@@ -858,7 +858,7 @@
         "slide_hCL973": {
           "type": "slide",
           "settings": {
-            "media_type": "image",
+            "media_type": "video",
             "review_video": "shopify:\/\/files\/videos\/1.mp4",
             "rating_amount": "4.5",
             "review_person_name": "David G.",
