@@ -893,8 +893,9 @@
         "slide_hJhDdi": {
           "type": "slide",
           "settings": {
-            "media_type": "image",
+            "media_type": "video",
             "review_image": "shopify:\/\/shop_images\/4_bcdaa6cc-9f96-46e2-9f60-32bdf7daa2cc.jpg",
+            "review_video": "shopify:\/\/files\/videos\/2.mp4",
             "rating_amount": "4.5",
             "review_person_name": "Johnatan M.",
             "review_content": "Purchased a black medium one, trimmed it to the smallest length. Used it daily; excellent arch support for walking, remarkable value for money. Now, my shoes provide exceptional support and grip, enhancing overall comfort and stability with every step.",
