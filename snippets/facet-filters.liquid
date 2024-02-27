@@ -217,6 +217,11 @@
           {%- for filter in results.filters -%}
             {% if filter.label == 'Arch support - hardness' %}
               {% assign customPosition = true %}
+            {% elsif filter.label == 'Medical reasons: symptoms & conditions' %}
+              {% assign customPosition = true %}
+            {% elsif filter.label == "Person's weight" %}
+              {% assign customPosition = true %}
+
             {% else %}
               {% assign customPosition = false %}
             {% endif %}
@@ -250,7 +255,7 @@
             {%- capture filter_markup -%}
               {%- case filter.type -%}
                 {%- when 'boolean' or 'list' -%}
-                  <ul role="list"{% if swatches %} class="filter__swatches"{% endif %} {% if customPosition %} class="custom-order" {% endif %}>
+                  <ul role="list"{% if swatches %} class="filter__swatches"{% endif %} {% if customPosition %} class="custom-order-facet custom-toolbar-filter-{{ forloop.index }}" {% endif %}>
                     {%- for value in filter.values -%}
                       {%- if value.count > 0 or section.settings.show_filter_deadends -%}
                         {%- assign selectable_filter_count = selectable_filter_count | plus: 1 -%}

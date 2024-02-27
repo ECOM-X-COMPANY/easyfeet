@@ -1,14 +1,93 @@
 .hide-filter-on-mobile{
   display: block;
 }
-.custom-order{
+.custom-order, .custom-order-facet{
   display: flex;
   flex-direction: column;
 }
-.custom-order li:nth-child(1){
+#custom__filters .justify-start{
+  justify-content: start;
+}
+#custom__filters .custom-filter-text {
+  flex-basis: 70%;
+}
+#custom__filters .custom-filter-icon{
+  flex-basis: 20%;
+  margin-inline-start: 0
+}
+.custom-order.custom-toolbar-filter-4 li:nth-child(1){
   order: 1;
   margin-top: calc(4* var(--space-unit));
 }
+.custom-order.custom-toolbar-filter-4 li:nth-child(2){
+  order: 4;
+}
+.custom-order.custom-toolbar-filter-4 li:nth-child(3){
+  order: 3;
+}
+.custom-order.custom-toolbar-filter-4 li:nth-child(4){
+  order: 2;
+}
+
+.custom-order-facet.custom-toolbar-filter-4 li:nth-child(1){
+  order: 1;
+}
+.custom-order-facet.custom-toolbar-filter-4 li:nth-child(2){
+  order: 4;
+}
+.custom-order-facet.custom-toolbar-filter-4 li:nth-child(3){
+  order: 3;
+}
+.custom-order-facet.custom-toolbar-filter-4 li:nth-child(4){
+  order: 2;
+  margin-bottom: calc(4* var(--space-unit)) !important;
+}
+
+.custom-order.custom-toolbar-filter-6 li:nth-child(1){
+  order: 2;
+}
+.custom-order.custom-toolbar-filter-6 li:nth-child(2){
+  order: 1;
+}
+.custom-order-facet.custom-toolbar-filter-6 li:nth-child(1){
+  order: 2;
+}
+.custom-order-facet.custom-toolbar-filter-6 li:nth-child(2){
+  order: 1;
+  margin-bottom: calc(4* var(--space-unit)) !important;
+}
+
+.custom-order.custom-toolbar-filter-5 li:nth-child(12){
+  order: -10;
+}
+.custom-order.custom-toolbar-filter-5 li:nth-child(5){
+  order: -9;
+}
+.custom-order.custom-toolbar-filter-5 li:nth-child(13){
+  order: -8;
+}
+.custom-order.custom-toolbar-filter-5 li:nth-child(2){
+  order: -7;
+}
+.custom-order.custom-toolbar-filter-5 li:nth-child(11){
+  order: -6;
+}
+.custom-order-facet.custom-toolbar-filter-5 li:nth-child(12){
+  order: -10;
+}
+.custom-order-facet.custom-toolbar-filter-5 li:nth-child(5){
+  order: -9;
+}
+.custom-order-facet.custom-toolbar-filter-5 li:nth-child(13){
+  order: -8;
+}
+.custom-order-facet.custom-toolbar-filter-5 li:nth-child(2){
+  order: -7;
+}
+.custom-order-facet.custom-toolbar-filter-5 li:nth-child(11){
+  order: -6;
+}
+
 #custom_form__filters{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -174,6 +253,11 @@ input[disabled] + .filter__label {
   }
   .main-products-grid--contained .main-products-grid__filters {
     margin-inline-end: calc(8 * var(--space-unit));
+  }
+}
+@media screen and (max-width: 1200px) {
+  #custom__filters .custom-filter-icon {
+    margin-inline-start: 0
   }
 }
 @media screen and (max-width: 900px) {
