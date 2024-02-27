@@ -433,7 +433,7 @@
     "new_label_icon": "none",
     "new_label_bg_color": "#1a66d2",
     "new_label_text_color": "#ffffff",
-    "show_new_label_collection": false,
+    "show_new_label_collection": true,
     "show_new_label_days": true,
     "preorder_label_bg_color": "#56cbf9",
     "preorder_label_text_color": "#000000",
