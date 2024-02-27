@@ -1008,8 +1008,9 @@
         "slide_8kbnRX": {
           "type": "slide",
           "settings": {
-            "media_type": "image",
+            "media_type": "video",
             "review_image": "shopify:\/\/shop_images\/14q.png",
+            "review_video": "shopify:\/\/files\/videos\/9.mp4",
             "rating_amount": "4.5",
             "review_person_name": "Kenneth B B.",
             "review_content": "I was MIA from the hiking scene for the first time in my life. I tried every remedy out there. Planters socks, braces, wraps, exercises etc. Spent a lot of money in so doing. I bought these Easy Feet Pain Relief Orthotic’s.",
