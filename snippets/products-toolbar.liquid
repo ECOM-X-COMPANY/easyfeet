@@ -48,7 +48,7 @@
         assign option_values = option_values | split: '|'
         assign label = 'products.sorting.sort_by_label' | t
       -%}
-      
+
       {% render 'custom-select',
         id: 'products-sort-by',
         label: label,
@@ -76,8 +76,10 @@
             {% assign customPosition = true %}
           {% elsif filter.label == 'Medical reasons: symptoms & conditions' %}
             {% assign showFilter = true %}
+            {% assign customPosition = true %}
           {% elsif filter.label == "Person's weight" %}
             {% assign showFilter = true %}
+            {% assign customPosition = true %}
 
           {% else %}
             {% assign showFilter = false %}
@@ -89,9 +91,9 @@
             <details-disclosure data-custom="true" >
               <details class="disclosure show-desktop" data-custom="{{ index }}" {% if section.settings.expand_filters %} open{% endif %}>
                 <summary class="filter__toggle" data-customSum="true" data-customId="{{ forloop.index }}">
-                  <div class="flex justify-between items-center">
-                    <span class="flex-auto font-bold">{{ filter.label | escape }}</span>
-                    <span class="disclosure__toggle">
+                  <div class="flex justify-start items-center">
+                    <span class="custom-filter-text flex-auto font-bold">{{ filter.label | escape }}</span>
+                    <span class="custom-filter-icon disclosure__toggle">
                             {%- if settings.disclosure_toggle == 'plus' -%}
                               {% render 'icon-plus' %}
                             {%- else -%}
@@ -106,7 +108,7 @@
                       {%- case filter.type -%}
 
                         {%- when 'boolean' or 'list' -%}
-                          <ul role="list"{% if swatches %} class="filter__swatches"{% endif %}{% if customPosition %} class="custom-order" {% endif %}>
+                          <ul role="list"{% if swatches %} class="filter__swatches"{% endif %}{% if customPosition %} class="custom-order custom-toolbar-filter-{{ forloop.index }}" {% endif %}>
                             {%- for value in filter.values -%}
 
                               {%- if value.count > 0 or section.settings.show_filter_deadends -%}
