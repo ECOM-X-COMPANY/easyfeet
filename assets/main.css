@@ -6187,6 +6187,9 @@ padding-right: 0px;
   width: auto !important;
 } */
 @media only screen and (max-width: 430px) {
+  .product-details__highlight {
+    display: none;
+  }
 .product-price{
   display: none;
 }
