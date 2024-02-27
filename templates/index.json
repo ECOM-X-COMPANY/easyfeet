@@ -985,8 +985,9 @@
         "slide_t7Nj3F": {
           "type": "slide",
           "settings": {
-            "media_type": "image",
+            "media_type": "video",
             "review_image": "shopify:\/\/shop_images\/12q.png",
+            "review_video": "shopify:\/\/files\/videos\/8.mp4",
             "rating_amount": "4.5",
             "review_person_name": "James C.",
             "review_content": "These insoles were an answer to my plantar fasciitis problem. I remove the insoles that come in my Hoka’s and put these in! I am active all day and in no pain!",
