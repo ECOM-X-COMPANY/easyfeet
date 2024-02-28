@@ -647,7 +647,7 @@
         "type": "shopify:\/\/apps\/fast-bundle\/blocks\/fast_bundle\/9e87fbe2-9041-4c23-acf5-322413994cef",
         "disabled": true,
         "settings": {
-          "home": false
+          "home": true
         }
       }
     }
