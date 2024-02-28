@@ -6189,6 +6189,9 @@ padding-right: 0px;
 .product-label-container{
   display: none;
 }
+#rbr-container-element-false{
+  display: none !important;
+}
 @media only screen and (max-width: 430px) {
   .product-details__highlight {
     display: none;
