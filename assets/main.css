@@ -6192,6 +6192,9 @@ padding-right: 0px;
 #rbr-container-element-false{
   display: none !important;
 }
+#rbr-container-element-fbt{
+    display: none !important;
+}
 @media only screen and (max-width: 430px) {
   .product-details__highlight {
     display: none;
