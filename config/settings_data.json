@@ -601,13 +601,6 @@
         "settings": {
         }
       },
-      "1530068250781986104": {
-        "type": "shopify:\/\/apps\/fast-bundle\/blocks\/fast_bundle\/9e87fbe2-9041-4c23-acf5-322413994cef",
-        "disabled": false,
-        "settings": {
-          "home": false
-        }
-      },
       "1990815452989453926": {
         "type": "shopify:\/\/apps\/ryviu-reviews-qa\/blocks\/ryviu-js\/807ad6ed-1a6a-4559-abea-ed062858d9da",
         "disabled": false,
@@ -648,6 +641,13 @@
         "type": "shopify:\/\/apps\/platmart-swatches\/blocks\/product-swatches\/3d4801b8-13e2-488f-8d06-69ca04fc155d",
         "disabled": false,
         "settings": {
+        }
+      },
+      "1530068250781986104": {
+        "type": "shopify:\/\/apps\/fast-bundle\/blocks\/fast_bundle\/9e87fbe2-9041-4c23-acf5-322413994cef",
+        "disabled": true,
+        "settings": {
+          "home": false
         }
       }
     }
