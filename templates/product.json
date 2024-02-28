@@ -275,6 +275,7 @@
         },
         "fast_bundle_fbt_position_FAfUYP": {
           "type": "shopify:\/\/apps\/fast-bundle\/blocks\/fbt_position\/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "disabled": true,
           "settings": {
           }
         },
