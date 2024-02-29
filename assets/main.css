@@ -6212,6 +6212,9 @@ padding-right: 0px;
   .product-info__price{
     line-height: normal;
   }
+  .price__current{
+    padding: 0;
+  }
   .price__default{
     flex-direction: column-reverse;
   }
