@@ -6212,6 +6212,9 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  .reviews-inner__item{
+    height: auto;
+  }
   /* Додаємо бордери для банера головна сторінка */
   #template--17336943608048__slideshow_zacADy .image-banner{
     border-top: 1px solid #000;
