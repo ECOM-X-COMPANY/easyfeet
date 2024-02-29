@@ -6209,6 +6209,9 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  .price__was--supercents{
+    margin-left: 0 auto;
+  }
   .product-info__price{
     line-height: normal;
   }
