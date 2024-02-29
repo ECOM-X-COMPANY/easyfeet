@@ -6427,7 +6427,7 @@ padding-right: 0px;
   }
 
   .product-info_price--discount {
-  
+  background-color: inherit !important;
     font-size: 12px !important;
   }
 
