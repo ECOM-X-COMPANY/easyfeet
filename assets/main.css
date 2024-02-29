@@ -6207,7 +6207,7 @@ padding-right: 0px;
 .price__from{
   display: none !important;
 }
-.benefit-second{
+.benefit-second,.benefit-first{
   line-height: normal;
 }
 @media only screen and (max-width: 430px) {
