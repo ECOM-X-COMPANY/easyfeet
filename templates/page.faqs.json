@@ -217,7 +217,7 @@
       ],
       "custom_css": [
         "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
-        ".btn--primary {font-size: 16px; line-height: 16px;}"
+        ".btn--primary {font-size: 16px; line-height: 16px; border-radius: 5px !important;}"
       ],
       "settings": {
         "heading": "Still looking for answers?",
@@ -231,7 +231,7 @@
     "aab0110a-6a81-4327-955c-bf8482c1f0fe": {
       "type": "recently-viewed",
       "custom_css": [
-        "h2{font-size: 32px; line-height: 32px; font-weight: 900;}"
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
       ],
       "settings": {
         "heading": "Recently viewed",
