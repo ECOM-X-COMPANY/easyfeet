@@ -6224,6 +6224,9 @@ padding-right: 0px;
   .price__default{
     flex-direction: column-reverse;
   }
+  .product-info_price--discount{
+    color:#ff444f !important;
+  }
   .custom-product-label{
     top: -13% !important;
     left: -13% !important;
@@ -6231,7 +6234,7 @@ padding-right: 0px;
     display: flex !important;
     align-items: center !important;
     padding: 5px !important;
-    color:#ff444f !important;
+    
   }
     /* Прибираємо відступи Insole finder головна сторінка */
   #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section{
