@@ -6207,10 +6207,7 @@ padding-right: 0px;
 .price__from{
   display: none !important;
 }
-.custom-product-label{
-  right: 69% !important;
-  width: max-content !important;
-}
+
 @media only screen and (max-width: 430px) {
   .custom-product-label{
     top: -13% !important;
