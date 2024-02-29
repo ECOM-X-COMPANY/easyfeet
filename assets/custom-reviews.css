@@ -171,7 +171,7 @@ button {
 }
 @media screen and (max-width: 430px) {
   .reviews-inner__item{
-    width: 100% !important;
+    width: 81% !important;
   }
     .slides {
         gap: 10px;
