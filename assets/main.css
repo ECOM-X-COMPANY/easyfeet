@@ -6207,7 +6207,9 @@ padding-right: 0px;
 .price__from{
   display: none !important;
 }
-
+.benefit-second{
+  line-height: normal;
+}
 @media only screen and (max-width: 430px) {
   .price__current{
     color: #ff444f;
