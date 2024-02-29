@@ -6209,6 +6209,9 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  .price__default{
+    flex-direction: column-reverse;
+  }
   .custom-product-label{
     top: -13% !important;
     left: -13% !important;
