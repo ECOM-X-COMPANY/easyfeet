@@ -6198,6 +6198,9 @@ padding-right: 0px;
 .shopify-payment-button__button{
   border-radius: 5px !important;
 }
+.lq-quiz button#cta{
+    border-radius: 5px !important;
+}
 @media only screen and (max-width: 430px) {
     /* Прибираємо відступи Insole finder головна сторінка */
   #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section{
