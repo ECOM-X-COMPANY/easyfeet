@@ -6942,7 +6942,7 @@ padding-right: 0px;
   }
 
   .product-info_price--discount {
-    font-size: 12px !important;
+    font-size: 12px;
   }
 
   .product-info__add-button--pay {
@@ -8870,7 +8870,7 @@ margin-top: 16px !important;
   }
 
   .product-info_price--discount {
-    font-size: 11px !important;
+    font-size: 11px;
   }
 
   .product-info__add-button--pay {
