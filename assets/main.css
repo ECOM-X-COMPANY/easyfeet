@@ -6208,14 +6208,12 @@ padding-right: 0px;
   display: none !important;
 }
 @media only screen and (max-width: 430px) {
-  /* .custom-product-label{
+  .custom-product-label{
     top: -13% !important;
     left: -13% !important;
     font-weight: 900 !important;
-    display: flex !important;
-    align-items: center i!mportant;
-    padding: 5px !important;
-  } */
+   
+  }
     /* Прибираємо відступи Insole finder головна сторінка */
   #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section{
     padding-top: 10px !important;
