@@ -6209,6 +6209,9 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  .product-info__price{
+    line-height: normal;
+  }
   .price__default{
     flex-direction: column-reverse;
   }
