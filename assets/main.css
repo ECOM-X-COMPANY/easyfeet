@@ -6222,7 +6222,7 @@ padding-right: 0px;
     padding: 0;
   }
   .price__default{
-    align-items: flex-end;
+    align-items: end;
     flex-direction: column-reverse;
   }
  
