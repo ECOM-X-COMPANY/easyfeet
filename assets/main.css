@@ -6430,6 +6430,7 @@ padding-right: 0px;
   background-color: inherit !important;
     color: inherit !important;
     font-size: 12px !important;
+    padding: 0 !important;
   }
 
   .product-info__add-button--pay {
