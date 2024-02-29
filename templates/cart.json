@@ -3,7 +3,8 @@
     "main": {
       "type": "main-cart",
       "custom_css": [
-        ".discount{display: none;}"
+        ".discount {display: none;}",
+        ".btn--primary{border-radius: 5px !important;}"
       ],
       "settings": {
         "show_page_title": true,
