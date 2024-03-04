@@ -410,7 +410,7 @@
         "button_37WBAT"
       ],
       "custom_css": [
-        ".btn--primary {font-size: 20px; line-height: 20px; border-radius: 6px; background: #ff444f; border: inherit;}",
+        ".btn--primary {font-size: 20px; line-height: 20px; border-radius: 3px; background: #ff444f; border: inherit;}",
         ".section__block {margin-left: 0;}",
         ".section--full-width {padding: 35px 0px;}",
         "@media only screen and (max-width: 430px) {.media {padding-top: 82% !important; }}"
