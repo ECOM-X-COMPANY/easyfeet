@@ -23,7 +23,8 @@
         "heading_EdwR6h"
       ],
       "custom_css": [
-        ".h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+        ".h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
+        "#template--17336943739120__rich_text_XDMrQz{margin-bottom: 30px;}"
       ],
       "settings": {
         "text_position": "justify-center",
