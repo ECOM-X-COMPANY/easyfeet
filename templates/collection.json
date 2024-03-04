@@ -524,7 +524,8 @@
         ".mt-8 {display: none;}",
         "div {margin-bottom: 20px; padding-bottom: 0;}",
         ".card__info {align-items: flex-start;}",
-        ".section__header{margin-bottom: 30px;}"
+        ".section__header {margin-bottom: 30px;}",
+        "#template--17336943739120__multi_column_nBFbff{margin: 0;}"
       ],
       "settings": {
         "title": "INSOLES THAT FIT YOUR TASKS",
