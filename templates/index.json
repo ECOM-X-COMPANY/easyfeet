@@ -164,7 +164,7 @@
     "featured_collection_LTYaa3": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {font-size:32px; line-height: 20px; font-weight: 900;}"
+        "h2 {font-size: 32px; line-height: 20px; font-weight: 900;}"
       ],
       "settings": {
         "title": "Best sellers",
@@ -336,8 +336,7 @@
         "span {font-size: 22px; line-height: 22px;}",
         ".scrolling-banner__item {padding-inline-end: 25px;}",
         ".scrolling-banner {padding: 15px;}",
-        "a {text-decoration: underline;}",
-        "#template--17336943608048__multi_column_3eKWWw {margin-bottom: 20px !important;}"
+        "a {text-decoration: underline;}"
       ],
       "settings": {
         "section_height": "medium",
