@@ -6216,6 +6216,7 @@ padding-right: 0px;
   .h4,.contained-heading{
     font-size: 20px !important;
     line-height: 10px !important;
+    margin-bottom: 30px;
   }
   .reviews-inner__item{
     height: auto;
