@@ -274,7 +274,7 @@
         ".mt-8 {display: none;}",
         "div {margin-bottom: 20px; padding-bottom: 0;}",
         ".card {border-radius: 6px;}",
-        ".card__media{border-radius: 6px 6px 0 0;}"
+        ".card__media {border-radius: 6px 6px 0 0;}"
       ],
       "settings": {
         "title": "",
@@ -385,7 +385,7 @@
         "heading_dbbHXb": {
           "type": "heading",
           "settings": {
-            "heading": "Collaborating with Industry Experts",
+            "heading": "Experience a new technological approach",
             "heading_size": "h3",
             "heading_h1": true
           }
@@ -393,7 +393,7 @@
         "text_8WQVaG": {
           "type": "text",
           "settings": {
-            "text": "<p>Our commitment to excellence goes beyond research and testing to collaborate with the industry's leading experts.<\/p>",
+            "text": "<p>Designed at leading R&D centers using cutting-edge biomechanical technologies<\/p>",
             "enlarge_text": false
           }
         },
