@@ -544,8 +544,7 @@
     "4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7": {
       "type": "recently-viewed",
       "custom_css": [
-        "h2 {font-weight: 900;}",
-        "recently-viewed{margin-bottom: 30px;}"
+        "h2 {font-weight: 900; margin-bottom: 30px;}"
       ],
       "settings": {
         "heading": "Recently reviewed",
