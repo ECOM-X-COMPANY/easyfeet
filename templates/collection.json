@@ -24,7 +24,7 @@
       ],
       "custom_css": [
         ".h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
-        "#template--17336943739120__rich_text_XDMrQz{margin-bottom: 30px;}"
+        "#template--17336943739120__rich_text_XDMrQz {margin-bottom: 30px;}"
       ],
       "settings": {
         "text_position": "justify-center",
@@ -523,7 +523,8 @@
         "h3,h2 {font-weight: 900;}",
         ".mt-8 {display: none;}",
         "div {margin-bottom: 20px; padding-bottom: 0;}",
-        ".card__info {align-items: flex-start;}"
+        ".card__info {align-items: flex-start;}",
+        ".section__header{margin-bottom: 30px;}"
       ],
       "settings": {
         "title": "INSOLES THAT FIT YOUR TASKS",
