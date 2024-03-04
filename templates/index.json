@@ -164,7 +164,7 @@
     "featured_collection_LTYaa3": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+        "h2 {font-size: 20px; line-height: 10px; font-weight: 900;}"
       ],
       "settings": {
         "title": "Best sellers",
