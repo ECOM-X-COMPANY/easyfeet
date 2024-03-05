@@ -6221,7 +6221,7 @@ padding-right: 0px;
     font-weight: 400 !important;
   }
   .slider__grid {
-    gap: 8px;
+    gap: 8px !important;
   }
   .benefit-first,.benefit-second{
     font-size: 11px;
