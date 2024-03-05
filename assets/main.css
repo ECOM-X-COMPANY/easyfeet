@@ -6217,6 +6217,7 @@ padding-right: 0px;
   }
   .price__default{
     align-items: center;
+    padding-bottom: 10px;
   }
   .price__was{
     font-size: 14px !important;
