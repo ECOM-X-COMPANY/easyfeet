@@ -6255,6 +6255,7 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1);
     width: 100%;
       border: 3px solid #ff444f;
     transition: all .4s ease;
+    border-radius: 0 0 2px 2px;
   }
   .card:after{
     position: absolute;
