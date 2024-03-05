@@ -6252,13 +6252,14 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1);
   }
   .card:hover:after{
     width: 100%;
+      border: 2px solid #ff444f;
   }
   .card:after{
     position: absolute;
     bottom: 0;
     content: '';
-    width: 0%;
-    border: 2px solid #ff444f;
+    width: 0;
+  
     border-radius: 3px;
   }
   .card__info{
