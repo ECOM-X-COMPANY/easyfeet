@@ -6212,6 +6212,9 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  #shopify-section-template--17336943608048__multi_column_3eKWWw div{
+    margin-top: 0;
+  }
   .card{
     height: auto;
   }
