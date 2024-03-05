@@ -6285,7 +6285,7 @@ padding-right: 0px;
  
   .custom-product-label{
     position: absolute !important;
-    top: -84% !important;
+    top: 0% !important;
     /* left: -10% !important; */
     font-weight: 900 !important;
     display: flex !important;
