@@ -6212,6 +6212,9 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  .price__default{
+    align-items: center;
+  }
   .price__was{
     font-size: 14px !important;
     line-height: 14px !important;
