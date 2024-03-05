@@ -6236,6 +6236,7 @@ padding-right: 0px;
    line-height: 15px;
   }
   .card{
+    position: ralative !important;
     height: auto;
   }
   .card__info{
@@ -6283,7 +6284,7 @@ padding-right: 0px;
   }
  
   .custom-product-label{
-    position: relative !important;
+    position: absolute !important;
     top: -84% !important;
     /* left: -10% !important; */
     font-weight: 900 !important;
