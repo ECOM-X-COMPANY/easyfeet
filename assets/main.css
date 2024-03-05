@@ -6216,6 +6216,10 @@ padding-right: 0px;
    font-size: 16px;
    line-height: 16px;
  }
+  .card__rte p{
+     font-size: 12px;
+   line-height: 12px;
+  }
   .card{
     height: auto;
   }
