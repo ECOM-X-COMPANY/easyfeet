@@ -6212,6 +6212,9 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  .slider__grid {
+    gap: 8px;
+  }
  .card__title{
    font-size: 16px;
    line-height: 16px;
