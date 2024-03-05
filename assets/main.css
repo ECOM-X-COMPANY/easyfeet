@@ -6215,6 +6215,10 @@ padding-right: 0px;
   .slider__grid {
     gap: 8px;
   }
+  .benefit-first,.benefit-second{
+    font-size: 11px;
+    line-height: 12px;
+  }
  .card__title{
    font-size: 12px;
    line-height: 14px;
