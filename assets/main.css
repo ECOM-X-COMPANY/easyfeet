@@ -6212,6 +6212,11 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  .price__was{
+    font-size: 14px !important;
+    line-height: 14px !important;
+    font-weight: 400 !important;
+  }
   .slider__grid {
     gap: 8px;
   }
