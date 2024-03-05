@@ -6250,7 +6250,7 @@ padding-right: 0px;
 box-shadow: 0px 0px 29px -9px rgba(145,145,145,1);
     
   }
-  .card:after:hover{
+  .card:hover:after{
     width: 100%;
   }
   .card:after{
