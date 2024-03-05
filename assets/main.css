@@ -6238,6 +6238,11 @@ padding-right: 0px;
   .card{
     position: ralative !important;
     height: auto;
+    width: 157px;
+    height: 300px;
+    border: 1px solid #d7d6d6;
+    border-radius: 3px;
+    
   }
   .card__info{
     padding-top: 0px !important;
