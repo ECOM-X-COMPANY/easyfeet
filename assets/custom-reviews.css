@@ -75,7 +75,7 @@
     align-items: center;
     justify-content: center;
 }
-.reviews-box__content--helpful h2{
+#reviews-box__content--helpful h2{
     margin-bottom: 0;
     font-size: 16px;
     line-height: 20px;
