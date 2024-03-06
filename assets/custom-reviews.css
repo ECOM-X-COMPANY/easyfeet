@@ -172,8 +172,8 @@ button {
 }
 @media screen and (max-width: 430px) {
   .reviews-box__content--helpful__text{
-    font-size: 8px;
-    line-height: 8px;
+    font-size: 8px !important;
+    line-height: 8px !important;
     font-family: initial;
     font-weight: 400;
     text-transform: lowercase;
