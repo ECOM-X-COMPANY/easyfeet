@@ -178,6 +178,10 @@ button {
     font-weight: 400;
     text-transform: lowercase;
   }
+  .reviews-box__content--helpful h2{
+      font-size: 8px;
+    line-height: 8px;
+  }
   .reviews-box__content--author h2{
     font-size: 16px;
     line-height: 18px;
