@@ -1309,7 +1309,7 @@
         ".btn--primary:hover {border: transparent; background: #f00; transition: all 0.4s ease;}",
         ".h3 {font-size: 32px; line-height: 32px; font-weight: 900;}",
         ".enlarge-text {font-size: 22px; line-height: 30px;}",
-        "@media only screen and (max-width: 430px) {.media-with-text {display: flex; flex-direction: column-reverse; }}"
+        "@media only screen and (max-width: 430px) {h2 {font-size: 20px !important; line-height: 20px !important; text-align: center; } p {font-size: 12px; line-height: 12px; text-align: center; } .media-with-text {display: flex; flex-direction: column-reverse; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/insole-finder-image.png",
