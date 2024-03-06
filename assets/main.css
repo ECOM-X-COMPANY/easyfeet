@@ -9015,7 +9015,7 @@ margin-top: 16px !important;
     width: 25px;
   }
   .price__current{
-    font-size: 20px !important;
+    font-size: 16px !important;
   }
   .price__was{
     font-size: 15px !important;
@@ -9962,7 +9962,7 @@ display: flex;
   text-transform: uppercase;
 }
 .card--product .price__current {
-  font-size: 16px;
+  font-size: 20px;
   color: red;
 }
 .price__was {
