@@ -176,6 +176,10 @@ button {
     line-height: 18px;
     margin-top: 25px;
   }
+  .reviews-box__content--review p{
+    font-size: 12px;
+    line-height: 18px;
+  }
   .reviews-inner__item{
     width: 81% !important;
   }
