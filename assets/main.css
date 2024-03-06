@@ -6212,6 +6212,9 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  #template--17336943608048__c506bb30-8906-412c-998f-cd396e880515{
+   margin-top: -40px !important;
+}
   .price__current{
       font-size: 16px !important;
   line-height: 16px !important;
