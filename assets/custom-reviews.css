@@ -171,6 +171,11 @@ button {
   width: 12% !important;
 }
 @media screen and (max-width: 430px) {
+  .reviews-box__content--author h2{
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 25px;
+  }
   .reviews-inner__item{
     width: 81% !important;
   }
