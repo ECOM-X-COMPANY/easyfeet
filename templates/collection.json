@@ -554,6 +554,59 @@
         "card_size": "small",
         "limit": 8
       }
+    },
+    "image_banner_DBTpGJ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_aUijxN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_P6xH7G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        },
+        "button_4PdX9L": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aUijxN",
+        "text_P6xH7G",
+        "button_4PdX9L"
+      ],
+      "disabled": true,
+      "settings": {
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "prevent_animation": false
+      }
     }
   },
   "order": [
@@ -573,6 +626,7 @@
     "24929245-4980-4b79-9d48-bd1b9894dc4a",
     "d10c3b2f-57e6-4014-add6-2ff1b4179986",
     "multi_column_nBFbff",
-    "4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7"
+    "4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7",
+    "image_banner_DBTpGJ"
   ]
 }
