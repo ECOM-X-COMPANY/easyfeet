@@ -71,6 +71,7 @@
 .podiatrists-inner__cont h2{
   font-size: 15px;
   line-height: 15px;
+  height: 0;
 }
   .podiatrists-inner__cont p{
   font-size: 15px;
