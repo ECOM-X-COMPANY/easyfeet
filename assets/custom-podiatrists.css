@@ -65,6 +65,9 @@
 }
 
 @media only screen and (max-width: 430px) {
+  .podiatrists-inner__cont{
+    margin-top: 30px;
+}
   .podiatrists{
     margin: 0;
   }
