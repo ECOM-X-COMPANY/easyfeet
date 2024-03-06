@@ -415,7 +415,7 @@
         ".btn--primary {font-size: 20px; line-height: 20px; border-radius: 3px; background: #ff444f; border: inherit;}",
         ".section__block {margin-left: 0;}",
         ".section--full-width {padding: 35px 0px;}",
-        "@media only screen and (max-width: 430px) {.media {padding-top: 82% !important; }}"
+        "@media only screen and (max-width: 430px) {.media {padding-top: 82% !important; } .text-start {text-align: center; } p{text-align: center; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Main_Page_Kinergy_Plantar_Fasciitis.png",
