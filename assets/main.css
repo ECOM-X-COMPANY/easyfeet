@@ -6212,6 +6212,10 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .btn{
+    display: flex;
+    margin: 0 auto;
+  }
   #template--17336943608048__c506bb30-8906-412c-998f-cd396e880515{
    margin-top: -40px !important;
 }
