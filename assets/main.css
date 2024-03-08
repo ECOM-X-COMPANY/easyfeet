@@ -6217,6 +6217,7 @@ padding-right: 0px;
     }
   #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .btn{
   position: absolute;
+    width: max-content;
     bottom: 4%;
     left: 25%;
     right: 25%;
