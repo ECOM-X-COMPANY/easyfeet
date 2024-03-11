@@ -8793,6 +8793,9 @@ margin-top: 16px !important;
   }
 }
 @media only screen and (max-width: 360px) {
+  .product-accordion__custom{
+    margin-top: 10px;
+  }
   .desc-info h2,.desc-info span {
     font-size: 16px;
     line-height: 20px;
