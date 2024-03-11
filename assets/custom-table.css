@@ -171,7 +171,10 @@ align-items: center;
         left: 16%;
     }
     .custom-table__chart--other--image h2{
-        font-size: 15px;
+        font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: inherit;
     }
     .custom-table__chart--other--image{
         top: -47%;
