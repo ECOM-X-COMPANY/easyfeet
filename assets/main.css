@@ -6627,6 +6627,7 @@ display: none !important;
   .buy-info__title {
  font-size: 12px;
     line-height: 12px;
+    font-weight: 900;
   }
 
   .buy-info__title img {
