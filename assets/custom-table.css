@@ -159,6 +159,9 @@ align-items: center;
 }
 
 @media only screen and (max-width: 430px) {
+   .custom-table__chart--brand--image__logo img{
+    height: 20px;
+  }
     .custom-table__chart--desc p{
         font-size: 12px;
     line-height: 13px;
@@ -175,12 +178,12 @@ align-items: center;
         font-size: 15px;
     }
     .custom-table__chart--brand--image{
-        top: -48%;
+        top: -50%;
         left: 16%;
      
     }
     .custom-table__chart--other--image h2{
-        font-size: 14px;
+        font-size: 16px;
     line-height: 20px;
     font-weight: 400;
     font-family: inherit;
