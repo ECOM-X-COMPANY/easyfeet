@@ -11,6 +11,7 @@
 
 }
 .custom-table__chart li{
+  border: 1px solid #E3212F;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
