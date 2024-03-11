@@ -34,11 +34,7 @@
   line-height: 20px;
     font-weight: 400;
 }
-.custom-table__chart--desc p+p:before{
-    content: '';
-    border-top: 1px solid #d5d5d5;
-    padding-bottom: 0;
-}
+
 .custom-table__chart--brand{
    border: 1px solid #E3212F;
 }
