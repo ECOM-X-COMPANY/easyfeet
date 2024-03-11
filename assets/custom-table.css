@@ -132,7 +132,7 @@ align-items: center;
     color: #000;
     position: relative;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     z-index: 1;
 }
   .custom-table__chart--other--image img{
