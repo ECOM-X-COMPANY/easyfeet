@@ -86,7 +86,7 @@ align-items: center;
     font-weight: 600;
     z-index: 1;
 }
-.custom-table__chart--brand--image  img{
+.custom-table__chart--brand--image__logo img{
   width: auto;
   height: 26px;
 }
