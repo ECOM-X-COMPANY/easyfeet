@@ -11,7 +11,7 @@
 .donations:after{
     position: absolute;
     content: '';
-    background: #000;
+    background: #ffff;
     width: 100%;
     height: 100%;
     top: 0;
