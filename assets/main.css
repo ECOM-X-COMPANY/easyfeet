@@ -6218,6 +6218,9 @@ padding-right: 0px;
     font-weight: 900;
     background: #141414;
   }
+  .btn-add__icon{
+    display: none;
+  }
   .btn--plus::before{
    width: 9px;
     height: 1px;
