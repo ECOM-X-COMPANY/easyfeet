@@ -115,7 +115,10 @@ border-radius: 5px;
       line-height: 25px !important;
     }
     .donations-box__image--left p, .donations-box__image--right p{
-        font-size: 14px;
+     font-size: 10px;
+    line-height: 13px;
+    font-weight: 400;
+    margin-bottom: 0;
     }
 }
 @media only screen and (max-width: 428px) {
