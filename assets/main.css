@@ -6212,6 +6212,14 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  .btn--plus::before{
+    width: 1px;
+  height: 9px;
+  }
+   .btn--plus::after{
+    width: 1px;
+  height: 9px;
+  }
   .text-start{
     display: flex;
     margin: 0 auto;
