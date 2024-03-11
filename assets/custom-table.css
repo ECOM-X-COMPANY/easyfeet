@@ -135,6 +135,9 @@ align-items: center;
     font-weight: 600;
     z-index: 1;
 }
+  .custom-table__chart--other--image img{
+    visibility: hidden;
+  }
 .custom-table__cont{
     width: 508px;
 }
@@ -182,9 +185,7 @@ align-items: center;
         left: 16%;
        
     }
-  .custom-table__chart--other--image img{
-    visibility: hidden;
-  }
+
     .custom-table__cont{
         margin-top: 20px;
         width: 400px;
