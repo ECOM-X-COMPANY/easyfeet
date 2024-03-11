@@ -6603,7 +6603,11 @@ display: none !important;
   .product-info__add-button button {
     font-size: 0.88em !important;
   }
-
+.buy-info{
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
   .buy-info__title {
     font-size: 17px;
   }
