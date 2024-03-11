@@ -169,6 +169,7 @@ align-items: center;
     .custom-table__chart--brand--image{
         top: -48%;
         left: 16%;
+      visibility: hidden;
     }
     .custom-table__chart--other--image h2{
         font-size: 14px;
