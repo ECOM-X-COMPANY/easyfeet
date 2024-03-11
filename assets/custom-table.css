@@ -316,107 +316,128 @@ align-items: center;
     }
 }
 @media only screen and (max-width: 400px) {
+    .custom-table {
+  margin-top: 150px;
+}
+  .custom-table__chart--brand--image__logo img{
+    height: 20px;
+  }
     .custom-table__chart--desc p{
         font-size: 12px;
+      line-height: 14px;
     }
     .custom-table__inner{
         flex-direction: column;
     }
     .custom-table__chart--brand--image::after{
-        width: 120px;
-        left: -13%;
+        width: 106.667px;
+        left: -3%;
     }
     .custom-table__chart--brand--image h2{
         font-size: 15px;
     }
     .custom-table__chart--brand--image{
-        top: -52%;
-        left: 11%;
+        top: -48%;
+        left: 3%;
     }
     .custom-table__chart--other--image h2{
-        font-size: 15px;
+        font-size: 16px;
     }
     .custom-table__chart--other--image{
-        top: -52%;
-        left: 11%;
+        top: -46%;
+        left: 3%;
     }
     .custom-table__cont{
         margin-top: 20px;
-        width: 360px;
+        width: 321px;
     }
     .custom-table__cont h2{
-        font-size: 30px;
+        font-size: 27px;
     }
     .custom-table__cont p{
-        font-size: 15px;
+        font-size: 14px;
         margin: 0;
     }
 }
 @media only screen and (max-width: 393px) {
+    .custom-table {
+  margin-top: 150px;
+}
+  .custom-table__chart--brand--image__logo img{
+    height: 20px;
+  }
     .custom-table__chart--desc p{
-        font-size: 11px;
+        font-size: 12px;
+      line-height: 14px;
     }
     .custom-table__inner{
         flex-direction: column;
     }
     .custom-table__chart--brand--image::after{
-        width: 117.667px;
-        left: -12%;
+        width: 106.667px;
+        left: -3%;
     }
     .custom-table__chart--brand--image h2{
         font-size: 15px;
     }
     .custom-table__chart--brand--image{
-        top: -52%;
-        left: 10%;
+        top: -48%;
+        left: 3%;
     }
     .custom-table__chart--other--image h2{
-        font-size: 15px;
+        font-size: 16px;
     }
     .custom-table__chart--other--image{
-        top: -52%;
-        left: 10%;
+        top: -46%;
+        left: 3%;
     }
     .custom-table__cont{
         margin-top: 20px;
-        width: 356px;
+        width: 321px;
     }
     .custom-table__cont h2{
-        font-size: 30px;
+        font-size: 27px;
     }
     .custom-table__cont p{
-        font-size: 15px;
+        font-size: 14px;
         margin: 0;
     }
 }
 @media only screen and (max-width: 390px) {
+     .custom-table {
+  margin-top: 150px;
+}
+  .custom-table__chart--brand--image__logo img{
+    height: 20px;
+  }
     .custom-table__chart--desc p{
-        font-size: 11px;
+        font-size: 12px;
+      line-height: 14px;
     }
     .custom-table__inner{
         flex-direction: column;
     }
     .custom-table__chart--brand--image::after{
-        width: 116.667px;
-        left: -9%;
+        width: 106.667px;
+        left: -3%;
     }
     .custom-table__chart--brand--image h2{
         font-size: 15px;
     }
     .custom-table__chart--brand--image{
-        top: -52%;
-        left: 8%;
+        top: -48%;
+        left: 3%;
     }
     .custom-table__chart--other--image h2{
-        font-size: 15px;
+        font-size: 16px;
     }
     .custom-table__chart--other--image{
-        top: -52%;
-        left: 8%;
+        top: -46%;
+        left: 3%;
     }
     .custom-table__cont{
         margin-top: 20px;
-        width: 344px;
+        width: 321px;
     }
     .custom-table__cont h2{
         font-size: 27px;
