@@ -133,7 +133,7 @@ align-items: center;
     position: relative;
     font-size: 20px;
     font-weight: 400;
-  font-family: initial;
+  font-family: inherit;
     z-index: 1;
 }
   .custom-table__chart--other--image img{
