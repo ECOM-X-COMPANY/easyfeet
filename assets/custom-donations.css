@@ -107,7 +107,8 @@ border-radius: 5px;
 }
 @media only screen and (max-width: 430px) {
     .donations-box__content p{
-        font-size: 20px;
+        font-size: 16px;
+      line-height: 20px;
     }
 
       .donations-box__content h2{
