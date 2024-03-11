@@ -6216,6 +6216,9 @@ padding-right: 0px;
     height: 42px;
     align-items: normal;
   }
+  .qty-input--secondary-btn quantity-input{
+     height: 38px;
+  }
   .shopify-payment-button__button{
     margin-top: 7px;
     height: 80px;
