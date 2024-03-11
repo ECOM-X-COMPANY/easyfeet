@@ -8544,6 +8544,10 @@ margin-top: 16px !important;
   }
 }
 @media only screen and (max-width: 365px) {
+    .custom-table__chart--other--image h2 {
+    font-size: 16px;
+  }
+}
   .predictive-search{
   left: -274px !important;
 
