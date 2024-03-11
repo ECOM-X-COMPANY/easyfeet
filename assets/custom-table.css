@@ -22,6 +22,9 @@
     width: 200px;
     height: 320px;
 }
+.custom-table__chart--desc{
+  border: 1px solid #D4D4D4;
+}
 .custom-table__chart--desc p{
     display: flex;
     height: 52%;
