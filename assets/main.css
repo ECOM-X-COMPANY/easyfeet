@@ -8793,6 +8793,10 @@ margin-top: 16px !important;
   }
 }
 @media only screen and (max-width: 360px) {
+  .desc-info h2{
+    font-size: 16px;
+    line-height: 20px;
+  }
     #template--17336943608048__rich_text_tLTaKR{
 margin-top: 16px !important;
   }
