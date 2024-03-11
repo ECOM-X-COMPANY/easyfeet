@@ -6212,6 +6212,7 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  
   .shopify-cleanslate{
     max-height: 31px;
   }
@@ -6225,6 +6226,9 @@ padding-right: 0px;
   .shopify-payment-button__button{
     margin-top: 7px;
     height: 80px;
+  }
+  .shopify-payment-button button{
+    margin-top: 0;
   }
   .product-info__add-button button{
     font-size: 12px;
