@@ -6622,6 +6622,7 @@ display: none !important;
   margin: 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
   .buy-info__title {
  font-size: 12px;
