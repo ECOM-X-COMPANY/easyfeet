@@ -8848,7 +8848,8 @@ margin-top: 16px !important;
   }
 
   .buy-info__title {
-    font-size: 17px;
+font-size: 12px;
+    line-height: 14px;
   }
 
   .buy-info__title img {
@@ -8861,7 +8862,7 @@ margin-top: 16px !important;
   }
 
   .buy-info__card img {
-    width: 38px !important;
+    width: 28px !important;
     height: 30px !important;
   }
 
