@@ -6224,6 +6224,11 @@ padding-right: 0px;
     width: 1px;
   height: 9px;
   }
+  .qty-input__input{
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 900;
+  }
   .text-start{
     display: flex;
     margin: 0 auto;
