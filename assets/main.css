@@ -6212,9 +6212,13 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
+  
   .custom-page-content--metatext{
      font-size: 12px;
     line-height: 14px;
+  }
+  .custom-page-content--metatitle {
+    margin-bottom: 5px;
   }
   #desc-info li{
     font-size: 12px;
