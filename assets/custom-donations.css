@@ -59,11 +59,11 @@
     width: 350px;
     color: #fff;
     background: #383838;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 .donations-box__image--left img,
 .donations-box__image--right img{
-    border-radius: 5px 5px 0 0;
+    border-radius: 6px 6px 0 0;
 }
 .donations-box__image--left p,
 .donations-box__image--right p{
