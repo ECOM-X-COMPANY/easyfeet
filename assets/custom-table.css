@@ -180,8 +180,11 @@ align-items: center;
     .custom-table__chart--other--image{
         top: -47%;
         left: 16%;
-       visibility: hidden;
+       
     }
+  .custom-table__chart--other--image img{
+    visibility: hidden;
+  }
     .custom-table__cont{
         margin-top: 20px;
         width: 400px;
