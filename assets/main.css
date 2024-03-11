@@ -6623,7 +6623,8 @@ display: none !important;
   align-items: center;
 }
   .buy-info__title {
-    font-size: 17px;
+ font-size: 12px;
+    line-height: 12px;
   }
 
   .buy-info__title img {
