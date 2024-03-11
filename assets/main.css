@@ -6212,7 +6212,11 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
-  .btn--plus,.btn--minus::before{
+  .btn--plus::before{
+   width: 9px;
+    height: 1px;
+  }
+  .btn--minus::before{
    width: 9px;
     height: 1px;
   }
