@@ -11,7 +11,7 @@
 
 }
 .custom-table__chart li{
-  border: 1px solid #E3212F;
+ 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -38,7 +38,9 @@
     border-top: 1px solid #d5d5d5;
     padding-bottom: 0;
 }
-
+.custom-table__chart--brand li{
+   border: 1px solid #E3212F;
+}
 .custom-table__chart--brand{
     position: relative;
     background: #ffff;
