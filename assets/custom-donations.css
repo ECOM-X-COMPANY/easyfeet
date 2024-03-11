@@ -110,10 +110,12 @@ border-radius: 5px;
         font-size: 20px;
     }
     .donations-box__content h2{
-        font-size: 55px;
+        font-size: 20px;
+      line-height: 25px;
     }
     .donations-box__content span{
-        font-size: 55px;
+        font-size: 16px;
+      line-height: 18px;
     }
     .donations-box__image--left p, .donations-box__image--right p{
         font-size: 14px;
