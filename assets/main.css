@@ -6212,7 +6212,9 @@ padding-right: 0px;
 }
 
 @media only screen and (max-width: 430px) {
-  
+  .bcpo-label{
+    display: none;
+  }
   .shopify-cleanslate{
     max-height: 31px;
   }
