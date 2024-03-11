@@ -6216,6 +6216,10 @@ padding-right: 0px;
        font-size: 16px;
     line-height: 16px;
   }
+   .shipping-info-content li{
+       font-size: 12px;
+    line-height: 14px;
+  }
   .custom-page-content--metatext{
      font-size: 12px;
     line-height: 14px;
