@@ -159,6 +159,9 @@ align-items: center;
 }
 
 @media only screen and (max-width: 430px) {
+  .custom-table{
+    margin-top: 150px;
+  }
    .custom-table__chart--brand--image__logo img{
     height: 20px;
   }
