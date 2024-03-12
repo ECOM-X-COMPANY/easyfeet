@@ -2180,34 +2180,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //
-document.addEventListener('DOMContentLoaded', function() {
-  // Функція, яка перевіряє, чи ми на мобільному пристрої
-  function isMobile() {
-    return window.innerWidth <= 430; // Змініть 768 на ваше значення ширини екрана для мобільних пристроїв
-  }
 
-  // Якщо ми на мобільному пристрої, включаємо автоматичне перемикання слайдів
-  if (isMobile()) {
-    // Отримуємо всі елементи слайдів
-    var slides = document.querySelectorAll('.slider__item');
-    var currentIndex = 0;
-    
-    // Функція для автоматичного перемикання слайдів
-    function autoSlide() {
-      // Знімаємо клас активності з поточного слайда
-      slides[currentIndex].classList.remove('active');
-      
-      // Знаходимо наступний слайд (або перший, якщо це останній слайд)
-      currentIndex = (currentIndex + 1) % slides.length;
-      
-      // Додаємо клас активності до наступного слайда
-      slides[currentIndex].classList.add('active');
-    }
-
-    // Викликаємо функцію autoSlide() кожні 5 секунд
-    setInterval(autoSlide, 5000);
-  }
-});
 
 
 
