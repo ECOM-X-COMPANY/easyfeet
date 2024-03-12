@@ -2183,7 +2183,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   // Функція, яка перевіряє, чи ми на мобільному пристрої
   function isMobile() {
-    return window.innerWidth <= 768; // Змініть 768 на ваше значення ширини екрана для мобільних пристроїв
+    return window.innerWidth <= 430; // Змініть 768 на ваше значення ширини екрана для мобільних пристроїв
   }
 
   // Якщо ми на мобільному пристрої, включаємо автоматичне перемикання слайдів
