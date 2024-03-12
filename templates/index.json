@@ -877,7 +877,8 @@
         "slide_QjfKTm": {
           "type": "slide",
           "settings": {
-            "media_type": "video",
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/Roberta_D..jpg",
             "review_video": "shopify:\/\/files\/videos\/RobertaValyte_EasyFeet_Story30sec.mp4",
             "rating_amount": "4.5",
             "review_person_name": "Roberta D.",
