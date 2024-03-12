@@ -200,6 +200,7 @@ align-items: center;
     .custom-table__cont{
         margin-top: 20px;
         width: 400px;
+      display: none;
     }
     .custom-table__cont h2{
         font-size: 33px;
