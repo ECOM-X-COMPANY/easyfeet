@@ -625,7 +625,7 @@ align-items: center;
     }
     .custom-table__chart--brand--image{
         top: -41%;
-        left: 3%;
+        left: 7%;
     }
     .custom-table__chart--other--image img{
         width: 80px;
@@ -636,7 +636,7 @@ align-items: center;
     }
     .custom-table__chart--other--image{
         top: -41%;
-        left: 3%;
+        left: 7%;
     }
     .custom-table__cont{
         margin-top: 20px;
