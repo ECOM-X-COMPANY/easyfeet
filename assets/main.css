@@ -6218,7 +6218,7 @@ padding-right: 0px;
    
   }
   .footer-block__social{
-     margin-bottom: 12px;
+     margin-bottom: 12px !important; 
   }
   .shipping-info-content p{
        font-size: 16px;
