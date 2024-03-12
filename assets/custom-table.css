@@ -497,14 +497,14 @@ align-items: center;
     }
     .custom-table__chart--brand--image{
         top: -48%;
-        left: 3%;
+        left: 5%;
     }
     .custom-table__chart--other--image h2{
         font-size: 16px;
     }
     .custom-table__chart--other--image{
         top: -46%;
-        left: 3%;
+        left: 5%;
     }
     .custom-table__cont{
         margin-top: 20px;
