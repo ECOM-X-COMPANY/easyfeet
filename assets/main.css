@@ -6233,6 +6233,11 @@ padding-right: 0px;
     line-height: 20px;
      font-weight: 900;
    }
+    #desc-info p{
+       font-size: 12px;
+    line-height: 14px;
+     font-weight: 400;
+   }
   #desc-info li{
     font-size: 12px;
     line-height: 14px;
