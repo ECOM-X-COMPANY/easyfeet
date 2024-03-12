@@ -8374,7 +8374,7 @@ margin-top: 16px !important;
   }
 
  .buy-info__title {
-  font-size: 12px;
+  font-size: 12px !important;
   line-height: 13px;
 }
 
