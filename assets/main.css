@@ -6677,7 +6677,7 @@ display: none !important;
   }
 
   .buy-info__card {
-    margin-top: 0;
+    margin-top: 0 !important;
   }
 
   .product-info__view {
