@@ -2190,13 +2190,6 @@ const autoSlide = () => {
   const slides = document.querySelectorAll('.slider__item');
   let currentIndex = 0;
 
-  // Знаходимо індекс поточного активного слайда
-  slides.forEach((slide, index) => {
-    if (slide.classList.contains('active')) {
-      currentIndex = index;
-    }
-  });
-
   // Визначаємо індекс наступного слайда
   let nextIndex = currentIndex + 1;
 
@@ -2206,10 +2199,13 @@ const autoSlide = () => {
     nextIndex = 0;
   }
 
-  // Знімаємо клас активності з поточного слайда
-  slides[currentIndex].classList.remove('active');
-  // Додаємо клас активності до наступного слайда
-  slides[nextIndex].classList.add('active');
+  // Сховати всі слайди
+  slides.forEach(slide => {
+    slide.style.display = 'none';
+  });
+
+  // Показати наступний слайд
+  slides[nextIndex].style.display = 'block';
   
   // Клацаємо кнопку "Наступний"
   nextButton.click();
