@@ -6257,24 +6257,24 @@ padding-right: 0px;
   margin: 0;
   padding: 0;
 }
-.custom-pick-size{
+.custom-pick-size,.custom-multiple-size{
   margin-bottom: 30px;
 }
-.custom-pick-size__label--text{
+.custom-pick-size__label--text,.custom-multiple-size__label--text{
   font-size: 16px;
   font-weight: 900;
   text-transform: uppercase;
 }
-.custom-pick-size__title{
+.custom-pick-size__title,.custom-multiple-size__title{
   margin-top: 10px;
 }
 
-.custom-pick-size__title--text p {
+.custom-pick-size__title--text p,.custom-multiple-size__title--text p {
     font-size: 16px;
   font-weight: 900;
   margin-bottom: 5px;
 }
-.custom-pick-size__desc--text p{
+.custom-pick-size__desc--text p,.custom-multiple-size__desc--text p{
 margin-bottom: 5px;
   font-size: 12px;
   line-height: 18px;
