@@ -2180,6 +2180,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //
+const autoNextSlide = () => {
+  const nextButton = document.querySelector('.slider-nav__btn[name="next"]');
+  nextButton.click();
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  setInterval(autoNextSlide, 5000);
+});
 
 
 
