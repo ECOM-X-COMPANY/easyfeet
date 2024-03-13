@@ -2212,8 +2212,13 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       upsellBlock.style.display = 'none';
     }
+
+    if (parseInt(quantityInput.value) >= 5) {
+      upsellBlock.remove();
+    }
   });
 });
+
 
 
 
