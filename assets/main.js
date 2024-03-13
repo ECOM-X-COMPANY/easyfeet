@@ -2180,32 +2180,46 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //
-const autoNextSlide = () => {
+const autoSlide = () => {
   const nextButton = document.querySelector('.slider-nav__btn[name="next"]');
   const prevButton = document.querySelector('.slider-nav__btn[name="prev"]');
-  const sliderItems = document.querySelectorAll('.slider__item');
-  const currentIndex = Array.from(sliderItems).findIndex(item => item.classList.contains('active'));
+  const slides = document.querySelectorAll('.slider__item');
+  let currentIndex = 0;
+
+  // Знаходимо індекс поточного активного слайда
+  slides.forEach((slide, index) => {
+    if (slide.classList.contains('active')) {
+      currentIndex = index;
+    }
+  });
+
+  // Визначаємо індекс наступного слайда
+  let nextIndex = (currentIndex + 1) % slides.length;
+
+  // Перевіряємо, чи досягнули ми кінця списку слайдів
+  if (nextIndex === 0 && currentIndex !== 0) {
+    // Якщо так, переходимо на останній слайд
+    nextIndex = slides.length - 1;
+  }
+
+  // Знімаємо клас активності з поточного слайда
+  slides[currentIndex].classList.remove('active');
+  // Додаємо клас активності до наступного слайда
+  slides[nextIndex].classList.add('active');
   
-  if (currentIndex === -1) {
-    // Якщо активний слайд не знайдено, клікаємо на перший слайд
-    nextButton.click();
-  } else if (currentIndex === sliderItems.length - 1) {
-    // Якщо активний слайд - останній у списку, клікаємо на кнопку "Попередній"
+  // Клацаємо кнопку "Наступний" або "Попередній", залежно від напрямку
+  if (nextIndex === slides.length - 1) {
+    // Якщо досягли кінця списку, клацаємо "Попередній"
     prevButton.click();
   } else {
-    // В іншому випадку клікаємо на кнопку "Наступний"
+    // В іншому випадку клацаємо "Наступний"
     nextButton.click();
   }
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Перевіряємо, чи це мобільний пристрій
-  const isMobile = window.matchMedia('(max-width: 430px)').matches;
-  if (isMobile) {
-    setInterval(autoNextSlide, 5000);
-  }
+  setInterval(autoSlide, 5000);
 });
-
 
 
 
