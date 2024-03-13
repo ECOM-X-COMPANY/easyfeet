@@ -2179,7 +2179,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-//
+// Automatic switching of benefits
 document.addEventListener("DOMContentLoaded", () => {
   const slider = document.getElementById('slider-template--17336943608048__icons_with_text_n9tJWU');
   const slides = slider.querySelectorAll('.slider__item');
