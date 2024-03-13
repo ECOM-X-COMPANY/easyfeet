@@ -2182,14 +2182,29 @@ document.addEventListener('DOMContentLoaded', function() {
 //
 const autoNextSlide = () => {
   const nextButton = document.querySelector('.slider-nav__btn[name="next"]');
-  nextButton.click();
+  const prevButton = document.querySelector('.slider-nav__btn[name="prev"]');
+  const sliderItems = document.querySelectorAll('.slider__item');
+  const currentIndex = Array.from(sliderItems).findIndex(item => item.classList.contains('active'));
+  
+  if (currentIndex === -1) {
+    // Якщо активний слайд не знайдено, клікаємо на перший слайд
+    nextButton.click();
+  } else if (currentIndex === sliderItems.length - 1) {
+    // Якщо активний слайд - останній у списку, клікаємо на кнопку "Попередній"
+    prevButton.click();
+  } else {
+    // В іншому випадку клікаємо на кнопку "Наступний"
+    nextButton.click();
+  }
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  setInterval(autoNextSlide, 5000);
+  // Перевіряємо, чи це мобільний пристрій
+  const isMobile = window.matchMedia('(max-width: 768px)').matches;
+  if (isMobile) {
+    setInterval(autoNextSlide, 5000);
+  }
 });
-
-
 
 
 
