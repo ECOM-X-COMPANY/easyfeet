@@ -696,6 +696,36 @@
                         </div>
                         
                       </div>
+
+                      <!--  Multiple Size  -->
+                          <div class="custom-multiple-size">
+                          <div class="custom-multiple-size__label">
+                            <div  class="custom-multiple-size__label--text">
+                              <p>Trim to multiple size</p>
+                            </div>
+                        </div>
+                          <div class="custom-multiple-size__image">
+                          {% if product.metafields.custom.pick_size_images %}
+                          <img width="500" height="500" src="{{ product.metafields.custom.pick_size_images | img_url: 'master' }}" alt="multile-size">
+                        {% endif %}
+                          </div>
+                       <div class="custom-multiple-size__title">
+                        {% if product.metafields.custom.pick_size_title %}
+                            <div  class="custom-multiple-size__title--text">
+                              <p>{{ product.metafields.custom.pick_size_title }}</p>
+                            </div>
+                          {% endif %}
+                        </div>
+                         <div class="custom-multiple-size__desc">
+                        {% if product.metafields.custom.pick_size_description %}
+                            <div  class="custom-multiple-size__desc--text">
+                              <p>{{ product.metafields.custom.pick_size_description }}</p>
+                            </div>
+                          {% endif %}
+                        </div>
+                        
+                      </div>
+                      <!-- end Multiple Size  -->
                       <div class="custom-page-content">
                         {% if product.metafields.custom.how_to_use_image %}
                           <img width="500" height="500" src="{{ product.metafields.custom.how_to_use_image | img_url: 'master' }}" alt="How to Use">
