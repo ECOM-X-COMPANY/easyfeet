@@ -6257,6 +6257,9 @@ padding-right: 0px;
   margin: 0;
   padding: 0;
 }
+.custom-pick-size{
+  margin-bottom: 30px;
+}
 .custom-pick-size__label--text{
   font-size: 16px;
   font-weight: 900;
