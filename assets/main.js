@@ -2200,6 +2200,20 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+//
+
+document.addEventListener("DOMContentLoaded", () => {
+  const quantityInput = document.querySelector('input[name="quantity"]');
+  const upsellBlock = document.querySelector('.icart-upsell-136357');
+
+  quantityInput.addEventListener('change', () => {
+    if (parseInt(quantityInput.value) < 4) {
+      upsellBlock.style.display = 'block';
+    } else {
+      upsellBlock.style.display = 'none';
+    }
+  });
+});
 
 
 
