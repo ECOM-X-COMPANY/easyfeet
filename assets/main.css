@@ -6220,6 +6220,11 @@ padding-right: 0px;
     line-height: 32px;
      font-weight: 900;
    }
+.icartCheckoutBtn{
+  font-size: 20px !important;
+  line-height: 20px !important;
+  font-weight: 900 !important;
+}
 @media only screen and (max-width: 430px) {
   .footer-block {
     display: flex;
