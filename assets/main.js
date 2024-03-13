@@ -2181,8 +2181,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //
 const autoSlide = () => {
+  const viewportWidth = window.innerWidth;
+  const isMobile = viewportWidth < 430;
+
+  if (!isMobile) return; // Перевірка, чи мобільний режим
+  
   const nextButton = document.querySelector('.slider-nav__btn[name="next"]');
-  const prevButton = document.querySelector('.slider-nav__btn[name="prev"]');
   const slides = document.querySelectorAll('.slider__item');
   let currentIndex = 0;
 
@@ -2194,12 +2198,12 @@ const autoSlide = () => {
   });
 
   // Визначаємо індекс наступного слайда
-  let nextIndex = (currentIndex + 1) % slides.length;
+  let nextIndex = currentIndex + 1;
 
   // Перевіряємо, чи досягнули ми кінця списку слайдів
-  if (nextIndex === 0 && currentIndex !== 0) {
-    // Якщо так, переходимо на останній слайд
-    nextIndex = slides.length - 1;
+  if (nextIndex === slides.length) {
+    // Якщо так, переходимо на перший слайд
+    nextIndex = 0;
   }
 
   // Знімаємо клас активності з поточного слайда
@@ -2207,20 +2211,13 @@ const autoSlide = () => {
   // Додаємо клас активності до наступного слайда
   slides[nextIndex].classList.add('active');
   
-  // Клацаємо кнопку "Наступний" або "Попередній", залежно від напрямку
-  if (nextIndex === slides.length - 1) {
-    // Якщо досягли кінця списку, клацаємо "Попередній"
-    prevButton.click();
-  } else {
-    // В іншому випадку клацаємо "Наступний"
-    nextButton.click();
-  }
+  // Клацаємо кнопку "Наступний"
+  nextButton.click();
 };
 
 document.addEventListener('DOMContentLoaded', () => {
   setInterval(autoSlide, 5000);
 });
-
 
 
 
