@@ -2180,74 +2180,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //
-const autoSlide = () => {
-  const viewportWidth = window.innerWidth;
-  const isMobile = viewportWidth < 430;
 
-  if (!isMobile) return; // Перевірка, чи мобільний режим
-
-  const slides = document.querySelectorAll('.slider__item');
-  let currentIndex = 0;
-
-  // Визначаємо індекс наступного слайда
-  let nextIndex = currentIndex + 1;
-
-  // Перевіряємо, чи досягнули ми кінця списку слайдів
-  if (nextIndex === slides.length) {
-    // Якщо так, переходимо на перший слайд
-    nextIndex = 0;
-  }
-
-  // Сховати всі слайди, крім наступного
-  slides.forEach((slide, index) => {
-    if (index === nextIndex) {
-      slide.style.display = 'block';
-    } else {
-      slide.style.display = 'none';
-    }
-  });
-};
-
-document.addEventListener('DOMContentLoaded', () => {
-  setInterval(autoSlide, 5000);
-
-  const nextButton = document.querySelector('.slider-nav__btn[name="next"]');
-  const prevButton = document.querySelector('.slider-nav__btn[name="prev"]');
-
-  // Додаємо обробник кліків на кнопку "Наступний"
-  nextButton.addEventListener('click', () => {
-    autoSlide(); // Викликаємо автоматичну зміну слайдів
-  });
-
-  // Додаємо обробник кліків на кнопку "Попередній"
-  prevButton.addEventListener('click', () => {
-    // Отримуємо індекс поточного слайда
-    const slides = document.querySelectorAll('.slider__item');
-    let currentIndex = 0;
-    slides.forEach((slide, index) => {
-      if (slide.style.display === 'block') {
-        currentIndex = index;
-      }
-    });
-
-    // Визначаємо індекс попереднього слайда
-    let prevIndex = currentIndex - 1;
-    // Перевіряємо, чи досягнули ми початку списку слайдів
-    if (prevIndex < 0) {
-      // Якщо так, переходимо на останній слайд
-      prevIndex = slides.length - 1;
-    }
-
-    // Сховати всі слайди, крім попереднього
-    slides.forEach((slide, index) => {
-      if (index === prevIndex) {
-        slide.style.display = 'block';
-      } else {
-        slide.style.display = 'none';
-      }
-    });
-  });
-});
 
 
 
