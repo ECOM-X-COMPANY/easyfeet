@@ -2181,21 +2181,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Automatic switching of benefits
 document.addEventListener("DOMContentLoaded", () => {
-  const slider = document.getElementById('slider-template--17336943608048__icons_with_text_n9tJWU');
-  const slides = slider.querySelectorAll('.slider__item');
-  let currentSlide = 0;
+  // Перевірка ширини екрану
+  const isMobile = window.innerWidth <= 430;
 
-  const slideInterval = setInterval(() => {
-    slides[currentSlide].style.display = 'none';
-    currentSlide = (currentSlide + 1) % slides.length;
-    slides[currentSlide].style.display = 'block';
-  }, 3000);
+  if (isMobile) {
+    const slider = document.getElementById('slider-template--17336943608048__icons_with_text_n9tJWU');
+    const slides = slider.querySelectorAll('.slider__item');
+    let currentSlide = 0;
 
-  const buttons = slider.querySelectorAll('.slider-nav__btn');
-  if (window.innerWidth <= 430) {
+    const slideInterval = setInterval(() => {
+      slides[currentSlide].style.display = 'none';
+      currentSlide = (currentSlide + 1) % slides.length;
+      slides[currentSlide].style.display = 'block';
+    }, 3000);
+
+    const buttons = slider.querySelectorAll('.slider-nav__btn');
     buttons.forEach(button => button.style.display = 'none');
   }
 });
+
 
 
 
