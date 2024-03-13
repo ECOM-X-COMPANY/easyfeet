@@ -2180,19 +2180,20 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //
-document.addEventListener("DOMContentLoaded", function() {
-  var slider = document.getElementById('slider-template--17336943608048__icons_with_text_n9tJWU');
-  var slides = slider.querySelectorAll('.slider__item');
-  var currentSlide = 0;
-  var slideInterval = setInterval(nextSlide, 3000); // Змінюйте кожні 3 секунди (3000 мілісекунд)
+document.addEventListener("DOMContentLoaded", () => {
+  const slider = document.getElementById('slider-template--17336943608048__icons_with_text_n9tJWU');
+  const slides = slider.querySelectorAll('.slider__item');
+  let currentSlide = 0;
 
-  function nextSlide() {
-    // Приховати поточний слайд
+  const slideInterval = setInterval(() => {
     slides[currentSlide].style.display = 'none';
-    // Збільшити індекс поточного слайду
     currentSlide = (currentSlide + 1) % slides.length;
-    // Показати наступний слайд
     slides[currentSlide].style.display = 'block';
+  }, 3000);
+
+  const buttons = slider.querySelectorAll('.slider-nav__btn');
+  if (window.innerWidth <= 430) {
+    buttons.forEach(button => button.style.display = 'none');
   }
 });
 
