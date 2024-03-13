@@ -6259,9 +6259,9 @@ padding-right: 0px;
     margin-bottom: 5px;
   }
     #desc-info h1{
-       font-size: 16px;
-    line-height: 20px;
-     font-weight: 900;
+       font-size: 16px !important;
+    line-height: 20px !important;
+     font-weight: 900 !important;
    }
    #desc-info h2{
        font-size: 16px;
