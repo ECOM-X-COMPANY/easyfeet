@@ -6265,9 +6265,11 @@ padding-right: 0px;
 .custom-pick-size__title{
   margin-top: 15px;
 }
-.custom-pick-size__title--text{
-  font-size: 16px;
+
+.custom-pick-size__title--text p {
+    font-size: 16px;
   font-weight: 900;
+  margin-top: 5px;
 }
 .custom-pick-size__desc--text p{
 margin-bottom: 5px;
