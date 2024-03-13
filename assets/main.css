@@ -6266,6 +6266,8 @@ padding-right: 0px;
 }
 .custom-pick-size__title--text p{
 margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 18px;
 }
 @media only screen and (max-width: 430px) {
   .footer-block {
