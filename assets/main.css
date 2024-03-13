@@ -6210,7 +6210,16 @@ padding-right: 0px;
 .benefit-second,.benefit-first{
   line-height: normal;
 }
-
+  #desc-info h2{
+       font-size: 32px;
+    line-height: 32px;
+     font-weight: 900;
+   }
+    #desc-info h3{
+       font-size: 32px;
+    line-height: 32px;
+     font-weight: 900;
+   }
 @media only screen and (max-width: 430px) {
   .footer-block {
     display: flex;
