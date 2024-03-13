@@ -6233,6 +6233,21 @@ padding-right: 0px;
   line-height: 20px !important;
   font-weight: 900 !important;
 }
+   #desc-info h2{
+       font-size: 20px;
+    line-height: 20px;
+     font-weight: 900;
+   }
+    #desc-info h3{
+       font-size: 20px;
+    line-height: 20px;
+     font-weight: 900;
+   }
+    #desc-info p{
+       font-size: 16px;
+    line-height: 14px;
+     font-weight: 400;
+   }
 @media only screen and (max-width: 430px) {
   .footer-block {
     display: flex;
