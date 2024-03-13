@@ -670,8 +670,8 @@
                     <div class="product-accordion__btn">How to use</div>
                     <div class="product-accordion__panel">
                       <div class="custom-pick-size">
-                          <div class="custom-pick-size__title">
-                            <div  class="custom-pick-size__title--text">
+                          <div class="custom-pick-size__label">
+                            <div  class="custom-pick-size__label--text">
                               <p>How to pick a size</p>
                             </div>
                         </div>
@@ -680,7 +680,13 @@
                           <img width="500" height="500" src="{{ product.metafields.custom.pick_size_images | img_url: 'master' }}" alt="pick-size">
                         {% endif %}
                           </div>
-                      
+                       <div class="custom-pick-size__title">
+                        {% if product.metafields.custom.pick_size_title %}
+                            <div  class="custom-pick-size__title--text">
+                              <p>{{ product.metafields.custom.pick_size_title }}</p>
+                            </div>
+                          {% endif %}
+                        </div>
                          <div class="custom-pick-size__desc">
                         {% if product.metafields.custom.pick_size_description %}
                             <div  class="custom-pick-size__desc--text">
