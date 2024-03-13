@@ -676,8 +676,8 @@
                             </div>
                         </div>
                           <div class="custom-pick-size__image">
-                          {% if product.metafields.custom.pick_size_image %}
-                          <img width="500" height="500" src="{{ product.metafields.custom.pick_size_image | img_url: 'master' }}" alt="pick-size">
+                          {% if product.metafields.custom.pick_size_images %}
+                          <img width="500" height="500" src="{{ product.metafields.custom.pick_size_images | img_url: 'master' }}" alt="pick-size">
                         {% endif %}
                           </div>
                       
