@@ -6261,6 +6261,9 @@ padding-right: 0px;
 .custom-pick-size__title{
   margin-top: 15px;
 }
+.custom-pick-size__title--text{
+  font-weight: 900;
+}
 @media only screen and (max-width: 430px) {
   .footer-block {
     display: flex;
