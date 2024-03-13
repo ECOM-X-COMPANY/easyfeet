@@ -2181,6 +2181,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //
 
+document.addEventListener("DOMContentLoaded", function() {
+  // Отримати всі елементи слайдів
+  var slides = document.querySelectorAll('.slider__item');
+  var currentSlide = 0;
+  var slideInterval = setInterval(nextSlide, 3000); // Змінюйте кожні 3 секунди (3000 мілісекунд)
+
+  function nextSlide() {
+    // Приховати поточний слайд
+    slides[currentSlide].style.display = 'none';
+    // Збільшити індекс поточного слайду
+    currentSlide = (currentSlide + 1) % slides.length;
+    // Показати наступний слайд
+    slides[currentSlide].style.display = 'block';
+  }
+});
 
 
 
