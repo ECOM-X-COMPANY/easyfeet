@@ -2181,7 +2181,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Automatic switching of benefits
 document.addEventListener("DOMContentLoaded", () => {
-  // Перевірка ширини екрану
+
   const isMobile = window.innerWidth <= 430;
 
   if (isMobile) {
