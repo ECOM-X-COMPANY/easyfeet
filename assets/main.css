@@ -6253,6 +6253,11 @@ padding-right: 0px;
     line-height: 16px;
      font-weight: 400;
    }
+.custom-pick-size__label--text{
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
 @media only screen and (max-width: 430px) {
   .footer-block {
     display: flex;
