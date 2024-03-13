@@ -6233,6 +6233,11 @@ padding-right: 0px;
   line-height: 22px !important;
   font-weight: 900 !important;
 }
+  #desc-info h1{
+       font-size: 20px;
+    line-height: 22px;
+     font-weight: 900;
+   }
    #desc-info h2{
        font-size: 20px;
     line-height: 22px;
