@@ -2200,7 +2200,7 @@ const autoNextSlide = () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   // Перевіряємо, чи це мобільний пристрій
-  const isMobile = window.matchMedia('(max-width: 768px)').matches;
+  const isMobile = window.matchMedia('(max-width: 430px)').matches;
   if (isMobile) {
     setInterval(autoNextSlide, 5000);
   }
