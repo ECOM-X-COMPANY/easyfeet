@@ -6228,6 +6228,11 @@ padding-right: 0px;
 .icart-content-title{
   background: #ff444f !important;
 }
+.icart-header-title{
+   font-size: 20px !important;
+  line-height: 20px !important;
+  font-weight: 900 !important;
+}
 @media only screen and (max-width: 430px) {
   .footer-block {
     display: flex;
