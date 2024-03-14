@@ -69,6 +69,7 @@
 .diseases-cart__top--right p,
 .diseases-cart__bottom--left p,
 .diseases-cart__bottom--right p {
+  text-align: center;
     margin-top: 12px;
     font-size: 17px;
     line-height: 20px;
