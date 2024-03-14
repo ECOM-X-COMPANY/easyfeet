@@ -6309,6 +6309,11 @@ margin-bottom: 5px;
     line-height: 16px;
   font-weight: 900;
   }
+  .custom-page-content--desc p{
+    font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 5px;
+  }
     #desc-info h1{
        font-size: 16px !important;
     line-height: 20px !important;
