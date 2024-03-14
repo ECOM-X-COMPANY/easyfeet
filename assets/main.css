@@ -6279,6 +6279,21 @@ margin-bottom: 5px;
   font-size: 12px;
   line-height: 18px;
 }
+  .custom-page-content--metatext{
+     margin-top: 10px !important;
+  }
+   
+  .custom-page-content--metatitle p {
+    margin-bottom: 5px !important;
+    line-height: 16px !important;
+  font-weight: 900 !important;
+
+  }
+  .custom-page-content--desc p{
+    font-size: 12px !important;
+  line-height: 14px !important;
+  margin-bottom: 5px !important;
+  }
 @media only screen and (max-width: 430px) {
   .footer-block {
     display: flex;
@@ -6296,21 +6311,7 @@ margin-bottom: 5px;
        font-size: 12px;
     line-height: 14px;
   }
-  .custom-page-content--metatext{
-     margin-top: 10px !important;
-  }
-   
-  .custom-page-content--metatitle p {
-    margin-bottom: 5px !important;
-    line-height: 16px !important;
-  font-weight: 900 !important;
-    font-family: inherit !important;
-  }
-  .custom-page-content--desc p{
-    font-size: 12px !important;
-  line-height: 14px !important;
-  margin-bottom: 5px !important;
-  }
+
     #desc-info h1{
        font-size: 16px !important;
     line-height: 20px !important;
