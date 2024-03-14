@@ -637,6 +637,18 @@
             "button_label": "Learn more",
             "button_link": "shopify:\/\/collections\/anti-fatigue"
           }
+        },
+        "column_TXHXx8": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/444.webp",
+            "media_scale": 100,
+            "heading": "Fitness",
+            "text": "<p>Provide better stability and balance for improved sport performance<\/p>",
+            "button_label": "learn more",
+            "button_link": "shopify:\/\/collections\/fitness"
+          }
         }
       },
       "block_order": [
@@ -644,7 +656,8 @@
         "column_eCnxW4",
         "column_DURiNB",
         "column_EHHXxC",
-        "column_DtfPrJ"
+        "column_DtfPrJ",
+        "column_TXHXx8"
       ],
       "custom_css": [
         "h3,h2 {font-weight: 900;}",
