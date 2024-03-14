@@ -1,5 +1,6 @@
 .custom-table{
     margin-top: 250px;
+  display: none;
 }
 .custom-table__inner{
     display: flex;
@@ -160,6 +161,7 @@ align-items: center;
 
 @media only screen and (max-width: 430px) {
   .custom-table{
+    display: block;
     margin-top: 150px;
   }
    .custom-table__chart--brand--image__logo img{
