@@ -360,6 +360,7 @@
     },
     "featured_collection_7DpYEp": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
       ],
