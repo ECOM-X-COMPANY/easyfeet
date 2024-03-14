@@ -6304,6 +6304,7 @@ margin-bottom: 5px;
     margin-bottom: 5px !important;
     line-height: 16px !important;
   font-weight: 900 !important;
+    font-family: inherit !important;
   }
   .custom-page-content--desc p{
     font-size: 12px !important;
