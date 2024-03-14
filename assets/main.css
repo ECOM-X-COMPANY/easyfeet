@@ -6297,13 +6297,14 @@ margin-bottom: 5px;
 .custome-desc--none{
   display: none;
 }
-/* Indentation in collections product card */
+/*  Indentation in collections product card */
 #template--17336944165104__rich_text_eBiPrk{
   margin-top: 20px;
 }
  #template--17336944165104__rich_text_eBiPrk .section__block--heading {
      margin-bottom: 30px;
  }
+/* end */
 @media only screen and (max-width: 430px) {
   .footer-block {
     display: flex;
