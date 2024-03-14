@@ -594,11 +594,12 @@
           "type": "column",
           "settings": {
             "enable_media": true,
+            "image": "shopify:\/\/shop_images\/2222.webp",
             "media_scale": 100,
-            "heading": "Column",
-            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "heading": "Runners",
+            "text": "<p>Superior shock absorption and reduce pain caused by runner's knee<\/p>",
+            "button_label": "learn more",
+            "button_link": "shopify:\/\/collections\/runners"
           }
         },
         "column_DURiNB": {
