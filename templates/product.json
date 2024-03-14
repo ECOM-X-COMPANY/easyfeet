@@ -606,11 +606,12 @@
           "type": "column",
           "settings": {
             "enable_media": true,
+            "image": "shopify:\/\/shop_images\/7777.webp",
             "media_scale": 100,
-            "heading": "Column",
-            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "heading": "Athletes",
+            "text": "<p>Enhanced cushioning and sweat absorption during intense activities<\/p>",
+            "button_label": "learn more",
+            "button_link": "shopify:\/\/collections\/athletes"
           }
         }
       },
