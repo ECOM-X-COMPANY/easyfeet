@@ -575,6 +575,71 @@
         "limit": 8
       }
     },
+    "multi_column_8Fa3M9": {
+      "type": "multi-column",
+      "blocks": {
+        "column_Minifj": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/9999.webp",
+            "media_scale": 100,
+            "heading": "Pain relief",
+            "text": "<p>Prevent foot pain and provide long-lasting comfort and relief<\/p>",
+            "button_label": "learn more",
+            "button_link": "shopify:\/\/collections\/pain-relief"
+          }
+        },
+        "column_eCnxW4": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "media_scale": 100,
+            "heading": "Column",
+            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_DURiNB": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "media_scale": 100,
+            "heading": "Column",
+            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Minifj",
+        "column_eCnxW4",
+        "column_DURiNB"
+      ],
+      "custom_css": [
+        "h3,h2 {font-weight: 900;}",
+        ".mt-8 {display: none;}",
+        "div {margin-bottom: 20px; padding-bottom: 0;}",
+        ".card {border-radius: 6px;}",
+        ".card__media {border-radius: 6px 6px 0 0;}",
+        "@media only screen and (max-width: 430px) {.carousel {height: 455px; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-center",
+        "button_label": "",
+        "button_link": "",
+        "layout": "carousel",
+        "column_size": "small",
+        "column_align": "left",
+        "media_align": "text-left",
+        "image_ratio": "1",
+        "color_scheme": "3",
+        "button_style": "btn btn--primary"
+      }
+    },
     "rich_text_eBiPrk": {
       "type": "rich-text",
       "blocks": {
@@ -1050,6 +1115,7 @@
     "image_banner_Xgn8FR",
     "featured_collection_YjHTR8",
     "b8fd6549-6366-4a68-8b36-fdbb29f91836",
+    "multi_column_8Fa3M9",
     "rich_text_eBiPrk",
     "custom_reviews_xGkRgN",
     "170531818388597e88",
