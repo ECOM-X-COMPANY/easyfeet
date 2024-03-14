@@ -625,13 +625,26 @@
             "button_label": "Learn more",
             "button_link": "shopify:\/\/collections\/hikers"
           }
+        },
+        "column_DtfPrJ": {
+          "type": "column",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify:\/\/shop_images\/6.png",
+            "media_scale": 100,
+            "heading": "Anti-Fatigue",
+            "text": "<p>Reduced fatigue and soreness in the feet during prolonged standing <\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/anti-fatigue"
+          }
         }
       },
       "block_order": [
         "column_Minifj",
         "column_eCnxW4",
         "column_DURiNB",
-        "column_EHHXxC"
+        "column_EHHXxC",
+        "column_DtfPrJ"
       ],
       "custom_css": [
         "h3,h2 {font-weight: 900;}",
