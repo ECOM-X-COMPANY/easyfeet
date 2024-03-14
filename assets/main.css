@@ -6297,22 +6297,22 @@ margin-bottom: 5px;
     line-height: 14px;
   }
   .custom-page-content--metatext{
-     font-size: 12px;
-    line-height: 14px;
-    margin-top: 8px;
+     font-size: 12px !important;
+    line-height: 14px !important;
+    margin-top: 10px !important;
   }
    .custom-page-content--metatitle{
-       margin-top: 10px;
+       margin-top: 10px !important;
    }
   .custom-page-content--metatitle p {
-    margin-bottom: 5px;
-    line-height: 16px;
-  font-weight: 900;
+    margin-bottom: 5px !important;
+    line-height: 16px !important;
+  font-weight: 900 !important;
   }
   .custom-page-content--desc p{
-    font-size: 12px;
-  line-height: 14px;
-  margin-bottom: 5px;
+    font-size: 12px !important;
+  line-height: 14px !important;
+  margin-bottom: 5px !important;
   }
     #desc-info h1{
        font-size: 16px !important;
