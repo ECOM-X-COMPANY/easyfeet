@@ -6280,19 +6280,19 @@ margin-bottom: 5px;
   line-height: 18px;
 }
   .custom-page-content--metatext{
-     margin-top: 10px !important;
+     margin-top: 10px ;
   }
    
   .custom-page-content--metatitle p {
-    margin-bottom: 5px !important;
-    line-height: 16px !important;
-  font-weight: 900 !important;
+    margin-bottom: 5px ;
+    line-height: 16px ;
+  font-weight: 900 ;
 
   }
   .custom-page-content--desc p{
-    font-size: 12px !important;
-  line-height: 14px !important;
-  margin-bottom: 5px !important;
+    font-size: 12px ;
+  line-height: 14px ;
+  margin-bottom: 5px ;
   }
 @media only screen and (max-width: 430px) {
   .footer-block {
