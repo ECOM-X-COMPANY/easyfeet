@@ -197,5 +197,6 @@
     }
     .diseases-cart__top--left p, .diseases-cart__top--right p, .diseases-cart__bottom--left p, .diseases-cart__bottom--right p{
         font-size: 13px;
+      letter-spacing: 0;
     }
 }
