@@ -6294,6 +6294,9 @@ margin-bottom: 5px;
   line-height: 14px ;
   margin-bottom: 5px ;
   }
+.custome-desc--none{
+  display: none;
+}
 @media only screen and (max-width: 430px) {
   .footer-block {
     display: flex;
