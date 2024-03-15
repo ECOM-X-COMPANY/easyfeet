@@ -8512,7 +8512,7 @@ margin-top: 16px !important;
   }
 
   .buy-info__card img {
-    width: 38px !important;
+    width: 28px !important;
     height: 30px !important;
   }
 
@@ -8765,7 +8765,7 @@ margin-top: 16px !important;
   }
 
   .buy-info__card img {
-    width: 38px !important;
+    width: 28px !important;
     height: 30px !important;
   }
 
@@ -9249,8 +9249,8 @@ font-size: 12px;
   }
 
   .buy-info__card img {
-    width: 38px !important;
-    height: 30px !important;
+    width: 38px ;
+    height: 30px;
   }
 
   .buy-info__card {
