@@ -6795,7 +6795,7 @@ display: none !important;
   justify-content: space-between;
 }
   .buy-info__title {
- font-size: 12px;
+ font-size: 12px !important;
     line-height: 12px;
     font-weight: 400;
   }
