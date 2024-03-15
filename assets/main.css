@@ -6315,6 +6315,9 @@ margin-bottom: 5px;
   margin-left: 45px;
   margin-top: 0px !important;
 }
+  .buy-info__title p{
+   width: max-content;
+  }
 @media only screen and (max-width: 430px) {
   .footer-block {
     display: flex;
@@ -7039,9 +7042,7 @@ display: none !important;
   .buy-info__title {
     font-size: 17px;
   }
-  .buy-info__title p{
-   width: max-content;
-  }
+
 
   .buy-info__title img {
     width: 70px;
