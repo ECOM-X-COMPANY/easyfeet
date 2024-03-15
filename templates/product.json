@@ -387,7 +387,7 @@
       "type": "product-recommendations",
       "custom_css": [
         "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
-        "#slider-template--17336944165104__recommendations{padding-bottom: 0;}"
+        "#slider-template--17336944165104__recommendations {padding-bottom: 0 !important;}"
       ],
       "settings": {
         "heading": "You may also like",
