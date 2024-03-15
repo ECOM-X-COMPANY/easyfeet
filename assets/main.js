@@ -2206,21 +2206,15 @@ document.addEventListener("DOMContentLoaded", function() {
   if (window.innerWidth > 1024) {
     // Отримання елементів
     const buyInfoBlock = document.getElementById('buy-info');
-    const productCustomPaymentBlock = document.getElementById('product-custom__payment');
-    
-    // Вивід інформації для відлагодження
-    console.log('buyInfoBlock:', buyInfoBlock);
-    console.log('productCustomPaymentBlock:', productCustomPaymentBlock);
-    
+    const productCustomPaymentContainer = document.getElementById('product-custom__payment');
+
     // Перенесення блоку
-    if (buyInfoBlock && productCustomPaymentBlock) {
-      productCustomPaymentBlock.parentNode.insertBefore(buyInfoBlock, productCustomPaymentBlock.nextSibling);
-      console.log('Переміщення відбулося успішно');
-    } else {
-      console.log('Не вдалося знайти всі необхідні елементи');
+    if (buyInfoBlock && productCustomPaymentContainer) {
+      productCustomPaymentContainer.appendChild(buyInfoBlock);
     }
   }
 });
+
 
 
 
