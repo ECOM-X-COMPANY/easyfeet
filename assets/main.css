@@ -6444,6 +6444,9 @@ margin-bottom: 5px;
     #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41{
       position: relative;
     }
+  #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .text-start{
+    flex-direction: column;
+  }
   #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .btn{
   position: absolute;
     display: flex;
