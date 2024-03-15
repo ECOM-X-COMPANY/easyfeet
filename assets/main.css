@@ -6310,6 +6310,10 @@ margin-bottom: 5px;
   align-items: center;
   justify-content: center;
 }
+.buy-info__card{
+  margin-left: 45px;
+  margin-top: 0;
+}
 @media only screen and (max-width: 430px) {
   .footer-block {
     display: flex;
