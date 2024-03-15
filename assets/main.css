@@ -6314,6 +6314,7 @@ margin-bottom: 5px;
 .buy-info__card{
   margin-left: 45px;
   margin-top: 0px !important;
+  height: 30px;
 }
   .buy-info__title p{
    width: max-content;
