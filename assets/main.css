@@ -6305,6 +6305,11 @@ margin-bottom: 5px;
      margin-bottom: 30px;
  }
 /* end */
+.buy-info{
+  display: flex;
+  align-items: center;
+  justify-conten: center;
+}
 @media only screen and (max-width: 430px) {
   .footer-block {
     display: flex;
