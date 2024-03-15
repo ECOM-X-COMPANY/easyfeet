@@ -2201,19 +2201,29 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //
-document.addEventListener("DOMContentLoaded", function() {
-  // Перевірка, що це десктоп версія
-  if (window.innerWidth > 1024) {
-    // Отримання елементів
-    const buyInfoBlock = document.getElementById('buy-info');
-    const productCustomPaymentContainer = document.getElementById('product-custom__payment');
+document.addEventListener('DOMContentLoaded', function() {
+  const buyInfo = document.getElementById('buy-info');
+  const productAccordion = document.getElementById('product-accordion__custom');
 
-    // Перенесення блоку
-    if (buyInfoBlock && productCustomPaymentContainer) {
-      productCustomPaymentContainer.appendChild(buyInfoBlock);
+  function moveElement() {
+    if (buyInfo && productAccordion) {
+      if (window.innerWidth > 768) {
+        productAccordion.appendChild(buyInfo);
+      } else {
+        // If it's not desktop version, move buy-info back to its original position
+        const originalParent = buyInfo.parentElement;
+        if (originalParent && originalParent.id !== 'product-accordion__custom') {
+          originalParent.appendChild(buyInfo);
+        }
+      }
     }
   }
+
+  moveElement();
+
+  window.addEventListener('resize', moveElement);
 });
+
 
 
 
