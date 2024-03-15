@@ -528,7 +528,7 @@
         "fixed_height_desktop": 830,
         "fixed_height_mobile": 300,
         "overlay_position": "justify-start items-center",
-        "overlay_text_align": "text-start",
+        "overlay_text_align": "text-center",
         "mob_center_text": true,
         "mobile_stacked": true,
         "color_scheme": "white",
