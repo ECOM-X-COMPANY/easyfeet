@@ -2208,9 +2208,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const buyInfoBlock = document.getElementById('buy-info');
     const productCustomPaymentBlock = document.getElementById('product-custom__payment');
     
+    // Вивід інформації для відлагодження
+    console.log('buyInfoBlock:', buyInfoBlock);
+    console.log('productCustomPaymentBlock:', productCustomPaymentBlock);
+    
     // Перенесення блоку
     if (buyInfoBlock && productCustomPaymentBlock) {
       productCustomPaymentBlock.parentNode.insertBefore(buyInfoBlock, productCustomPaymentBlock.nextSibling);
+      console.log('Переміщення відбулося успішно');
+    } else {
+      console.log('Не вдалося знайти всі необхідні елементи');
     }
   }
 });
