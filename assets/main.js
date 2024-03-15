@@ -2201,6 +2201,19 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //
+document.addEventListener("DOMContentLoaded", function() {
+  // Перевірка, що це десктоп версія
+  if (window.innerWidth > 1024) {
+    // Отримання елементів
+    const buyInfoBlock = document.getElementById('buy-info');
+    const productAccordionCustomBlock = document.getElementById('product-accordion__custom');
+    
+    // Перенесення блоку
+    if (buyInfoBlock && productAccordionCustomBlock) {
+      productAccordionCustomBlock.parentNode.insertBefore(buyInfoBlock, productAccordionCustomBlock.nextSibling);
+    }
+  }
+});
 
 
 
