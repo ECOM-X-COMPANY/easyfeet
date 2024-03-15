@@ -386,7 +386,8 @@
     "recommendations": {
       "type": "product-recommendations",
       "custom_css": [
-        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
+        "#slider-template--17336944165104__recommendations{padding-bottom: 0;}"
       ],
       "settings": {
         "heading": "You may also like",
@@ -518,7 +519,7 @@
         ".btn--primary {font-size: 16px; line-height: 20px; border-radius: 6px; background: #ff444f; border: inherit; color: #fff;}",
         ".text-overlay__block p {font-size: 16px; line-height: 20px; width: 50%;}",
         ".img-fit {object-fit: fill;}",
-        "#template--17336944165104__image_banner_Xgn8FR{margin: 0 auto;}",
+        "#template--17336944165104__image_banner_Xgn8FR {margin: 0 auto;}",
         "@media only screen and (max-width: 430px) {.image-banner {padding: 0 5px; }}"
       ],
       "settings": {
