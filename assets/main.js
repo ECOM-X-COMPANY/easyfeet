@@ -2206,11 +2206,11 @@ document.addEventListener("DOMContentLoaded", function() {
   if (window.innerWidth > 1024) {
     // Отримання елементів
     const buyInfoBlock = document.getElementById('buy-info');
-    const productAccordionCustomBlock = document.getElementById('product-accordion__custom');
+    const productCustomPaymentBlock = document.getElementById('product-custom__payment');
     
     // Перенесення блоку
-    if (buyInfoBlock && productAccordionCustomBlock) {
-      productAccordionCustomBlock.parentNode.insertBefore(buyInfoBlock, productAccordionCustomBlock.nextSibling);
+    if (buyInfoBlock && productCustomPaymentBlock) {
+      productCustomPaymentBlock.parentNode.insertBefore(buyInfoBlock, productCustomPaymentBlock.nextSibling);
     }
   }
 });
