@@ -162,6 +162,12 @@
             "page": "",
             "open": false
           }
+        },
+        "custom_liquid_MJ7UyD": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<div id=\"product-custom__paymant\"><\/div>"
+          }
         }
       },
       "block_order": [
@@ -183,7 +189,8 @@
         "king_linked_options_app_block_qPWMHh",
         "richtext_azjLHn",
         "collapsible_content_ChhmWy",
-        "collapsible_content_XETL37"
+        "collapsible_content_XETL37",
+        "custom_liquid_MJ7UyD"
       ],
       "custom_css": [
         ".product-title {font-size: 32px; line-height: 33px; font-weight: 900;}",
