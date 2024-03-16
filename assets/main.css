@@ -6483,7 +6483,10 @@ margin-bottom: 5px;
   }
   .benefit-first,.benefit-second{
     font-size: 11px;
-    line-height: 12px;
+    line-height: 11px;
+  }
+  .benefit-second{
+    margin-top: 4px;
   }
  .card__title{
    font-size: 12px;
