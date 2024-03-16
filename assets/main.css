@@ -6463,6 +6463,7 @@ margin-bottom: 5px;
   .price__current{
       font-size: 16px !important;
   line-height: 16px !important;
+    color: #ff444f;
   }
 
   .card__media img{
