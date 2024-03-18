@@ -3301,7 +3301,7 @@ details-disclosure + details-disclosure .disclosure--row {
   }
 }
 .price__current {
-  padding-inline-end: 0.5rem;
+padding: 0;
   font-size: 1em;
   white-space: nowrap;
 }
