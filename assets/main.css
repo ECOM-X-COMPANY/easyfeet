@@ -6325,7 +6325,7 @@ margin-bottom: 5px;
 .buy-info__card li:before{
   display: none !important;
 }
-.product-benefits__box li + li{
+.product-benefits__box li:last-child{
   margin-right: 10px;
 }
 @media only screen and (max-width: 430px) {
