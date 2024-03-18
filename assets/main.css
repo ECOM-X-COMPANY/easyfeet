@@ -6343,8 +6343,8 @@ margin-bottom: 5px;
 .fZoSGj{
   display: none !important;
 }
-.main-nav li::nth-child(1) {
-  display: none;
+.main-nav li:nth-child(1) {
+  display: none !important;
 }
 @media only screen and (max-width: 430px) {
   #shopify-section-template--17336943608048__multi_column_3eKWWw .card__title{
