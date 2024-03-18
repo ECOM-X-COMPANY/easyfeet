@@ -41,7 +41,8 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header {border-bottom: 1px;}"
+        ".header {border-bottom: 1px;}",
+        ".main-menu__content li:nth-child(1){display: none;}"
       ],
       "settings": {
         "custom_promo_photo": "shopify:\/\/shop_images\/BUY_3_PAIRS_1.png",
