@@ -10,7 +10,8 @@
         ".card__title a {font-size: 20px; line-height: 22px; font-weight: 900;}",
         "h2 {font-size: 20px; line-height: 20px;}",
         ".text-theme-light {font-size: 12px; line-height: 12px; font-weight: 900;}",
-        ".featured-card{margin-top: 30px;}"
+        ".featured-card {margin-top: 30px;}",
+        ".btn--secondary{font-size: 20px; line-height: 20px; font-weight: 900}"
       ],
       "settings": {
         "show_blog_title": true,
