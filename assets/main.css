@@ -6331,6 +6331,10 @@ margin-bottom: 5px;
 .product-benefits__box li:last-child{
   margin-left: 10px;
 }
+  .price__default{
+    align-items: end;
+    flex-direction: column-reverse;
+  }
 @media only screen and (max-width: 430px) {
   #shopify-section-template--17336943608048__multi_column_3eKWWw .card__title{
     font-size: 16px;
