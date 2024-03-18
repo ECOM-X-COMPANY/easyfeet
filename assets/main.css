@@ -10186,7 +10186,7 @@ text-align:center;
     flex-direction: column-reverse!important;
 }
 .quick-add__product-details .product-price .product-info_price--discount {
-    margin-left: 0!important;
+    margin-left: 0 !important;
 }
 #cart-summary.discount{
   display: none !important;
