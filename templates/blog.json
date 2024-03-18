@@ -12,7 +12,7 @@
       "settings": {
         "show_blog_title": true,
         "description": "",
-        "show_share_links": true,
+        "show_share_links": false,
         "text_align": "text-start",
         "posts_per_page": 13,
         "three_columns": true,
@@ -27,15 +27,16 @@
         "button_style": "btn btn--secondary",
         "show_featured_post": true,
         "show_featured_excerpt": true,
-        "show_featured_button": true,
+        "show_featured_button": false,
         "color_scheme": "1",
         "featured_button_style": "btn btn--secondary"
       }
     },
     "featured_blog_UKJCEd": {
       "type": "featured-blog",
+      "disabled": true,
       "custom_css": [
-        "h2{font-size: 32px; line-height: 32px; font-weight: 900;}"
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
       ],
       "settings": {
         "title": "Featured blog",
