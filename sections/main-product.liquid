@@ -182,7 +182,7 @@
                 <div class="product-info_price--discount">
                   {% assign firstVariant = product.variants.first %}
                   {% if firstVariant.compare_at_price > firstVariant.price %}
-                    SAVE {{ firstVariant.compare_at_price | minus: firstVariant.price | times: 100.0 | divided_by: firstVariant.compare_at_price | round: 0 }}% ({{ firstVariant.compare_at_price | minus: firstVariant.price | money }})
+                    SAVE {{ firstVariant.compare_at_price | minus: firstVariant.price | times: 100.0 | divided_by: firstVariant.compare_at_price | round: 0 }}% 
                   {% endif %}
                 </div>
               </div>
