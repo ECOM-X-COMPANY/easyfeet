@@ -6346,7 +6346,7 @@ margin-bottom: 5px;
 .main-nav li:nth-child(1) {
   display: none !important;
 }
-.main-nav li:nth-child(7) {
+.main-nav li:nth-child(9) {
   display: none !important;
 }
 @media only screen and (max-width: 430px) {
