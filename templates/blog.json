@@ -6,7 +6,7 @@
         ".md\\:img-fit {object-fit: contain;}",
         "p {font-size: 16px; line-height: 20px; color: #000;}",
         ".img-fit {object-fit: contain;}",
-        "h1 {font-size: 64px; line-height: 64px; font-weight: 900;}",
+        "h1 {font-size: 30px; line-height: px; font-weight: 900;}",
         ".card__title a {font-size: 32px; line-height: 32px; font-weight: 900;}",
         "h2 {font-size: 20px; line-height: 20px;}"
       ],
