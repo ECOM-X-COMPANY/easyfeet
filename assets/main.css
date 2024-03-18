@@ -6343,7 +6343,7 @@ margin-bottom: 5px;
 .fZoSGj{
   display: none !important;
 }
-.main-menu__content li::nth-child(1) {
+.main-nav li::nth-child(1) {
   display: none;
 }
 @media only screen and (max-width: 430px) {
