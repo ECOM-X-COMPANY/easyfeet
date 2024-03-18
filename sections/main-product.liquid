@@ -211,6 +211,24 @@
                </div>
               </div>
               <div class="product-info__divider" ></div>
+                <div class="benefits-block">
+                <ul class="benefits-box">
+                      {% if product.metafields.custom.product_characteristic_1 !=blank %}
+                      <li class="benefit-first">
+                      {{ product.metafields.custom.product_characteristic_1 }}</li>
+                        {% else %}
+                      <li class="benefit-first">Arch Support</li> 
+                      {% endif %}
+              
+                      {% if product.metafields.custom.product_characteristic_2 !=blank %}
+                      <li class="benefit-second">
+                      {{ product.metafields.custom.product_characteristic_2 }}</li>
+                      {% else %}
+                       <li class="benefit-second">Easy to Adjust</li>
+                      {% endif %}
+              
+                </ul>
+        </div>
               <div class="product-info__desc" style='display: none;'>
                 <h3>
                   {{ "EASYFEET produces high-tech innovative models of orthopedic and specialized insoles. These shoe insoles boost your endurance." | escape }}
