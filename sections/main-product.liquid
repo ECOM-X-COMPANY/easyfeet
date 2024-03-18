@@ -211,20 +211,20 @@
                </div>
               </div>
               <div class="product-info__divider" ></div>
-                <div class="benefits-block">
-                <ul class="benefits-box">
+                <div class="product-benefits__block">
+                <ul class="product-benefits__box">
                       {% if product.metafields.custom.product_characteristic_1 !=blank %}
-                      <li class="benefit-first">
+                      <li class="product-benefit__first">
                       {{ product.metafields.custom.product_characteristic_1 }}</li>
                         {% else %}
-                      <li class="benefit-first">Arch Support</li> 
+                      <li class="product-benefit__first">Arch Support</li> 
                       {% endif %}
               
                       {% if product.metafields.custom.product_characteristic_2 !=blank %}
-                      <li class="benefit-second">
+                      <li class="product-benefit__second">
                       {{ product.metafields.custom.product_characteristic_2 }}</li>
                       {% else %}
-                       <li class="benefit-second">Easy to Adjust</li>
+                       <li class="product-benefit__second">Easy to Adjust</li>
                       {% endif %}
               
                 </ul>
