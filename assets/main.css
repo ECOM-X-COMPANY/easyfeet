@@ -6343,6 +6343,9 @@ margin-bottom: 5px;
 .fZoSGj{
   display: none !important;
 }
+.main-menu__content li::nth-child(1) {
+  display: none;
+}
 @media only screen and (max-width: 430px) {
   #shopify-section-template--17336943608048__multi_column_3eKWWw .card__title{
     font-size: 16px;
