@@ -6349,6 +6349,11 @@ margin-bottom: 5px;
 .main-nav li:nth-child(10) {
   display: none !important;
 }
+/*  Blog */
+#shopify-section-template--17336944492784__main{
+  margin-top: 40px;
+}
+/* end Blog  */
 @media only screen and (max-width: 430px) {
   .main-nav li:nth-child(1) {
   display: block !important;
