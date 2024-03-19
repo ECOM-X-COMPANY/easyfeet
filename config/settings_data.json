@@ -405,7 +405,7 @@
     "card_atc_mobile": "icon",
     "card_atc_desktop": "icon",
     "show_dividers": false,
-    "card_contain": true,
+    "card_contain": false,
     "card_bg_color": "#f5f5f5",
     "card_text_color": "#070707",
     "card_border_color": "#ffffff",
