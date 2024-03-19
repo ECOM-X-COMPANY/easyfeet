@@ -383,7 +383,7 @@
     "show_breadcrumbs_collection_list": false,
     "show_breadcrumbs_article": false,
     "show_breadcrumbs_blog": false,
-    "pagination_style": "modern",
+    "pagination_style": "traditional",
     "pagination_infinite": false,
     "coll_card_image_ratio": "shortest",
     "coll_card_image_fit": "cover",
