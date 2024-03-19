@@ -6535,7 +6535,7 @@ padding: 0;
   .price__current{
       font-size: 16px !important;
   line-height: 16px !important;
-    color: #ff444f;
+    color: #ff444f !important;
   }
 
   .card__media img{
@@ -6623,6 +6623,7 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
   }
   .price__current{
     color: #ff444f;
+    padding: 0;
   }
   .price__was{
     margin-left: 0 auto !important;
@@ -6630,9 +6631,7 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
   .product-info__price{
     line-height: normal;
   }
-  .price__current{
-    padding: 0;
-  }
+  
   .price__default{
     align-items: end;
     flex-direction: column-reverse;
