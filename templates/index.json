@@ -1379,7 +1379,8 @@
       "type": "recently-viewed",
       "custom_css": [
         ".card__vendor {display: none;}",
-        "h2 {font-weight: 900;}"
+        "h2 {font-weight: 900;}",
+        ".custom-product-label {left: 0; width: max-content;}"
       ],
       "settings": {
         "heading": "Recently reviewed",
