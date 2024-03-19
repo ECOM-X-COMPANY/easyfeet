@@ -6557,7 +6557,9 @@ padding: 0;
     font-size: 11px;
     line-height: 11px;
   }
-  
+  .benefit-second{
+    margin: 0px;
+  }
  .card__title{
    font-size: 12px;
    line-height: 14px;
