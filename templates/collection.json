@@ -247,7 +247,7 @@
         "filters_open_lg": false,
         "stick_on_scroll": true,
         "show_filter_counts": true,
-        "expand_filters": true,
+        "expand_filters": false,
         "show_filter_deadends": true,
         "max_filter_options": 20,
         "enable_sorting": true,
