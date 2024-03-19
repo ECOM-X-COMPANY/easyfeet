@@ -6361,8 +6361,9 @@ margin-bottom: 5px;
 }
 #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section__block--button{
   position: absolute;
-  bottom: 7%;
-  left: 43%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .media-with-text{
   flex-direction: column-reverse;
