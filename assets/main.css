@@ -6360,7 +6360,7 @@ margin-bottom: 5px;
   flex-direction: column-reverse;
 }
 #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 media-with-text__media {
-  width: 55%;
+  width: 55% !important;
   margin: 0 auto;
 }
 /* end Insole Finder  */
