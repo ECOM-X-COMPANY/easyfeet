@@ -6609,7 +6609,8 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
   .custom-product-label{
     position: absolute !important;
     top: 0% !important;
-    /* left: -10% !important; */
+    left: 0% ;
+    width: max-content;
     font-weight: 900 !important;
     display: flex !important;
     align-items: center !important;
