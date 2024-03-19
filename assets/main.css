@@ -6355,7 +6355,7 @@ margin-bottom: 5px;
 }
 /* end Blog  */
 
-/* Insole Finder  */
+/* Insole Finder Desc */
 #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41{
   position: relative;
 }
@@ -6377,7 +6377,7 @@ padding: 0;
 }
 /* end Insole Finder  */
 @media only screen and (max-width: 430px) {
-  /* Insole Finder  */
+  /* Insole Finder mobile */
   #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section__block--button{
   width: 100% !important;
     top: 89% !important;
