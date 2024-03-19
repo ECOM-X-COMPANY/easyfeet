@@ -164,7 +164,8 @@
     "featured_collection_LTYaa3": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {font-size: 32px; line-height: 20px; font-weight: 900;}"
+        "h2 {font-size: 32px; line-height: 20px; font-weight: 900;}",
+        ".custom-product-label {left: 0; width: max-content;}"
       ],
       "settings": {
         "title": "Best sellers",
@@ -452,7 +453,8 @@
       "type": "featured-collection",
       "custom_css": [
         "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
-        ".section__header {margin-bottom: 30px;}"
+        ".section__header {margin-bottom: 30px;}",
+        ".custom-product-label {left: 0; width: max-content;}"
       ],
       "settings": {
         "title": "NEW ARRIVALS",
@@ -813,7 +815,8 @@
       "type": "featured-collection",
       "custom_css": [
         "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
-        "div {margin-top: 0;}"
+        "div {margin-top: 0;}",
+        ".custom-product-label {left: 0; width: max-content;}"
       ],
       "settings": {
         "title": "Save with multi-packs",
