@@ -401,7 +401,7 @@
     "card_show_inventory": true,
     "card_price_bottom": true,
     "card_url_within_coll": true,
-    "enable_quick_add": false,
+    "enable_quick_add": true,
     "card_atc_mobile": "icon",
     "card_atc_desktop": "icon",
     "show_dividers": false,
