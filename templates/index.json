@@ -270,8 +270,8 @@
         "column_PG4HGE"
       ],
       "custom_css": [
-        "h3,h2 {font-weight: 900; }",
-        "h3{font-family: inherit;}",
+        "h3,h2 {font-weight: 900;}",
+        "h3 {font-family: inherit;}",
         ".mt-8 {display: none;}",
         "div {margin-bottom: 20px; padding-bottom: 0;}",
         ".card {border-radius: 6px;}",
@@ -1186,95 +1186,6 @@
         "reviews_number_15": "4"
       }
     },
-    "17047158042ade648c": {
-      "type": "apps",
-      "blocks": {
-        "130d5f17-528a-461a-bc32-14ceee719df3": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
-          "settings": {
-            "maxWidth": 1100,
-            "borderRadius": 8,
-            "itemsPerView": 4,
-            "maxNumberOfCharacters": 70,
-            "imageRatio": "1.25",
-            "reviewerNameColor": "#000000",
-            "textColor": "#000000",
-            "itemBackgroundColor": "#ffffff",
-            "starsColor": "",
-            "starsBackgroundColor": "#ffffff",
-            "arrows_backgroundColor": "#ffffff",
-            "arrows_iconColor": "#9a9a9a",
-            "shadow": "offset-dark",
-            "border_active": false,
-            "border_width": 2,
-            "border_color": "#000000",
-            "productIds": ""
-          }
-        },
-        "ea09d06a-db4b-49a9-b0ca-2845387f62c3": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-testimonial-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
-          "settings": {
-            "maxWidth": 1100,
-            "desktopFontSize": 32,
-            "mobileFontSize": 20,
-            "maxNumberOfCharacters": 100,
-            "quoteMarkIcon": "style-4",
-            "reviewerNameColor": "#000000",
-            "textColor": "#000000",
-            "starsColor": "",
-            "quotesIconColor": "#eaeaea",
-            "arrows_iconColor": "#000000",
-            "arrows_hideOnMobile": true,
-            "pagination_active": true,
-            "pagination_selectedDotColor": "#000000",
-            "pagination_dotColor": "#000000",
-            "autoplay_active": true,
-            "autoplay_duration": 2,
-            "productIds": ""
-          }
-        },
-        "ryviu_reviews_qa_ryviu_featured_widget_JaMCeU": {
-          "type": "shopify:\/\/apps\/ryviu-reviews-qa\/blocks\/ryviu-featured-widget\/807ad6ed-1a6a-4559-abea-ed062858d9da",
-          "disabled": true,
-          "settings": {
-            "title_heading": "Happy Customer",
-            "title_align": "r_center",
-            "title_status": true,
-            "type_ryviu": "carousel",
-            "r_wapper_featured": "",
-            "r_max_width_featured": 1920,
-            "padding_block": 0
-          }
-        },
-        "ryviu_reviews_qa_ryviu_product_reviews_UaxJ4x": {
-          "type": "shopify:\/\/apps\/ryviu-reviews-qa\/blocks\/ryviu-product-reviews\/807ad6ed-1a6a-4559-abea-ed062858d9da",
-          "settings": {
-            "product": "black-model",
-            "r_wapper": "custom-reviews",
-            "r_max_width": 1280,
-            "r_padding_block": 0,
-            "one_col_on_mobile": true,
-            "hide_write_review_from": true,
-            "hide_title_image_form": false
-          }
-        }
-      },
-      "block_order": [
-        "130d5f17-528a-461a-bc32-14ceee719df3",
-        "ea09d06a-db4b-49a9-b0ca-2845387f62c3",
-        "ryviu_reviews_qa_ryviu_featured_widget_JaMCeU",
-        "ryviu_reviews_qa_ryviu_product_reviews_UaxJ4x"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media screen and (min-width: 768px) {#r--carousel-theme .r--carousel-item {min-height: 340px; height: -webkit-max-content !important; height: -moz-max-content !important; height: max-content !important; }}"
-      ],
-      "settings": {
-        "full_width": true
-      }
-    },
     "245a8a93-b8be-476e-96ae-b34d94d60c41": {
       "type": "media-with-text",
       "blocks": {
@@ -1315,7 +1226,7 @@
         "@media only screen and (max-width: 430px) {h2 {font-size: 20px !important; line-height: 20px !important; text-align: center; } p {font-size: 12px; line-height: 12px; text-align: center; } .media-with-text {display: flex; flex-direction: column-reverse; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/insole-finder-image.png",
+        "image": "shopify:\/\/shop_images\/Group_699.png",
         "img_link": "shopify:\/\/pages\/insole-finders",
         "video_external": "",
         "video_description": "",
@@ -1510,7 +1421,6 @@
     "featured_collection_q8C6qa",
     "c506bb30-8906-412c-998f-cd396e880515",
     "custom_reviews_RN4gz9",
-    "17047158042ade648c",
     "245a8a93-b8be-476e-96ae-b34d94d60c41",
     "271ea31b-cbf4-44dc-9006-70f1fd84e3e3",
     "247c09d5-a805-424a-91e9-f23b721b2d29",
