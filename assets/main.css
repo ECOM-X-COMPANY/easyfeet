@@ -6430,7 +6430,7 @@ padding: 0;
   margin: 0 auto;
 }
    #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section{
-    padding-bottom: 30px !important;
+    padding-bottom: 30px ;
   }
   /* end Insole Finder  */
   .main-nav li:nth-child(1) {
@@ -6698,7 +6698,7 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
     /* Прибираємо відступи Insole finder головна сторінка */
   #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section{
     padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-bottom: 10px;
   }
   .product-details__highlight {
     display: none;
