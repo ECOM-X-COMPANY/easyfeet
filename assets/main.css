@@ -6420,6 +6420,9 @@ padding: 0;
     gap: 8px;
     padding: 0px 3px;
   }
+  #filter-results .custom-product-label span{
+    font-size: 10px;
+  }
 /* end  */
   .custom-product-label{
     justify-content: center;
