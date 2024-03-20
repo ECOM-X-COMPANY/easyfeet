@@ -2224,24 +2224,7 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', moveElement);
 });
 
-//
-// Функція для додавання унікальних класів до тегів <section>
-function addCustomClassesToSections() {
-  // Знаходимо всі теги <section> на сторінці
-  var sections = document.querySelectorAll('section');
 
-  // Перебираємо кожен <section>
-  sections.forEach(function(section, index) {
-    // Формуємо унікальний клас для кожного <section>
-    var customClass = 'custom-section-' + (index + 1);
-
-    // Додаємо унікальний клас до поточного <section>
-    section.classList.add(customClass);
-  });
-}
-
-// Викликаємо функцію для додавання унікальних класів до тегів <section>
-addCustomClassesToSections();
 
 
 
