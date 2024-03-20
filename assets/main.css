@@ -6395,6 +6395,8 @@ padding: 0;
 }
 .products-toolbar__filter + .products-toolbar__sort{
   border-inline-start: 0px !important;
+  margin-inline-start: 0px;
+    padding-inline-start: 0px;
 }
 .custom-filter-text {
   font-size: 14px;
