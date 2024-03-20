@@ -6388,9 +6388,7 @@ padding: 0;
 
 
 @media only screen and (max-width: 430px) {
-  .benefits-block{
-    padding: 0px 6px;
-  }
+ 
   .custom-product-label{
     justify-content: center;
     width: 72px !important;
