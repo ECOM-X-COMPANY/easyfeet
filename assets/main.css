@@ -6417,6 +6417,7 @@ padding: 0;
 }
   #filter-results ul{
     border-top: 0px;
+    gap: 8px;
   }
 /* end  */
   .custom-product-label{
