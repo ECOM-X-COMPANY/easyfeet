@@ -236,7 +236,7 @@
       "type": "main-collection-products",
       "custom_css": [
         ".filter__label {text-transform: capitalize;}",
-        ".custom-product-label{left: 0; width: max-content;}",
+        ".custom-product-label {left: 0; width: max-content;}",
         "@media only screen and (max-width: 430px) {#filter-results {margin-top: 14px; } #products-toolbar {margin-bottom: 10px; }}"
       ],
       "settings": {
@@ -526,6 +526,7 @@
         "div {margin-bottom: 20px; padding-bottom: 0;}",
         ".card__info {align-items: flex-start;}",
         ".section__header {margin-bottom: 30px;}",
+        ".color-scheme {background: #141414;}",
         "#template--17336943739120__multi_column_nBFbff {margin: 0;}"
       ],
       "settings": {
