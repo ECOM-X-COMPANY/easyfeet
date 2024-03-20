@@ -728,7 +728,7 @@
         "heading_ytzyDH"
       ],
       "custom_css": [
-        "h1 {font-size: 20px; line-height: 9px; font-weight: 900;}",
+        "h1 {font-size: 32px; line-height: 32px; font-weight: 900;}",
         "#template--17336943608048__rich_text_qM9JiX {margin-bottom: 30px;}"
       ],
       "settings": {
