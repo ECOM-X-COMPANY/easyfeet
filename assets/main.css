@@ -6391,8 +6391,11 @@ padding: 0;
   /* Podiatrreists recommend   */
 #template--17336943608048__rich_text_qM9JiX h1{
   font-size: 20px;
-  line-height: 9px;
+  line-height: 9px !important;
 }
+ #template--17336943608048__rich_text_qM9JiX .contained-heading{
+   width: 50%;
+ }
 /*  end  */
   /* Insole Finder mobile */
   #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section__block--button{
