@@ -6399,6 +6399,7 @@ padding: 0;
     padding-inline-start: 0px;
 }
 .custom-filter-text {
+  width: 250px;
   font-size: 14px;
   line-height: 14px;
 }
