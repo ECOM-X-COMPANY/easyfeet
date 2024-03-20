@@ -6430,7 +6430,7 @@ padding: 0;
   margin: 0 auto;
 }
    #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section{
-    padding-bottom: 30px ;
+    padding-bottom: 30px !important;
   }
   /* end Insole Finder  */
   .main-nav li:nth-child(1) {
