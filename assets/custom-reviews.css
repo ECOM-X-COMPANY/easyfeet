@@ -196,6 +196,7 @@ button {
   }
   .reviews-inner__item{
     width: 81% !important;
+    height: 450px !important;
   }
     .slides {
         gap: 10px;
