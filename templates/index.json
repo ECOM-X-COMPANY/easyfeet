@@ -274,7 +274,7 @@
         "h3,h2 {font-weight: 900;}",
         "h3 {font-family: inherit;}",
         ".mt-8 {display: none;}",
-        "div {margin-bottom: 20px; padding-bottom: 0;}",
+        "div {margin-bottom: 12px; padding-bottom: 0;}",
         ".card {border-radius: 6px;}",
         ".card__media {border-radius: 6px 6px 0 0;}",
         ".color-scheme {background: #141414;}",
