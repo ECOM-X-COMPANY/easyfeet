@@ -6390,7 +6390,7 @@ padding: 0;
   order: 9;
 }
 .custom-filter-btn{
-  padding-right: 15px;
+  padding-right: 15px !important;
   width: max-content;
 }
 .products-toolbar__filter + .products-toolbar__sort{
