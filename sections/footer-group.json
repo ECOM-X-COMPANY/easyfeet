@@ -78,14 +78,14 @@
           "type": "link_list",
           "settings": {
             "heading": "Shop",
-            "menu": "footer"
+            "menu": "footer-shop-menu"
           }
         },
         "link_list_mefgEJ": {
           "type": "link_list",
           "settings": {
             "heading": "About us",
-            "menu": "footer"
+            "menu": "footer-shop-menu"
           }
         },
         "4c8c1972-2937-492a-8f68-acecf28e1ebb": {
