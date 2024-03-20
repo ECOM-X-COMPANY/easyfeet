@@ -6768,6 +6768,9 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
   .footer-menu--first li:nth-child(1){
     display: none;
   }
+   .footer-menu--first li:nth-child(2){
+    display: none;
+  }
   .footer-menu__links li:nth-child(9){
     display: none;
   }
