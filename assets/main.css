@@ -2667,7 +2667,7 @@ details-disclosure + details-disclosure .disclosure--row {
   margin-inline-end: calc(4 * var(--space-unit));
 }
 .disclosure__title{
-  display: block;
+  display: block !important;
 }
 .disclosure__title > .icon--washing,
 .disclosure__title > .icon--truck,
