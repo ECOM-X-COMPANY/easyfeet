@@ -6386,7 +6386,9 @@ padding: 0;
 }
 /* end  */
 
-
+.products-toolbar__sort{
+  order: 9;
+}
 @media only screen and (max-width: 430px) {
  
   .custom-product-label{
