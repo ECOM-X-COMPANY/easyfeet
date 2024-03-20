@@ -6386,13 +6386,14 @@ padding: 0;
 }
 /* end  */
 
-/* Podiatrreists recommend   */
+
+@media only screen and (max-width: 430px) {
+  /* Podiatrreists recommend   */
 #template--17336943608048__rich_text_qM9JiX h1{
   font-size: 20px;
   line-height: 9px;
 }
 /*  end  */
-@media only screen and (max-width: 430px) {
   /* Insole Finder mobile */
   #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section__block--button{
   width: 100% !important;
