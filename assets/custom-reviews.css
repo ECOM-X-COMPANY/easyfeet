@@ -171,6 +171,9 @@ button {
   width: 12% !important;
 }
 @media screen and (max-width: 430px) {
+  .reviews{
+    margin-top: 30px;
+  }
   .reviews-box__content--helpful span{
     font-size: 8px;
     line-height: 8px;
