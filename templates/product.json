@@ -396,7 +396,8 @@
       "type": "product-recommendations",
       "custom_css": [
         "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
-        "#slider-template--17336944165104__recommendations {padding-bottom: 0 !important;}"
+        "#slider-template--17336944165104__recommendations {padding-bottom: 0 !important;}",
+        ".custom-product-label {left: 0; width: max-content;}"
       ],
       "settings": {
         "heading": "You may also like",
@@ -553,7 +554,8 @@
     "featured_collection_YjHTR8": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
+        "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
+        ".custom-product-label {left: 0; width: max-content;}"
       ],
       "settings": {
         "title": "EXPLORE NEW LINE",
