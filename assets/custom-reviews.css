@@ -171,6 +171,16 @@ button {
   width: 12% !important;
 }
 @media screen and (max-width: 430px) {
+  .reviews-box__image--rating{
+    width: 120px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .reviews-box__image--rating ul{
+    padding: 0;
+  }
   .reviews{
     margin-top: 30px;
   }
