@@ -678,6 +678,7 @@
         "div {margin-bottom: 20px; padding-bottom: 0;}",
         ".card {border-radius: 6px;}",
         ".card__media {border-radius: 6px 6px 0 0;}",
+        ".color-scheme {background: #141414;}",
         "@media only screen and (max-width: 430px) {.carousel {height: 455px; }}"
       ],
       "settings": {
