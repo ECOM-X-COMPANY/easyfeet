@@ -172,6 +172,7 @@ button {
 }
 @media screen and (max-width: 430px) {
   .reviews-box__image--rating{
+    border-radius: 3px;
     width: 120px;
   height: 28px;
   display: flex;
