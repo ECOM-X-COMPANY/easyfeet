@@ -6396,6 +6396,10 @@ padding: 0;
 .products-toolbar__filter + .products-toolbar__sort{
   border-inline-start: 0px !important;
 }
+.custom-filter-text {
+  font-size: 14px;
+  line-height: 14px;
+}
 @media only screen and (max-width: 430px) {
  
   .custom-product-label{
