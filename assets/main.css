@@ -6433,6 +6433,11 @@ padding: 0;
     padding-bottom: 30px !important;
   }
   /* end Insole Finder  */
+  /* Recently Reviewed  */
+#shopify-section-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db h2{
+  margin-bottom: 30px;
+}
+  /* end  */
   .main-nav li:nth-child(1) {
   display: block !important;
 }
