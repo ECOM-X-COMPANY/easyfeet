@@ -6418,6 +6418,7 @@ padding: 0;
   #filter-results ul{
     border-top: 0px;
     gap: 8px;
+    padding: 0px 3px;
   }
 /* end  */
   .custom-product-label{
