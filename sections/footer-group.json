@@ -84,8 +84,8 @@
         "link_list_mefgEJ": {
           "type": "link_list",
           "settings": {
-            "heading": "Footer links",
-            "menu": "new-foot"
+            "heading": "About us",
+            "menu": "footer"
           }
         },
         "4c8c1972-2937-492a-8f68-acecf28e1ebb": {
