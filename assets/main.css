@@ -6402,7 +6402,9 @@ padding: 0;
   font-size: 14px;
   line-height: 14px;
 }
-/* Banner page shop  */
+
+@media only screen and (max-width: 430px) {
+ /* Banner page shop  */
 #shopify-section-template--17336943739120__text_with_image_cyFErP .second-left{
   padding: 5px;
 }
@@ -6414,8 +6416,6 @@ padding: 0;
   width: 56%;
 }
 /* end  */
-@media only screen and (max-width: 430px) {
- 
   .custom-product-label{
     justify-content: center;
     width: 72px !important;
