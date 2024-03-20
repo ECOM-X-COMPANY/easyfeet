@@ -6415,6 +6415,9 @@ padding: 0;
   line-height: 23px;
   width: 56%;
 }
+  #filter-results ul{
+    border-top: 0px;
+  }
 /* end  */
   .custom-product-label{
     justify-content: center;
