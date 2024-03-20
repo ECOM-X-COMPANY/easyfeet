@@ -6389,6 +6389,9 @@ padding: 0;
 .products-toolbar__sort{
   order: 9;
 }
+.products-toolbar__filter + .products-toolbar__sort{
+  border: none;
+}
 @media only screen and (max-width: 430px) {
  
   .custom-product-label{
