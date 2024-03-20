@@ -2027,7 +2027,7 @@ img {
 }
 
 .image-blend {
-  background-color: var(--blend-bg-color) !important;
+  background-color: #ffff !important;
 }
 .image-blend img {
   mix-blend-mode: multiply;
