@@ -75,6 +75,7 @@
 }
 
 .donations-box__link{
+  display: none;
     cursor: pointer;
 border-radius: 5px;
     width: 170px;
