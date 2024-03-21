@@ -1394,6 +1394,7 @@
     },
     "60748d00-7b0b-48ce-8e63-b3cbc93e50c7": {
       "type": "custom-donations",
+      "disabled": true,
       "settings": {
         "donations_title": "WE DONATED INSOLES",
         "donations_number": "12,006",
