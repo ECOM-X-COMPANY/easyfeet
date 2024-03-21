@@ -6894,6 +6894,19 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
   #slider-template--17336943608048__featured_collection_LTYaa3 .card--product{
         border-radius: 3px;
   }
+  #slider-template--17336943608048__featured_collection_LTYaa3 .card__info-inner{
+    position: relative;
+  }
+  #slider-template--17336943608048__featured_collection_LTYaa3 .card__info-inner:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 0px 0px 3px 3px; 
+    background: #D4D4D4; 
+  }
   /* END  */
   .slider .slider__grid{
     width: 85%;
