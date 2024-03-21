@@ -6436,8 +6436,8 @@ padding: 0;
   /* END  */
   /* Insole finder SHOP MOB  */
 #shopify-section-template--17336943739120__multi_column_nBFbff .section__heading{
-  width: 50%;
-  line-height: 20px;
+  width: 50% !important;
+  line-height: 20px !important;
 }
 
   /* END */
