@@ -23,6 +23,7 @@
     },
     "text_with_image_cyFErP": {
       "type": "text-with-image",
+      "disabled": true,
       "settings": {
         "des": "Buy 3, get 15% off",
         "img": "shopify:\/\/shop_images\/shop_page_desktop.png"
