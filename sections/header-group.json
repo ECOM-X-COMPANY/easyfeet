@@ -44,7 +44,7 @@
         ".header {border-bottom: 1px;}"
       ],
       "settings": {
-        "custom_promo_photo": "shopify:\/\/shop_images\/BUY_3_PAIRS_1.png",
+        "custom_promo_photo": "shopify:\/\/shop_images\/home_page_banner_button.png",
         "custom_promo_link": "https:\/\/easyfeet.store\/collections\/sale",
         "enable_sticky": true,
         "mobile_menu_position": "burger-left",
