@@ -6430,6 +6430,9 @@ padding: 0;
   #shopify-section-template--17336943739120__collection-products .benefit-first::before,#shopify-section-template--17336943739120__collection-products  .benefit-second::before{
     margin-right: 3px;
   }
+  #shopify-section-template--17336943739120__collection-products .benefit-second{
+    margin-top: 1px;
+  }
   /* END  */
  /* Banner page SHOP  */
 #shopify-section-template--17336943739120__text_with_image_cyFErP .second-left{
