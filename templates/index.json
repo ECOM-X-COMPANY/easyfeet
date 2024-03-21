@@ -98,7 +98,7 @@
         "color_scheme": "white",
         "full_width": true,
         "tint_color": "#000000",
-        "tint_opacity": 60,
+        "tint_opacity": 0,
         "accessibility_info": "",
         "prevent_animation": true
       }
