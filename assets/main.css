@@ -6423,11 +6423,11 @@ padding: 0;
    line-height: 11px;
    font-weight: 900;
  }
-  #shopify-section-template--17336943739120__collection-products .benefit-first, .benefit-second{
+  #shopify-section-template--17336943739120__collection-products .benefit-first,#shopify-section-template--17336943739120__collection-products  .benefit-second{
     font-size: 11px;
     line-height: 11px;
   }
-  #shopify-section-template--17336943739120__collection-products .benefit-first::before, .benefit-second::before{
+  #shopify-section-template--17336943739120__collection-products .benefit-first::before,#shopify-section-template--17336943739120__collection-products  .benefit-second::before{
     margin-right: 3px;
   }
   /* END  */
