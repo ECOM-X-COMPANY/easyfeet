@@ -6402,7 +6402,13 @@ padding: 0;
   font-size: 14px;
   line-height: 14px;
 }
-
+/* Banner Shop Desc  */
+ #template--17336943739120__image_banner_Qp7VyK{
+    margin-top: 40px;
+    padding: 0 60px;
+    margin-bottom: 0;
+  }
+/* end  */
 @media only screen and (max-width: 430px) {
   .benefit-first::before, .benefit-second::before{
     margin-right: 3px;
@@ -6444,11 +6450,7 @@ padding: 0;
 }
   /* END */
  /* Banner page SHOP  */
-  #template--17336943739120__image_banner_Qp7VyK{
-    margin-top: 40px;
-    padding: 0 60px;
-    margin-bottom: 0;
-  }
+ 
 #shopify-section-template--17336943739120__text_with_image_cyFErP .second-left{
   padding: 5px;
 }
