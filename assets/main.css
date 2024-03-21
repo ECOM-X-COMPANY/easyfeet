@@ -6947,7 +6947,8 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
     align-items: unset;
   }
   #shopify-section-template--17336944165104__main .product-title{
-    line-height: 25px;
+    line-height: 18px ;
+    font-size: 16px !important;
   }
   .predictive-search{
      left: -310px !important;
