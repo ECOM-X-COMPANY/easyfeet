@@ -6427,6 +6427,9 @@ padding: 0;
     font-size: 11px;
     line-height: 11px;
   }
+  #shopify-section-template--17336943739120__collection-products .benefit-first::before, .benefit-second::before{
+    margin-right: 3,31px;
+  }
   /* END  */
  /* Banner page SHOP  */
 #shopify-section-template--17336943739120__text_with_image_cyFErP .second-left{
