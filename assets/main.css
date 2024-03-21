@@ -9231,6 +9231,9 @@ margin-top: 16px !important;
 #shopify-section-template--17336943608048__featured_collection_q8C6qa .slider__item{
   box-shadow: inherit;
 }
+#shopify-section-template--17336943608048__featured_collection_q8C6qa  .slider__grid{
+  margin: 0 auto;
+}
   /* end  */
     .custom-table__chart--other--image h2 {
     font-size: 16px;
