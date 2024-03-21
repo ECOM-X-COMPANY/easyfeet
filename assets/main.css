@@ -9460,7 +9460,7 @@ margin-top: 16px !important;
 @media only screen and (max-width: 360px) {
   /* Collection card Home page 360 */
 #shopify-section-template--17336943608048__multi_column_3eKWWw .carousel{
-  max-height: 385px;
+  height: 100%;
 }
 
   /* end  */
