@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image_desktop": "shopify:\/\/shop_images\/home_page.png",
-            "image_mobile": "shopify:\/\/shop_images\/home_page.png",
+            "image_mobile": "shopify:\/\/shop_images\/11111.jpg",
             "url": "",
             "overlay_position": "justify-start items-center",
             "overlay_text_align": "text-start",
@@ -86,7 +86,7 @@
       "settings": {
         "height_mode": "auto",
         "fixed_height_desktop": 700,
-        "fixed_height_mobile": 450,
+        "fixed_height_mobile": 470,
         "mobile_stacked": false,
         "nav_style": "slideshow_nav_lines",
         "pagination_color": "#ffffff",
@@ -100,7 +100,7 @@
         "tint_color": "#000000",
         "tint_opacity": 0,
         "accessibility_info": "",
-        "prevent_animation": true
+        "prevent_animation": false
       }
     },
     "icons_with_text_n9tJWU": {
