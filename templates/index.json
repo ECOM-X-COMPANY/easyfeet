@@ -6,8 +6,8 @@
         "slide_yT9XKB": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify:\/\/shop_images\/1_2.png",
-            "image_mobile": "shopify:\/\/shop_images\/11111.jpg",
+            "image_desktop": "shopify:\/\/shop_images\/home_page.png",
+            "image_mobile": "shopify:\/\/shop_images\/home_page.png",
             "url": "",
             "overlay_position": "justify-start items-center",
             "overlay_text_align": "text-start",
