@@ -6439,7 +6439,7 @@ padding: 0;
   width: 50% !important;
   line-height: 20px !important;
 }
-#slider-template--17336943739120__multi_column_nBFbff li, #slider-template--17336943739120__multi_column_nBFbff.card,#slider-template--17336943739120__multi_column_nBFbff .card__media {
+#slider-template--17336943739120__multi_column_nBFbff .multi-column, #slider-template--17336943739120__multi_column_nBFbff .card,#slider-template--17336943739120__multi_column_nBFbff .card__media {
   border-radius: 6px;
 }
   /* END */
