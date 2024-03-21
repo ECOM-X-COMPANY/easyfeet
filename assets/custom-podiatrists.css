@@ -88,3 +88,8 @@
       display: block;
 }
 }
+@media only screen and (max-width: 365px) {
+  .podiatrists-inner__image--social img{
+    left: 40%;
+}
+}
