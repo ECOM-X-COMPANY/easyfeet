@@ -1,10 +1,32 @@
 {
   "sections": {
+    "image_banner_Qp7VyK": {
+      "type": "image-banner",
+      "settings": {
+        "image_desktop": "shopify:\/\/shop_images\/shop_page_desktop.png",
+        "image_mobile": "shopify:\/\/shop_images\/shop_page_mobile.png",
+        "url": "",
+        "height_mode": "auto",
+        "fixed_height_desktop": 600,
+        "fixed_height_mobile": 350,
+        "overlay_position": "justify-center items-center",
+        "overlay_text_align": "text-center",
+        "mob_center_text": false,
+        "mobile_stacked": false,
+        "color_scheme": "white",
+        "full_width": true,
+        "transparent_content_color": "#ffffff",
+        "tint_color": "#000000",
+        "tint_opacity": 40,
+        "prevent_animation": false
+      }
+    },
     "text_with_image_cyFErP": {
       "type": "text-with-image",
+      "disabled": true,
       "settings": {
         "des": "Buy 3, get 15% off",
-        "img": "shopify:\/\/shop_images\/Frame_132.png"
+        "img": "shopify:\/\/shop_images\/shop_page_desktop.png"
       }
     },
     "rich_text_XDMrQz": {
@@ -612,6 +634,7 @@
     }
   },
   "order": [
+    "image_banner_Qp7VyK",
     "text_with_image_cyFErP",
     "rich_text_XDMrQz",
     "image_banner_UkCfrP",
