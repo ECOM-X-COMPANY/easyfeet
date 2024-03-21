@@ -6439,7 +6439,9 @@ padding: 0;
   width: 50% !important;
   line-height: 20px !important;
 }
-
+#slider-template--17336943739120__multi_column_nBFbff li{
+  border-radius: 6px;
+}
   /* END */
  /* Banner page SHOP  */
 #shopify-section-template--17336943739120__text_with_image_cyFErP .second-left{
