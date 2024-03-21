@@ -6907,6 +6907,9 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
     border-radius: 0px 0px 3px 3px; 
     background: #D4D4D4; 
   }
+    #slider-template--17336943608048__featured_collection_LTYaa3 .card__info-inner:after:hover{
+        background: #ff0000; 
+    }
   /* END  */
   .slider .slider__grid{
     width: 85%;
