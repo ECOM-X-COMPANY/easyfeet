@@ -6496,6 +6496,7 @@ padding: 0;
   }
     #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db .slider__item:hover .card__info-inner:after{
         background: #ff0000; 
+          height: 3px;
        transition: all .3s linear;
     }
 
