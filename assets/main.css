@@ -6469,6 +6469,37 @@ padding: 0;
        transition: all .3s linear;
     }
   /* end  */
+
+  /* Recently reviewed HOME */
+
+     #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db .slider__item{
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.35); 
+  }
+  #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db .card--product{
+        border-radius: 3px;
+  }
+  #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db .card__info-inner{
+    position: relative;
+    transition: all .5s linear;
+  }
+  #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db .card__info-inner:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 0px 0px 3px 3px; 
+    background: #D4D4D4; 
+    transition: all .5s linear;
+  }
+    #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db .slider__item:hover .card__info-inner:after{
+        background: #ff0000; 
+       transition: all .3s linear;
+    }
+
+  /* END  */
   /* Podiatrreists recommend HOME  */
 #template--17336943608048__rich_text_qM9JiX h1{
   font-size: 20px;
