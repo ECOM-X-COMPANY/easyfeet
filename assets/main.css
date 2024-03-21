@@ -9459,8 +9459,8 @@ margin-top: 16px !important;
 }
 @media only screen and (max-width: 360px) {
   /* Collection card Home page 360 */
-#shopify-section-template--17336943608048__multi_column_3eKWWw.carousel{
-  height: 385px !important;
+#shopify-section-template--17336943608048__multi_column_3eKWWw + .carousel{
+  height: 300px !important;
 }
 
   /* end  */
