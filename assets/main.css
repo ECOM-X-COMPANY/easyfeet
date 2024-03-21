@@ -9229,7 +9229,7 @@ margin-top: 16px !important;
   /* end  */
   /* Save with multi Home page 365  */
 #shopify-section-template--17336943608048__featured_collection_q8C6qa .slider__item{
-  box-shadow: 0px;
+  box-shadow: inherit;
 }
   /* end  */
     .custom-table__chart--other--image h2 {
