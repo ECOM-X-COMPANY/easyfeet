@@ -6777,11 +6777,16 @@ padding: 0;
 .main-nav li:nth-child(10) {
   display: block !important;
 }
+  /* Collection card home page 430  */
   #shopify-section-template--17336943608048__multi_column_3eKWWw .card__title{
   
     font-size: 16px;
     line-height: 16px;
   }
+  #shopify-section-template--17336943608048__multi_column_3eKWWw .carousel{
+    height: 455px;
+  }
+  /* end  */
  .benefit-first::before{
    transform: rotate(-45deg);
  }
