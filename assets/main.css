@@ -6424,8 +6424,8 @@ padding: 0;
     margin-right: 3px;
   }
   /* Explore new line prod page mob  */
-#shopify-section-template--17336944165104__featured_collection_YjHTR8 {
-  padding-bottom: 0px !important;
+#shopify-section-template--17336944165104__featured_collection_YjHTR8 .section{
+  padding-bottom: 0px;
 }
  #shopify-section-template--17336944165104__featured_collection_YjHTR8 .card{
    border: 0;
