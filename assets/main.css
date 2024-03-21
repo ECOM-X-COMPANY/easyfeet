@@ -6914,6 +6914,13 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
        transition: all .3s linear;
     }
   /* END  */
+
+  /* NEW ARRIVALS HOME  */
+#shopify-section-template--17336943608048__featured_collection_HhhGdq .slider__item{
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.35); 
+  }
+  /* END  */
   .slider .slider__grid{
     width: 85%;
   }
