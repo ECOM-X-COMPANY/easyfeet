@@ -9458,6 +9458,12 @@ margin-top: 16px !important;
   }
 }
 @media only screen and (max-width: 360px) {
+  /* Collection card Home page 360 */
+#template--17336943608048__multi_column_3eKWWw .carousel{
+  height: 385px;
+}
+
+  /* end  */
   .product-accordion__custom{
     margin-top: 10px;
   }
