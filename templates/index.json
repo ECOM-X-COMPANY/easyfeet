@@ -417,6 +417,7 @@
         },
         "button_37WBAT": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Learn more",
             "button_link": "shopify:\/\/blogs\/our-blog\/does-plantar-fasciitis-affect-mobility",
