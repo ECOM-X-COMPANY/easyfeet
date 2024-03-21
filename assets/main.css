@@ -6466,6 +6466,7 @@ padding: 0;
   }
     #shopify-section-template--17336943608048__featured_collection_q8C6qa .slider__item:hover .card__info-inner:after{
         background: #ff0000; 
+       box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.40); 
        transition: all .3s linear;
     }
   /* end  */
