@@ -6423,7 +6423,11 @@ padding: 0;
   .benefit-first::before, .benefit-second::before{
     margin-right: 3px;
   }
-
+/* Product Layer prod page mob  */
+#template--17336944165104__rich_text_CawR3t{
+  margin-bottom: 30px;
+}
+  /* end */
   /* You may also prod page  */
 #shopify-section-template--17336944165104__recommendations .section__heading{
   margin-bottom: 30px;
