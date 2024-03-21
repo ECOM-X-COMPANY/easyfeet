@@ -6883,9 +6883,14 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
   #shopify-section-template--17336943608048__featured_collection_LTYaa3 .section{
     margin-bottom: 20px !important;
   }
+  /* BEST SELLERS HOME  */
   #slider-template--17336943608048__featured_collection_LTYaa3{
     padding-bottom: 0;
   }
+  #slider-template--17336943608048__featured_collection_LTYaa3 .slider__item{
+    border-radius: 3px;
+  }
+  /* END  */
   .slider .slider__grid{
     width: 85%;
   }
