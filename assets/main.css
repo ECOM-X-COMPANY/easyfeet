@@ -6404,7 +6404,7 @@ padding: 0;
 }
 
 @media only screen and (max-width: 430px) {
- /* Banner page shop  */
+ /* Banner page SHOP  */
 #shopify-section-template--17336943739120__text_with_image_cyFErP .second-left{
   padding: 5px;
 }
@@ -6433,7 +6433,7 @@ padding: 0;
     font-size: 10px;
   }
   
-  /* Save with multipack home  */
+  /* Save with multipack HOME  */
 #shopify-section-template--17336943608048__featured_collection_q8C6qa h2{
   width: 50%;
   line-height: 20px !important;
@@ -6442,7 +6442,7 @@ padding: 0;
    margin-bottom: 30px;
  }
   /* end  */
-  /* Podiatrreists recommend   */
+  /* Podiatrreists recommend HOME  */
 #template--17336943608048__rich_text_qM9JiX h1{
   font-size: 20px;
   line-height: 20px !important;
@@ -6455,7 +6455,7 @@ padding: 0;
     margin-bottom: 0px;
   }
 /*  end  */
-  /* Insole Finder mobile */
+  /* Insole Finder mobile HOME */
   #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section__block--button{
   width: 100% !important;
     top: 84% !important;
@@ -6468,8 +6468,22 @@ padding: 0;
    #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section{
     padding-bottom: 30px !important;
   }
+     #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41{
+      position: relative;
+    }
+  #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .text-start{
+    flex-direction: column;
+  }
+  #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .btn{
+  position: absolute;
+    display: flex;
+    width: max-content;
+    bottom: 4%;
+    left: 29%;
+    right: 25%;
+  }
   /* end Insole Finder  */
-  /* Recently Reviewed  */
+  /* Recently Reviewed HOME */
 #shopify-section-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db h2{
   margin-bottom: 30px;
 }
@@ -6605,20 +6619,7 @@ padding: 0;
     font-size: 16px !important;
     line-height: 16px !important;
   }
-    #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41{
-      position: relative;
-    }
-  #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .text-start{
-    flex-direction: column;
-  }
-  #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .btn{
-  position: absolute;
-    display: flex;
-    width: max-content;
-    bottom: 4%;
-    left: 29%;
-    right: 25%;
-  }
+ 
   #template--17336943608048__c506bb30-8906-412c-998f-cd396e880515{
    margin-top: -40px !important;
 }
