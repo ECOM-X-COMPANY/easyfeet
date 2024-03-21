@@ -6423,6 +6423,11 @@ padding: 0;
   .benefit-first::before, .benefit-second::before{
     margin-right: 3px;
   }
+  /* Happy customer prod page mob  */
+#template--17336944165104__rich_text_eBiPrk .section__block {
+  margin: 0;
+}
+  /* end  */
   /* Explore new line prod page mob  */
 #slider-template--17336944165104__featured_collection_YjHTR8{
   padding-bottom: 0px;
