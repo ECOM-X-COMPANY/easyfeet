@@ -6434,6 +6434,12 @@ padding: 0;
   }
   
   /* Save with multipack HOME  */
+ #shopify-section-template--17336943608048__featured_collection_q8C6qa .benefit-first::before, .benefit-second::before{
+   margin-right: 3px;
+ }
+ #shopify-section-template--17336943608048__featured_collection_q8C6qa .benefits-box{
+   padding: 0 6px;
+ }
 #shopify-section-template--17336943608048__featured_collection_q8C6qa h2{
   width: 50%;
   line-height: 20px !important;
