@@ -6495,7 +6495,10 @@ padding: 0;
            box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.35); 
        transition: all .3s linear;
     }
-
+  #shopify-section-template--17336943739120__4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7 .card__swatches {
+    margin: 0;
+    padding-top: 7px;
+  }
   /* end  */
  /* Banner page SHOP  */
   #template--17336943739120__image_banner_Qp7VyK{
