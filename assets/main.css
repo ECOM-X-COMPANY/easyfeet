@@ -6467,6 +6467,9 @@ padding: 0;
   #shopify-section-template--17336944165104__recommendations .benefit-second{
     margin-top: 1px;
   }
+    #shopify-section-template--17336944165104__recommendations .benefits-box{
+      padding: 0 5px;
+    }
   /* end  */
   /* Collection product SHOP  */
 #shopify-section-template--17336943739120__collection-products .js-pagination-result, #shopify-section-template--17336943739120__collection-products .card--product{
