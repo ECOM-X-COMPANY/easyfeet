@@ -6423,6 +6423,12 @@ padding: 0;
   .benefit-first::before, .benefit-second::before{
     margin-right: 3px;
   }
+
+  /* You may also prod page  */
+#shopify-section-template--17336944165104__recommendations .section__heading{
+  margin-bottom: 30px;
+}
+  /* end  */
   /* Collection product SHOP  */
 #shopify-section-template--17336943739120__collection-products .js-pagination-result, #shopify-section-template--17336943739120__collection-products .card--product{
   border-radius: 3px;
