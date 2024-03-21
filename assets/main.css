@@ -6468,7 +6468,7 @@ padding: 0;
     margin-top: 1px;
   }
     #shopify-section-template--17336944165104__recommendations .benefits-box{
-      padding: 0 5px;
+      padding: 0 5px !important;
     }
   /* end  */
   /* Collection product SHOP  */
