@@ -6458,6 +6458,9 @@ padding: 0;
 #slider-template--17336943739120__multi_column_nBFbff .multi-column, #slider-template--17336943739120__multi_column_nBFbff .card,#slider-template--17336943739120__multi_column_nBFbff .card__media {
   border-radius: 6px;
 }
+  #slider-template--17336943739120__multi_column_nBFbff .card{
+     border: 0px;
+  }
   /* END */
  /* Banner page SHOP  */
   #template--17336943739120__image_banner_Qp7VyK{
