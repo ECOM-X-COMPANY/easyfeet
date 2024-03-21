@@ -6418,6 +6418,11 @@ padding: 0;
   width: 81px !important;
     height: 20px !important;
 }
+ #shopify-section-template--17336943739120__collection-products .custom-product-label span{
+   font-size: 11px;
+   line-height: 11px;
+   font-weight: 900;
+ }
   /* END  */
  /* Banner page SHOP  */
 #shopify-section-template--17336943739120__text_with_image_cyFErP .second-left{
