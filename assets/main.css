@@ -6409,6 +6409,11 @@ padding: 0;
     margin-bottom: 0;
   }
 /* end  */
+/* Banner image HOME  */
+#slideshow-template--17336943608048__slideshow_zacADy img{
+  object-fit: fill;
+}
+/* END  */
 @media only screen and (max-width: 430px) {
   .benefit-first::before, .benefit-second::before{
     margin-right: 3px;
