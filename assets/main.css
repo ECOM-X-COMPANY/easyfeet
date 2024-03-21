@@ -6414,6 +6414,11 @@ padding: 0;
   object-fit: fill;
 }
 /* END  */
+/* Happy customer Desctop HOME Title */
+#shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading {
+  margin-bottom: 30px;
+}
+/* END */
 @media only screen and (max-width: 430px) {
   .benefit-first::before, .benefit-second::before{
     margin-right: 3px;
