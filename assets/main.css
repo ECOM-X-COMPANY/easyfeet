@@ -9235,11 +9235,17 @@ margin-top: 16px !important;
   margin: 0 auto;
 }
   /* end  */
+  
   /* Choose your own SHOP page 365  */
 #template--17336943739120__rich_text_XDMrQz .contained-heading{
   width: 70%;
 }
   /* end */
+  /* Collection card SHOP page 365  */
+ #shopify-section-template--17336943739120__multi_column_nBFbff .section__heading {
+    width: 55% !important;
+  }
+  /* end  */
     .custom-table__chart--other--image h2 {
     font-size: 16px;
   }
