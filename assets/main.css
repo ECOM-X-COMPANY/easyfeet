@@ -6467,7 +6467,7 @@ padding: 0;
   line-height: 22px !important;
 }
   #shopify-section-template--17336944328944__3fe0f65b-f716-4cb3-9080-c355567b86e3 .bl3-left{
-      min-width: max-content !important;
+      min-width: fit-content !important;
     margin-left: 0px;
     }
     #shopify-section-template--17336944328944__3fe0f65b-f716-4cb3-9080-c355567b86e3  .bl3-right{
