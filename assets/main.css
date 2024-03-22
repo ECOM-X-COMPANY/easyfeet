@@ -6424,9 +6424,9 @@ padding: 0;
     margin-right: 3px;
   }
   .lv-option-label span{
-    font-size: 12px;
-    line-height: 12px;
-    font-weight: 900;
+    font-size: 12px !important;
+    line-height: 12px !important;
+    font-weight: 900 !important;
   }
   /* Happy customer prod page mob  */
 #template--17336944165104__rich_text_eBiPrk .section__block {
