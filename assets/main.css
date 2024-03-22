@@ -6458,8 +6458,8 @@ padding: 0;
 
   /* About page title 430  */
 #shopify-section-template--17336944328944__37c5e8f3-8892-4d2f-b55e-f5d38c0341bf h1 {
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 32px !omportant;
+  line-height: 32px !important;
   font-weight: 900;
 }
   /* end  */
