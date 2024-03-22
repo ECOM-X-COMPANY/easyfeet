@@ -6428,6 +6428,12 @@ padding: 0;
     line-height: 12px !important;
     font-weight: 900 !important;
   }
+  .lv-option-button{
+     font-size: 12px !important;
+    line-height: 12px !important;
+    font-weight: 900 !important;
+    background: #000;
+  }
   /* Happy customer prod page mob  */
 #template--17336944165104__rich_text_eBiPrk .section__block {
   margin: 0;
