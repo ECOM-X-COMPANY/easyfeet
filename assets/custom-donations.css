@@ -182,6 +182,10 @@ border-radius: 5px;
     font-weight: 400;
     margin-bottom: 0;
     }
+  #donations-box__number{
+   font-size: 50px !important;
+      line-height: 50px !important;
+}
 }
 @media only screen and (max-width: 412px) {
   .donations-box{
@@ -206,6 +210,10 @@ border-radius: 5px;
     font-weight: 400;
     margin-bottom: 0;
     }
+  #donations-box__number{
+   font-size: 50px !important;
+      line-height: 50px !important;
+}
 }
 @media only screen and (max-width: 400px) {
     .donations-box{
@@ -230,6 +238,10 @@ border-radius: 5px;
     font-weight: 400;
     margin-bottom: 0;
     }
+  #donations-box__number{
+   font-size: 50px !important;
+      line-height: 50px !important;
+}
 }
 @media only screen and (max-width: 393px) {
     .donations-box{
@@ -254,6 +266,10 @@ border-radius: 5px;
     font-weight: 400;
     margin-bottom: 0;
     }
+  #donations-box__number{
+   font-size: 50px !important;
+      line-height: 50px !important;
+}
 }
 @media only screen and (max-width: 390px) {
   .donations-box{
