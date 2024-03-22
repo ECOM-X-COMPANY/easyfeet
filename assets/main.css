@@ -6480,8 +6480,13 @@ min-width: fit-content !important;
     padding: 0px !important;
   }
     #shopify-section-template--17336944328944__96029845-5ff0-4fda-a2f6-460941e7803d .section{
-      padding-bottom: 0px !important;
+      padding: 40px 0px !important;
     }
+  #shopify-section-template--17336944328944__96029845-5ff0-4fda-a2f6-460941e7803d  .bl5-h4{
+      padding: 0px !important;
+     font-size: 20px !important;
+     line-height: 20px !important;
+  }
   #shopify-section-template--17336944328944__71228f61-3c9e-40f5-a074-5dfee6bc6b36 .section{
           padding: 0px !important;
   }
