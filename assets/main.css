@@ -6485,11 +6485,15 @@ min-width: fit-content !important;
   #shopify-section-template--17336944328944__71228f61-3c9e-40f5-a074-5dfee6bc6b36 .section{
           padding: 0px !important;
   }
+  #section-template--17336944328944__dfada304-6a48-43dc-b393-302e08f80d59{
+    padding-bottom: 0px !important;
+  }
   /* end  */
   /* Happy customer Desctop HOME Title */
 #shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading {
   margin-top: 30px;
 }
+
 /* END */
   /* Happy customer prod page mob  */
 #template--17336944165104__rich_text_eBiPrk .section__block {
