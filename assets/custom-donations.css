@@ -155,6 +155,10 @@ border-radius: 5px;
     margin-bottom: 0;
     }
 }
+#donations-box__number{
+   font-size: 50px !important;
+      line-height: 50px !important;
+}
 @media only screen and (max-width: 414px) {
   .donations-box{
     padding-top: 0;
