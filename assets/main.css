@@ -6441,6 +6441,9 @@ padding: 0;
   font-size: 20px !important;
   line-height: 20px !important;
 }
+  #template--17336944361712__faqs .reading-width{
+    max-width: inherit;
+  }
   /* end  */
   /* Happy customer Desctop HOME Title */
 #shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading {
