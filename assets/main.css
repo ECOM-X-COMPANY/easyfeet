@@ -6429,6 +6429,10 @@ padding: 0;
 }
 
 @media only screen and (max-width: 430px) {
+  .product-info__rating{
+  position: relative;
+
+}
   #products-toolbar{
     padding-bottom: 0px !important;
     margin-bottom: 0px !important;
