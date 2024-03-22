@@ -6444,6 +6444,10 @@ padding: 0;
   #template--17336944361712__faqs .reading-width{
     max-width: inherit;
   }
+  #shopify-section-template--17336944361712__contact-form .section__heading{
+    font-size: 20px !important;
+    line-height: 20px !important;
+  }
   /* end  */
   /* Happy customer Desctop HOME Title */
 #shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading {
