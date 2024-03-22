@@ -9198,6 +9198,11 @@ margin-top: 16px !important;
   }
 }
 @media only screen and (max-width: 375px) {
+  /* Product layers prod page 375  */
+#template--17336944165104__rich_text_CawR3t .contained-heading{
+  line-height: 22px;
+}
+  /*  end */
   /* Recently Raviewed Home page 375  */
 #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db ul{
    gap: 30px ;
