@@ -6425,7 +6425,7 @@ padding: 0;
 .custom-rating{
   position: absolute;
   left: 0;
-  bottom:0;
+  top:0;
 }
 .custom-rating__star ul{
   display: flex;
