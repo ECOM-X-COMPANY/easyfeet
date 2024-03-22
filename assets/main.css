@@ -6803,7 +6803,7 @@ transition: all .5s linear;
   /* Recently reviewed HOME */
 
      #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db .slider__item{
-       height: 300px;
+       height: auto;
        width: 156px;
     border-radius: 3px;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.35); 
