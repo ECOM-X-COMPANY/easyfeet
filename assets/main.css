@@ -6476,6 +6476,10 @@ min-width: fit-content !important;
      #shopify-section-template--17336944328944__3fe0f65b-f716-4cb3-9080-c355567b86e3  .bl3-p-text{
        min-width: inherit !important;
      }
+ #shopify-section-template--17336944328944__3fe0f65b-f716-4cb3-9080-c355567b86e3  .bl3-h4-text{
+   font-size: 20px !important;
+   line-height: 20px !important;
+ }
   #shopify-section-template--17336944328944__96029845-5ff0-4fda-a2f6-460941e7803d .bl5{
     padding: 0px !important;
   }
