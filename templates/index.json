@@ -84,8 +84,8 @@
         "p {font-size: 22px !important; line-height: 22px !important;}"
       ],
       "settings": {
-        "height_mode": "auto",
-        "fixed_height_desktop": 800,
+        "height_mode": "fixed",
+        "fixed_height_desktop": 670,
         "fixed_height_mobile": 470,
         "mobile_stacked": false,
         "nav_style": "slideshow_nav_lines",
