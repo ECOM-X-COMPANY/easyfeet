@@ -230,6 +230,7 @@
     },
     "aab0110a-6a81-4327-955c-bf8482c1f0fe": {
       "type": "recently-viewed",
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}"
       ],
