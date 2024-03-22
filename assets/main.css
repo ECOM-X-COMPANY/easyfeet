@@ -7792,6 +7792,12 @@ display: none !important;
   height: 425px;
 }
   /*  end */
+  /* Save with Home page 414  */
+
+#slider-template--17336943608048__featured_collection_q8C6qa li{
+  box-shadow: inherit;
+}
+  /* end  */
               .predictive-search{
   left: -310px !important;
 
