@@ -6438,8 +6438,8 @@ padding: 0;
 
     /* Faq page title 430 */
 #shopify-section-template--17336944361712__image-banner h1{
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 20px !important;
+  line-height: 20px !important;
 }
   /* end  */
   /* Happy customer Desctop HOME Title */
