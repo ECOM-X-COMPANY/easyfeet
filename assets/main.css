@@ -6419,13 +6419,13 @@ padding: 0;
   margin-bottom: 30px;
 }
 /* END */
-.product-info__block--flex{
+.custom-product__title{
   position: relative;
 }
 .custom-rating{
   position: absolute;
   left: 0;
-  top:0;
+  bottom:0;
 }
 .custom-rating__star ul{
   display: flex;
