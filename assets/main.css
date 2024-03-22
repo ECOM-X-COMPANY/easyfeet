@@ -6419,6 +6419,9 @@ padding: 0;
   margin-bottom: 30px;
 }
 /* END */
+.custom-rating ul{
+  display: flex;
+}
 @media only screen and (max-width: 430px) {
   #products-toolbar{
     padding-bottom: 0px !important;
