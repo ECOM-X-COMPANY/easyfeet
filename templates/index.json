@@ -85,7 +85,7 @@
       ],
       "settings": {
         "height_mode": "auto",
-        "fixed_height_desktop": 700,
+        "fixed_height_desktop": 800,
         "fixed_height_mobile": 470,
         "mobile_stacked": false,
         "nav_style": "slideshow_nav_lines",
