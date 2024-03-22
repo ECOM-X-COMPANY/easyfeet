@@ -8166,7 +8166,12 @@ display: none !important;
   }
 }
 @media only screen and (max-width: 400px) {
+/* You may also like prod page 400  */
+ #slider-template--17336944165104__recommendations ul {
+    gap: 20px !important;
+  }
 
+  /* end  */
   /* Collecton card Home page 400 */
 #shopify-section-template--17336943608048__multi_column_3eKWWw .carousel{
   height: 425px;
