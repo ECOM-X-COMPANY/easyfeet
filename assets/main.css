@@ -8497,6 +8497,9 @@ margin-top: 16px !important;
 #slider-template--17336944165104__recommendations ul{
   gap: 24px !important;
 }
+  #shopify-section-template--17336944165104__recommendations .benefits-box{
+    padding: 0 10px;
+  }
   /* end  */
     /* Collection card HOME page 393  */
   #shopify-section-template--17336943608048__multi_column_3eKWWw .carousel{
