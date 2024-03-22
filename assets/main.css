@@ -6419,8 +6419,13 @@ padding: 0;
   margin-bottom: 30px;
 }
 /* END */
+.product-info__block--flex{
+  position: relative;
+}
 .custom-rating__star{
   position: absolute;
+  left: 0;
+  top:0;
 }
 .custom-rating__star ul{
   display: flex;
