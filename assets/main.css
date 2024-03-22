@@ -6435,6 +6435,13 @@ padding: 0;
     background: #000 !important;
     border-radius: 3px !important;
   }
+
+    /* Faq page title 430 */
+#shopify-section-template--17336944361712__image-banner h1{
+  font-size: 20px;
+  line-height: 20px;
+}
+  /* end  */
   /* Happy customer Desctop HOME Title */
 #shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading {
   margin-top: 30px;
