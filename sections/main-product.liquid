@@ -156,28 +156,7 @@
             <div class="product-info__block product-info__block--sm product-info__title" {{ block.shopify_attributes }}>
               <div class="product-info__block--flex">
                 <h1 class="product-title custom-product__title h5">{{ product.title | escape }}</h1>
-                <div class="custom-rating"> 
-                  <div class="custom-rating__star"> 
-                  <ul> 
-                  <li>
-                  <img width="20" height="20" src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/star-full.png?v=1709733049" loading="lazy">
-                  </li>
-                    <li>
-                  <img width="20" height="20" src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/star-full.png?v=1709733049" loading="lazy">
-                  </li>
-                    <li>
-                  <img width="20" height="20" src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/star-full.png?v=1709733049" loading="lazy">
-                  </li>
-                    <li>
-                  <img width="20" height="20" src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/star-half.png?v=1709733078" loading="lazy">
-                  </li>
-                    <li>
-                  <img width="20" height="20" src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/star-half.png?v=1709733078" loading="lazy">
-                  </li>
-                  </ul>
-                  </div>
-                  <div id="custom-rating__star--number"><p></p> </div>
-                </div>
+               
                 <div class="product-info__price">
                   {% render 'price', product: product, use_variant: true %}
                   <div class="product-info_price--discount">
