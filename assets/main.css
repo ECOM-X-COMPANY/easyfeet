@@ -7776,6 +7776,11 @@ display: none !important;
   }
 }
 @media only screen and (max-width: 414px) {
+  /* You may also Shop page 414  */
+#slider-template--17336944165104__recommendations ul{
+  gap: 16px !important;
+}
+  /* end  */
               .predictive-search{
   left: -310px !important;
 
