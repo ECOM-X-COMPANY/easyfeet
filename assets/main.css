@@ -6423,7 +6423,7 @@ padding: 0;
   .benefit-first::before, .benefit-second::before{
     margin-right: 3px;
   }
-  .lv-option-label{
+  .lv-option-label span{
     font-size: 12px;
     line-height: 12px;
     font-weight: 900;
