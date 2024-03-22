@@ -9185,6 +9185,11 @@ margin-top: 16px !important;
   }
 }
 @media only screen and (max-width: 375px) {
+  /* Recently Raviewed Home page 375  */
+#slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db ul{
+   gap: 30px !important;
+}
+  /* end  */
   /* Recently reviewed Shop page 375  */
 #shopify-section-template--17336943739120__4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7 ul{
   gap: 30px !important;
