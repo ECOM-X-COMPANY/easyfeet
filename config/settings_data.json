@@ -641,17 +641,17 @@
         "settings": {
         }
       },
-      "17870575607751922699": {
-        "type": "shopify:\/\/apps\/platmart-swatches\/blocks\/product-swatches\/3d4801b8-13e2-488f-8d06-69ca04fc155d",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "1530068250781986104": {
         "type": "shopify:\/\/apps\/fast-bundle\/blocks\/fast_bundle\/9e87fbe2-9041-4c23-acf5-322413994cef",
         "disabled": true,
         "settings": {
           "home": true
+        }
+      },
+      "17870575607751922699": {
+        "type": "shopify:\/\/apps\/platmart-swatches\/blocks\/product-swatches\/3d4801b8-13e2-488f-8d06-69ca04fc155d",
+        "disabled": true,
+        "settings": {
         }
       }
     }
