@@ -8166,10 +8166,7 @@ display: none !important;
   }
 }
 @media only screen and (max-width: 400px) {
-  .benefit-first, .benefit-second{
-    font-size: 11px;
-    line-height: 11px;
-  }
+
 /* You may also like prod page 400  */
  #slider-template--17336944165104__recommendations ul {
     gap: 20px !important;
@@ -8200,6 +8197,10 @@ display: none !important;
 #slider-template--17336943739120__4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7 ul{
       gap: 20px !important;
 }
+   #shopify-section-template--17336943739120__4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7 .benefit-first,  #shopify-section-template--17336943739120__4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7 .benefit-second{
+    font-size: 11px;
+    line-height: 11px;
+  }
   /* end */
   /* Collecton card Home page 400 */
 #shopify-section-template--17336943608048__multi_column_3eKWWw .carousel{
