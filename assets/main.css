@@ -6433,6 +6433,7 @@ padding: 0;
     line-height: 12px !important;
     font-weight: 900 !important;
     background: #000 !important;
+    border-radius: 3px !important;
   }
   /* Happy customer prod page mob  */
 #template--17336944165104__rich_text_eBiPrk .section__block {
