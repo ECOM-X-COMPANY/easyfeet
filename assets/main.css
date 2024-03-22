@@ -6420,6 +6420,9 @@ padding: 0;
 }
 /* END */
 @media only screen and (max-width: 430px) {
+  .products-toolbar{
+    border: none;
+  }
   .benefit-first::before, .benefit-second::before{
     margin-right: 3px;
   }
