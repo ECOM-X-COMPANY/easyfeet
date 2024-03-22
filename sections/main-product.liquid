@@ -156,6 +156,15 @@
             <div class="product-info__block product-info__block--sm product-info__title" {{ block.shopify_attributes }}>
               <div class="product-info__block--flex">
                 <h1 class="product-title custom-product__title h5">{{ product.title | escape }}</h1>
+                <div class="custom-rating"> 
+                  <div class="custom-rating__star"> 
+                  <ul> 
+                  <li>
+                  <img width="30" height="30" src="" loading="lazy">
+                  </li>
+                  </ul>
+                  </div>
+                </div>
                 <div class="product-info__price">
                   {% render 'price', product: product, use_variant: true %}
                   <div class="product-info_price--discount">
