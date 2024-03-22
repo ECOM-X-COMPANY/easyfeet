@@ -6,7 +6,7 @@
         "image_desktop": "shopify:\/\/shop_images\/shop_page_desktop.png",
         "image_mobile": "shopify:\/\/shop_images\/shop_page_mobile.png",
         "url": "",
-        "height_mode": "auto",
+        "height_mode": "screen",
         "fixed_height_desktop": 600,
         "fixed_height_mobile": 350,
         "overlay_position": "justify-center items-start",
