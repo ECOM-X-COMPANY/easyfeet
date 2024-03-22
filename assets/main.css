@@ -6420,6 +6420,10 @@ padding: 0;
 }
 /* END */
 @media only screen and (max-width: 430px) {
+  #products-toolbar{
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+  }
   .products-toolbar{
     border: none !important;
   }
