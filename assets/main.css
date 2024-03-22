@@ -8166,6 +8166,10 @@ display: none !important;
   }
 }
 @media only screen and (max-width: 400px) {
+  .benefit-first, .benefit-second{
+    font-size: 11px;
+    line-height: 11px;
+  }
 /* You may also like prod page 400  */
  #slider-template--17336944165104__recommendations ul {
     gap: 20px !important;
