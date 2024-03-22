@@ -6422,7 +6422,7 @@ padding: 0;
 .product-info__block--flex{
   position: relative;
 }
-.custom-rating__star{
+.custom-rating{
   position: absolute;
   left: 0;
   top:0;
