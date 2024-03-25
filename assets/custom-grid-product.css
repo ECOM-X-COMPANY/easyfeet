@@ -1,0 +1,128 @@
+.grid-product__size{
+    display: flex;
+    align-items:  end;
+justify-content: space-between;
+    margin-top: 32px;
+}
+.grid-product {
+    padding: 47px 0 69px;
+}
+.grid-product__size--right{
+    position: relative;
+}
+.grid-product__switch{
+    position: absolute;
+    right: 0;
+    top: -2%;
+    display: flex;
+    align-items: center;
+}
+.grid-product__tab{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+
+}
+.grid-product__tab button{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 900;
+    background: transparent;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    width: 100%;
+}
+.grid-product__tab button.activeBtnSizes {
+    background-color: #141414;
+    color: #ffffff;
+
+}
+.grid-product__features ul{
+    margin-top: 160px;
+    gap: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 0;
+
+}
+.grid-product__features li{
+text-align: center;
+
+}
+.grid-product__features p{
+    margin: 0;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 400;
+}
+    .toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 18px;
+    margin: 0 11px;
+}
+
+.toggle-switch__input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-switch__slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: inherit;
+    border: 1px solid;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggle-switch__slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 2px;
+    bottom: 1px;
+    background-color: #E3212F;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggle-switch__input:checked + .toggle-switch__slider {
+    background-color: inherit;
+}
+
+.toggle-switch__input:focus + .toggle-switch__slider {
+    box-shadow: 0 0 1px #fff;
+}
+
+.toggle-switch__input:checked + .toggle-switch__slider:before {
+    -webkit-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    transform: translateX(10px);
+}
+
+.toggle-switch__slider--round {
+    border-radius: 18px;
+}
+
+.toggle-switch__slider--round:before {
+    border-radius: 50%;
+}
+
+.toggle-switch__label {
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+}
