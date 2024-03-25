@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const sizeTab = document.getElementById('grid-product__tab--size');
-    const featuresTab = document.getElementById('grid-product__tab--features');
-    const sizeContent = document.getElementById('grid-product__size');
-    const featuresContent = document.getElementById('grid-product__features');
+    const sizeTabs = document.getElementById('grid-product__tab--size');
+    const featuresTabs = document.getElementById('grid-product__tab--features');
+    const sizeContents = document.getElementById('grid-product__size');
+    const featuresContents = document.getElementById('grid-product__features');
 
   
     function toggleContent(tab, contentToShow, contentToHide) {
@@ -27,11 +27,11 @@ document.addEventListener('DOMContentLoaded', function() {
             contentToShow.style.display = 'flex';
             contentToHide.style.display = 'none';
 
-            sizeTab.classList.toggle('activeBtnSizes', tab === sizeTab);
-            featuresTab.classList.toggle('activeBtnSizes', tab === featuresTab);
+            sizeTabs.classList.toggle('activeBtnSizes', tab === sizeTabs);
+            featuresTabs.classList.toggle('activeBtnSizes', tab === featuresTabs);
         });
     }
 
-    toggleContent(sizeTab, sizeContent, featuresContent);
-    toggleContent(featuresTab, featuresContent, sizeContent);
+    toggleContent(sizeTabs, sizeContents, featuresContents);
+    toggleContent(featuresTabs, featuresContents, sizeContents);
 });
