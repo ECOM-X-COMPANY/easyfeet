@@ -2224,6 +2224,21 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', moveElement);
 });
 
+//
+document.addEventListener('DOMContentLoaded', function() {
+    // Перевірка ширини екрану
+    if (window.matchMedia('(max-width: 430px)').matches) {
+        // Отримання посилань на блоки, які ми хочемо перемістити
+        const selectOption1 = document.getElementById('bcpo-select-option-1');
+        const buyInfo = document.getElementById('buy-info');
+
+        // Перевірка, чи існують обидва блоки
+        if (selectOption1 && buyInfo) {
+            // Переміщення блоку selectOption1 після блоку buyInfo
+            buyInfo.parentNode.insertBefore(selectOption1, buyInfo.nextSibling);
+        }
+    }
+});
 
 
 
