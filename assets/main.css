@@ -6433,6 +6433,9 @@ padding: 0;
     display: block !important;
     height: auto !important;
   margin-top: 22px !important;
+    font-size: 12px !important;
+  line-height: 12px !important; 
+  font-weight: 900 !important;
   }
   .product-info__rating{
   position: relative;
