@@ -1,6 +1,105 @@
+{{ 'main.css' | asset_url | stylesheet_tag }}
+{{ 'custom-grid-product.css' | asset_url | stylesheet_tag }}
+
+<div class="grid-product ">
+    <div class="page-width">
+    <div class="grid-product__box">
+    <div class="grid-product__tab">
+        <button id="grid-product__tab--size" class="activeBtnSizes">size guide</button>
+        <button id="grid-product__tab--features">Product Features</button>
+    </div>
+    </div>
+        <div id="grid-product__size" class="grid-product__size">
+            <div class="grid-product__size--left">
+                {% if product.metafields.custom.size_guide_image %}
+                    <img width="533" height="250" src="{{ product.metafields.custom.size_guide_image | img_url: 'master' }}" alt="pick-size">
+                {% endif %}
+            </div>
+            <div class="grid-product__size--right">
+                <div class="grid-product__switch">
+                    <label for="unitSwitch" class="toggle-switch__label toggle-switch__label--cm">cm</label>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="unitSwitch" class="toggle-switch__input">
+                        <span class="toggle-switch__slider toggle-switch__slider--round"></span>
+                    </label>
+                    <label for="unitSwitch" class="toggle-switch__label">Inch</label>
+                </div>
+
+                <div id="grid-product__size--right__cm" class="grid-product__size--right__cm">
+                    {% if product.metafields.custom.size_guide_image_grid_centimeters %}
+                        <img width="540" height="250" src="{{ product.metafields.custom.size_guide_image_grid_centimeters | img_url: 'master' }}" alt="pick-size">
+                    {% endif %}
+                </div>
+                <div id="grid-product__size--right__inch" class="grid-product__size--right__inch" style="display: none;">
+                    {% if product.metafields.custom.size_guide_image_grid_inches %}
+                        <img width="540" height="250" src="{{ product.metafields.custom.size_guide_image_grid_inches | img_url: 'master' }}" alt="pick-size">
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div id="grid-product__features" style="display: none;" class="grid-product__features">
+            <ul>
+                <li>
+                    {% if product.metafields.custom.product_features_icon_1 %}
+                        <img width="120" height="120" src="{{ product.metafields.custom.product_features_icon_1 | img_url: 'master' }}" alt="pick-size">
+                    {% endif %}
+                    <p>{{ product.metafields.custom.product_features_icon_text_1 }}</p>
+                </li>
+                <li>
+                    {% if product.metafields.custom.product_features_icon_2 %}
+                        <img width="120" height="120" src="{{ product.metafields.custom.product_features_icon_2 | img_url: 'master' }}" alt="pick-size">
+                    {% endif %}
+                    <p>{{ product.metafields.custom.product_features_icon_text_2 }}</p>
+                </li>
+                <li>
+                    {% if product.metafields.custom.product_features_icon_3 %}
+                        <img width="120" height="120" src="{{ product.metafields.custom.product_features_icon_3 | img_url: 'master' }}" alt="pick-size">
+                    {% endif %}
+                    <p>{{ product.metafields.custom.product_features_icon_text_3 }}</p>
+                </li>
+                <li>
+                    {% if product.metafields.custom.product_features_icon_4 %}
+                        <img width="120" height="120" src="{{ product.metafields.custom.product_features_icon_4 | img_url: 'master' }}" alt="pick-size">
+                    {% endif %}
+                    <p>{{ product.metafields.custom.product_features_icon_text_4 }}</p>
+                </li>
+                <li>
+                    {% if product.metafields.custom.product_features_icon_5 %}
+                        <img width="120" height="120" src="{{ product.metafields.custom.product_features_icon_5 | img_url: 'master' }}" alt="pick-size">
+                    {% endif %}
+                    <p>{{ product.metafields.custom.product_features_icon_text_5 }}</p>
+                </li>
+                <li>
+                    {% if product.metafields.custom.product_features_icon_6 %}
+                        <img width="120" height="120" src="{{ product.metafields.custom.product_features_icon_6 | img_url: 'master' }}" alt="pick-size">
+                    {% endif %}
+                    <p>{{ product.metafields.custom.product_features_icon_text_6 }}</p>
+                </li>
+                <li>
+                    {% if product.metafields.custom.product_features_icon_7 %}
+                        <img width="120" height="120" src="{{ product.metafields.custom.product_features_icon_7 | img_url: 'master' }}" alt="pick-size">
+                    {% endif %}
+                    <p>{{ product.metafields.custom.product_features_icon_text_7 }}</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Custom Grid Prod",
+  "settings": [
+
+  ],
+  "presets": [
+    {
+      "name": "Custom Grid Prod",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
+
+<script src="{{ 'custom-grid-product.js' | asset_url }}"></script>
