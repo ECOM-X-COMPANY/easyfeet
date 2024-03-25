@@ -4,7 +4,7 @@
 justify-content: space-between;
     margin-top: 32px;
 }
-.grid-product {
+.custom-grid-product {
     padding: 47px 0 69px;
 }
 .grid-product__size--right{
