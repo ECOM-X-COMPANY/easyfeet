@@ -36,7 +36,7 @@ justify-content: space-between;
     border-radius: 3px;
     width: 100%;
 }
-.cgrid-product__tab button.activeBtnSizes {
+.cgrid-product__tab span.activeBtnSizes {
     background-color: #141414;
     color: #ffffff;
 
