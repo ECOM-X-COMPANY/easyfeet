@@ -6431,8 +6431,8 @@ padding: 0;
 @media only screen and (max-width: 430px) {
   .shopify-payment-button__button {
     display: block !important;
-    height: auto;
-  margin-top: 22px;
+    height: auto !important;
+  margin-top: 22px !important;
   }
   .product-info__rating{
   position: relative;
