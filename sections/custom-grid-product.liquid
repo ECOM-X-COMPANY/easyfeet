@@ -12,7 +12,7 @@
         <div id="grid-product__size" class="grid-product__size">
             <div class="grid-product__size--left">
                 {% if product.metafields.custom.size_guide_image %}
-                    <img width="533" height="250" src="{{ product.metafields.custom.size_guide_image | img_url: 'master' }}" alt="pick-size">
+                    <img width="638" height="250" src="{{ product.metafields.custom.size_guide_image | img_url: 'master' }}" alt="pick-size">
                 {% endif %}
             </div>
             <div class="grid-product__size--right">
@@ -27,12 +27,12 @@
 
                 <div id="grid-product__size--right__cm" class="grid-product__size--right__cm">
                     {% if product.metafields.custom.size_guide_image_grid_centimeters %}
-                        <img width="540" height="250" src="{{ product.metafields.custom.size_guide_image_grid_centimeters | img_url: 'master' }}" alt="pick-size">
+                        <img width="638" height="250" src="{{ product.metafields.custom.size_guide_image_grid_centimeters | img_url: 'master' }}" alt="pick-size">
                     {% endif %}
                 </div>
                 <div id="grid-product__size--right__inch" class="grid-product__size--right__inch" style="display: none;">
                     {% if product.metafields.custom.size_guide_image_grid_inches %}
-                        <img width="540" height="250" src="{{ product.metafields.custom.size_guide_image_grid_inches | img_url: 'master' }}" alt="pick-size">
+                        <img width="638" height="250" src="{{ product.metafields.custom.size_guide_image_grid_inches | img_url: 'master' }}" alt="pick-size">
                     {% endif %}
                 </div>
             </div>
