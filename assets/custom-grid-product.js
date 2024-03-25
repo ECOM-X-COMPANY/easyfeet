@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function toggleContent(tab, contentToShow, contentToHide) {
         tab.addEventListener('click', function() {
-            contentToShow.style.display = 'flex';
+            contentToShow.style.display = 'block';
             contentToHide.style.display = 'none';
 
             sizeTab.classList.toggle('activeBtnSizes', tab === sizeTab);
