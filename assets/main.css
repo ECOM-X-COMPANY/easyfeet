@@ -6429,6 +6429,11 @@ padding: 0;
 }
 
 @media only screen and (max-width: 430px) {
+  .shopify-payment-button__button shopify-payment-button__button--unbranded BUz42FHpSPncCPJ4Pr_f jjzYeefyWpPZLH9pIgyw RWJ0IfBjxIhflh4AIrUw{
+    display: block;
+    height: auto;
+  margin-top: 22px;
+  }
   .product-info__rating{
   position: relative;
 
