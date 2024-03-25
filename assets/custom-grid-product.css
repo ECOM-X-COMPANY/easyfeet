@@ -24,6 +24,10 @@ justify-content: space-between;
     gap: 22px;
 
 }
+#cgrid-product__tab{
+     display: flex;
+  justify-content: space-between;
+}
 .cgrid-product__tab button{
     cursor: pointer;
     text-transform: uppercase;
