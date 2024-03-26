@@ -159,4 +159,8 @@ width: 80%;
   left: 2px;
   bottom: 1px;
   }
+  .grid-product__features p{
+    font-size: 11px;
+  line-height: 11px;
+  }
 }
