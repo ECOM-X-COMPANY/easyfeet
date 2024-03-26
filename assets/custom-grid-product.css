@@ -144,4 +144,8 @@ width: 80%;
   .grid-product__size--right{
     margin-top: 16px;
   }
+  .toggle-switch__label{
+     font-size: 12px;
+   line-height: 12px;
+  }
 }
