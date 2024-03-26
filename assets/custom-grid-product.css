@@ -148,4 +148,15 @@ width: 80%;
      font-size: 12px;
    line-height: 12px;
   }
+  .toggle-switch{
+    width: 22px;
+  height: 12px;
+    margin: 0 5px;
+  }
+  .toggle-switch__slider::before{
+    height: 8px;
+  width: 8px;
+  left: 2px;
+  bottom: 1px;
+  }
 }
