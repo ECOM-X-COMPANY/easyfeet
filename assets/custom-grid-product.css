@@ -133,5 +133,9 @@ width: 80%;
 }
 
 @media only screen and (max-width: 430px) {
- 
+ .cgrid-product__tab span{
+   width: 50%;
+   font-size: 16px;
+   line-height: 16px;
+ }
 }
