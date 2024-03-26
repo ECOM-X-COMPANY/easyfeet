@@ -163,4 +163,7 @@ width: 80%;
     font-size: 11px;
   line-height: 11px;
   }
+  .grid-product__features ul{
+    margin-top: 40px;
+  }
 }
