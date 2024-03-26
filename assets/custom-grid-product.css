@@ -170,7 +170,17 @@ width: 80%;
     margin-top: 40px;
   }
 }
-
+@media only screen and (max-width: 375px) {
+   .cgrid-product__tab span{
+     font-size: 12px;
+    line-height: 12px;
+   }
+    .grid-product__features p {
+      margin: 9px 0 0;
+    font-size: 9px;
+    line-height: 9px;
+  }
+}
 @media only screen and (max-width: 365px) {
    .cgrid-product__tab span{
      font-size: 12px;
