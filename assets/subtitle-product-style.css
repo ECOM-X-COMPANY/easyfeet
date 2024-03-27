@@ -59,7 +59,7 @@
     font-size: 11px;
 }
 
-  .benefits-block .benefits-box{
+  /* .benefits-block .benefits-box{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,5 +68,5 @@
   .benefits-block .benefits-box .benefit-first, 
   .benefits-block .benefits-box .benefit-second {
     text-align: center;
-}
+} */
 }
