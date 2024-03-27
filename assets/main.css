@@ -6431,7 +6431,7 @@ padding: 0;
 
 @media only screen and (max-width: 430px) {
   .benefits-box{
-    align-items: baseline;
+    align-items: baseline !important;
   }
   #product-media .price__current{
     font-size: 26px !important;
