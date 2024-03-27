@@ -7101,8 +7101,8 @@ transition: all .5s linear;
 }
   /* END */
   .price__current{
-      font-size: 26px !important;
-  line-height: 26px !important;
+      font-size: 16px !important;
+  line-height: 16px !important;
     color: #ff444f !important;
   }
 
@@ -7114,8 +7114,8 @@ transition: all .5s linear;
     padding-bottom: 10px;
   }
   .price__was{
-    font-size: 21px !important;
-    line-height: 21px !important;
+    font-size: 14px !important;
+    line-height: 14px !important;
     font-weight: 400 !important;
   }
   .slider__grid {
