@@ -6441,6 +6441,9 @@ padding: 0;
     line-height: 12px;
     font-weight: 900;
   }
+  .bcpo-value{
+    display: none;
+  }
   .benefits-box{
     align-items: baseline !important;
   }
