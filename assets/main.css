@@ -11200,6 +11200,6 @@ display: flex;
 
 @media only screen and (max-width: 767px){
   #shopify-section-template--17336943608048__icons_with_text_n9tJWU ul li .mt-2{
-    margin-top: calc(1 * var(--space-unit));
+    margin-top: calc(0.5 * var(--space-unit));
   }
 }
