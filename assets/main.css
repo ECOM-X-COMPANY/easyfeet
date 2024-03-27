@@ -6148,6 +6148,7 @@ padding-right: 0px;
 }
 
 .product-accordion__panel {
+  list-style: none;
   padding: 0 18px;
   background-color: white;
   max-height: 0;
@@ -11205,14 +11206,9 @@ display: flex;
   #filter-results ul {
     border: none;
 }
-  #desc-info h2, 
-  #desc-info h3 {
+  #desc-info h2 {
     font-family: "Montserrat";
     font-weight: 800;
     font-size: 21px;
-}
-  #desc-info p,
-  #desc-info li {
-        line-height: 13px;
 }
 }
