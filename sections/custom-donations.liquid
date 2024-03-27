@@ -97,46 +97,46 @@
 {% endschema %}
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const donationsNumber = document.getElementById('donations-box__number');
-    const targetNumber = parseInt(donationsNumber.textContent.replace(/,/g, ''));
-    const duration = 2500;
-    let currentNumber = 0;
-    let scrollDirection = 1;
+  // document.addEventListener('DOMContentLoaded', () => {
+  //   const donationsNumber = document.getElementById('donations-box__number');
+  //   const targetNumber = parseInt(donationsNumber.textContent.replace(/,/g, ''));
+  //   const duration = 2500;
+  //   let currentNumber = 0;
+  //   let scrollDirection = 1;
 
-    function numberWithCommas(x) {
-      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    }
+  //   function numberWithCommas(x) {
+  //     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  //   }
 
-    function startAnimation() {
-      const interval = 15;
-      const step = (targetNumber / duration) * interval;
-      const animationInterval = setInterval(() => {
-        currentNumber += step * scrollDirection;
-        donationsNumber.textContent = numberWithCommas(Math.round(Math.abs(currentNumber)));
+  //   function startAnimation() {
+  //     const interval = 15;
+  //     const step = (targetNumber / duration) * interval;
+  //     const animationInterval = setInterval(() => {
+  //       currentNumber += step * scrollDirection;
+  //       donationsNumber.textContent = numberWithCommas(Math.round(Math.abs(currentNumber)));
 
-        if ((scrollDirection === 1 && currentNumber >= targetNumber) ||
-                (scrollDirection === -1 && currentNumber <= 0)) {
-          clearInterval(animationInterval);
-          donationsNumber.textContent = numberWithCommas(targetNumber);
-        }
-      }, interval);
-    }
+  //       if ((scrollDirection === 1 && currentNumber >= targetNumber) ||
+  //               (scrollDirection === -1 && currentNumber <= 0)) {
+  //         clearInterval(animationInterval);
+  //         donationsNumber.textContent = numberWithCommas(targetNumber);
+  //       }
+  //     }, interval);
+  //   }
 
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const currentScroll = window.scrollY;
-          scrollDirection = currentScroll > previousScroll ? 1 : -1;
-          previousScroll = currentScroll;
-          startAnimation();
-        }
-      });
-    });
+  //   const observer = new IntersectionObserver(entries => {
+  //     entries.forEach(entry => {
+  //       if (entry.isIntersecting) {
+  //         const currentScroll = window.scrollY;
+  //         scrollDirection = currentScroll > previousScroll ? 1 : -1;
+  //         previousScroll = currentScroll;
+  //         startAnimation();
+  //       }
+  //     });
+  //   });
 
-    let previousScroll = window.scrollY;
-    observer.observe(donationsNumber);
+  //   let previousScroll = window.scrollY;
+  //   observer.observe(donationsNumber);
 
-    startAnimation();
-  });
+  //   startAnimation();
+  // });
 </script>
