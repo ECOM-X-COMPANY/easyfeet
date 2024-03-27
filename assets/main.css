@@ -6275,6 +6275,9 @@ padding-right: 0px;
   font-weight: 900;
   text-transform: uppercase;
 }
+.custom-pick-size__label--text p{
+  margin-bottom: 13px;
+}
 .custom-pick-size__title,.custom-multiple-size__title{
   margin-top: 10px;
 }
