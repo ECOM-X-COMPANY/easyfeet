@@ -11202,4 +11202,7 @@ display: flex;
   #shopify-section-template--17336943608048__icons_with_text_n9tJWU ul li .mt-2{
     margin-top: calc(0.5 * var(--space-unit));
   }
+  #filter-results ul {
+    border: none;
+}
 }
