@@ -6270,7 +6270,8 @@ padding-right: 0px;
   margin-bottom: 30px;
 }
 .custom-pick-size__label--text,.custom-multiple-size__label--text{
-  font-size: 16px;
+  font-size: 21px;
+  line-height: 21px;
   font-weight: 900;
   text-transform: uppercase;
 }
