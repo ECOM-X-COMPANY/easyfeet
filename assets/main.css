@@ -7353,7 +7353,10 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
     }
   /* END  */
 
-  /* NEW ARRIVALS HOME  */
+  /* NEW ARRIVALS HOME  430 */
+#shopify-section-template--17336943608048__featured_collection_HhhGdq .section__header{
+  margin-bottom: 25px;
+}
 #shopify-section-template--17336943608048__featured_collection_HhhGdq .slider__item{
     border-radius: 3px;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.35); 
