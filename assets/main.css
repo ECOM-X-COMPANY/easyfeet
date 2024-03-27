@@ -6340,7 +6340,7 @@ margin-bottom: 5px;
   margin-left: 10px;
 }
   .price__default{
-    align-items: end;
+    align-items: center;
     flex-direction: column-reverse;
   }
 .fZoSGj{
@@ -6541,18 +6541,18 @@ min-width: fit-content !important;
     padding: 0px !important;
   }
   /* end  */
-  /* Happy customer Desctop HOME Title */
+  /* Happy customer Desctop HOME Title 430 */
 #shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading {
   margin-top: 30px;
 }
 
 /* END */
-  /* Happy customer prod page mob  */
+  /* Happy customer prod page mob 430*/
 #template--17336944165104__rich_text_eBiPrk .section__block {
   margin: 0;
 }
   /* end  */
-  /* Explore new line prod page mob  */
+  /* Explore new line prod page mob  430 */
 #slider-template--17336944165104__featured_collection_YjHTR8{
   padding-bottom: 0px;
 }
@@ -6602,12 +6602,12 @@ min-width: fit-content !important;
       padding: 0 5px !important;
     }
   /* end  */
-/* Product Layer prod page mob  */
+/* Product Layer prod page mob 430 */
 #template--17336944165104__rich_text_CawR3t{
   margin-bottom: 30px;
 }
   /* end */
-  /* You may also prod page  */
+  /* You may also prod page 430 */
 #shopify-section-template--17336944165104__recommendations .section__heading{
   margin-bottom: 30px;
 }
@@ -6654,7 +6654,7 @@ min-width: fit-content !important;
       padding: 0 5px !important;
     }
   /* end  */
-  /* Collection product SHOP  */
+  /* Collection product SHOP 430 */
 #shopify-section-template--17336943739120__collection-products .js-pagination-result, #shopify-section-template--17336943739120__collection-products .card--product{
   border-radius: 3px;
 transition: all .5s linear;
@@ -6686,7 +6686,7 @@ transition: all .5s linear;
     margin-top: 1px;
   }
   /* END  */
-  /* Insole finder SHOP MOB  */
+  /* Insole finder SHOP MOB 430 */
 #shopify-section-template--17336943739120__multi_column_nBFbff .section__heading{
   width: 50% !important;
   line-height: 20px !important;
@@ -6698,7 +6698,7 @@ transition: all .5s linear;
      border: 0px;
   }
   /* END */
-  /* Recently REVIEWED Shop page  */
+  /* Recently REVIEWED Shop page 430 */
 #shopify-section-template--17336943739120__4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7 .section{
   margin-top: 20px;
 }
@@ -6747,7 +6747,7 @@ transition: all .5s linear;
      padding: 0 4px;
    }
   /* end  */
- /* Banner page SHOP  */
+ /* Banner page SHOP 430 */
   #template--17336943739120__image_banner_Qp7VyK{
     margin-top: 20px;
     padding: 0 20px;
@@ -6781,7 +6781,7 @@ transition: all .5s linear;
     font-size: 10px;
   }
   
-  /* Save with multipack HOME  */
+  /* Save with multipack HOME 430 */
  #shopify-section-template--17336943608048__featured_collection_q8C6qa .benefit-first::before, .benefit-second::before{
    margin-right: 3px;
  }
@@ -6828,7 +6828,7 @@ transition: all .5s linear;
     }
   /* end  */
 
-  /* Recently reviewed HOME */
+  /* Recently reviewed HOME 430 */
 
      #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db .slider__item{
        height: auto;
@@ -6863,7 +6863,7 @@ transition: all .5s linear;
      padding: 0 4px;
    }
   /* END  */
-  /* Podiatrreists recommend HOME  */
+  /* Podiatrreists recommend HOME 430 */
 #template--17336943608048__rich_text_qM9JiX h1{
   font-size: 20px;
   line-height: 20px !important;
@@ -6876,7 +6876,7 @@ transition: all .5s linear;
     margin-bottom: 0px;
   }
 /*  end  */
-  /* Insole Finder mobile HOME */
+  /* Insole Finder mobile HOME 430 */
   #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section__block--button{
   width: 100% !important;
     top: 84% !important;
@@ -6904,7 +6904,7 @@ transition: all .5s linear;
     right: 25%;
   }
   /* end Insole Finder  */
-  /* Recently Reviewed HOME */
+  /* Recently Reviewed HOME 430 */
 #shopify-section-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db h2{
   margin-bottom: 30px;
 }
@@ -7051,7 +7051,7 @@ transition: all .5s linear;
     font-size: 16px !important;
     line-height: 16px !important;
   }
- /* HEPPY CUSTOMER HOME */
+ /* HEPPY CUSTOMER HOME 430 */
   #template--17336943608048__c506bb30-8906-412c-998f-cd396e880515{
    margin-top: -40px !important;
 }
@@ -7316,7 +7316,7 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
   #shopify-section-template--17336943608048__featured_collection_LTYaa3 .section{
     margin-bottom: 20px !important;
   }
-  /* BEST SELLERS HOME  */
+  /* BEST SELLERS HOME 430 */
   #slider-template--17336943608048__featured_collection_LTYaa3{
     padding-bottom: 0;
   }
