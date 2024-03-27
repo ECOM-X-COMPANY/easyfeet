@@ -11228,4 +11228,7 @@ display: flex;
     font-weight: 800;
     font-size: 21px;
 }
+  #desc-info p{
+    margin: 0 0 13px;
+}
 }
