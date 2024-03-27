@@ -6610,6 +6610,13 @@ min-width: fit-content !important;
   #shopify-section-template--17336944165104__rich_text_CawR3t .section{
     margin-top: 35px;
   }
+ #shopify-section-template--17336944165104__rich_text_CawR3t .section__block--heading{
+   width: 80%;
+  margin: 0 auto;
+ }
+ #shopify-section-template--17336944165104__rich_text_CawR3t  .contained-heading{
+   line-height: 23px;
+ }
   /* end */
   /* You may also prod page 430 */
 #shopify-section-template--17336944165104__recommendations .section__heading{
