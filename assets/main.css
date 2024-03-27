@@ -6297,9 +6297,10 @@ margin-bottom: 5px;
      margin-top: 10px ;
   }
    
-  .custom-page-content--metatitle p {
-    margin-bottom: 5px ;
-    line-height: 16px ;
+  .custom-page-content--metatitle h2 {
+    margin-bottom: 13px ;
+    line-height: 21px;
+    font-size: 21px;
   font-weight: 900 ;
 
   }
