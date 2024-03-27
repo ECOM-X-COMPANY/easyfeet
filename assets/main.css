@@ -11205,4 +11205,8 @@ display: flex;
   #filter-results ul {
     border: none;
 }
+  #desc-info h2 {
+    font-family: "Montserrat";
+    font-weight: 800;
+}
 }
