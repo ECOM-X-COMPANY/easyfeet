@@ -6269,7 +6269,7 @@ padding-right: 0px;
 .custom-pick-size,.custom-multiple-size{
   margin-bottom: 30px;
 }
-.custom-pick-size__label--text,.custom-multiple-size__label--text{
+.custom-pick-size__label--text h2,.custom-multiple-size__label--text{
   font-size: 21px;
   line-height: 21px;
   font-weight: 900;
