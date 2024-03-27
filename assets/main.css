@@ -7101,8 +7101,8 @@ transition: all .5s linear;
 }
   /* END */
   .price__current{
-      font-size: 16px !important;
-  line-height: 16px !important;
+      font-size: 26px !important;
+  line-height: 26px !important;
     color: #ff444f !important;
   }
 
