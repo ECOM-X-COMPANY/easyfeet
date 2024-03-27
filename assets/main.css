@@ -6277,6 +6277,7 @@ padding-right: 0px;
 }
 .custom-pick-size__label--text p{
   margin-bottom: 13px;
+  font-family: inherit;
 }
 .custom-pick-size__title,.custom-multiple-size__title{
   margin-top: 10px;
