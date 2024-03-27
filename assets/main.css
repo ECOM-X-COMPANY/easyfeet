@@ -11212,6 +11212,6 @@ display: flex;
 }
   #desc-info p,
   #desc-info li {
-    font-size: 13px;
+        line-height: 13px;
 }
 }
