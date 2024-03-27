@@ -6558,6 +6558,9 @@ min-width: fit-content !important;
   }
   /* end  */
   /* Happy customer prod page mob 430*/
+  #shopify-section-template--17336944165104__rich_text_eBiPrk .section{
+     margin-top: 0px;
+  }
 #template--17336944165104__rich_text_eBiPrk .section__block {
   margin: 0;
 }
