@@ -6783,6 +6783,9 @@ transition: all .5s linear;
   }
   
   /* Save with multipack HOME 430 */
+  #shopify-section-template--17336943608048__featured_collection_q8C6qa .section{
+    margin-bottom: 35px;
+  }
  #shopify-section-template--17336943608048__featured_collection_q8C6qa .benefit-first::before, .benefit-second::before{
    margin-right: 3px;
  }
