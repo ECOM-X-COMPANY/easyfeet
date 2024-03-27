@@ -6283,10 +6283,10 @@ padding-right: 0px;
   margin-top: 10px;
 }
 
-.custom-pick-size__title--text p,.custom-multiple-size__title--text h2 {
+.custom-pick-size__title--text h2,.custom-multiple-size__title--text h2 {
     font-size: 16px;
   font-weight: 900;
-  margin-bottom: 5px;
+  margin-bottom: 13px;
 }
 .custom-pick-size__desc--text p,.custom-multiple-size__desc--text p{
 margin-bottom: 5px;
