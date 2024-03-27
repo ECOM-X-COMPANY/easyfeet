@@ -11205,7 +11205,8 @@ display: flex;
   #filter-results ul {
     border: none;
 }
-  #desc-info h2 {
+  #desc-info h2, 
+  #desc-info h3 {
     font-family: "Montserrat";
     font-weight: 800;
     font-size: 21px;
