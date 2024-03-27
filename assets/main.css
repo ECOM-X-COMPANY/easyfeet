@@ -6436,6 +6436,11 @@ padding: 0;
 }
 
 @media only screen and (max-width: 430px) {
+  .bcpo-title{
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 900;
+  }
   .benefits-box{
     align-items: baseline !important;
   }
@@ -7052,9 +7057,7 @@ transition: all .5s linear;
     font-size: 12px !important;
   font-weight: 900 !important;
   }
-  .bcpo-label{
-    display: none;
-  }
+ 
   .shopify-cleanslate{
     max-height: 31px;
   }
