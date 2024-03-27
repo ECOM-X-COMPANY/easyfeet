@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 
-.diseases-inner__text p, .diseases-inner__text span {
+.diseases-inner__text p, .diseases-inner__text h2 {
     margin: 0;
     font-size: 44px;
     line-height: 55px;
@@ -17,7 +17,7 @@
     text-transform: uppercase;
 }
 
-.diseases-inner__text span {
+.diseases-inner__text h2 {
     color: #ff444f;
 }
 
@@ -160,7 +160,7 @@
         flex-direction: column;
     }
 
-    .diseases-inner__text p, .diseases-inner__text span {
+    .diseases-inner__text p, .diseases-inner__text h2 {
         font-size: 20px;
         line-height: 20px;
     }
