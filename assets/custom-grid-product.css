@@ -141,9 +141,7 @@ width: 80%;
 .grid-product__size--left img{
   width: 690px;
 }
-  .grid-product__switch {
-  right: 0% !important;
-}
+
 @media only screen and (max-width: 1680px) {
 .grid-product__size--right__cm img{
   width: 759px;
@@ -161,7 +159,7 @@ width: 80%;
     opacity: .8;
 }
   .grid-product__switch {
-  right: 2%;
+  right: 1%;
 }
 }
 
