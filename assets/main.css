@@ -6434,6 +6434,12 @@ padding: 0;
   left: 0;
   top:5%;
 }
+.custom-product-label{
+  width: 112px;
+  text-align: center;
+}
+
+/* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
   .bcpo-title{
