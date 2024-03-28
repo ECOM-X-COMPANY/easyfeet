@@ -11214,7 +11214,8 @@ display: flex;
 }
 .card--product .price__current {
   font-size: 20px;
-  color: red;
+  color: #ff0000;
+  line-height: 25px;
 }
 .price__was {
   font-size: 16px ;
