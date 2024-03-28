@@ -5911,7 +5911,7 @@ padding-right: 0px;
 }
 .price__default{
   display: flex;
-  align-items: center;
+
 }
 .product-info__block--flex {
   display: flex !important;
@@ -6347,7 +6347,7 @@ margin-bottom: 5px;
   margin-left: 10px;
 }
   .price__default{
-    align-items: center;
+    align-items: end;
     flex-direction: column-reverse;
   }
 .fZoSGj{
