@@ -41,7 +41,8 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header {border-bottom: 1px;}"
+        ".header {border-bottom: 1px;}",
+        ".header__grid{padding: 0px 30px;}"
       ],
       "settings": {
         "custom_promo_photo": "shopify:\/\/shop_images\/home_page_banner_button.png",
