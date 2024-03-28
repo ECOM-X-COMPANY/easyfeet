@@ -6492,7 +6492,14 @@ padding: 0;
   display: none;
 }
 /* MOBILE VERSION  */
-
+@media only screen and (max-width: 1680px) {
+.grid-product__size--right__cm img{
+  width: 759px;
+}
+  .grid-product__size--right__inch img{
+  width: 759px;
+}
+}
 @media only screen and (max-width: 430px) {
   .bcpo-title{
     font-size: 12px;
