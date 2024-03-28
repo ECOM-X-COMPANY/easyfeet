@@ -6463,6 +6463,9 @@ padding: 0;
   line-height: 21px;
   width: 146px !important;
   height: 28px !important; 
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 #shopify-section-template--17336943608048__featured_collection_q8C6qa p{
   font-size: 24px;
