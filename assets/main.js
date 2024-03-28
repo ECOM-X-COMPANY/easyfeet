@@ -2224,18 +2224,7 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', moveElement);
 });
 
-//
-document.addEventListener('DOMContentLoaded', function() {
-    const bcpoButtons = document.getElementById('bcpo').querySelector('.bcpo-buttons');
-    const productAccordionCustom = document.getElementById('product-accordion__custom');
 
-    if (bcpoButtons && productAccordionCustom) {
-        productAccordionCustom.parentNode.insertBefore(bcpoButtons, productAccordionCustom);
-        
-        // Відновлення стилів для елемента bcpo-buttons
-        bcpoButtons.style.display = 'block'; // або будь-який інший необхідний стиль
-    }
-});
 
 
 
