@@ -2225,14 +2225,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //
-document.addEventListener('DOMContentLoaded', function() {
-    const bcpoButtons = document.querySelector('.bcpo-buttons');
-    const productAccordionCustom = document.getElementById('product-accordion__custom');
 
-    if (bcpoButtons && productAccordionCustom) {
-        productAccordionCustom.parentNode.insertBefore(bcpoButtons, productAccordionCustom);
-    }
-});
 
 
 
