@@ -6437,6 +6437,7 @@ padding: 0;
 .custom-product-label{
   width: 112px !important;
   text-align: center !important;
+  height: 26px !important;
 }
 
 /* MOBILE VERSION  */
