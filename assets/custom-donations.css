@@ -69,9 +69,8 @@
 .donations-box__image--right p{
     padding: 5px 5px;
     font-size: 22px;
-  line-height: 25px
-    margin: 0;
-    font-weight: 600;
+  line-height: 25px;
+    font-weight: 500;
 }
 
 .donations-box__link{
