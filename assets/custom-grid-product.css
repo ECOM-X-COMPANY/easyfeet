@@ -131,6 +131,15 @@ width: 80%;
     line-height: 16px;
     font-weight: 600;
 }
+.grid-product__size--right__cm img{
+  width: 736px;
+}
+.grid-product__size--right__inch img{
+  width: 736px;
+}
+.grid-product__size--left img{
+  width: 736px;
+}
 @media only screen and (max-width: 1680px) {
 .grid-product__size--right__cm img{
   width: 759px;
