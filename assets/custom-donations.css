@@ -106,8 +106,8 @@ border-radius: 5px;
     font-weight: 900;
 }
 #donations-box__number{
-   font-size: 133px !important;
-      line-height: 133px !important;
+   font-size: 133px ;
+      line-height: 133px;
 }
 @media only screen and (max-width: 430px) {
   .donations-box__image--left, .donations-box__image--right{
