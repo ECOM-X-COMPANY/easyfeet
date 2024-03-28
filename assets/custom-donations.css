@@ -105,7 +105,10 @@ border-radius: 5px;
   line-height: 20px;
     font-weight: 900;
 }
-
+#donations-box__number{
+   font-size: 130px;
+      line-height: 130px;
+}
 @media only screen and (max-width: 430px) {
   .donations-box__image--left, .donations-box__image--right{
     width: 157px;
@@ -157,8 +160,8 @@ border-radius: 5px;
     }
 }
 #donations-box__number{
-   font-size: 50px !important;
-      line-height: 50px !important;
+   font-size: 50px;
+      line-height: 50px;
 }
 @media only screen and (max-width: 414px) {
   .donations-box{
@@ -184,8 +187,8 @@ border-radius: 5px;
     margin-bottom: 0;
     }
   #donations-box__number{
-   font-size: 50px !important;
-      line-height: 50px !important;
+   font-size: 50px;
+      line-height: 50px;
 }
 }
 @media only screen and (max-width: 412px) {
@@ -212,8 +215,8 @@ border-radius: 5px;
     margin-bottom: 0;
     }
   #donations-box__number{
-   font-size: 50px !important;
-      line-height: 50px !important;
+   font-size: 50px;
+      line-height: 50px;
 }
 }
 @media only screen and (max-width: 400px) {
@@ -240,8 +243,8 @@ border-radius: 5px;
     margin-bottom: 0;
     }
   #donations-box__number{
-   font-size: 50px !important;
-      line-height: 50px !important;
+   font-size: 50px;
+      line-height: 50px;
 }
 }
 @media only screen and (max-width: 393px) {
@@ -268,8 +271,8 @@ border-radius: 5px;
     margin-bottom: 0;
     }
   #donations-box__number{
-   font-size: 50px !important;
-      line-height: 50px !important;
+   font-size: 50px;
+      line-height: 50px;
 }
 }
 @media only screen and (max-width: 390px) {
