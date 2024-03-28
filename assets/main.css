@@ -6452,6 +6452,11 @@ padding: 0;
 .card {
    border-radius: 6px;
 }
+/* Recently Reviewed descpor SHOP PAGE  */
+#slider-template--17336943739120__4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7 .custom-product-label{
+  left: 0;
+}
+/* END  */
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
