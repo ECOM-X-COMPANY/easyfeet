@@ -145,6 +145,10 @@ width: 80%;
     font-size: 19px;
     line-height: 19px;
     font-weight: 600;
+    opacity: .8;
+}
+  .grid-product__switch {
+  right: 2%;
 }
 }
 
