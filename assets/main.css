@@ -6443,7 +6443,7 @@ padding: 0;
   border-radius: 6px;
 }
 .card__media img{
-  border-radius: 6px;
+  border-radius: 6px 6px 0px 0px;
 }
 /* MOBILE VERSION  */
 
