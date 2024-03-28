@@ -2231,8 +2231,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (bcpoButtons && productAccordionCustom) {
         productAccordionCustom.parentNode.insertBefore(bcpoButtons, productAccordionCustom);
+        
+        // Відновлення стилів для елемента bcpo-buttons
+        bcpoButtons.style.display = 'block'; // або будь-який інший необхідний стиль
     }
 });
+
 
 
 
