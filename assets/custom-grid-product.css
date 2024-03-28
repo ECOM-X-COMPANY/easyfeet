@@ -153,13 +153,13 @@ width: 80%;
 }
 @media only screen and (max-width: 1440px) {
 .grid-product__size--right__cm img{
-  width: 759px;
+   width: 736px;
 }
 .grid-product__size--right__inch img{
-  width: 759px;
+   width: 736px;
 }
 .grid-product__size--left img{
-  width: 759px;
+  width: 736px;
 }
   .toggle-switch__label {
     font-size: 19px;
