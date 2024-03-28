@@ -6442,6 +6442,9 @@ padding: 0;
 .card__media{
   border-radius: 6px;
 }
+.card__media img{
+  border-radius: 6px;
+}
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
