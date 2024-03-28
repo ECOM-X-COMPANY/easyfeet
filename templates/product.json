@@ -88,6 +88,7 @@
         },
         "platmart_swatches_platmart_product_colors_ekKtQ6": {
           "type": "shopify:\/\/apps\/platmart-swatches\/blocks\/platmart-product-colors\/3d4801b8-13e2-488f-8d06-69ca04fc155d",
+          "disabled": true,
           "settings": {
           }
         },
