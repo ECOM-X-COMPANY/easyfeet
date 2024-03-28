@@ -6435,8 +6435,8 @@ padding: 0;
   top:5%;
 }
 .custom-product-label{
-  width: 112px;
-  text-align: center;
+  width: 112px !important;
+  text-align: center !important;
 }
 
 /* MOBILE VERSION  */
