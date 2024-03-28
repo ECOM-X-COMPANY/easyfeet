@@ -6488,6 +6488,9 @@ padding: 0;
   line-height: 26px;
 }
 /* END  */
+#king-linked-options-section{
+  display: none;
+}
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
