@@ -131,7 +131,7 @@ width: 80%;
     line-height: 16px;
     font-weight: 600;
 }
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1680px) {
 .grid-product__size--right__cm img{
   width: 759px;
 }
