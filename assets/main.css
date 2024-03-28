@@ -6928,6 +6928,28 @@ transition: all .5s linear;
        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.40); 
        transition: all .3s linear;
     }
+
+#shopify-section-template--17336943608048__featured_collection_q8C6qa p{
+  font-size: 12px;
+  line-height: 12px;
+}
+
+#shopify-section-template--17336943608048__featured_collection_q8C6qa .benefit-first,#shopify-section-template--17336943608048__featured_collection_q8C6qa .benefit-second {
+  font-size: 16px;
+  line-height: 16px;
+}
+#shopify-section-template--17336943608048__featured_collection_q8C6qa .price__default {
+  align-items: center;
+}
+#shopify-section-template--17336943608048__featured_collection_q8C6qa .price__current {
+  font-size: 32px;
+  line-height: 32px;
+}
+#shopify-section-template--17336943608048__featured_collection_q8C6qa .price__was {
+  font-size: 26px;
+  line-height: 26px;
+}
+
   /* end  */
 
   /* Recently reviewed HOME 430 */
