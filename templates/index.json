@@ -820,7 +820,8 @@
         ".custom-product-label {left: 0; width: max-content;}",
         "p {font-size: 24px; line-height: 25px;}",
         ".benefit-first,.benefit-second {font-size: 16px; line-height: 16px;}",
-        ".price__current{font-size: 32px; line-height: 32px;}",
+        ".price__default{align-items: center;}",
+        ".price__current {font-size: 32px; line-height: 32px;}",
         ".price__was {font-size: 26px; line-height: 26px;}"
       ],
       "settings": {
