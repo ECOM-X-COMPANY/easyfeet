@@ -3,6 +3,7 @@
     align-items:  end;
 justify-content: space-between;
     margin-top: 32px;
+  gap: 20px;
 }
 .grid-product {
     padding: 47px 0 69px;
@@ -132,13 +133,13 @@ width: 80%;
     font-weight: 600;
 }
 .grid-product__size--right__cm img{
-  width: 736px;
+  width: 690px;
 }
 .grid-product__size--right__inch img{
-  width: 736px;
+   width: 690px;
 }
 .grid-product__size--left img{
-  width: 736px;
+  width: 690px;
 }
 @media only screen and (max-width: 1680px) {
 .grid-product__size--right__cm img{
