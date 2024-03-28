@@ -6439,7 +6439,9 @@ padding: 0;
   text-align: center !important;
   height: 26px !important;
 }
-
+.card__media{
+  border-radius: 6px;
+}
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
