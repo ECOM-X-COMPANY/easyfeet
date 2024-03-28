@@ -67,6 +67,8 @@
 }
 .donations-box__image--left p,
 .donations-box__image--right p{
+  width: 85%;
+  margin: 0 auto;
     padding: 5px 5px;
     font-size: 24px;
   line-height: 25px;
