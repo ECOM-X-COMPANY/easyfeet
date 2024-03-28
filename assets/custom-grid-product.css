@@ -141,7 +141,11 @@ width: 80%;
 .grid-product__size--left img{
   width: 759px;
 }
-  
+  .toggle-switch__label {
+    font-size: 19px;
+    line-height: 19px;
+    font-weight: 600;
+}
 }
 
 @media only screen and (max-width: 430px) {
