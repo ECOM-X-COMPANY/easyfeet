@@ -6435,6 +6435,7 @@ padding: 0;
   top:5%;
 }
 .custom-product-label{
+  border-radius: 6px 0px 3px;
   width: 113px !important;
   text-align: center !important;
   height: 26px !important;
