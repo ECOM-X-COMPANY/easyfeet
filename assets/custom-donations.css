@@ -110,6 +110,10 @@ border-radius: 5px;
       line-height: 130px !important;
 }
 @media only screen and (max-width: 430px) {
+  #donations-box__number{
+   font-size: 50px !important;
+      line-height: 50px !important;
+}
   .donations-box__image--left, .donations-box__image--right{
     width: 157px;
     height: 226px;
