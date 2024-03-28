@@ -6449,6 +6449,9 @@ padding: 0;
 .slider__item{
   border-radius: 6px;
 }
+.card {
+   border-radius: 6px;
+}
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
