@@ -2225,7 +2225,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //
-
 window.addEventListener('load', function() {
     const bcpoBlock = document.getElementById('bcpo');
     const productAccordionCustom = document.getElementById('product-accordion__custom');
