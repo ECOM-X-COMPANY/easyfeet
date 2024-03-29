@@ -6494,6 +6494,10 @@ padding: 0;
 .product-benefit__first:before{
   content:url('/cdn/shop/files/foot.svg?v=1708598078');
 }
+
+.product-benefit__second::before {
+	content: url('/cdn/shop/files/barefoot.svg?v=1708598078');
+}
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
