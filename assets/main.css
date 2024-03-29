@@ -7238,7 +7238,7 @@ transition: all .5s linear;
     line-height: 16px;
   }
   #bcpo select{
-     max-width: 100% !important;
+     width: 100% !important;
   }
   #bcpo-select-option-0{
     text-align: center !important;
