@@ -6538,8 +6538,8 @@ top: -25%;
 #template--17336944165104__main-size-label{
   display: none;
 }
-.custom-select__btn  > .input {
-  justify-content: flex-start;
+#template--17336944165104__main-size-label .input {
+  justify-content: flex-start !important;
 }
 .custom-select__btn > .icon{
   display: none;
