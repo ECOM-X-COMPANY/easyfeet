@@ -6566,9 +6566,11 @@ top: -25%;
 .shopify-section + .product-main::before, .product-details + .shopify-section::before, .product-main + .shopify-section:not(.product-details)::before{
   background-color: #ffff;
 }
+  /* Scroll line banner Home page  */
 #template--17336943608048__icons_with_text_n9tJWU .icons-with-text__text{
   margin: 0;
 }
+/* End  */
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
