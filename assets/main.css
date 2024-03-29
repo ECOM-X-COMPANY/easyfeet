@@ -7239,7 +7239,7 @@ transition: all .5s linear;
   }
   #bcpo-select-option-0{
     text-align: center !important;
-    width: 100% !important;
+    max-width: 100% !important;
     font-size: 12px !important;
   font-weight: 900 !important;
   }
