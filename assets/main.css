@@ -6571,7 +6571,7 @@ top: -25%;
 @media only screen and (max-width: 430px) {
   .media-ctrl__btn{
     background: #ffffffd4;
-  left: -5%;
+  left: -5% !important;
   top: 0%;
   }
   .product-benefits__block{
