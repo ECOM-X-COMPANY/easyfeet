@@ -6491,6 +6491,13 @@ padding: 0;
 #king-linked-options-section{
   display: none;
 }
+.product-benefit__first,.product-benefit__second{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+}
 .product-benefit__first:before{
   display: inline-block;
   width: 14px;
