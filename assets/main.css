@@ -6491,6 +6491,9 @@ padding: 0;
 #king-linked-options-section{
   display: none;
 }
+.product-benefit__first:before{
+  content:'https://easyfeet.store/cdn/shop/files/foot.svg?v=1708598078';
+}
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
