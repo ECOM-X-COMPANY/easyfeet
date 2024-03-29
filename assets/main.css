@@ -6333,9 +6333,9 @@ margin-bottom: 5px;
 }
   .buy-info__title p{
    width: max-content;
-    font-size: 16px;
-  line-height: 17px;
-  font-weight: 900;
+    font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
   }
 .buy-info__card li:before{
   display: none !important;
