@@ -80,7 +80,7 @@
         ".btn--primary {width: 159px; border-radius: 3px !important; background: #ff444f; color: #fff; border: transparent; transition: all 0.5s ease; font-size: 20px !important; line-height: 20px !important;}",
         ".btn--primary:hover {background: #f00; transition: all 0.3s ease;}",
         ".text-overlay__block strong {color: #ff444f;}",
-        ".h1 {font-size: 86px !important; line-height: 89px !important;}",
+        "h1 {font-size: 86px; line-height: 89px;}",
         "p {font-size: 22px !important; line-height: 22px !important;}"
       ],
       "settings": {
