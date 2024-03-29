@@ -2227,8 +2227,8 @@ document.addEventListener('DOMContentLoaded', function() {
 //
 document.addEventListener('DOMContentLoaded', function() {
     // Знаходимо обидва блоки за їх id
-    var instalmentsForm = document.getElementById('instalments-form-template--17336944165104__main');
-    var productAccordionCustom = document.getElementById('product-accordion__custom');
+    const instalmentsForm = document.getElementById('instalments-form-template--17336944165104__main');
+    const productAccordionCustom = document.getElementById('product-accordion__custom');
     
     // Перевіряємо, чи обидва блоки існують
     if (instalmentsForm && productAccordionCustom) {
@@ -2240,8 +2240,8 @@ document.addEventListener('DOMContentLoaded', function() {
 //
 document.addEventListener('DOMContentLoaded', function() {
     // Знаходимо блоки за їх класами
-    var selectorWrapper = document.querySelector('.bcpo .selector-wrapper');
-    var productBenefitsBlock = document.querySelector('.product-benefits__block');
+    const selectorWrapper = document.querySelector('.bcpo .selector-wrapper');
+    const productBenefitsBlock = document.querySelector('.product-benefits__block');
 
     // Перевіряємо, чи обидва блоки існують
     if (selectorWrapper && productBenefitsBlock) {
