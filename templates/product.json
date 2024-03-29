@@ -88,7 +88,6 @@
         },
         "platmart_swatches_platmart_product_colors_ekKtQ6": {
           "type": "shopify:\/\/apps\/platmart-swatches\/blocks\/platmart-product-colors\/3d4801b8-13e2-488f-8d06-69ca04fc155d",
-          "disabled": true,
           "settings": {
           }
         },
@@ -195,7 +194,8 @@
       ],
       "custom_css": [
         ".product-title {font-size: 40px !important; line-height: 41px !important; font-weight: 900;}",
-        ".media-ctrl {position: absolute; top: 50%; display: flex; justify-content: space-between; min-width: -moz-available;}"
+        ".media-ctrl {position: absolute; top: 50%; display: flex; justify-content: space-between; min-width: -moz-available;}",
+        ".price__was {font-size: 36px !important; line-height: 36px; font-weight: 400;}"
       ],
       "settings": {
         "stick_on_scroll": true,
