@@ -6578,6 +6578,9 @@ top: -25%;
   line-height: 21px;
   font-weight: 400;
   }
+ #bcpo  .bcpo-label{
+   display: none;
+ }
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
