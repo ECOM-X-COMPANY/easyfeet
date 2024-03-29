@@ -9537,6 +9537,10 @@ margin-top: 19px !important;
   }
 }
 @media only screen and (max-width: 375px) {
+  #template--17336944165104__main-size span{
+    font-size: 16px;
+  line-height: 17px;
+  }
   /* Product layers prod page 375  */
 #template--17336944165104__rich_text_CawR3t .contained-heading{
   line-height: 22px;
