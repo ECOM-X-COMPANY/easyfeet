@@ -6538,6 +6538,11 @@ top: -25%;
 #template--17336944165104__main-size-label{
   display: none;
 }
+#template--17336944165104__main-size span{
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
+}
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
