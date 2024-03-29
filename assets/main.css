@@ -6574,6 +6574,9 @@ top: -25%;
 
  #bcpo select{
      width: 100% !important;
+   font-size: 21px;
+  line-height: 21px;
+  font-weight: 400;
   }
 /* MOBILE VERSION  */
 
