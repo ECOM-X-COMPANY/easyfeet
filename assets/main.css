@@ -6541,6 +6541,9 @@ top: -25%;
 .input {
   justify-content: flex-start !important;
 }
+.custom-select__btn{
+  border-color: #000;
+}
 .custom-select__btn > .icon{
   display: none;
 }
