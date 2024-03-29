@@ -2225,15 +2225,23 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //
-window.addEventListener('load', function() {
-    const bcpoBlock = document.getElementById('bcpo');
-    const productAccordionCustom = document.getElementById('product-accordion__custom');
-    
-    // Перевіряємо, чи обидва блоки існують
-    if (bcpoBlock && productAccordionCustom) {
-        // Вставляємо блок bcpoBlock перед блоком productAccordionCustom
-        productAccordionCustom.parentNode.insertBefore(bcpoBlock, productAccordionCustom);
+document.addEventListener('DOMContentLoaded', function() {
+    const productAccordionCustom = document.querySelector('#product-accordion__custom');
+
+    // Функція для перевірки наявності елемента bcpo та його перенесення
+    function checkAndMoveBCPO() {
+        const bcpoBlock = document.querySelector('#bcpo');
+        // Перевіряємо, чи існує елемент bcpo та обидва блоки існують
+        if (bcpoBlock && productAccordionCustom) {
+            // Вставляємо блок bcpoBlock перед блоком productAccordionCustom
+            productAccordionCustom.parentNode.insertBefore(bcpoBlock, productAccordionCustom);
+            // Зупиняємо перевірку, оскільки ми вже виконали операцію
+            clearInterval(interval);
+        }
     }
+
+    // Перевіряємо наявність елемента з інтервалом в 100 мілісекунд
+    const interval = setInterval(checkAndMoveBCPO, 100);
 });
 
 
