@@ -2225,30 +2225,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //
-document.addEventListener('DOMContentLoaded', function() {
-    // Знаходимо обидва блоки за їх id
-    const instalmentsForm = document.getElementById('instalments-form-template--17336944165104__main');
-    const productAccordionCustom = document.getElementById('product-accordion__custom');
-    
-    // Перевіряємо, чи обидва блоки існують
-    if (instalmentsForm && productAccordionCustom) {
-        // Вставляємо блок instalmentsForm перед блоком productAccordionCustom
-        productAccordionCustom.parentNode.insertBefore(instalmentsForm, productAccordionCustom);
-    }
-});
 
-//
-document.addEventListener('DOMContentLoaded', function() {
-    // Знаходимо блоки за їх класами
-    const selectorWrapper = document.querySelector('.bcpo .selector-wrapper');
-    const productBenefitsBlock = document.querySelector('.product-benefits__block');
-
-    // Перевіряємо, чи обидва блоки існують
-    if (selectorWrapper && productBenefitsBlock) {
-        // Вставляємо блок selectorWrapper після блоку productBenefitsBlock
-        productBenefitsBlock.parentNode.insertBefore(selectorWrapper, productBenefitsBlock.nextSibling);
-    }
-});
 
 
 
