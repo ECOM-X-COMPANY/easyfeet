@@ -6504,7 +6504,7 @@ padding: 0;
 }
 .product-benefit__first:before{
   position: absolute;
-  top: 0;
+  top: 6%;
   left:0;
 display: flex;
   background-image: url('/cdn/shop/files/image_10.png?v=1711697474');
