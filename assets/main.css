@@ -6569,14 +6569,14 @@ top: -25%;
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
-  .media-ctrl__btn{
+  .media-ctrl__btn[name="prev"]{
     background: #ffffffd4;
   left: -5% !important;
   top: 0%;
   }
   .media-ctrl__btn[name="next"] {
       background: #ffffffd4;
-  left: -5% !important;
+  left: 5% !important;
   top: 0%;
 }
   .product-benefits__block{
