@@ -6538,6 +6538,12 @@ top: -25%;
 #template--17336944165104__main-size-label{
   display: none;
 }
+#template--17336944165104__main-size-label .custom-select__btn {
+  justify-content: flex-start;
+}
+#template--17336944165104__main-size-label svg{
+    display: none;
+}
 #template--17336944165104__main-size span{
   font-size: 21px;
   line-height: 21px;
