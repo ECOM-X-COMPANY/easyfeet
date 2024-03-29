@@ -6492,7 +6492,7 @@ padding: 0;
   display: none;
 }
 .product-benefit__first:before{
-  content:'https://easyfeet.store/cdn/shop/files/foot.svg?v=1708598078';
+  content:url('/cdn/shop/files/foot.svg?v=1708598078');
 }
 /* MOBILE VERSION  */
 
