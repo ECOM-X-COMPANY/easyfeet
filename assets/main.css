@@ -6501,7 +6501,7 @@ padding: 0;
 .product-benefit__first:before{
   display: flex;
   background-image: url('https://cdn.shopify.com/s/files/1/0612/1177/1120/files/image_10.png?v=1711697474');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   transform: rotate(-45deg);
   width: 24px;
