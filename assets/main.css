@@ -6500,6 +6500,7 @@ padding: 0;
 }
 .product-benefit__first:before{
   display: inline-block;
+  transform: rotate(-45deg);
   width: 14px;
   margin-right: 8px;
   content:url('/cdn/shop/files/foot.svg?v=1708598078');
