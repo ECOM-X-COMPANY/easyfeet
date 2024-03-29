@@ -6323,7 +6323,7 @@ margin-bottom: 5px;
 .buy-info{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 
 }
 .buy-info__card{
