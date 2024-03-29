@@ -6499,6 +6499,9 @@ padding: 0;
   line-height: 24px;
   font-weight: 500;
 }
+.product-benefit__first{
+  padding-left: 33px;
+}
 .product-benefit__first:before{
   position: absolute;
   top: 0;
@@ -6510,7 +6513,7 @@ display: flex;
   transform: rotate(-10deg);
   width: 28px;
   height: 38px;
-  margin-right: 8px;
+
   content: '';
   background-position: center center;
 }
@@ -6521,7 +6524,6 @@ display: flex;
   background-repeat: no-repeat;
   width: 28px;
   height: 38px;
-  margin-right: 8px;
   content: '';
   background-position: center center;
 	content: url('https://cdn.shopify.com/s/files/1/0612/1177/1120/files/image_11.png?v=1711697475');
