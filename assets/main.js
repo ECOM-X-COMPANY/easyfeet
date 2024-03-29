@@ -2227,7 +2227,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //
 document.addEventListener('DOMContentLoaded', function() {
     // Знаходимо обидва блоки за їх id
-    const instalmentsForm = document.getElementById('bcpo');
+    const instalmentsForm = document.getElementById('instalments-form-template--17336944165104__main');
     const productAccordionCustom = document.getElementById('product-accordion__custom');
     
     // Перевіряємо, чи обидва блоки існують
