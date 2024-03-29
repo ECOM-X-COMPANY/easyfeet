@@ -6577,6 +6577,7 @@ top: -25%;
    font-size: 21px;
   line-height: 21px;
   font-weight: 400;
+   border-color: #000;
   }
  #custom-wrapper-options  .bcpo-label{
    display: none;
