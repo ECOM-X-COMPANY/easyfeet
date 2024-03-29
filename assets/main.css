@@ -6558,7 +6558,10 @@ top: -25%;
     background-color: #ffff !important;
  }
 .product-info:before{
-  background-color: #ffff !important;
+  background-color: #ffff;
+}
+.shopify-section + .product-main::before, .product-details + .shopify-section::before, .product-main + .shopify-section:not(.product-details)::before{
+  background-color: #ffff;
 }
 /* MOBILE VERSION  */
 
