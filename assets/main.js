@@ -2226,6 +2226,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //
 
+document.addEventListener('DOMContentLoaded', function() {
+    const bcpoBlock = document.getElementById('bcpo');
+    const productAccordionCustom = document.getElementById('product-accordion__custom');
+    
+    // Перевіряємо, чи обидва блоки існують
+    if (bcpoBlock && productAccordionCustom) {
+        // Вставляємо блок bcpoBlock перед блоком productAccordionCustom
+        productAccordionCustom.parentNode.insertBefore(bcpoBlock, productAccordionCustom);
+    }
+});
 
 
 
