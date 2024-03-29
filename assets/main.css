@@ -6554,6 +6554,9 @@ top: -25%;
   line-height: 21px;
   font-weight: 400;
 }
+ .product-main:before{
+    border-color: #ffff !important;
+ }
 .product-info:before{
   border-color: #ffff !important;
 }
