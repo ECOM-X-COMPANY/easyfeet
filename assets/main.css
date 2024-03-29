@@ -6538,6 +6538,9 @@ top: -25%;
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
+  .product-benefits__block{
+    display: none;
+  }
   .bcpo-title{
     font-size: 12px;
     line-height: 12px;
