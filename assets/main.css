@@ -6429,11 +6429,11 @@ padding: 0;
 .custom-product__title{
   position: relative;
 }
-.product-info__rating{
+/* .product-info__rating{
   position: absolute;
   left: 0;
   top:5%;
-}
+} */
 .custom-product-label{
   border-radius: 6px 0px 3px;
   width: 113px !important;
