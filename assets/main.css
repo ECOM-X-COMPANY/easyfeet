@@ -5951,7 +5951,7 @@ padding-right: 0px;
 
 .product-info_price--discount {
   width: max-content;
-  display: flex !important;
+  display: none !important;
   align-items: center !important;
   text-align: center !important;
   /* background-color: #FF444F !important; */
