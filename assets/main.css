@@ -6519,7 +6519,11 @@ display: flex;
 }
 
 .product-benefit__second::before {
+  position: absolute;
+  top: 6%;
+  left:0;
   display: flex;
+  margin-right: 8px;
   background-size: auto;
   background-repeat: no-repeat;
   width: 28px;
