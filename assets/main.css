@@ -6502,6 +6502,7 @@ padding: 0;
   display: inline-block;
   transform: rotate(-45deg);
   width: 14px;
+  height: 19px;
   margin-right: 8px;
   content:url('/cdn/shop/files/foot.svg?v=1708598078');
 }
@@ -6509,6 +6510,7 @@ padding: 0;
 .product-benefit__second::before {
   display: inline-block;
   width: 14px;
+  height: 19px;
   margin-right: 8px;
 	content: url('/cdn/shop/files/barefoot.svg?v=1708598078');
 }
