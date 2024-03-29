@@ -6574,6 +6574,11 @@ top: -25%;
   left: -5% !important;
   top: 0%;
   }
+  .media-ctrl__btn[name="next"] {
+      background: #ffffffd4;
+  left: -5% !important;
+  top: 0%;
+}
   .product-benefits__block{
     display: none;
   }
