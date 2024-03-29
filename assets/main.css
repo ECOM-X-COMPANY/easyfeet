@@ -6327,7 +6327,7 @@ margin-bottom: 5px;
 
 }
 .buy-info__card{
-  margin-left: 45px;
+  margin-left: 24px;
   margin-top: 0px !important;
   height: 30px;
 }
@@ -7709,6 +7709,7 @@ display: none !important;
 
   .buy-info__card ul {
     gap: 8px;
+    padding-left: 0;
   }
 
   .buy-info__card img {
