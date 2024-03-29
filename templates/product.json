@@ -198,7 +198,7 @@
         ".media-ctrl {position: absolute; top: 50%; display: flex; justify-content: space-between; min-width: -moz-available;}",
         ".price__was {font-size: 36px !important; line-height: 36px; font-weight: 400;}",
         ".price__current {font-size: 40px; line-height: 40px;}",
-        ".btn--secondary {background: #000;}"
+        ".btn--secondary {background: #000; height: auto; top: 47%;}"
       ],
       "settings": {
         "stick_on_scroll": true,
