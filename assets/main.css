@@ -6512,6 +6512,9 @@ padding: 0;
   margin-right: 8px;
 	content: url('/cdn/shop/files/barefoot.svg?v=1708598078');
 }
+ .benefit-first::before{
+   transform: rotate(-45deg);
+ }
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
