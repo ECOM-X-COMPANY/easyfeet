@@ -6555,7 +6555,7 @@ top: -25%;
   font-weight: 400;
 }
 .product-info::before{
-  background-color: trasparent;
+  background-color: #ffff !important;
 }
 /* MOBILE VERSION  */
 
