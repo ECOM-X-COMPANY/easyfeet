@@ -6504,7 +6504,7 @@ padding: 0;
   width: 14px;
   height: 19px;
   margin-right: 8px;
-  content:url('/cdn/shop/files/foot.svg?v=1708598078');
+  content:url('https://cdn.shopify.com/s/files/1/0612/1177/1120/files/image_10.png?v=1711697474');
 }
 
 .product-benefit__second::before {
@@ -6512,7 +6512,7 @@ padding: 0;
   width: 14px;
   height: 19px;
   margin-right: 8px;
-	content: url('/cdn/shop/files/barefoot.svg?v=1708598078');
+	content: url('https://cdn.shopify.com/s/files/1/0612/1177/1120/files/image_11.png?v=1711697475');
 }
  .benefit-first::before{
    transform: rotate(-45deg);
