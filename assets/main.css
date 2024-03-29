@@ -6499,7 +6499,7 @@ padding: 0;
   line-height: 24px;
   font-weight: 500;
 }
-.product-benefit__first{
+.product-benefit__first,.product-benefit__second{
   padding-left: 33px;
 }
 .product-benefit__first:before{
