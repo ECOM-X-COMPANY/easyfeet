@@ -86,6 +86,11 @@
             "show_gift_card_recipient": false
           }
         },
+        "king_linked_options_app_block_qPWMHh": {
+          "type": "shopify:\/\/apps\/king-linked-options\/blocks\/app-block\/564f3d71-fe5e-48d7-a0de-284b76666f1e",
+          "settings": {
+          }
+        },
         "platmart_swatches_platmart_product_colors_ekKtQ6": {
           "type": "shopify:\/\/apps\/platmart-swatches\/blocks\/platmart-product-colors\/3d4801b8-13e2-488f-8d06-69ca04fc155d",
           "disabled": true,
@@ -128,11 +133,6 @@
           "disabled": true,
           "settings": {
             "product": ""
-          }
-        },
-        "king_linked_options_app_block_qPWMHh": {
-          "type": "shopify:\/\/apps\/king-linked-options\/blocks\/app-block\/564f3d71-fe5e-48d7-a0de-284b76666f1e",
-          "settings": {
           }
         },
         "richtext_azjLHn": {
@@ -181,13 +181,13 @@
         "variant-picker",
         "divider-1",
         "buy-buttons",
+        "king_linked_options_app_block_qPWMHh",
         "platmart_swatches_platmart_product_colors_ekKtQ6",
         "description_xgBXFR",
         "22907d0e-1791-4477-9c3e-fec7da66abe1",
         "qikify_upsell_bundle_bogo_offer_gChYW9",
         "qikify_upsell_bundle_bundle_offer_kDP8dd",
         "qikify_upsell_bundle_volume_offer_YUNWWK",
-        "king_linked_options_app_block_qPWMHh",
         "richtext_azjLHn",
         "collapsible_content_ChhmWy",
         "collapsible_content_XETL37",
