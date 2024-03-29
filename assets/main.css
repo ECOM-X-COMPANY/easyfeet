@@ -6535,6 +6535,9 @@ top: -25%;
  .benefit-first::before{
    transform: rotate(-45deg);
  }
+#template--17336944165104__main-size-label{
+  display: none;
+}
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
