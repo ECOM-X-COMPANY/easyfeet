@@ -2228,20 +2228,38 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const productAccordionCustom = document.querySelector('#product-accordion__custom');
 
-    // Функція для перевірки наявності елемента bcpo та його перенесення
     function checkAndMoveBCPO() {
         const bcpoBlock = document.querySelector('#bcpo');
-        // Перевіряємо, чи існує елемент bcpo та обидва блоки існують
+     
         if (bcpoBlock && productAccordionCustom) {
-            // Вставляємо блок bcpoBlock перед блоком productAccordionCustom
+    
             productAccordionCustom.parentNode.insertBefore(bcpoBlock, productAccordionCustom);
+      
+            clearInterval(interval);
+        }
+    }
+
+    const interval = setInterval(checkAndMoveBCPO, 100);
+});
+
+//
+document.addEventListener('DOMContentLoaded', function() {
+    const productBenefitsBlock = document.querySelector('.product-benefits__block');
+
+    // Функція для перевірки наявності елемента selector-wrapper в bcpo та його переміщення
+    function checkAndMoveSelectorWrapper() {
+        const selectorWrapper = document.querySelector('#bcpo .selector-wrapper');
+        // Перевіряємо, чи існує елемент selectorWrapper та блок .product-benefits__block
+        if (selectorWrapper && productBenefitsBlock) {
+            // Вставляємо блок selectorWrapper після блоку .product-benefits__block
+            productBenefitsBlock.parentNode.insertBefore(selectorWrapper, productBenefitsBlock.nextSibling);
             // Зупиняємо перевірку, оскільки ми вже виконали операцію
             clearInterval(interval);
         }
     }
 
     // Перевіряємо наявність елемента з інтервалом в 100 мілісекунд
-    const interval = setInterval(checkAndMoveBCPO, 100);
+    const interval = setInterval(checkAndMoveSelectorWrapper, 100);
 });
 
 
