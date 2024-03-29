@@ -6520,7 +6520,7 @@ display: flex;
 
 .product-benefit__second::before {
   position: absolute;
-  top: 6%;
+top: -25%;
   left:0;
   display: flex;
   margin-right: 8px;
