@@ -2224,7 +2224,7 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', moveElement);
 });
 
-//
+// Move the entire block with options above the accordion
 document.addEventListener('DOMContentLoaded', function() {
     const productAccordionCustom = document.querySelector('#product-accordion__custom');
 
@@ -2242,28 +2242,23 @@ document.addEventListener('DOMContentLoaded', function() {
     const interval = setInterval(checkAndMoveBCPO, 100);
 });
 
-//
+// Move the selector to the characteristics
 document.addEventListener('DOMContentLoaded', function() {
     const productBenefitsBlock = document.querySelector('.product-benefits__block');
-
-    // Функція для перевірки наявності елемента selector-wrapper в bcpo та його переміщення
+  
     function checkAndMoveSelectorWrapper() {
         const selectorWrapper = document.querySelector('#bcpo .selector-wrapper');
-        // Перевіряємо, чи існує елемент selectorWrapper та блок .product-benefits__block
+
         if (selectorWrapper && productBenefitsBlock) {
-            // Створюємо новий елемент div з id "custom-wrapper-options"
             const customWrapper = document.createElement('div');
             customWrapper.id = 'custom-wrapper-options';
-            // Вставляємо блок selectorWrapper всередину нового елемента customWrapper
+         
             customWrapper.appendChild(selectorWrapper);
-            // Вставляємо новий елемент customWrapper після блоку .product-benefits__block
             productBenefitsBlock.parentNode.insertBefore(customWrapper, productBenefitsBlock.nextSibling);
-            // Зупиняємо перевірку, оскільки ми вже виконали операцію
+        
             clearInterval(interval);
         }
     }
-
-    // Перевіряємо наявність елемента з інтервалом в 100 мілісекунд
     const interval = setInterval(checkAndMoveSelectorWrapper, 100);
 });
 
