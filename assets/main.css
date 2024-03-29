@@ -6492,6 +6492,7 @@ padding: 0;
   display: none;
 }
 .product-benefit__first,.product-benefit__second{
+  position: relative;
   display: flex;
   align-items: center;
   font-size: 24px;
@@ -6499,6 +6500,9 @@ padding: 0;
   font-weight: 500;
 }
 .product-benefit__first:before{
+  position: absolute;
+  top: 0;
+  left:0;
 display: flex;
   background-image: url('/cdn/shop/files/image_10.png?v=1711697474');
   background-size: auto;
