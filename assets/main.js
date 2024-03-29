@@ -2224,6 +2224,18 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', moveElement);
 });
 
+//
+document.addEventListener('DOMContentLoaded', function() {
+    // Знаходимо обидва блоки за їх id
+    var instalmentsForm = document.getElementById('instalments-form-template--17336944165104__main');
+    var productAccordionCustom = document.getElementById('product-accordion__custom');
+    
+    // Перевіряємо, чи обидва блоки існують
+    if (instalmentsForm && productAccordionCustom) {
+        // Вставляємо блок instalmentsForm перед блоком productAccordionCustom
+        productAccordionCustom.parentNode.insertBefore(instalmentsForm, productAccordionCustom);
+    }
+});
 
 
 
