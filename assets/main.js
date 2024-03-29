@@ -2237,6 +2237,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+//
+document.addEventListener('DOMContentLoaded', function() {
+    // Знаходимо блоки за їх класами
+    var selectorWrapper = document.querySelector('.bcpo .selector-wrapper');
+    var productBenefitsBlock = document.querySelector('.product-benefits__block');
+
+    // Перевіряємо, чи обидва блоки існують
+    if (selectorWrapper && productBenefitsBlock) {
+        // Вставляємо блок selectorWrapper після блоку productBenefitsBlock
+        productBenefitsBlock.parentNode.insertBefore(selectorWrapper, productBenefitsBlock.nextSibling);
+    }
+});
+
 
 
 
