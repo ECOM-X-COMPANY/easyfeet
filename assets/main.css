@@ -6554,7 +6554,7 @@ top: -25%;
   line-height: 21px;
   font-weight: 400;
 }
-.product-info::before{
+.product-info:before{
   background-color: #ffff !important;
 }
 /* MOBILE VERSION  */
