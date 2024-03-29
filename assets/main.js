@@ -2251,8 +2251,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const selectorWrapper = document.querySelector('#bcpo .selector-wrapper');
         // Перевіряємо, чи існує елемент selectorWrapper та блок .product-benefits__block
         if (selectorWrapper && productBenefitsBlock) {
-            // Вставляємо блок selectorWrapper після блоку .product-benefits__block
-            productBenefitsBlock.parentNode.insertBefore(selectorWrapper, productBenefitsBlock.nextSibling);
+            // Створюємо новий елемент div з id "custom-wrapper-options"
+            const customWrapper = document.createElement('div');
+            customWrapper.id = 'custom-wrapper-options';
+            // Вставляємо блок selectorWrapper всередину нового елемента customWrapper
+            customWrapper.appendChild(selectorWrapper);
+            // Вставляємо новий елемент customWrapper після блоку .product-benefits__block
+            productBenefitsBlock.parentNode.insertBefore(customWrapper, productBenefitsBlock.nextSibling);
             // Зупиняємо перевірку, оскільки ми вже виконали операцію
             clearInterval(interval);
         }
