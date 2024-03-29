@@ -6555,10 +6555,10 @@ top: -25%;
   font-weight: 400;
 }
  .product-main:before{
-    border-color: #ffff !important;
+    background-color: #ffff !important;
  }
 .product-info:before{
-  border-color: #ffff !important;
+  background-color: #ffff !important;
 }
 /* MOBILE VERSION  */
 
