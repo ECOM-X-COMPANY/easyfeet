@@ -6541,7 +6541,7 @@ top: -25%;
 #template--17336944165104__main-size-label .custom-select__btn {
   justify-content: flex-start;
 }
-#template--17336944165104__main-size-label .icon{
+#template--17336944165104__main-size-label .custom-select__btn svg{
     display: none;
 }
 #template--17336944165104__main-size span{
