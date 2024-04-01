@@ -3,9 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const cmContainer = document.getElementById('grid-product__size--right__cm');
     const inchContainer = document.getElementById('grid-product__size--right__inch');
 
-    // За замовчуванням робимо видимим блок з дюймами
+    // За замовчуванням робимо видимим блок з дюймами і переключаємо перемикач на дюйми
     cmContainer.style.display = 'none';
     inchContainer.style.display = 'block';
+    unitSwitch.checked = true;
 
     unitSwitch.addEventListener('change', function() {
         if (unitSwitch.checked) {
