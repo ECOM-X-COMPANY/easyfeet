@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     unitSwitch.addEventListener('change', function() {
         if (unitSwitch.checked) {
-            cmContainer.style.display = 'block';
-            inchContainer.style.display = 'none';
-        } else {
             cmContainer.style.display = 'none';
             inchContainer.style.display = 'block';
+        } else {
+            cmContainer.style.display = 'block';
+            inchContainer.style.display = 'none';
         }
     });
 });
