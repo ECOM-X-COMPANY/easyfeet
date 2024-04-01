@@ -331,7 +331,7 @@
         "e59bd38e-db79-4b41-b60e-4d51bcccf24e": {
           "type": "text",
           "settings": {
-            "text": "Buy 2, get 10% off",
+            "text": "Buy 3, get 15% off",
             "link": "shopify:\/\/collections\/all",
             "font": "heading",
             "heading_size": "h4"
