@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
             cmContainer.style.display = 'none';
             inchContainer.style.display = 'block';
         } else {
-            cmContainer.style.display = 'block';
-            inchContainer.style.display = 'none';
+            cmContainer.style.display = 'none';
+            inchContainer.style.display = 'block';
         }
     });
 });
