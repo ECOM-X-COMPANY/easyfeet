@@ -3,10 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const cmContainer = document.getElementById('grid-product__size--right__cm');
     const inchContainer = document.getElementById('grid-product__size--right__inch');
 
-    // За замовчуванням робимо видимим блок з сантиметрами
-    cmContainer.style.display = 'block';
-    inchContainer.style.display = 'none';
-
     unitSwitch.addEventListener('change', function() {
         if (unitSwitch.checked) {
             cmContainer.style.display = 'block';
