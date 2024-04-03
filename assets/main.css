@@ -6579,6 +6579,9 @@ top: -25%;
 .media-poster{
   top: 50%;
 }
+.lv-option-button {
+  border-radius: 3px;
+}
 
 /* MOBILE VERSION  */
 
