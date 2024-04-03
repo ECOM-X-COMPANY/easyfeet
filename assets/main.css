@@ -6483,9 +6483,9 @@ padding: 0;
   line-height: 26px;
 }
 /* END  */
-/* #king-linked-options-section{
+#king-linked-options-section{
   display: none;
-} */
+}
 .product-benefit__first,.product-benefit__second{
   position: relative;
   display: flex;
