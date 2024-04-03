@@ -6221,11 +6221,6 @@ padding-right: 0px;
   line-height: normal;
 }
 
-    #desc-info h3{
-       font-size: 32px;
-    line-height: 32px;
-     font-weight: 900;
-   }
 .icartCheckoutBtn{
   font-size: 20px !important;
   line-height: 20px !important;
@@ -6250,8 +6245,8 @@ padding-right: 0px;
      font-weight: 900;
    }
     #desc-info h3{
-       font-size: 20px;
-    line-height: 22px;
+       font-size: 16px;
+    line-height: 16px;
      font-weight: 900;
    }
     #desc-info p{
