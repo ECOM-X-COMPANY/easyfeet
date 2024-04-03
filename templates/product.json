@@ -207,7 +207,7 @@
         "sticky_atc_mobile": true,
         "media_layout": "slider",
         "media_size": "default",
-        "media_ratio": "0.75",
+        "media_ratio": "1.33",
         "media_crop": "top",
         "hover_zoom": "medium",
         "enable_video_looping": false,
