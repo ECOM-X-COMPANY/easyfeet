@@ -166,6 +166,7 @@ width: 80%;
 
 @media only screen and (max-width: 430px) {
   .grid-product{
+    display: none;
     padding: 40px 0 7px;
   }
  .cgrid-product__tab span{
