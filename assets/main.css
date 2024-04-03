@@ -9014,6 +9014,12 @@ margin-top: 19px !important;
   }
 }
 @media only screen and (max-width: 393px) {
+  /* prod oprion 393  */
+ #template--17336944165104__main-size span{
+    font-size: 20px;
+  line-height: 20px;
+  }
+  /* end */
         /* Banner Home page 393  */
 #shopify-section-template--17336943608048__slideshow_zacADy h1{
   font-size: 45px;
