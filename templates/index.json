@@ -313,11 +313,21 @@
       "blocks": {
         "template--17234989940976__20f59457-4212-4d6e-ad88-3ea86bad4e52-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Buy 2, get 10% off",
             "link": "shopify:\/\/collections\/all",
             "font": "heading",
             "heading_size": "h3"
+          }
+        },
+        "8ea99b3e-564f-4cde-80aa-b697e9e2c659": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.png",
+            "image_height": 48,
+            "link": ""
           }
         },
         "57b98ca8-020c-464c-bb67-e7e5aed6f09d": {
@@ -337,20 +347,31 @@
             "heading_size": "h4"
           }
         },
-        "8ea99b3e-564f-4cde-80aa-b697e9e2c659": {
+        "image_KQtYra": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/12.png",
             "image_height": 48,
             "link": ""
           }
+        },
+        "text_yLDTQf": {
+          "type": "text",
+          "settings": {
+            "text": "Buy 3, get 15% off",
+            "link": "shopify:\/\/collections\/all",
+            "font": "heading",
+            "heading_size": "h4"
+          }
         }
       },
       "block_order": [
         "template--17234989940976__20f59457-4212-4d6e-ad88-3ea86bad4e52-text-1",
+        "8ea99b3e-564f-4cde-80aa-b697e9e2c659",
         "57b98ca8-020c-464c-bb67-e7e5aed6f09d",
         "e59bd38e-db79-4b41-b60e-4d51bcccf24e",
-        "8ea99b3e-564f-4cde-80aa-b697e9e2c659"
+        "image_KQtYra",
+        "text_yLDTQf"
       ],
       "custom_css": [
         "span {font-size: 22px; line-height: 22px;}",
