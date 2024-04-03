@@ -6279,6 +6279,10 @@ padding-right: 0px;
 
   margin-bottom: 13px;
 }
+.custom-pick-size__title--text p{
+  font-size: 12px;
+  line-height: 18px;
+}
 .custom-pick-size__desc--text p,.custom-multiple-size__desc--text p{
 margin-bottom: 5px;
   font-size: 12px;
