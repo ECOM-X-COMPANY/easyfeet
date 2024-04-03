@@ -6220,11 +6220,7 @@ padding-right: 0px;
 .benefit-second,.benefit-first{
   line-height: normal;
 }
-  #desc-info h2{
-       font-size: 32px;
-    line-height: 32px;
-     font-weight: 900;
-   }
+
     #desc-info h3{
        font-size: 32px;
     line-height: 32px;
@@ -6249,8 +6245,8 @@ padding-right: 0px;
      font-weight: 900;
    }
    #desc-info h2{
-       font-size: 20px;
-    line-height: 22px;
+       font-size: 16px;
+    line-height: 26px;
      font-weight: 900;
    }
     #desc-info h3{
