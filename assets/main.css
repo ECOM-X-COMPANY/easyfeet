@@ -9812,6 +9812,11 @@ margin-top: 19px !important;
   }
 }
 @media only screen and (max-width: 365px) {
+    /* Banner Home page 365  */
+#shopify-section-template--17336943608048__slideshow_zacADy h1{
+  font-size: 43px;
+  line-height: 42px;
+}
   /* Recently reviewed Home page 365  */
 #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db .slider__item{
   height: inherit;
