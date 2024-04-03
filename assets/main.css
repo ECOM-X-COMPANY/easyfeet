@@ -6276,9 +6276,7 @@ padding-right: 0px;
 }
 
 .custom-pick-size__title--text h2,.custom-multiple-size__title--text h2 {
-    font-size: 12px;
-  line-height: 12px;
-  font-weight: 900;
+
   margin-bottom: 13px;
 }
 .custom-pick-size__desc--text p,.custom-multiple-size__desc--text p{
