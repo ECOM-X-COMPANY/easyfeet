@@ -653,6 +653,12 @@
         "disabled": true,
         "settings": {
         }
+      },
+      "16622749705097440781": {
+        "type": "shopify:\/\/apps\/platmart-swatches\/blocks\/collection-swatches\/3d4801b8-13e2-488f-8d06-69ca04fc155d",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   }
