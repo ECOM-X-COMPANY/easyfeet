@@ -9553,6 +9553,11 @@ margin-top: 19px !important;
   }
 }
 @media only screen and (max-width: 375px) {
+          /* Banner Home page 375  */
+#shopify-section-template--17336943608048__slideshow_zacADy h1{
+  font-size: 42px;
+  line-height: 43px;
+}
   #template--17336944165104__main-size span{
     font-size: 16px;
   line-height: 17px;
