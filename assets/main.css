@@ -6370,6 +6370,12 @@ margin-bottom: 5px;
 #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41{
   position: relative;
 }
+#shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .img-fit{
+  position: relative;
+}
+#shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section--padded {
+  padding-top: 0;
+}
 #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .section__block--button{
   position: absolute;
   top: 85% !important;
