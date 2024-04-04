@@ -183,8 +183,8 @@
     }
     .diseases-cart__top--left p, .diseases-cart__top--right p, .diseases-cart__bottom--left p, .diseases-cart__bottom--right p{
         margin-top: 8px;
-        font-size: 10px;
-        line-height: 10px;
+        font-size: 16px;
+        line-height: 17px;
       letter-spacing: 0;
     }
 }
