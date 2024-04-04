@@ -9860,6 +9860,11 @@ margin-top: 19px !important;
   }
 }
 @media only screen and (max-width: 365px) {
+  /* Insole Finder Home 365  */
+#shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .media-with-text__media{ 
+  height: 268px;  
+}
+  /* end  */
     /* Banner Home page 365  */
 #shopify-section-template--17336943608048__slideshow_zacADy h1{
   font-size: 43px;
