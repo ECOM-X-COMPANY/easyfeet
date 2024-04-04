@@ -456,7 +456,7 @@
         ".section__block {margin-left: 0;}",
         ".section--full-width {padding: 35px 0px;}",
         ".media-with-text {height: 500px;}",
-        "@media only screen and (max-width: 430px) {.media-with-text {height: auto;} .media {padding-top: 82% !important; } h1 {font-size: 16px; line-height: 17px; } p {line-height: 13px; font-size: 12px; } .text-start {display: block; text-align: center; } .reading-width {margin: 0 auto; }}"
+        "@media only screen and (max-width: 430px) {.media-with-text {height: auto; } .media {padding-top: 82% !important; } h1 {font-size: 16px; line-height: 17px; } p {line-height: 13px; font-size: 12px; } .text-start {display: block; text-align: center; } .reading-width {margin: 0 auto; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Main_Page_Kinergy_Plantar_Fasciitis_previw_2.png",
@@ -1252,7 +1252,7 @@
         "@media only screen and (max-width: 430px) {h2 {font-size: 20px !important; line-height: 20px !important; text-align: center; } p {font-size: 12px; line-height: 12px; text-align: center; } .media-with-text {display: flex; flex-direction: column-reverse; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_1321315687.png",
+        "image": "shopify:\/\/shop_images\/Main_Page_Kinergy_Plantar_Fasciitis_previw_2.png",
         "img_link": "shopify:\/\/pages\/insole-finders",
         "video_external": "",
         "video_description": "",
