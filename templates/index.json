@@ -455,6 +455,7 @@
         ".btn--primary {font-size: 20px; line-height: 20px; border-radius: 3px; background: #ff444f; border: inherit;}",
         ".section__block {margin-left: 0;}",
         ".section--full-width {padding: 35px 0px;}",
+        ".media-with-text{height: 500px}",
         "@media only screen and (max-width: 430px) {.media {padding-top: 82% !important; } h1 {font-size: 16px; line-height: 17px; } p {line-height: 13px; font-size: 12px; } .text-start {display: block; text-align: center; } .reading-width {margin: 0 auto; }}"
       ],
       "settings": {
