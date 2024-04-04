@@ -11,10 +11,11 @@
 
 .diseases-inner__text p, .diseases-inner__text h2 {
     margin: 0;
-    font-size: 86px;
-    line-height: 87px;
+    font-size: 80px;
+    line-height: 83px;
     font-weight: 900;
     text-transform: uppercase;
+  width: 93%;
 }
 
 .diseases-inner__text h2 {
