@@ -6313,7 +6313,10 @@ margin-bottom: 5px;
 /* #template--17336944165104__rich_text_eBiPrk{
   margin-top: 20px;
 } */
- #template--17336944165104__rich_text_eBiPrk .section__block--heading {
+ /* #template--17336944165104__rich_text_eBiPrk .section__block--heading {
+     margin-bottom: 30px;
+ } */
+[data-section-id="template--17336944165104__rich_text_eBiPrk"] .section__block--heading {
      margin-bottom: 30px;
  }
 [data-section-id="template--17336944165104__rich_text_eBiPrk"]{
