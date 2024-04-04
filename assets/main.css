@@ -6310,12 +6310,15 @@ margin-bottom: 5px;
   display: none;
 }
 /*  Indentation in collections product card */
-#template--17336944165104__rich_text_eBiPrk{
+/* #template--17336944165104__rich_text_eBiPrk{
   margin-top: 20px;
-}
+} */
  #template--17336944165104__rich_text_eBiPrk .section__block--heading {
      margin-bottom: 30px;
  }
+[data-section-id="template--17336944165104__rich_text_eBiPrk"]{
+   margin-top: 20px;
+}
 /* end */
 .buy-info{
   display: flex;
