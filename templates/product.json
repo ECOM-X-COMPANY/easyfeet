@@ -72,6 +72,7 @@
         },
         "divider-1": {
           "type": "divider",
+          "disabled": true,
           "settings": {
             "show_line": true,
             "spacing": "mt-8 mb-8"
@@ -200,8 +201,7 @@
         ".price__current {font-size: 40px; line-height: 40px;}",
         ".btn--secondary {background: #000; height: auto; top: 47%;}",
         ".product-image {object-fit: contain;}",
-        "hr {display: none !important;}",
-        ".product-info__add-to-cart{padding-top: 30px !important;}"
+        "hr {margin: 10px 0px;}"
       ],
       "settings": {
         "stick_on_scroll": true,
