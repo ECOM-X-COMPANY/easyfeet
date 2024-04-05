@@ -840,7 +840,7 @@
         "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
         "div {margin-top: 0;}",
         ".custom-product-label {left: 0; width: max-content;}",
-        ".slider{overflow-y: hidden;}"
+        ".slider {overflow-y: hidden;}"
       ],
       "settings": {
         "title": "Save with multi-packs",
@@ -850,7 +850,7 @@
         "layout": "carousel_on_mobile",
         "card_size_mobile": "small",
         "card_size": "small",
-        "products_to_show": 5,
+        "products_to_show": 6,
         "show_promo_info": false,
         "image_ratio": "fill",
         "promo_title": "A headline to grab attention",
