@@ -6602,9 +6602,7 @@ top: -25%;
   .product-info__block{
     display: block !important;
   }
-  .product-info hr{
-    display: none !important;
-  }
+  
  
   .lv-option-button {
   color: #ffff !important;
