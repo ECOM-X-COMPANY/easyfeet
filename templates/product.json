@@ -199,8 +199,7 @@
         ".price__was {font-size: 36px !important; line-height: 36px; font-weight: 400;}",
         ".price__current {font-size: 40px; line-height: 40px;}",
         ".btn--secondary {background: #000; height: auto; top: 47%;}",
-        ".product-image {object-fit: contain;}",
-        "hr {margin: 10px 0px;}"
+        ".product-image {object-fit: contain;}"
       ],
       "settings": {
         "stick_on_scroll": true,
