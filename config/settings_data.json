@@ -635,12 +635,6 @@
         "settings": {
         }
       },
-      "4981902369724952902": {
-        "type": "shopify:\/\/apps\/variant-option-product-options\/blocks\/embed-block\/430cbd7b-bd20-4c16-ba41-db6f4c645164",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "1530068250781986104": {
         "type": "shopify:\/\/apps\/fast-bundle\/blocks\/fast_bundle\/9e87fbe2-9041-4c23-acf5-322413994cef",
         "disabled": true,
@@ -656,6 +650,12 @@
       },
       "16622749705097440781": {
         "type": "shopify:\/\/apps\/platmart-swatches\/blocks\/collection-swatches\/3d4801b8-13e2-488f-8d06-69ca04fc155d",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "4981902369724952902": {
+        "type": "shopify:\/\/apps\/vo-product-options\/blocks\/embed-block\/430cbd7b-bd20-4c16-ba41-db6f4c645164",
         "disabled": true,
         "settings": {
         }
