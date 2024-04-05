@@ -847,7 +847,7 @@
         "heading_align": "text-center",
         "show_view_all": false,
         "collection": "multipack",
-        "layout": "carousel_on_mobile",
+        "layout": "carousel",
         "card_size_mobile": "small",
         "card_size": "small",
         "products_to_show": 6,
