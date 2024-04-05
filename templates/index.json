@@ -839,7 +839,8 @@
       "custom_css": [
         "h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
         "div {margin-top: 0;}",
-        ".custom-product-label {left: 0; width: max-content;}"
+        ".custom-product-label {left: 0; width: max-content;}",
+        ".slider{overflow-y: hidden;}"
       ],
       "settings": {
         "title": "Save with multi-packs",
