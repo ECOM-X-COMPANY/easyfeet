@@ -6599,6 +6599,9 @@ top: -25%;
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
+  .product-info__block{
+    display: block;
+  }
   .lv-option-button {
   color: #ffff !important;
 
