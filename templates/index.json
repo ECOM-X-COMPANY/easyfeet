@@ -165,13 +165,14 @@
       "type": "featured-collection",
       "custom_css": [
         "h2 {font-size: 32px; line-height: 20px; font-weight: 900;}",
-        ".custom-product-label {left: 0; width: max-content;}"
+        ".custom-product-label {left: 0; width: max-content;}",
+        ".slider__item{padding-bottom: 10px;}"
       ],
       "settings": {
         "title": "Best sellers",
         "heading_align": "text-center",
         "show_view_all": false,
-        "collection": "test",
+        "collection": "best-sellers",
         "layout": "carousel_on_mobile",
         "card_size_mobile": "small",
         "card_size": "small",
@@ -483,7 +484,7 @@
         "title": "NEW ARRIVALS",
         "heading_align": "text-center",
         "show_view_all": false,
-        "collection": "hikers",
+        "collection": "new-arrivals",
         "layout": "carousel",
         "card_size_mobile": "small",
         "card_size": "small",
