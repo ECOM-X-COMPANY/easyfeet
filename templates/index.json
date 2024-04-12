@@ -1431,6 +1431,27 @@
         "donations_btnText": "LEARN MORE",
         "donations_btnLink": "collections\/all"
       }
+    },
+    "featured_collection_FLy47U": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_align": "text-start",
+        "show_view_all": true,
+        "collection": "best-sellers",
+        "layout": "carousel",
+        "card_size_mobile": "small",
+        "card_size": "small",
+        "products_to_show": 8,
+        "show_promo_info": false,
+        "image_ratio": "fill",
+        "promo_title": "A headline to grab attention",
+        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
+        "link_url": "",
+        "button_label": "Button",
+        "color_scheme": "2",
+        "button_style": "btn btn--primary"
+      }
     }
   },
   "order": [
@@ -1457,6 +1478,7 @@
     "247c09d5-a805-424a-91e9-f23b721b2d29",
     "3d2b363d-039b-434b-a287-66d5d3474ed8",
     "4a2f7680-957f-4b94-9fce-ac45cad9a5db",
-    "60748d00-7b0b-48ce-8e63-b3cbc93e50c7"
+    "60748d00-7b0b-48ce-8e63-b3cbc93e50c7",
+    "featured_collection_FLy47U"
   ]
 }
