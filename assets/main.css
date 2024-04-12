@@ -6614,7 +6614,7 @@ top: -25%;
   padding: 0px 5px;
 }
 .benefit-first,.benefit-second{
-    text-align: left;
+    text-align: left !important;
   }
 .card__info-inner .flex {
   padding-bottom: 0px;
