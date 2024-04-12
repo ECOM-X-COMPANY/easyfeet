@@ -631,27 +631,6 @@
         "tint_opacity": 40,
         "prevent_animation": false
       }
-    },
-    "featured_collection_7RUBrn": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_align": "text-start",
-        "show_view_all": true,
-        "collection": "best-sellers",
-        "layout": "carousel",
-        "card_size_mobile": "small",
-        "card_size": "small",
-        "products_to_show": 8,
-        "show_promo_info": false,
-        "image_ratio": "fill",
-        "promo_title": "A headline to grab attention",
-        "content": "<p>Use this card with an image to highlight your collections or introduce a promotion.<\/p>",
-        "link_url": "",
-        "button_label": "Button",
-        "color_scheme": "2",
-        "button_style": "btn btn--primary"
-      }
     }
   },
   "order": [
@@ -673,7 +652,6 @@
     "d10c3b2f-57e6-4014-add6-2ff1b4179986",
     "multi_column_nBFbff",
     "4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7",
-    "image_banner_DBTpGJ",
-    "featured_collection_7RUBrn"
+    "image_banner_DBTpGJ"
   ]
 }
