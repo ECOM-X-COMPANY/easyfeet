@@ -6598,6 +6598,12 @@ top: -25%;
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
+  .slider__item {
+  padding-bottom: 0px;
+}
+.card__info-inner .flex {
+  padding-bottom: 0px;
+}
   .product-info__block{
     display: block !important;
   }
