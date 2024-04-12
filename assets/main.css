@@ -6598,9 +6598,7 @@ top: -25%;
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
-  .slider__item {
-  padding-bottom: 0px;
-}
+
 .card__info-inner .flex {
   padding-bottom: 0px;
 }
@@ -7619,7 +7617,8 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
   #slider-template--17336943608048__featured_collection_LTYaa3{
     padding-bottom: 0;
   }
-  #slider-template--17336943608048__featured_collection_LTYaa3 .slider__item{
+  #slider-template--17336943608048__featured_collection_LTYaa3 .slider__item{\
+    padding-bottom: 0px;
     border-radius: 3px;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.35); 
   }
