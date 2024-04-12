@@ -7634,9 +7634,7 @@ box-shadow: 0px 0px 29px -9px rgba(145,145,145,1); */
     position: relative;
     transition: all .5s linear;
   }
-  #slider-template--17336943608048__featured_collection_LTYaa3 .card__info{
-    padding: 0px 5px;
-  }
+ 
   #slider-template--17336943608048__featured_collection_LTYaa3 .card__info-inner:after{
     position: absolute;
     content: '';
