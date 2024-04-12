@@ -166,7 +166,8 @@
       "custom_css": [
         "h2 {font-size: 32px; line-height: 20px; font-weight: 900;}",
         ".custom-product-label {left: 0; width: max-content;}",
-        ".slider__item{padding-bottom: 10px;}"
+        ".slider__item {padding-bottom: 10px;}",
+        ".card__info-inner .flex {padding-bottom: 10px;}"
       ],
       "settings": {
         "title": "Best sellers",
