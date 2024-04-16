@@ -6459,10 +6459,29 @@ position: relative;
 }
 #shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading:hover:after{
   width: 100%;
-
   transition: all .3s ease;
 }
 /* END */
+/* Happy customer Desctop Product Page  */
+#shopify-section-template--17336944165104__rich_text_eBiPrk .contained-heading{
+  position: relative;
+    cursor: pointer;
+}
+#shopify-section-template--17336944165104__rich_text_eBiPrk .contained-heading:after{
+  position: absolute;
+  content: '';
+    width: 0%;
+  height: 2px;
+  background: #f1721f;
+  bottom: -6px;
+  left: 0;
+     transition: all .5s ease;
+}
+#shopify-section-template--17336944165104__rich_text_eBiPrk .contained-heading:hover:after{
+  width: 100%;
+  transition: all .3s ease;
+}
+/* END  */
 .custom-product__title{
   position: relative;
 }
