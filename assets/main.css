@@ -8634,6 +8634,9 @@ display: none !important;
 #slider-template--17336944165104__featured_collection_YjHTR8 ul{
   gap: 20px !important;
 }
+  #slider-template--17336944165104__featured_collection_YjHTR8 .benefits-box{
+      gap: 0px !important;
+  }
   /* end  */
   /* Collection card prod page 400  */
 #slider-template--17336944165104__multi_column_8Fa3M9 .card{
