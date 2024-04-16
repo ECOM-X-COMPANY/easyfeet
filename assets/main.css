@@ -9715,6 +9715,11 @@ margin-top: 19px !important;
   }
 }
 @media only screen and (max-width: 375px) {
+  /* Save with multi 375  */
+#shopify-section-template--17336943608048__featured_collection_q8C6qa .slider__grid{
+  width: 95%;
+}
+  /* end  */
     /* Insole Finder Home 375  */
 #shopify-section-template--17336943608048__245a8a93-b8be-476e-96ae-b34d94d60c41 .media-with-text__media{ 
   height: 268px;  
