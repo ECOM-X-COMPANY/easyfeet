@@ -6605,6 +6605,9 @@ top: -25%;
  #slider-template--17336943608048__featured_collection_LTYaa3{
     padding: 0px 10px;
   }
+ #slider-template--17336943608048__featured_collection_LTYaa3 .card__title {
+  padding: 0px 18px;
+}
 /* end  */
 /* Save with multi home desc  */
 #shopify-section-template--17336943608048__featured_collection_q8C6qa{
@@ -6617,9 +6620,7 @@ top: -25%;
     padding-bottom: 10px;
 }
 /* end  */
-.card__title {
-  padding: 0px 18px;
-}
+
 .slider{
   padding: 0px 10px;
 }
