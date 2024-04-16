@@ -8623,17 +8623,17 @@ display: none !important;
   }
 }
 @media only screen and (max-width: 400px) {
-      /* Best sELLERS HOME PAGE 390  */
+      /* Best sELLERS HOME PAGE 400  */
 #shopify-section-template--17336943608048__featured_collection_LTYaa3 .slider__grid{
   width: 100%;
 }
   /* END  */
- /*  New Arrival home page 390 */
+ /*  New Arrival home page 400 */
 #shopify-section-template--17336943608048__featured_collection_HhhGdq .slider__grid{
   width: 100%;
 }
   /* end  */
-  /* Save with multi 390 homepage */
+  /* Save with multi 400 homepage */
 #shopify-section-template--17336943608048__featured_collection_q8C6qa .slider__grid{
   width: 95%;
 }
@@ -8941,6 +8941,32 @@ display: none !important;
   }
 }
 @media only screen and (max-width: 412px) {
+      /* Best sELLERS HOME PAGE 412  */
+#shopify-section-template--17336943608048__featured_collection_LTYaa3 .slider__grid{
+  width: 100%;
+}
+  /* END  */
+ /*  New Arrival home page 412 */
+#shopify-section-template--17336943608048__featured_collection_HhhGdq .slider__grid{
+  width: 100%;
+}
+  /* end  */
+  /* Save with multi 412 homepage */
+#shopify-section-template--17336943608048__featured_collection_q8C6qa .slider__grid{
+  width: 95%;
+}
+  /* end  */
+   /* Explore new line prod page 412  */
+  #shopify-section-template--17336944165104__featured_collection_YjHTR8 .slider__grid{
+   width: 95%;
+}
+  /*  end */
+  /* You may also prod page 412  */
+
+  #shopify-section-template--17336944165104__recommendations .slider__grid{
+  width: 95%;
+}
+  /* end  */
     /* Banner Home page 412  */
 #shopify-section-template--17336943608048__slideshow_zacADy h1{
   font-size: 48px;
