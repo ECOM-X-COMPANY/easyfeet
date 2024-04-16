@@ -6623,6 +6623,9 @@ top: -25%;
 .slider__item{
   padding-bottom: 10px;
 }
+.card__info-inner{
+   padding-bottom: 10px;
+}
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
