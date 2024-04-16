@@ -9715,9 +9715,7 @@ margin-top: 19px !important;
   }
 }
 @media only screen and (max-width: 375px) {
-  .slider__grid{
-    width: 100%;
-  }
+ 
   /* Save with multi 375 homepage */
 #shopify-section-template--17336943608048__featured_collection_q8C6qa .slider__grid{
   width: 95%;
