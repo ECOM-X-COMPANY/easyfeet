@@ -9169,6 +9169,18 @@ margin-top: 19px !important;
   }
 }
 @media only screen and (max-width: 393px) {
+     /* Best sELLERS HOME PAGE 390  */
+#shopify-section-template--17336943608048__featured_collection_LTYaa3 .slider__grid{
+  width: 100%;
+}
+  /* END  */
+ /*  New Arrival home page 390 */
+#shopify-section-template--17336943608048__featured_collection_HhhGdq .slider__grid{
+  width: 100%;
+}
+  /* end  */
+
+
   /* prod oprion 393  */
  #template--17336944165104__main-size span{
     font-size: 13px;
@@ -9181,6 +9193,9 @@ margin-top: 19px !important;
   line-height: 48px;
 }
 /* You may also prod page 393 */
+    #shopify-section-template--17336944165104__recommendations .slider__grid{
+  width: 95%;
+}
 #slider-template--17336944165104__recommendations ul{
   gap: 24px !important;
 }
@@ -9189,6 +9204,9 @@ margin-top: 19px !important;
   }
   /* end  */
   /* Export new line prod page 393  */
+    #shopify-section-template--17336944165104__featured_collection_YjHTR8 .slider__grid{
+   width: 95%;
+}
 #slider-template--17336944165104__featured_collection_YjHTR8 ul{
    gap: 24px !important;
 }
@@ -9216,6 +9234,9 @@ margin-top: 19px !important;
 }
   /* end  */
   /* Save with multi Home page 393  */
+  #shopify-section-template--17336943608048__featured_collection_q8C6qa .slider__grid{
+  width: 95%;
+}
 #shopify-section-template--17336943608048__featured_collection_q8C6qa .slider__item{
   box-shadow: inherit;
 }
