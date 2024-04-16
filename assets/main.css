@@ -9739,10 +9739,16 @@ margin-top: 19px !important;
 #slider-template--17336944165104__featured_collection_YjHTR8 ul{
     gap: 32px !important;
 }
+  #shopify-section-template--17336944165104__featured_collection_YjHTR8 .slider__grid{
+   width: 95%;
+}
   /*  end */
   /* You may also prod page 375  */
 #slider-template--17336944165104__recommendations ul{
   gap: 30px !important;
+}
+  #shopify-section-template--17336944165104__recommendations .slider__grid{
+  width: 95%;
 }
   /* end  */
   /* Recently Raviewed Home page 375  */
