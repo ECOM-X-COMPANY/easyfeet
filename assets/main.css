@@ -8349,13 +8349,32 @@ display: none !important;
   font-size: 48px;
   line-height: 48px;
 }
+/* end */
   /* You may also Prod page 414  */
 #slider-template--17336944165104__recommendations ul{
   gap: 16px !important;
 }
+  #shopify-section-template--17336944165104__recommendations .benefits-box{
+    gap: 0px !important;
+  }
+#shopify-section-template--17336944165104__recommendations .slider__item{
+    height: auto;
+    }
+  #shopify-section-template--17336944165104__recommendations .slider__grid{
+  width: 95%;
+}
   /* end  */
 
   /* Explore new line 414  */
+    #shopify-section-template--17336944165104__featured_collection_YjHTR8 .slider__grid{
+   width: 95%;
+}
+    #shopify-section-template--17336944165104__featured_collection_YjHTR8 .slider__item{
+    height: auto;
+    }
+  #shopify-section-template--17336944165104__featured_collection_YjHTR8 .benefits-box{
+    gap: 0px !important;
+  }
 #slider-template--17336944165104__featured_collection_YjHTR8 ul{
   gap: 16px !important;
 }
