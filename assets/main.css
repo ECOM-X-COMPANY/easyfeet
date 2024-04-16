@@ -6617,6 +6617,9 @@ top: -25%;
     padding-bottom: 10px;
 }
 /* end  */
+.card__title {
+  padding: 0px 18px;
+}
 .slider{
   padding: 0px 10px;
 }
