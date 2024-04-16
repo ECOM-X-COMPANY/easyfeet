@@ -9715,6 +9715,11 @@ margin-top: 19px !important;
   }
 }
 @media only screen and (max-width: 375px) {
+  /* Best sELLERS HOME PAGE 375  */
+#shopify-section-template--17336943608048__featured_collection_LTYaa3 .slider__grid{
+  width: 100%;
+}
+  /* END  */
  /*  New Arrival home page 375 */
 #shopify-section-template--17336943608048__featured_collection_HhhGdq .slider__grid{
   width: 100%;
