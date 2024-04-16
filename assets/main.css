@@ -7148,6 +7148,7 @@ transition: all .5s linear;
 
    #shopify-section-template--17336943608048__featured_collection_q8C6qa ul{
      margin: 0 auto;
+     width: 95%;
    }
    #shopify-section-template--17336943608048__featured_collection_q8C6qa .slider__item{
     border-radius: 3px;
