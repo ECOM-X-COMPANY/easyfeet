@@ -2264,19 +2264,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //
 document.addEventListener('DOMContentLoaded', function() {
-    // Знаходимо елемент з вказаним id
     const sectionId = '#shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515';
     const classSelector = '.contained-heading';
     
     const element = document.querySelector(sectionId + ' ' + classSelector);
-
-    // Перевіряємо, чи знайдено елемент
     if (element) {
-        // Створюємо обробник події для кліку на елемент
         element.addEventListener('click', function(event) {
-            // Зупиняємо стандартну дію по кліку (перехід за посиланням)
             event.preventDefault();
-            // Встановлюємо посилання
             const reviewsUrl = 'https://easyfeet.store/pages/reviews';
             window.location.href = reviewsUrl;
         });
