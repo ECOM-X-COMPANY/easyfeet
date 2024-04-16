@@ -6443,10 +6443,12 @@ padding: 0;
 /* END  */
 /* Happy customer Desctop HOME Title */
 #shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading {
+   transition: all .5s linear;
   margin-bottom: 30px;
 }
 #shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading:hover{
   text-decoration: underline;
+  transition: all .3s linear;
 }
 /* END */
 .custom-product__title{
