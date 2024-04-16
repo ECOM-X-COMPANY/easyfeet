@@ -8625,6 +8625,9 @@ display: none !important;
  #slider-template--17336944165104__recommendations ul {
     gap: 20px !important;
   }
+  #shopify-section-template--17336944165104__recommendations .benefits-box{
+    gap: 0px !important;
+  }
 
   /* end  */
   /* Explore new line prod page 400 */
