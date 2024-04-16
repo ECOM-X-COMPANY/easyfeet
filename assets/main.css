@@ -6874,6 +6874,9 @@ min-width: fit-content !important;
 #slider-template--17336944165104__featured_collection_YjHTR8{
   padding-bottom: 0px;
 }
+  #shopify-section-template--17336944165104__featured_collection_YjHTR8 .slider{
+    width: 90%;
+  }
  #shopify-section-template--17336944165104__featured_collection_YjHTR8 .card{
    border: 0;
  }
