@@ -2264,34 +2264,28 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Set the link for the title bar to go to the reviews Home page
 document.addEventListener('DOMContentLoaded', function() {
-    const sectionId = '#shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515';
-    const classSelector = '.contained-heading';
-    
-    const element = document.querySelector(sectionId + ' ' + classSelector);
-    if (element) {
-        element.addEventListener('click', function(event) {
-            event.preventDefault();
-            const reviewsUrl = 'https://easyfeet.store/pages/reviews';
-            window.location.href = reviewsUrl;
-        });
+    // Функція для встановлення події кліку на заголовок
+    function setClickListener(sectionId) {
+        const classSelector = '.contained-heading';
+        const element = document.querySelector(sectionId + ' ' + classSelector);
+        if (element) {
+            element.addEventListener('click', function(event) {
+                event.preventDefault();
+                const reviewsUrl = 'https://easyfeet.store/pages/reviews';
+                window.location.href = reviewsUrl;
+            });
+        }
     }
+
+    // Встановлюємо подію кліку для першого блоку
+    const sectionId1 = '#shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515';
+    setClickListener(sectionId1);
+
+    // Встановлюємо подію кліку для другого блоку
+    const sectionId2 = '#shopify-section-template--17336944165104__rich_text_eBiPrk';
+    setClickListener(sectionId2);
 });
 
-
-//
-document.addEventListener('DOMContentLoaded', function() {
-    const sectionId = '#shopify-section-template--17336944165104__rich_text_eBiPrk';
-    const classSelector = '.contained-heading';
-    
-    const element = document.querySelector(sectionId + ' ' + classSelector);
-    if (element) {
-        element.addEventListener('click', function(event) {
-            event.preventDefault();
-            const reviewsUrl = 'https://easyfeet.store/pages/reviews';
-            window.location.href = reviewsUrl;
-        });
-    }
-});
 
 
 
