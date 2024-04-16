@@ -9713,6 +9713,32 @@ margin-top: 19px !important;
   .mobileWidget_container_70a065f5{
     width: 320px;
   }
+    /* Best sELLERS HOME PAGE 390  */
+#shopify-section-template--17336943608048__featured_collection_LTYaa3 .slider__grid{
+  width: 100%;
+}
+  /* END  */
+ /*  New Arrival home page 390 */
+#shopify-section-template--17336943608048__featured_collection_HhhGdq .slider__grid{
+  width: 100%;
+}
+  /* end  */
+  /* Save with multi 390 homepage */
+#shopify-section-template--17336943608048__featured_collection_q8C6qa .slider__grid{
+  width: 95%;
+}
+  /* end  */
+   /* Explore new line prod page 390  */
+  #shopify-section-template--17336944165104__featured_collection_YjHTR8 .slider__grid{
+   width: 95%;
+}
+  /*  end */
+  /* You may also prod page 390  */
+
+  #shopify-section-template--17336944165104__recommendations .slider__grid{
+  width: 95%;
+}
+  /* end  */
 }
 @media only screen and (max-width: 375px) {
   /* Best sELLERS HOME PAGE 375  */
