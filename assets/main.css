@@ -8647,7 +8647,9 @@ display: none !important;
 #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db ul{
     gap: 20px !important;
 }
- 
+  #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db  .benefits-box{
+      gap: 0px !important;
+  }
   /* end  */
   /* Title Shop page 400  */
 #template--17336943739120__rich_text_XDMrQz .contained-heading{
