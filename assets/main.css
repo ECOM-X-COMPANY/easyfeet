@@ -6450,15 +6450,15 @@ position: relative;
 #shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading:after{
   position: absolute;
   content: '';
-    width: 100%;
+    width: 0%;
   height: 1px;
   background: #000;
   bottom: 0;
   left: 0;
      transition: all .5s ease;
 }
-#shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading:hover{
-  text-decoration: underline;
+#shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading:after:hover{
+  width: 100%;
   transition: all .3s ease;
 }
 /* END */
