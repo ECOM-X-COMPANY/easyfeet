@@ -6453,7 +6453,7 @@ position: relative;
     width: 100%;
   height: 1px;
   background: #000;
-  top: 0;
+  bottom: 0;
   left: 0;
      transition: all .5s ease;
 }
