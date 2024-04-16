@@ -2262,9 +2262,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const interval = setInterval(checkAndMoveSelectorWrapper, 100);
 });
 
-// Set the link for the title bar to go to the reviews Home page
+// Set the link for the title bar to go to the reviews Home page & Prod page
 document.addEventListener('DOMContentLoaded', function() {
-    // Функція для встановлення події кліку на заголовок
+  
     function setClickListener(sectionId) {
         const classSelector = '.contained-heading';
         const element = document.querySelector(sectionId + ' ' + classSelector);
@@ -2276,12 +2276,9 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     }
-
-    // Встановлюємо подію кліку для першого блоку
     const sectionId1 = '#shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515';
     setClickListener(sectionId1);
-
-    // Встановлюємо подію кліку для другого блоку
+  
     const sectionId2 = '#shopify-section-template--17336944165104__rich_text_eBiPrk';
     setClickListener(sectionId2);
 });
