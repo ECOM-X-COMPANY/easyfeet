@@ -6453,7 +6453,8 @@ position: relative;
     width: 100%;
   height: 1px;
   background: #000;
-  
+  top: 0;
+  left: 0;
      transition: all .5s ease;
 }
 #shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading:hover{
