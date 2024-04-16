@@ -7303,6 +7303,9 @@ transition: all .5s linear;
   #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db ul{
     margin: 0 auto;
   }
+   #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db .slider__grid{
+     width: 89%;
+   }
     #slider-template--17336943608048__4a2f7680-957f-4b94-9fce-ac45cad9a5db li{
       box-shadow: inherit !important;
     }
