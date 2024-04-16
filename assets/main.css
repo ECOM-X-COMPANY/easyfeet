@@ -8963,6 +8963,9 @@ display: none !important;
     #shopify-section-template--17336944165104__featured_collection_YjHTR8 .slider__item{
     height: auto;
     }
+  #shopify-section-template--17336944165104__featured_collection_YjHTR8 .benefits-box{
+    gap: 0px !important;
+  }
   /*  end */
   /* You may also prod page 412  */
 #shopify-section-template--17336944165104__recommendations .slider__item{
