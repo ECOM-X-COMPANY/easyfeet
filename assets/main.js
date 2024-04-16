@@ -2262,6 +2262,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const interval = setInterval(checkAndMoveSelectorWrapper, 100);
 });
 
+//
+document.addEventListener('DOMContentLoaded', function() {
+    // Знаходимо елемент з вказаним id та класом
+    const element = document.querySelector('#shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading');
+    
+    // Перевіряємо, чи знайдено елемент
+    if (element) {
+        // Встановлюємо посилання
+        element.setAttribute('href', 'https://easyfeet.store/pages/reviews');
+    }
+});
 
 
 
