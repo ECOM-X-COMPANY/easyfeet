@@ -6452,13 +6452,14 @@ position: relative;
   content: '';
     width: 0%;
   height: 1px;
-  background: #000;
+  background: #f1721f;
   bottom: 0;
   left: 0;
      transition: all .5s ease;
 }
 #shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading:hover:after{
   width: 100%;
+
   transition: all .3s ease;
 }
 /* END */
