@@ -7061,6 +7061,9 @@ transition: all .5s linear;
     width: 72px !important;
   height: 26px !important;
   }
+  #shopify-section-template--17336943608048__featured_collection_q8C6qa .card__title{
+    padding: 0px 7px;
+  }
   #shopify-section-template--17336943608048__featured_collection_q8C6qa .section{
     margin-bottom: 25px;
   }
