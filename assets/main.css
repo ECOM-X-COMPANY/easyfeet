@@ -6617,7 +6617,9 @@ top: -25%;
     padding-bottom: 10px;
 }
 /* end  */
-
+.slider{
+  padding: 0px 10px;
+}
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
