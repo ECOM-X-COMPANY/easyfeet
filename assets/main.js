@@ -2278,7 +2278,20 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
+//
+document.addEventListener('DOMContentLoaded', function() {
+    const sectionId = '#shopify-section-template--17336944165104__rich_text_eBiPrk';
+    const classSelector = '.contained-heading';
+    
+    const element = document.querySelector(sectionId + ' ' + classSelector);
+    if (element) {
+        element.addEventListener('click', function(event) {
+            event.preventDefault();
+            const reviewsUrl = 'https://easyfeet.store/pages/reviews';
+            window.location.href = reviewsUrl;
+        });
+    }
+});
 
 
 
