@@ -2069,8 +2069,6 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   updateNumber();
-
-  numberSpan.addEventListener('click', updateNumber);
 });
 
 // Product Accordion
