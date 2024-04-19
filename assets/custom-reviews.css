@@ -92,6 +92,9 @@
 #reviews-box__content--helpful__btn-plus img{
   opacity: .5;
 }
+#reviews-box__content--helpful__btn-minus img{
+    opacity: .5;
+}
 .slider-container {
     position: relative;
     width: 100%;
