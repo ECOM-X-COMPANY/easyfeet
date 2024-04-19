@@ -6095,6 +6095,10 @@ padding-right: 0px;
   display: flex;
   align-items: baseline;
 }
+.product-info__rating--stars{
+  display: flex;
+  align-items: flex-start;
+}
 .product-info__rating--stars ul{
   display: flex;
   align-items: center;
