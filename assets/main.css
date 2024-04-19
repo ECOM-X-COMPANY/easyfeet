@@ -6456,7 +6456,7 @@ position: relative;
 #shopify-section-template--17336943608048__c506bb30-8906-412c-998f-cd396e880515 .contained-heading:after{
   position: absolute;
   content: '';
-    width: 0%;
+    width: 100%;
   height: 2px;
   background: #f1721f;
   bottom: -5px;
