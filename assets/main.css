@@ -6098,6 +6098,7 @@ padding-right: 0px;
 .product-info__rating--stars ul{
   display: flex;
   align-items: center;
+  gap: 3px;
 }
 .product-info__rating--stars li{
   display: flex;
