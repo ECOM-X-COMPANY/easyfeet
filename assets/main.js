@@ -2077,9 +2077,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   accordions.forEach(accordion => {
     accordion.addEventListener('click', () => {
-
+      const activeAccordion = document.querySelector('.product-accordion__btn.openActive');
+      if (activeAccordion && activeAccordion !== accordion) {
+        activeAccordion.classList.remove('openActive');
+        const activePanel = activeAccordion.nextElementSibling;
+        activePanel.style.maxHeight = null;
+      }
       accordion.classList.toggle('openActive');
-
       const panel = accordion.nextElementSibling;
       panel.style.maxHeight = panel.style.maxHeight ? null : panel.scrollHeight + 'px';
     });
