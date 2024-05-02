@@ -2085,6 +2085,27 @@ document.addEventListener('DOMContentLoaded', () => {
 //     });
 //   });
 // });
+document.addEventListener('DOMContentLoaded', () => {
+  const accordions = document.querySelectorAll('.product-accordion__btn');
+
+  accordions.forEach(accordion => {
+    accordion.addEventListener('click', () => {
+      // Закриття попереднього акордеону
+      const activeAccordion = document.querySelector('.product-accordion__btn.openActive');
+      if (activeAccordion && activeAccordion !== accordion) {
+        activeAccordion.classList.remove('openActive');
+        const activePanel = activeAccordion.nextElementSibling;
+        activePanel.style.maxHeight = null;
+      }
+
+      // Відкриття поточного акордеону
+      accordion.classList.toggle('openActive');
+      const panel = accordion.nextElementSibling;
+      panel.style.maxHeight = panel.style.maxHeight ? null : panel.scrollHeight + 'px';
+    });
+  });
+});
+
 
 // Move the title, price, rating above the product image
 document.addEventListener('DOMContentLoaded', function() {
