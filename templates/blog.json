@@ -12,7 +12,7 @@
         ".text-theme-light {font-size: 12px; line-height: 12px; font-weight: 900;}",
         ".featured-card {margin-top: 30px;}",
         ".btn--secondary {font-size: 20px; line-height: 20px; font-weight: 900;}",
-        ".js-pagination-result:hover {box-shadow: transparent;}"
+        ".card:hover {box-shadow: none;}"
       ],
       "settings": {
         "show_blog_title": true,
