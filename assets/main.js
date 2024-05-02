@@ -2086,8 +2086,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
-
 // Move the title, price, rating above the product image
 document.addEventListener('DOMContentLoaded', function() {
     if (window.innerWidth <= 430) {
