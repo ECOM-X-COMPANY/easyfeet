@@ -57,16 +57,6 @@
         "prevent_animation": true
       }
     },
-    "custom_liquid_atLj6L": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% if section.id == '#template--17336943739120__rich_text_XDMrQz ' %}\n  <h1 class=\"section__block section__block--heading md-down:px-gutter h3\">\n    <span class=\"contained-heading inline-block\">CHOOSE YOUR OWn EASYFEET<\/span>\n  <\/h1>\n{% endif %}",
-        "section_height": "default",
-        "full_width": false,
-        "dividers": "none",
-        "prevent_animation": false
-      }
-    },
     "image_banner_UkCfrP": {
       "type": "image-banner",
       "blocks": {
@@ -647,7 +637,6 @@
     "image_banner_Qp7VyK",
     "text_with_image_cyFErP",
     "rich_text_XDMrQz",
-    "custom_liquid_atLj6L",
     "image_banner_UkCfrP",
     "media_with_text_xCqbWC",
     "bc550521-3c9c-43b4-986b-46bfd1fbdf76",
