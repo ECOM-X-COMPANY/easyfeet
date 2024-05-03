@@ -37,7 +37,7 @@
           "settings": {
             "heading": "CHOOSE YOUR OWn EASYFEET",
             "heading_size": "h3",
-            "heading_h1": false
+            "heading_h1": true
           }
         }
       },
@@ -55,6 +55,15 @@
         "color_scheme": "none",
         "full_width": true,
         "prevent_animation": true
+      }
+    },
+    "custom_richtext_f9qjMi": {
+      "type": "custom-richtext",
+      "settings": {
+        "custom-richtext_title": "Custom Richtext Title",
+        "custom_richtext_color": "#000",
+        "custom_richtext_size": "h1",
+        "custom_richtext_alignment": "center"
       }
     },
     "image_banner_UkCfrP": {
@@ -637,6 +646,7 @@
     "image_banner_Qp7VyK",
     "text_with_image_cyFErP",
     "rich_text_XDMrQz",
+    "custom_richtext_f9qjMi",
     "image_banner_UkCfrP",
     "media_with_text_xCqbWC",
     "bc550521-3c9c-43b4-986b-46bfd1fbdf76",
