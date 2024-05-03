@@ -7116,7 +7116,7 @@ transition: all .5s linear;
   #filter-results ul{
     border-top: 0px;
     gap: 8px;
-    padding: 0px 3px;
+    padding: 0px 20px;
   }
   #filter-results .custom-product-label span{
   
