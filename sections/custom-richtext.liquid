@@ -1,6 +1,90 @@
+{{ 'main.css' | asset_url | stylesheet_tag }}
+{{ 'custom-richtext.css' | asset_url | stylesheet_tag }}
+
+<div id="custom-richtext" class="{{ section.settings.custom-richtext }}">
+  <div class="container">
+    <div class="custom-richtext__box">
+      {% case section.settings.custom_richtext_size %}
+        {% when 'h1' %}
+          <h1 class="{% case section.settings.custom_richtext_alignment %}{% when 'center' %}center-align{% when 'right' %}right-align{% else %}left-align{% endcase %}" style="color: {{ section.settings.custom_richtext_color }};">{{ section.settings.custom-richtext_title }}</h1>
+        {% when 'h2' %}
+          <h2 class="{% case section.settings.custom_richtext_alignment %}{% when 'center' %}center-align{% when 'right' %}right-align{% else %}left-align{% endcase %}" style="color: {{ section.settings.custom_richtext_color }};">{{ section.settings.custom-richtext_title }}</h2>
+        {% when 'h3' %}
+          <h3 class="{% case section.settings.custom_richtext_alignment %}{% when 'center' %}center-align{% when 'right' %}right-align{% else %}left-align{% endcase %}" style="color: {{ section.settings.custom_richtext_color }};">{{ section.settings.custom-richtext_title }}</h3>
+      {% endcase %}
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Custom Richtext",
+    "class": "custom-richtext",
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "custom-richtext_title",
+        "label": "Custom Richtext Title",
+        "default": "Custom Richtext Title"
+      }, {
+        "type": "color",
+        "id": "custom_richtext_color",
+        "label": "Richtext Title Color",
+        "default": "#000"
+      }, {
+        "type": "select",
+        "id": "custom_richtext_size",
+        "label": "Richtext Title Size ",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "h4",
+            "label": "H4"
+          }, {
+            "value": "h5",
+            "label": "H5"
+          }, {
+            "value": "h6",
+            "label": "H6"
+          }
+        ],
+        "default": "h1"
+      }, {
+        "type": "select",
+        "id": "custom_richtext_alignment",
+        "label": "Richtext Title Alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          }, {
+            "value": "center",
+            "label": "Center"
+          }, {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      }
+    ],
+
+    "presets": [
+      {
+        "name": "Custom Richtext"
+      }
+    ]
   }
+
 {% endschema %}
