@@ -7122,6 +7122,9 @@ transition: all .5s linear;
     font-size: 10px;
   }
 /* end  */
+  #filter-results li{
+    border-color: gray; 
+  }
   .custom-product-label{
     justify-content: center;
     width: 77px !important;
