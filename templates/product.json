@@ -758,17 +758,6 @@
             "review_number": "2"
           }
         },
-        "slide_czBbBy": {
-          "type": "slide",
-          "settings": {
-            "media_type": "video",
-            "review_video": "shopify:\/\/files\/videos\/IMG_0460 (2).mp4",
-            "rating_amount": "5",
-            "review_person_name": "Mandy K.",
-            "review_content": "I liked that these insoles were not so expensive and provided relief. Excellent! They are easy to fit with my favorite shoes and very nice to wear all day long! This is my second pair .. it's one of the better insoles",
-            "review_number": "34"
-          }
-        },
         "slide_YQwByw": {
           "type": "slide",
           "settings": {
@@ -778,6 +767,17 @@
             "review_person_name": "Eddie W.",
             "review_content": "My wife got these to replace her worn arch supports in her orthotic walking shoes. She’s been dealing off and on with plantar fasciitis and thought these might add some additional support.",
             "review_number": "13"
+          }
+        },
+        "slide_czBbBy": {
+          "type": "slide",
+          "settings": {
+            "media_type": "video",
+            "review_video": "shopify:\/\/files\/videos\/IMG_0460 (2).mp4",
+            "rating_amount": "5",
+            "review_person_name": "Mandy K.",
+            "review_content": "I liked that these insoles were not so expensive and provided relief. Excellent! They are easy to fit with my favorite shoes and very nice to wear all day long! This is my second pair .. it's one of the better insoles",
+            "review_number": "34"
           }
         },
         "slide_jnTMek": {
@@ -791,17 +791,6 @@
             "review_number": "37"
           }
         },
-        "slide_F3Dk76": {
-          "type": "slide",
-          "settings": {
-            "media_type": "image",
-            "review_image": "shopify:\/\/shop_images\/4_bcdaa6cc-9f96-46e2-9f60-32bdf7daa2cc.jpg",
-            "rating_amount": "5",
-            "review_person_name": "Johnatan M.",
-            "review_content": "Purchased a black medium one, trimmed it to the smallest length. Used it daily; excellent arch support for walking, remarkable value for money. Now, my shoes provide exceptional support and grip, enhancing overall comfort and stability with every step.",
-            "review_number": "21"
-          }
-        },
         "slide_PdjMiU": {
           "type": "slide",
           "settings": {
@@ -810,6 +799,17 @@
             "rating_amount": "4.5",
             "review_person_name": "Nisha L.",
             "review_content": "Absolutely love this product!! My second pair now! They're fantastic and super comfy. Fit perfectly in my favorite shoes, great for all-day wear! Supportive, affordable, and just as effective! Highly recommended!",
+            "review_number": "21"
+          }
+        },
+        "slide_F3Dk76": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/4_bcdaa6cc-9f96-46e2-9f60-32bdf7daa2cc.jpg",
+            "rating_amount": "5",
+            "review_person_name": "Johnatan M.",
+            "review_content": "Purchased a black medium one, trimmed it to the smallest length. Used it daily; excellent arch support for walking, remarkable value for money. Now, my shoes provide exceptional support and grip, enhancing overall comfort and stability with every step.",
             "review_number": "21"
           }
         },
@@ -906,11 +906,11 @@
       "block_order": [
         "slide_RyBgAH",
         "slide_WjHUfQ",
-        "slide_czBbBy",
         "slide_YQwByw",
+        "slide_czBbBy",
         "slide_jnTMek",
-        "slide_F3Dk76",
         "slide_PdjMiU",
+        "slide_F3Dk76",
         "slide_QRQaK9",
         "slide_GqqRLL",
         "slide_GVYkWg",
