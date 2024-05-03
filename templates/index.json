@@ -988,7 +988,7 @@
           "settings": {
             "media_type": "image",
             "review_image": "shopify:\/\/shop_images\/9q.png",
-            "rating_amount": "4.5",
+            "rating_amount": "5",
             "review_person_name": "Steven M.",
             "review_content": "First of all, these are a bit pricey. However, they are well constructed and of good quality. The packaging is also very nice which I would expect for the price. I like that they have a scan code that provides answers to any questions.",
             "review_number": "56"
@@ -999,7 +999,7 @@
           "settings": {
             "media_type": "video",
             "review_video": "shopify:\/\/files\/videos\/IMG_0460 (2).mp4",
-            "rating_amount": "4.5",
+            "rating_amount": "5",
             "review_person_name": "Mandy K.",
             "review_content": "I liked that these insoles were not so expensive and provided relief. Excellent! They are easy to fit with my favorite shoes and very nice to wear all day long! This is my second pair .. it's one of the better insoles",
             "review_number": "34"
