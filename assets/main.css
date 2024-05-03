@@ -7124,7 +7124,7 @@ transition: all .5s linear;
 /* end  */
   #filter-results li{
     border-color: gray; 
-    box-shadow: none;
+    box-shadow: none !important;
   }
   .custom-product-label{
     justify-content: center;
