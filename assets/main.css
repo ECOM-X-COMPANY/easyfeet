@@ -7119,6 +7119,7 @@ transition: all .5s linear;
     padding: 0px 20px;
   }
   #filter-results .custom-product-label span{
+  
     font-size: 10px;
   }
 /* end  */
@@ -7127,6 +7128,7 @@ transition: all .5s linear;
     box-shadow: none !important;
   }
   #filter-results,.card--product{
+    padding: 3px;
     border-color: #ececec !important;
   }
   .custom-product-label{
