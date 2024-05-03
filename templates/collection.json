@@ -39,17 +39,10 @@
             "heading_size": "h3",
             "heading_h1": false
           }
-        },
-        "subheading_w8wqbB": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
         }
       },
       "block_order": [
-        "heading_EdwR6h",
-        "subheading_w8wqbB"
+        "heading_EdwR6h"
       ],
       "custom_css": [
         ".h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
@@ -66,6 +59,7 @@
     },
     "custom_liquid_atLj6L": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "Add HTML or Liquid code to create advanced customizations.",
         "section_height": "default",
