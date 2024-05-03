@@ -911,7 +911,7 @@
             "media_type": "image",
             "review_image": "shopify:\/\/shop_images\/Roberta_D..jpg",
             "review_video": "shopify:\/\/files\/videos\/RobertaValyte_EasyFeet_Story30sec.mp4",
-            "rating_amount": "4.5",
+            "rating_amount": "5",
             "review_person_name": "Roberta D.",
             "review_content": "These inserts are my go-to. I'm on my feet for 10 hours a day, and they're the only thing that brings relief. I'm on my third pair. They work amazingly well, and I recommend them to everyone.",
             "review_number": "37"
@@ -922,7 +922,7 @@
           "settings": {
             "media_type": "image",
             "review_image": "shopify:\/\/shop_images\/5_551f60d6-878f-4df8-8dcb-b0ff3a6aa943.jpg",
-            "rating_amount": "4.5",
+            "rating_amount": "5",
             "review_person_name": "Nisha L.",
             "review_content": "Absolutely love this product!! My second pair now! They're fantastic and super comfy. Fit perfectly in my favorite shoes, great for all-day wear! Supportive, affordable, and just as effective! Highly recommended!",
             "review_number": "21"
@@ -1080,7 +1080,7 @@
       ],
       "settings": {
         "rating_star": "shopify:\/\/shop_images\/star-full-red-2.png",
-        "rating_star_half": "shopify:\/\/shop_images\/star-full-gray.png",
+        "rating_star_half": "shopify:\/\/shop_images\/half-star-2_b6740b1d-b031-4a1c-8411-92bd36c1df7d.png",
         "reviews_card1_star3": "shopify:\/\/shop_images\/star-full.svg",
         "reviews_card1_star4": "shopify:\/\/shop_images\/star-full.svg",
         "reviews_card1_star5": "shopify:\/\/shop_images\/half-star-2.svg",
