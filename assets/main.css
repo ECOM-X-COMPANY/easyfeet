@@ -7128,7 +7128,7 @@ transition: all .5s linear;
     box-shadow: none !important;
   }
   #filter-results,.card--product{
-    padding: 3px;
+    padding: 3px !important;
     border-color: #ececec !important;
   }
   .custom-product-label{
