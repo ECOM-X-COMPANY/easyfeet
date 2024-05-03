@@ -39,10 +39,17 @@
             "heading_size": "h3",
             "heading_h1": false
           }
+        },
+        "subheading_w8wqbB": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
         }
       },
       "block_order": [
-        "heading_EdwR6h"
+        "heading_EdwR6h",
+        "subheading_w8wqbB"
       ],
       "custom_css": [
         ".h2 {font-size: 32px; line-height: 32px; font-weight: 900;}",
@@ -55,6 +62,16 @@
         "color_scheme": "none",
         "full_width": true,
         "prevent_animation": true
+      }
+    },
+    "custom_liquid_atLj6L": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Add HTML or Liquid code to create advanced customizations.",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": false
       }
     },
     "image_banner_UkCfrP": {
@@ -637,6 +654,7 @@
     "image_banner_Qp7VyK",
     "text_with_image_cyFErP",
     "rich_text_XDMrQz",
+    "custom_liquid_atLj6L",
     "image_banner_UkCfrP",
     "media_with_text_xCqbWC",
     "bc550521-3c9c-43b4-986b-46bfd1fbdf76",
