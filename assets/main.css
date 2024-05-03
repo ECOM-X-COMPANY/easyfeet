@@ -7123,7 +7123,7 @@ transition: all .5s linear;
   }
 /* end  */
   #filter-results li{
-    border-color: gray; 
+    border-color: #ececec; 
     box-shadow: none !important;
   }
   .custom-product-label{
