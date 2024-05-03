@@ -6688,6 +6688,9 @@ top: -25%;
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
+  .card__info {
+    padding: 0px;
+  }
 .benefits-block .benefits-box{
   padding: 0px 5px;
 }
@@ -7119,7 +7122,6 @@ transition: all .5s linear;
     padding: 0px 20px;
   }
   #filter-results .custom-product-label span{
-  
     font-size: 10px;
   }
 /* end  */
