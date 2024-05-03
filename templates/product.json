@@ -741,7 +741,7 @@
           "settings": {
             "media_type": "video",
             "review_video": "shopify:\/\/files\/videos\/EASYFEET _ Customer's review. Great for tall guy with high arches! (1).mp4",
-            "rating_amount": "4.5",
+            "rating_amount": "5",
             "review_person_name": "Kenneth B B.",
             "review_content": "I was MIA from the hiking scene for the first time in my life. I tried every remedy out there. Planters socks, braces, wraps, exercises etc. Spent a lot of money in so doing. I bought these Easy Feet Pain Relief Orthotic’s.",
             "review_number": "49"
@@ -752,7 +752,7 @@
           "settings": {
             "media_type": "image",
             "review_image": "shopify:\/\/shop_images\/12q.png",
-            "rating_amount": "4.5",
+            "rating_amount": "5",
             "review_person_name": "James C.",
             "review_content": "These insoles were an answer to my plantar fasciitis problem. I remove the insoles that come in my Hoka’s and put these in! I am active all day and in no pain!",
             "review_number": "2"
@@ -763,7 +763,7 @@
           "settings": {
             "media_type": "video",
             "review_video": "shopify:\/\/files\/videos\/IMG_0460 (2).mp4",
-            "rating_amount": "4.5",
+            "rating_amount": "5",
             "review_person_name": "Mandy K.",
             "review_content": "I liked that these insoles were not so expensive and provided relief. Excellent! They are easy to fit with my favorite shoes and very nice to wear all day long! This is my second pair .. it's one of the better insoles",
             "review_number": "34"
@@ -785,7 +785,7 @@
           "settings": {
             "media_type": "video",
             "review_video": "shopify:\/\/files\/videos\/RobertaValyte_EasyFeet_Story30sec.mp4",
-            "rating_amount": "4.5",
+            "rating_amount": "5",
             "review_person_name": "Roberta D.",
             "review_content": "These inserts are my go-to. I'm on my feet for 10 hours a day, and they're the only thing that brings relief. I'm on my third pair. They work amazingly well, and I recommend them to everyone.",
             "review_number": "37"
@@ -796,7 +796,7 @@
           "settings": {
             "media_type": "image",
             "review_image": "shopify:\/\/shop_images\/4_bcdaa6cc-9f96-46e2-9f60-32bdf7daa2cc.jpg",
-            "rating_amount": "4.5",
+            "rating_amount": "5",
             "review_person_name": "Johnatan M.",
             "review_content": "Purchased a black medium one, trimmed it to the smallest length. Used it daily; excellent arch support for walking, remarkable value for money. Now, my shoes provide exceptional support and grip, enhancing overall comfort and stability with every step.",
             "review_number": "21"
@@ -829,7 +829,7 @@
           "settings": {
             "media_type": "video",
             "review_video": "shopify:\/\/files\/videos\/EASYFEET Orthotic Insoles Review (1).mp4",
-            "rating_amount": "4.5",
+            "rating_amount": "5",
             "review_person_name": "Charles M.",
             "review_content": "My feet killed me before purchasing these. I brought it to my foot doctor's office who approved them for me. He was surprised at the quality for off the shelf type of insoles. This insole has been very comfortable for my legs since I have started using this.",
             "review_number": "3"
@@ -868,6 +868,17 @@
             "review_number": "62"
           }
         },
+        "slide_yk38zX": {
+          "type": "slide",
+          "settings": {
+            "media_type": "image",
+            "review_image": "shopify:\/\/shop_images\/9q.png",
+            "rating_amount": "5",
+            "review_person_name": "Steven M.",
+            "review_content": "First of all, these are a bit pricey. However, they are well constructed and of good quality. The packaging is also very nice which I would expect for the price. I like that they have a scan code that provides answers to any questions.",
+            "review_number": "56"
+          }
+        },
         "slide_7dCqPP": {
           "type": "slide",
           "settings": {
@@ -878,17 +889,6 @@
             "review_person_name": "Phillip A.",
             "review_content": "These insoles are incredible. I was a gymnast growing up, and naturally had a higher arch over time that has decreased causing me to have ongoing back issues. They have helped me get that arch back and decreased the uncomfort.",
             "review_number": "71"
-          }
-        },
-        "slide_yk38zX": {
-          "type": "slide",
-          "settings": {
-            "media_type": "image",
-            "review_image": "shopify:\/\/shop_images\/9q.png",
-            "rating_amount": "4.5",
-            "review_person_name": "Steven M.",
-            "review_content": "First of all, these are a bit pricey. However, they are well constructed and of good quality. The packaging is also very nice which I would expect for the price. I like that they have a scan code that provides answers to any questions.",
-            "review_number": "56"
           }
         },
         "slide_436dYd": {
@@ -916,8 +916,8 @@
         "slide_GVYkWg",
         "slide_nXwKkR",
         "slide_rWQ4e4",
-        "slide_7dCqPP",
         "slide_yk38zX",
+        "slide_7dCqPP",
         "slide_436dYd"
       ],
       "settings": {
