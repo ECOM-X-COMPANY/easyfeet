@@ -7131,7 +7131,7 @@ transition: all .5s linear;
     box-shadow: none !important;
   }
   #filter-results, product-card{
-    /* padding: 3px !important; */
+    padding: 3px !important;
   }
   .custom-product-label{
     justify-content: center;
