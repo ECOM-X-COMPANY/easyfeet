@@ -59,6 +59,7 @@
     },
     "custom_richtext_f9qjMi": {
       "type": "custom-richtext",
+      "disabled": true,
       "settings": {
         "custom-richtext_title": "Custom Richtext Title",
         "custom_richtext_color": "#000",
