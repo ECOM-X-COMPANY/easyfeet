@@ -7131,7 +7131,7 @@ transition: all .5s linear;
   }
   #filter-results.card{
     padding: 3px !important;
-    border-color: #ececec !important;
+   border: 1px solid #f2f2f2;
   }
   .custom-product-label{
     justify-content: center;
