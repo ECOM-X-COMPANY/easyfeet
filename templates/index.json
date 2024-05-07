@@ -805,7 +805,10 @@
       "type": "custom-diseases",
       "custom_css": [
         ".diseases-inner__text p {display: none;}",
-        ".diseases-inner__text span {color: inherit;}"
+        ".diseases-inner__text span {color: inherit;}",
+        "@media screen and (max-width: 918px) {h2 {font-size: 40px; } .diseases-cart p {font-size: 15px; }}",
+        "@media screen and (max-width: 722px) {h2 {font-size: 30px; width: 100%; } .diseases-cart p {font-size: 12px; }}",
+        "@media screen and (max-width: 557px) {h2 {font-size: 20px; } .diseases-inner__text {width: 72%; } .diseases-cart p {font-size: 9px; }}"
       ],
       "settings": {
         "diseases_title_1": "Most efficient for",
