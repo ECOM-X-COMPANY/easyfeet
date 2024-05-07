@@ -10186,10 +10186,7 @@ margin-top: 19px !important;
   }
 }
 @media only screen and (max-width: 365px) {
-   .card__title {
  
-  padding: 0px 10px;
-}
   /* You may also prod page 365 */ 
 #shopify-section-template--17336944165104__recommendations .slider__grid{
   width: 95%;
@@ -10253,6 +10250,9 @@ margin-top: 19px !important;
  #shopify-section-template--17336943739120__multi_column_nBFbff .section__heading {
     width: 55% !important;
   }
+    .card__title {
+  padding: 0px 10px;
+}
   /* end  */
     .custom-table__chart--other--image h2 {
     font-size: 16px;
