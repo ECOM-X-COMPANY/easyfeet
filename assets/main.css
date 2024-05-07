@@ -11820,7 +11820,9 @@ display: flex;
   color: #878787 !important;
   font-weight: 500 ;
 }
-
+.card__info .price__was { 
+   font-family: Roboto Regular !important;
+ }
   .price--bottom {
     padding-top: 5px !important;
 } 
