@@ -7127,6 +7127,7 @@ transition: all .5s linear;
   }
   #filter-results .benefits-box{
     gap: 0px;
+    padding: 0px 2px;
   }
 /* end  */
   #filter-results li{
