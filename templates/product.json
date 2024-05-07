@@ -369,6 +369,7 @@
     },
     "custom_table_3xecJ9": {
       "type": "custom-table",
+      "disabled": true,
       "settings": {
       }
     },
