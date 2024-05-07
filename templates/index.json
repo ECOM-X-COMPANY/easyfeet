@@ -144,7 +144,8 @@
         ".icons-with-text {padding: 10px; text-transform: uppercase; font-weight: 400 !important; font-size: 15px; line-height: 15px;}",
         ".icons-with-text strong {font-weight: 400;}",
         ".slider__item svg {display: none;}",
-        ".slider-nav {display: flex !important;}"
+        ".slider-nav {display: flex !important;}",
+        "@media (min-width: 769px) {.slider-nav__btn {display: none; }}"
       ],
       "settings": {
         "heading": "",
