@@ -6690,7 +6690,7 @@ top: -25%;
 @media only screen and (max-width: 430px) {
   .card__title {
  
-  padding: 0px 25px;
+  padding: 0px 25px !important;
 }
   .card__info {
     padding: 0px;
