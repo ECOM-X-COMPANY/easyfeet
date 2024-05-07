@@ -7125,6 +7125,9 @@ transition: all .5s linear;
   #filter-results .custom-product-label span{
     font-size: 10px;
   }
+  #filter-results .benefits-box{
+    gap: 0px;
+  }
 /* end  */
   #filter-results li{
     border-color: #ececec; 
