@@ -6688,6 +6688,10 @@ top: -25%;
 /* MOBILE VERSION  */
 
 @media only screen and (max-width: 430px) {
+  .card__title {
+ 
+  padding: 0px 25px;
+}
   .card__info {
     padding: 0px;
   }
@@ -10182,6 +10186,10 @@ margin-top: 19px !important;
   }
 }
 @media only screen and (max-width: 365px) {
+   .card__title {
+ 
+  padding: 0px 10px;
+}
   /* You may also prod page 365 */ 
 #shopify-section-template--17336944165104__recommendations .slider__grid{
   width: 95%;
