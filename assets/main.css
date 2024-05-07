@@ -11795,7 +11795,7 @@ display: flex;
 .card__title {
   text-align: center;
   text-transform: uppercase;
-  padding: 0px 5px;
+  padding: 0px 25px;
 }
 .card--product .price__current {
   font-size: 20px;
