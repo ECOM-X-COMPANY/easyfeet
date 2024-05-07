@@ -10251,7 +10251,7 @@ margin-top: 19px !important;
     width: 55% !important;
   }
     .card__title {
-  padding: 0px 10px;
+  padding: 0 10px !important;
 }
   /* end  */
     .custom-table__chart--other--image h2 {
