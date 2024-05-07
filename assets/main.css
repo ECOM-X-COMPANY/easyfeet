@@ -4427,8 +4427,8 @@ label[data-swatch]::before {
     margin-bottom: var(--menu-height);
   }
   .cc-header--sticky .header.is-out .main-menu__disclosure {
-    max-height: 0;
-    margin-top: 0;
+    /*max-height: 0;
+    margin-top: 0;*/
   }
   .cc-header--sticky .header__cart-count-number {
     position: relative;
