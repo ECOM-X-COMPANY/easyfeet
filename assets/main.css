@@ -6508,12 +6508,16 @@ position: relative;
 .card__media .img-fit{
   border-radius: 6px 6px 0px 0px;
 }
+.card__media:hover .custom-product-label {
+  display: none;
+}
 .slider__item{
   border-radius: 6px;
 }
 .card {
    border-radius: 6px;
 }
+
 /* Recently Reviewed descpor SHOP PAGE  */
 #slider-template--17336943739120__4c2eed6f-559d-4a3e-9ada-0f2c6eecacc7 .custom-product-label{
   left: 0;
