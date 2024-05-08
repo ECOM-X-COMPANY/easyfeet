@@ -11,9 +11,12 @@
 
         <div id="grid-product__size" class="grid-product__size">
             <div class="grid-product__size--left">
+        {% comment %}
                 {% if product.metafields.custom.size_guide_image %}
                     <img width="638" height="250" src="{{ product.metafields.custom.size_guide_image | img_url: 'master' }}" alt="pick-size">
                 {% endif %}
+        {% endcomment %}
+              <img width="638" height="250" src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/size_guid_image_resize_3.png?v=1715153927" alt="pick-size">
             </div>
             <div class="grid-product__size--right">
                 <div class="grid-product__switch">
