@@ -60,9 +60,9 @@ text-align: center;
 width: 80%;
 }
 .grid-product__features p{
-    margin: 0;
-    font-size: 21px;
-    line-height: 26px;
+    margin: 18px 0px 0px;
+    font-size: 16px;
+    line-height: 18px;
     font-weight: 400;
   margin-top: 14px;
 }
