@@ -31,13 +31,14 @@ justify-content: space-between;
   padding: 7px 0 8px 0;
   text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 18px;
     font-weight: 900;
     background: transparent;
     border: 1px solid #000000;
     border-radius: 3px;
     width: 100%;
+  font-family: Roboto,sans-serif;
 }
 .cgrid-product__tab span.activeBtnSizes {
     background-color: #141414;
