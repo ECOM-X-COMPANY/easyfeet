@@ -29,14 +29,20 @@
                 </div>
 
                 <div id="grid-product__size--right__cm" class="grid-product__size--right__cm">
+                  {% comment %}
                     {% if product.metafields.custom.size_guide_image_grid_centimeters %}
                         <img width="638" height="250" src="{{ product.metafields.custom.size_guide_image_grid_centimeters | img_url: 'master' }}" alt="pick-size">
                     {% endif %}
+                    {% endcomment %}
+                  <img width="638" height="250" src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/X_size_guide_cm_5.png?v=1715154275" alt="pick-size_cm">
                 </div>
                 <div id="grid-product__size--right__inch" class="grid-product__size--right__inch" style="display: none;">
+                  {% comment %}
                     {% if product.metafields.custom.size_guide_image_grid_inches %}
                         <img width="638" height="250" src="{{ product.metafields.custom.size_guide_image_grid_inches | img_url: 'master' }}" alt="pick-size">
                     {% endif %}
+                    {% endcomment %}
+                     <img width="638" height="250" src="https://cdn.shopify.com/s/files/1/0612/1177/1120/files/X_size_guide_inch_resize_5.png?v=1715154276" alt="pick-size_inch">
                 </div>
             </div>
         </div>
