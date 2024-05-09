@@ -45,6 +45,9 @@ justify-content: space-between;
     color: #ffffff;
 
 }
+.grid-product__features{
+  justify-content: center;
+}
 .grid-product__features ul{
     margin-top: 160px;
     gap: 10px;
